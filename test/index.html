@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="ko" xml:lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="-1">
+	<meta name="format-detection" content="telephone=no">
+	<title>아이돌마스터 신데렐라 걸즈</title>
+	<link rel="stylesheet" type="text/css" href="./12008305/css/rich/new_mypage_common.css" media="all">
+	<script type="text/javascript">
+		if (window.localStorage) {
+			var displaySet = localStorage.getItem('DisplayPositionSet');
+			if (displaySet == 1) {
+				document.write('<meta name="viewport" content="width=320, user-scalable=no">');
+				if (navigator.userAgent.indexOf('Android') > 0) document.getElementsByTagName('html')[0].style.zoom = document.documentElement.clientWidth / 320;
+				window.addEventListener('resize', function() {
+					if (navigator.userAgent.indexOf('Android') > 0) document.getElementsByTagName('html')[0].style.zoom = document.documentElement.clientWidth / 320;
+				})
+			} else {
+				document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
+			}
+		} else {
+			document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
+		}
+	</script>
+	<script src="./12008305/js/angular-1.6.9.min.js"></script>
+	<script src="./12008305/js/jquery-2.2.2.min.js"></script>
+	<script src="./12008305/js/underscore-min.js"></script>
+	<script src="./12008305/js/require.js"></script>
+	<script>
+		requirejs.config({
+			paths: {
+				easeljs: "./12008305/js/easeljs-0.8.2.min.js",
+				tweenjs: "./12008305/js/tweenjs-0.6.2.min.js",
+			}
+		})
+	</script>
+	<script src="./12008305/js/common.js"></script>
+	<script src="./12008305/js/common_new.js"></script>
+	<script>
+		$(function() {
+			window.$ibox = $('.ibox').ibox();
+		});
+	</script>
+	<script>
+		$(document).ready(function() {
+			if (typeof newrelic === 'object' && typeof newrelic.setPageViewName === 'function') {
+				newrelic.setPageViewName('/idolmaster/index.php/refresh_room');
+			}
+		});
+	</script>
+	<script type='text/javascript' src='./12008305/js/app_sound.js'></script>
+	<link rel="stylesheet" type="text/css" href="./css/base.css" />
+</head>
+
+<body id="refresh_room" class="index" ng-app="refApp" ng-controller="refCtrl">
+	<div id="top" class="page_container jsOnBtn">
+		<nav class="area_menu_header">
+			<div class="area_menu_header_6btn">
+				<h1 id="JtextLimit">Refresh Room</h1>
+			</div>
+		</nav>
+		<input id="delay" type="hidden" value="0">
+		<link rel="stylesheet" type="text/css" href="./12008305/css/rich/refresh_room.css" media="all">
+		<header class="m-Btm12">
+			<img src="./12008305/image_sp/ui/refresh_room/top/top_refreshroom-{{img}}.png" style="width:320px;height:120px" class='m-Head_img'>
+		</header>
+	</div>
+
+	<section>
+		<div class="selectArea type_02">
+			<div class="yellow m-Btm8" style="line-height:100%">
+				검색한 아이돌이 등장한 이야기를 표시합니다.
+			</div>
+			<form class="form_detail_search" method="post">
+				<div class="layout_area t-Lft">
+					<div class="layout_l">
+						<div class="blue">아이돌 이름</div>
+						<div class="area-btn-common _base-width">
+							<input ng-model="q" ng-change="currentPage=1" name="name" class="search_text_1_5 name_line" placeholder="아이돌 이름을 한자·한글로 검색할 수 있습니다">
+							<label class='btn_decision_sub_line_3' onclick="">
+							<input type='submit' class="btn-value" value="검색">
+							</label>
+						</div>
+					</div>
+				</div>
+				<input type="hidden" name="is_search" value="1">
+				<style type="text/css">
+					input::-webkit-input-placeholder {
+						font-size: 10px;
+						text-indent: -1px;
+					}
+				</style>
+			</form>
+		</div>
+	</section>
+
+	<ul>
+		<script src="./12008305/js/refresh_link_list.js"></script>
+		<li ng-repeat="item in data | filter:q | orderBy : '-id' | startFrom:(currentPage-1)*pageSize | limitTo:pageSize">
+			<section id="refresh_link_list">
+				<a class="refresh_link jsOnDesignBtn" href='./detail/{{item.id}}/'>
+					<img src='./12008305/image_sp/ui/refresh_room/banner/{{item.id}}.png' class="refresh_link_img">
+					<div class="refresh_link_value"><span ng-repeat="line in item.name">{{line}}<br></div>
+					</a>
+			</section>
+		</li>
+	</ul>
+
+	<img src="./12008305/image_sp/ui/line_hoshi.jpg" width="320" height="11" class="m-Btm8"><br>
+
+	<form class="pager_area" style="margin:0">
+		<div class="pager_submit_area">
+			<input type="number" name="target_page_num" ng-model="currentPage" id="jsPageNumber" pattern="\d*" value="">페이지로<label class="btn_normal_line_4 m-Cnt m-Btm8" id="jsMovePagerLabel" for="jsMovePagerBtn" style="display:inline-block;vertical-align:middle;margin-left:5px;margin-bottom:3px;">
+				<input id="jsMovePagerBtn" type="submit" value="이동" style="width:inherit;height:inherit;line-height:inherit;margin:0;">
+			</label>
+		</div>
+		<div class="pager_panel_area">
+			<div ng-if="currentPage<=1" class="btn_pager_first _disabled"></div>
+			<div ng-if="currentPage<=1" class="btn_pager_back _disabled"></div>
+			<div ng-if="currentPage>=numberOfPages()" class="btn_pager_next _disabled"></div>
+			<div ng-if="currentPage>=numberOfPages()" class="btn_pager_last _disabled"></div>
+			<input type="submit" name="first" ng-if="currentPage>1" ng-click="setPage(1)" class="btn_pager_first jsNotDisabled jsOnDesignBtn" value="1">
+			<input type="submit" name="back" ng-if="currentPage>1" ng-click="setPage(currentPage-1)" class="btn_pager_back jsNotDisabled jsOnDesignBtn" value="1">
+			<input type="submit" name="next" ng-if="currentPage<numberOfPages()" ng-click="setPage(currentPage+1)" class="btn_pager_next jsNotDisabled jsOnDesignBtn" value="1">
+			<input type="submit" name="last" ng-if="currentPage<numberOfPages()" ng-click="setPage(numberOfPages())" class="btn_pager_last jsNotDisabled jsOnDesignBtn" value="1">
+			{{currentPage}}/{{numberOfPages()}}
+			<input type="hidden" name="is_paging" value="1">
+			<script>
+				$('#jsPageNumber').focus(function() {
+					$('#jsMovePagerLabel').removeClass("_disabled");
+				});
+			</script>
+		</div>
+	</form>
+
+	<footer>
+		<img src="./12008305/image_sp/ui/line_hoshi.jpg" width="320" height="11" class="m-Btm8">
+		<div class="line_idolmaster"></div>
+		<div class="t-Cnt">(dc) iDOLM@STER Gallery</div>
+	</footer>
+</body>
+</html>
