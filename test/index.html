@@ -8,7 +8,7 @@
 	<meta http-equiv="expires" content="-1">
 	<meta name="format-detection" content="telephone=no">
 	<title>아이돌마스터 신데렐라 걸즈</title>
-	<link rel="stylesheet" type="text/css" href="./12008305/css/rich/new_mypage_common.css" media="all">
+	<link rel="stylesheet" type="text/css" href="../12008305/css/rich/new_mypage_common.css" media="all">
 	<script type="text/javascript">
 		if (window.localStorage) {
 			var displaySet = localStorage.getItem('DisplayPositionSet');
@@ -25,20 +25,20 @@
 			document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
 		}
 	</script>
-	<script src="./12008305/js/angular-1.6.9.min.js"></script>
-	<script src="./12008305/js/jquery-2.2.2.min.js"></script>
-	<script src="./12008305/js/underscore-min.js"></script>
-	<script src="./12008305/js/require.js"></script>
+	<script src="../12008305/js/angular-1.6.9.min.js"></script>
+	<script src="../12008305/js/jquery-2.2.2.min.js"></script>
+	<script src="../12008305/js/underscore-min.js"></script>
+	<script src="../12008305/js/require.js"></script>
 	<script>
 		requirejs.config({
 			paths: {
-				easeljs: "./12008305/js/easeljs-0.8.2.min.js",
-				tweenjs: "./12008305/js/tweenjs-0.6.2.min.js",
+				easeljs: "../12008305/js/easeljs-0.8.2.min.js",
+				tweenjs: "../12008305/js/tweenjs-0.6.2.min.js",
 			}
 		})
 	</script>
-	<script src="./12008305/js/common.js"></script>
-	<script src="./12008305/js/common_new.js"></script>
+	<script src="../12008305/js/common.js"></script>
+	<script src="../12008305/js/common_new.js"></script>
 	<script>
 		$(function() {
 			window.$ibox = $('.ibox').ibox();
@@ -51,8 +51,8 @@
 			}
 		});
 	</script>
-	<script type='text/javascript' src='./12008305/js/app_sound.js'></script>
-	<link rel="stylesheet" type="text/css" href="./css/base.css" />
+	<script type='text/javascript' src='../12008305/js/app_sound.js'></script>
+	<link rel="stylesheet" type="text/css" href="../css/base.css" />
 </head>
 
 <body id="refresh_room" class="index" ng-app="refApp" ng-controller="refCtrl">
@@ -63,9 +63,9 @@
 			</div>
 		</nav>
 		<input id="delay" type="hidden" value="0">
-		<link rel="stylesheet" type="text/css" href="./12008305/css/rich/refresh_room.css" media="all">
+		<link rel="stylesheet" type="text/css" href="../12008305/css/rich/refresh_room.css" media="all">
 		<header class="m-Btm12">
-			<img src="./12008305/image_sp/ui/refresh_room/top/top_refreshroom-{{img}}.png" style="width:320px;height:120px" class='m-Head_img'>
+			<img src="../12008305/image_sp/ui/refresh_room/top/top_refreshroom-{{img}}.png" style="width:320px;height:120px" class='m-Head_img'>
 		</header>
 	</div>
 
@@ -98,18 +98,18 @@
 	</section>
 
 	<ul>
-		<script src="./12008305/js/refresh_link_list.js"></script>
+		<script src="../12008305/js/refresh_link_list.js"></script>
 		<li ng-repeat="item in data | filter:q | orderBy : '-id' | startFrom:(currentPage-1)*pageSize | limitTo:pageSize">
 			<section id="refresh_link_list">
 				<a class="refresh_link jsOnDesignBtn" href='./detail/{{item.id}}/'>
-					<img src='./12008305/image_sp/ui/refresh_room/banner/{{item.id}}.png' class="refresh_link_img">
+					<img src='../12008305/image_sp/ui/refresh_room/banner/{{item.id}}.png' class="refresh_link_img">
 					<div class="refresh_link_value"><span ng-repeat="line in item.name">{{line}}<br></div>
 					</a>
 			</section>
 		</li>
 	</ul>
 
-	<img src="./12008305/image_sp/ui/line_hoshi.jpg" width="320" height="11" class="m-Btm8"><br>
+	<img src="../12008305/image_sp/ui/line_hoshi.jpg" width="320" height="11" class="m-Btm8"><br>
 
 	<form class="pager_area" style="margin:0">
 		<div class="pager_submit_area">
@@ -137,7 +137,7 @@
 	</form>
 
 	<footer>
-		<img src="./12008305/image_sp/ui/line_hoshi.jpg" width="320" height="11" class="m-Btm8">
+		<img src="../12008305/image_sp/ui/line_hoshi.jpg" width="320" height="11" class="m-Btm8">
 		<div class="line_idolmaster"></div>
 		<div class="t-Cnt">(dc) iDOLM@STER Gallery</div>
 	</footer>
