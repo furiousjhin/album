@@ -7,7 +7,7 @@
     <meta http-equiv="cache-control" content="no-cache">
     <meta http-equiv="expires" content="-1">
     <meta name="format-detection" content="telephone=no">
-    <title>アイドルマスター シンデレラガールズ</title>
+    <title>아이돌마스터 신데렐라 걸즈</title>
     <link rel="stylesheet" type="text/css" href="../../../12008305/css/rich/new_mypage_common.css" media="all">
     <link rel="apple-touch-icon-precomposed" href="../../../12008305/image_sp/ui/icon_bookmark.png">
     <script type="text/javascript">
@@ -69,11 +69,11 @@
     <div id="top" class="page_container jsOnBtn">
         <nav class="area_menu_header">
             <div class="area_menu_header_6btn">
-                <h1 id="JtextLimit">アイドルギャラリー</h1>
+                <h1 id="JtextLimit">아이돌 갤러리</h1>
             </div>
         </nav>
         <input id="delay" type="hidden" value="0">
-        <link rel="stylesheet" type="text/css" href="../12008305/css/rich/idol_gallery.css" media="all">
+        <link rel="stylesheet" type="text/css" href="../../../12008305/css/rich/idol_gallery.css" media="all">
         <style>
             .idolProfile {
                 margin-bottom: 0;
@@ -252,18 +252,18 @@
         </style>
         <script type="text/template" id="tab-4-template">
             <div id="contents_tab" class="tab_common-large m-Top4 m-Btm8" style="font-size:11px">
-                <a name="tab_1" href="#" class="tab_line_4 tab_text selected" style="font-size:11px;">プロフィール</a>
-                <a name="tab_2" href="#" class="tab_line_4 tab_text js_tab_comment_list" style="font-size:11px;">セリフ一覧</a>
-                <a name="tab_3" href="#" class="tab_line_4 tab_text" style="font-size:11px;">エピソード</a>
-                <a name="tab_4" href="#" class="tab_line_4 tab_text" style="font-size:11px;">アイドル情報</a>
+                <a name="tab_1" href="#" class="tab_line_4 tab_text selected" style="font-size:11px;">프로필</a>
+                <a name="tab_2" href="#" class="tab_line_4 tab_text js_tab_comment_list" style="font-size:11px;">대사 일람</a>
+                <a name="tab_3" href="#" class="tab_line_4 tab_text" style="font-size:11px;">에피소드</a>
+                <a name="tab_4" href="#" class="tab_line_4 tab_text" style="font-size:11px;">아이돌 정보</a>
             </div>
         </script>
         <script type="text/template" id="tab-3-template">
             <div id="contents_tab" class="tab_common-large m-Top4 m-Btm8">
-                <a name="tab_1" class="tab_line_3 tab_text" href="#">プロフィール</a>
-                <a name="tab_2" class="tab_line_3 tab_text js_tab_comment_list" href="#">セリフ一覧</a>
-                <a name="tab_3" href="#" style='display:none;'>エピソード</a>
-                <a name="tab_4" class="tab_line_3 tab_text" href="#">アイドル情報</a>
+                <a name="tab_1" class="tab_line_3 tab_text" href="#">프로필</a>
+                <a name="tab_2" class="tab_line_3 tab_text js_tab_comment_list" href="#">대사 일람</a>
+                <a name="tab_3" href="#" style='display:none;'>에피소드</a>
+                <a name="tab_4" class="tab_line_3 tab_text" href="#">아이돌 정보</a>
             </div>
         </script>
         <script type="text/template" id="idol-base-template">
@@ -333,7 +333,7 @@
                             <div class="blk">
                                 <div class="title age"></div>
                                 <div class="pr">
-                                    <%- profile.card_age %>歳</div>
+                                    <%- profile.card_age %>살</div>
                             </div>
                         </div>
                         <div class="data_list">
@@ -373,7 +373,7 @@
                             <div class="blk">
                                 <div class="title bld"></div>
                                 <div class="pr">
-                                    <%- profile.card_blood %>型</div>
+                                    <%- profile.card_blood %>형</div>
                             </div>
                             <div class="blk">
                                 <div class="title arm"></div>
@@ -521,7 +521,7 @@
                                             <% if (!ios_app_flg || !apple_review) { %>
                                                 <% if (val.story_id > 0 && +val.voice_enable[last]) { %>
                                                     <div class="checkForm ep_off" style="margin-top:0;margin-bottom:0">
-                                                        エピソードでボイスを再生させる
+                                                        에피소드에서 보이스를 재생시킨다
                                                     </div>
                                                     <% } %>
                                                         <% } %>
@@ -604,20 +604,20 @@
             </section>
             <% if(trade_prohibition.is_trade_limit) { %>
                 <div class="t-Cnt red <% if(is_exist_archive) { %>m-Btm8<% } %>">
-                    このアイドルはトレード、フリートレード、贈り物ができません。
+                    이 아이돌은 트레이드, 프리트레이드, 선물을 할 수 없습니다.
                 </div>
                 <% } %>
                     <div class="area-btn-common _base-width">
                         <% if(!trade_prohibition.is_trade_limit) { %>
-                            <a href='<%- url_trade.replace("__hash_card_id__", data.hash_card_id) %>' class="btn_normal_line_2 <% if(!is_exist_archive) { %>m-Cnt<% } %>" style="font-size:12px">フリートレード検索へ</a>
+                            <a href='<%- url_trade.replace("__hash_card_id__", data.hash_card_id) %>' class="btn_normal_line_2 <% if(!is_exist_archive) { %>m-Cnt<% } %>" style="font-size:12px">프리트레이드 검색으로</a>
                             <% } %>
                                 <% if(is_exist_archive) { %>
-                                    <a href='<%- url_album.replace("__hash_card_id__", data.hash_card_id) %>' class="btn_normal_line_2 <% if(trade_prohibition.is_trade_limit) { %>m-Cnt<% } %>">アルバムへ</a>
+                                    <a href='<%- url_album.replace("__hash_card_id__", data.hash_card_id) %>' class="btn_normal_line_2 <% if(trade_prohibition.is_trade_limit) { %>m-Cnt<% } %>">앨범으로</a>
                                     <% } %>
                     </div>
                     <% if (event) { %>
                         <h3 class="title_hanyo m-Top8 m-Btm8">
-                            <div>登場イベント</div>
+                            <div>등장 이벤트</div>
                         </h3>
                         <% Object.keys(event).forEach(function (key) { %>
                             <div class="t-Cnt m-Btm5">
@@ -767,19 +767,19 @@
                     "profile": {
                         "card_id": "1200501",
                         "card_name": "\u5bae\u672c\u30d5\u30ec\u30c7\u30ea\u30ab",
-                        "card_kana": "\u307f\u3084\u3082\u3068\u3075\u308c\u3067\u308a\u304b",
+                        "card_kana": "미야모토 프레데리카",
                         "card_age": "19",
-                        "card_from": "\u30d1\u30ea",
+                        "card_from": "파리",
                         "card_height": "164",
                         "card_weight": "46",
                         "card_bust": "83",
                         "card_waist": "57",
                         "card_hip": "85",
-                        "card_birthday": "2\u670814\u65e5",
-                        "card_constellation": "\u6c34\u74f6\u5ea7",
+                        "card_birthday": "2월14일",
+                        "card_constellation": "물병자리",
                         "card_blood": "B",
-                        "card_arm": "\u5de6",
-                        "card_hobby": "\u30d5\u30a1\u30c3\u30b7\u30e7\u30f3",
+                        "card_arm": "왼손",
+                        "card_hobby": "패션",
                         "card_cv": "\u9ad9\u91ce\u9ebb\u7f8e"
                     },
                     "comments": {
