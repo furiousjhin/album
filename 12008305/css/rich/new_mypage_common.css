@@ -946,7 +946,7 @@ section {
 	line-height: 44px;
 	text-align: left;
 	text-shadow: 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d;
-	background-image: url(../../../12008305/image_sp/ui/common/detail/detail_accordion_list.png);
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fcommon%2Fdetail%2Fdetail_accordion_list.png%3F1526968059);
 	background-size: 304px
 }
 .selectArea.type_02 .selectArea_accordion .selectArea_accordion_title div {
@@ -972,7 +972,7 @@ section {
 	font-size: 16px
 }
 .selectArea.type_02 .selectArea_accordion._opened .selectArea_accordion_title {
-	background-image: url(../../../12008305/image_sp/ui/common/detail/detail_accordion_list_gray.png);
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fcommon%2Fdetail%2Fdetail_accordion_list_gray.png%3F1526968059);
 	color: #fffb84
 }
 .selectArea.type_02 .selectArea_accordion._opened .selectArea_accordion_title div:after {
@@ -14408,7 +14408,7 @@ body#battles .fukidashiWrap .fukidashi img.voiceIdol {
 	margin-right: 5px;
 	top: -2px;
 	position: relative;
-	background-image: url(../../../12008305/image_sp/ui/gallery/cute.png);
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fgallery%2Fcute.png%3F1487720322);
 	background-size: 50px;
 	background-repeat: no-repeat;
 	width: 50px;
@@ -16887,7 +16887,7 @@ input[type="submit"].submit_reset_style {
 	position: absolute
 }
 .profile_area .profile_content .icon_kana_cute {
-	background: url(../../../12008305/image_sp/ui/gallery/cute.png) 0 0px no-repeat;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fgallery%2Fcute.png%3F1487720322) 0 0px no-repeat;
 	background-size: 42px 210px;
 	width: 42px;
 	height: 17.5px;
@@ -16895,7 +16895,7 @@ input[type="submit"].submit_reset_style {
 	margin-top: -4px
 }
 .profile_area .profile_content .icon_age_cute {
-	background: url(../../../12008305/image_sp/ui/gallery/cute.png) 0 -17.5px no-repeat;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fgallery%2Fcute.png%3F1487720322) 0 -17.5px no-repeat;
 	background-size: 42px 210px;
 	width: 42px;
 	height: 17.5px;
@@ -16903,7 +16903,7 @@ input[type="submit"].submit_reset_style {
 	margin-top: -4px
 }
 .profile_area .profile_content .icon_height_cute {
-	background: url(../../../12008305/image_sp/ui/gallery/cute.png) 0 -35px no-repeat;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fgallery%2Fcute.png%3F1487720322) 0 -35px no-repeat;
 	background-size: 42px 210px;
 	width: 42px;
 	height: 17.5px;
@@ -16911,7 +16911,7 @@ input[type="submit"].submit_reset_style {
 	margin-top: -4px
 }
 .profile_area .profile_content .icon_weight_cute {
-	background: url(../../../12008305/image_sp/ui/gallery/cute.png) 0 -52.5px no-repeat;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fgallery%2Fcute.png%3F1487720322) 0 -52.5px no-repeat;
 	background-size: 42px 210px;
 	width: 42px;
 	height: 17.5px;
@@ -16919,7 +16919,7 @@ input[type="submit"].submit_reset_style {
 	margin-top: -4px
 }
 .profile_area .profile_content .icon_size_cute {
-	background: url(../../../12008305/image_sp/ui/gallery/cute.png) 0 -70px no-repeat;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fgallery%2Fcute.png%3F1487720322) 0 -70px no-repeat;
 	background-size: 42px 210px;
 	width: 42px;
 	height: 17.5px;
@@ -16927,7 +16927,7 @@ input[type="submit"].submit_reset_style {
 	margin-top: -4px
 }
 .profile_area .profile_content .icon_birthday_cute {
-	background: url(../../../12008305/image_sp/ui/gallery/cute.png) 0 -87.5px no-repeat;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fgallery%2Fcute.png%3F1487720322) 0 -87.5px no-repeat;
 	background-size: 42px 210px;
 	width: 42px;
 	height: 17.5px;
@@ -16935,7 +16935,7 @@ input[type="submit"].submit_reset_style {
 	margin-top: -4px
 }
 .profile_area .profile_content .icon_constellation_cute {
-	background: url(../../../12008305/image_sp/ui/gallery/cute.png) 0 -105px no-repeat;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fgallery%2Fcute.png%3F1487720322) 0 -105px no-repeat;
 	background-size: 42px 210px;
 	width: 42px;
 	height: 17.5px;
@@ -16943,7 +16943,7 @@ input[type="submit"].submit_reset_style {
 	margin-top: -4px
 }
 .profile_area .profile_content .icon_blood_cute {
-	background: url(../../../12008305/image_sp/ui/gallery/cute.png) 0 -122.5px no-repeat;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fgallery%2Fcute.png%3F1487720322) 0 -122.5px no-repeat;
 	background-size: 42px 210px;
 	width: 42px;
 	height: 17.5px;
@@ -16951,7 +16951,7 @@ input[type="submit"].submit_reset_style {
 	margin-top: -4px
 }
 .profile_area .profile_content .icon_arm_cute {
-	background: url(../../../12008305/image_sp/ui/gallery/cute.png) 0 -140px no-repeat;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fgallery%2Fcute.png%3F1487720322) 0 -140px no-repeat;
 	background-size: 42px 210px;
 	width: 42px;
 	height: 17.5px;
@@ -16959,7 +16959,7 @@ input[type="submit"].submit_reset_style {
 	margin-top: -4px
 }
 .profile_area .profile_content .icon_from_cute {
-	background: url(../../../12008305/image_sp/ui/gallery/cute.png) 0 -157.5px no-repeat;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fgallery%2Fcute.png%3F1487720322) 0 -157.5px no-repeat;
 	background-size: 42px 210px;
 	width: 42px;
 	height: 17.5px;
@@ -16967,7 +16967,7 @@ input[type="submit"].submit_reset_style {
 	margin-top: -4px
 }
 .profile_area .profile_content .icon_hobby_cute {
-	background: url(../../../12008305/image_sp/ui/gallery/cute.png) 0 -175px no-repeat;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fgallery%2Fcute.png%3F1487720322) 0 -175px no-repeat;
 	background-size: 42px 210px;
 	width: 42px;
 	height: 17.5px;
@@ -16975,7 +16975,7 @@ input[type="submit"].submit_reset_style {
 	margin-top: -4px
 }
 .profile_area .profile_content .icon_cv_cute {
-	background: url(../../../12008305/image_sp/ui/gallery/cute.png) 0 -192.5px no-repeat;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fgallery%2Fcute.png%3F1487720322) 0 -192.5px no-repeat;
 	background-size: 42px 210px;
 	width: 42px;
 	height: 17.5px;
@@ -20937,7 +20937,7 @@ a.check_close_btn.petit {
 }
 .headline_1_time {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -616px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -616px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 56px;
@@ -20945,7 +20945,7 @@ a.check_close_btn.petit {
 }
 .headline_2_time {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -558px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -558px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 56px;
@@ -20953,7 +20953,7 @@ a.check_close_btn.petit {
 }
 .headline_3_time {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -645px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -645px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 56px;
@@ -20961,7 +20961,7 @@ a.check_close_btn.petit {
 }
 .headline_4_time {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -587px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -587px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 56px;
@@ -20969,7 +20969,7 @@ a.check_close_btn.petit {
 }
 .headline_5_time {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -674px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -674px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 56px;
@@ -20977,7 +20977,7 @@ a.check_close_btn.petit {
 }
 .headline_step_1 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -203px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -203px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 88px;
@@ -20985,7 +20985,7 @@ a.check_close_btn.petit {
 }
 .headline_step_2 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -145px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -145px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 88px;
@@ -20993,7 +20993,7 @@ a.check_close_btn.petit {
 }
 .headline_step_3 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -257px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -257px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 88px;
@@ -21001,7 +21001,7 @@ a.check_close_btn.petit {
 }
 .headline_step_4 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -174px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -174px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 88px;
@@ -21009,7 +21009,7 @@ a.check_close_btn.petit {
 }
 .headline_step_5 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -286px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -286px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 88px;
@@ -21017,7 +21017,7 @@ a.check_close_btn.petit {
 }
 .icon_5step {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -541px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -541px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 72px;
@@ -21025,7 +21025,7 @@ a.check_close_btn.petit {
 }
 .icon_arrow {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -744px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -744px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 35px;
@@ -21033,7 +21033,7 @@ a.check_close_btn.petit {
 }
 .icon_box {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -455px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -455px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 88px;
@@ -21041,7 +21041,7 @@ a.check_close_btn.petit {
 }
 .icon_box_detail_get {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -703px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -703px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 40px;
@@ -21049,7 +21049,7 @@ a.check_close_btn.petit {
 }
 .icon_box_detail_get_02 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -315px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -315px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 70px;
@@ -21057,7 +21057,7 @@ a.check_close_btn.petit {
 }
 .icon_countup {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -389px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -389px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 110px;
@@ -21065,7 +21065,7 @@ a.check_close_btn.petit {
 }
 .icon_dream_chance {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -372px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -372px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 114px;
@@ -21073,7 +21073,7 @@ a.check_close_btn.petit {
 }
 .icon_dream_limited {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -355px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -355px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 120px;
@@ -21081,7 +21081,7 @@ a.check_close_btn.petit {
 }
 .icon_event_power_17xx {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -472px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -472px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 56px;
@@ -21089,7 +21089,7 @@ a.check_close_btn.petit {
 }
 .icon_event_power_7xx {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -515px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -515px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 56px;
@@ -21097,7 +21097,7 @@ a.check_close_btn.petit {
 }
 .icon_event_power_none {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -877px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -877px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 40px;
@@ -21105,7 +21105,7 @@ a.check_close_btn.petit {
 }
 .icon_exchange {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -498px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -498px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 68px;
@@ -21113,7 +21113,7 @@ a.check_close_btn.petit {
 }
 .icon_no_01 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -1079px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -1079px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 16px;
@@ -21121,7 +21121,7 @@ a.check_close_btn.petit {
 }
 .icon_no_02 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -985px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -985px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 16px;
@@ -21129,7 +21129,7 @@ a.check_close_btn.petit {
 }
 .icon_no_03 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -968px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -968px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 16px;
@@ -21137,7 +21137,7 @@ a.check_close_btn.petit {
 }
 .icon_no_04 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -1036px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -1036px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 16px;
@@ -21145,7 +21145,7 @@ a.check_close_btn.petit {
 }
 .icon_no_05 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -1002px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -1002px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 16px;
@@ -21153,7 +21153,7 @@ a.check_close_btn.petit {
 }
 .icon_no_06 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -951px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -951px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 16px;
@@ -21161,7 +21161,7 @@ a.check_close_btn.petit {
 }
 .icon_no_07 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -1053px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -1053px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 16px;
@@ -21169,7 +21169,7 @@ a.check_close_btn.petit {
 }
 .icon_no_08 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -1019px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -1019px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 16px;
@@ -21177,7 +21177,7 @@ a.check_close_btn.petit {
 }
 .icon_no_09 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -934px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -934px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 16px;
@@ -21185,7 +21185,7 @@ a.check_close_btn.petit {
 }
 .icon_omake {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -1070px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -1070px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 24px;
@@ -21193,7 +21193,7 @@ a.check_close_btn.petit {
 }
 .icon_petit_power_all_big_up {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -406px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -406px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 92px;
@@ -21201,7 +21201,7 @@ a.check_close_btn.petit {
 }
 .icon_petit_power_big_appeal {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -861px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -861px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 47px;
@@ -21209,7 +21209,7 @@ a.check_close_btn.petit {
 }
 .icon_petit_power_da {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -841px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -841px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 19px;
@@ -21217,7 +21217,7 @@ a.check_close_btn.petit {
 }
 .icon_petit_power_special_appeal {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -918px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -918px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 27px;
@@ -21225,7 +21225,7 @@ a.check_close_btn.petit {
 }
 .icon_petit_power_vi {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -821px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -821px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 19px;
@@ -21233,7 +21233,7 @@ a.check_close_btn.petit {
 }
 .icon_petit_power_vo {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -801px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -801px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 19px;
@@ -21241,7 +21241,7 @@ a.check_close_btn.petit {
 }
 .icon_status_bottom {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -95px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -95px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 280px;
@@ -21249,7 +21249,7 @@ a.check_close_btn.petit {
 }
 .info_text_1 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 0;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 0;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 219px;
@@ -21257,7 +21257,7 @@ a.check_close_btn.petit {
 }
 .info_text_2 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -27px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -27px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 250px;
@@ -21265,7 +21265,7 @@ a.check_close_btn.petit {
 }
 .text_chance_item_01 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -232px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -232px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 304px;
@@ -21273,7 +21273,7 @@ a.check_close_btn.petit {
 }
 .text_chance_item_02 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -120px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -120px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 304px;
@@ -21281,7 +21281,7 @@ a.check_close_btn.petit {
 }
 .text_petit_01 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -54px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -54px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 304px;
@@ -21289,7 +21289,7 @@ a.check_close_btn.petit {
 }
 .title_1 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -422px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -422px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 52px;
@@ -21297,7 +21297,7 @@ a.check_close_btn.petit {
 }
 .title_2 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531881127) no-repeat 0 -768px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fcommon%2Fui%2Fsprite%2Finfo%2Ficon-sd786c3f86b.png%3F1531882160) no-repeat 0 -768px;
 	-webkit-background-size: 304px 1095px;
 	background-size: 304px 1095px;
 	width: 52px;
