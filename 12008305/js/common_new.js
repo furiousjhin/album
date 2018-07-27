@@ -4,7 +4,7 @@
 var Commonjs = Commonjs || (function() {
     function Canvas() {}
 
-    Canvas.prototype.init = function(canvas_element, manifest, lib, name, fps, callback, tick_flg) {
+    Canvas.prototype.init = function(canvas_element, manifest, lib, name, fps, callback, tick_flg, stage) {
         this.name = name;
         this.lib = lib;
         this.images = [];
@@ -13,6 +13,7 @@ var Commonjs = Commonjs || (function() {
         this.counter = 0;
         this.count_max = Object.keys(manifest).length;
         this.callback = callback;
+        this.stage = stage;
         if (tick_flg == null) {
             this.tick_flg = true;
         } else {
@@ -36,11 +37,17 @@ var Commonjs = Commonjs || (function() {
 
     Canvas.prototype.handleComplete = function() {
         var self = this;
-        this.stage = new createjs.Stage(this.canvas);
+        var is_instantiate = false;
+        if (this.stage == null) {
+            is_instantiate = true;
+            this.stage = new createjs.Stage(this.canvas);
+        }
         if (this.name == null) {} else {
             this.addChild(this.name);
         }
-        this.stage.update();
+        if (is_instantiate) {
+            this.stage.update();
+        }
 
         createjs.Ticker.setFPS(this.fps);
         if (this.tick_flg) {
