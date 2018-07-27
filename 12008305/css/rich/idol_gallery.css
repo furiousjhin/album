@@ -271,7 +271,6 @@ body#idol_gallery {
 	border-radius: 8px;
 	display: inline-block;
 	padding: 2px 20px;
-	margin-left: 10px;
 	margin-bottom: 5px;
 	position: relative;
 	text-shadow: 0px 0px 3px #0061e7, 0px 0px 3px #0061e7, 0px 0px 3px #0061e7, 0px 0px 3px #0061e7
@@ -306,7 +305,6 @@ body#idol_gallery {
 }
 .comment_frame_wrapper_cool {
 	background: #2a83ff;
-	width: 294px;
 	border-radius: 8px;
 	padding: 0.1px 3px;
 	margin-left: auto;
@@ -396,7 +394,7 @@ body#idol_gallery {
 	top: 25px;
 	left: 0;
 	width: 100%;
-	font-size: 16px;
+	font-size: 18px;
 	text-shadow: 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073
 }
 .text_shadow_cute {
@@ -410,7 +408,6 @@ body#idol_gallery {
 	border-radius: 8px;
 	display: inline-block;
 	padding: 2px 20px;
-	margin-left: 10px;
 	margin-bottom: 5px;
 	position: relative;
 	text-shadow: 0px 0px 3px #eb1173, 0px 0px 3px #eb1173, 0px 0px 3px #eb1173, 0px 0px 3px #eb1173
@@ -445,7 +442,6 @@ body#idol_gallery {
 }
 .comment_frame_wrapper_cute {
 	background: #ff318e;
-	width: 294px;
 	border-radius: 8px;
 	padding: 0.1px 3px;
 	margin-left: auto;
@@ -549,7 +545,6 @@ body#idol_gallery {
 	border-radius: 8px;
 	display: inline-block;
 	padding: 2px 20px;
-	margin-left: 10px;
 	margin-bottom: 5px;
 	position: relative;
 	text-shadow: 0px 0px 3px #ff9c00, 0px 0px 3px #ff9c00, 0px 0px 3px #ff9c00, 0px 0px 3px #ff9c00
@@ -584,7 +579,6 @@ body#idol_gallery {
 }
 .comment_frame_wrapper_passion {
 	background: #ffb41d;
-	width: 294px;
 	border-radius: 8px;
 	padding: 0.1px 3px;
 	margin-left: auto;
@@ -688,7 +682,6 @@ body#idol_gallery {
 	border-radius: 8px;
 	display: inline-block;
 	padding: 2px 20px;
-	margin-left: 10px;
 	margin-bottom: 5px;
 	position: relative;
 	text-shadow: 0px 0px 3px #00b000, 0px 0px 3px #00b000, 0px 0px 3px #00b000, 0px 0px 3px #00b000
@@ -723,7 +716,6 @@ body#idol_gallery {
 }
 .comment_frame_wrapper_trainer {
 	background: #21c421;
-	width: 294px;
 	border-radius: 8px;
 	padding: 0.1px 3px;
 	margin-left: auto;
