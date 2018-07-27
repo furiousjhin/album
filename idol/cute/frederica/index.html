@@ -408,53 +408,53 @@
             </section>
         </script>
         <script type="text/template" id="comment-template">
-            <% Object.keys(filtered_comments).forEach(function (key) { %>
-                <div class="acco">
-                    <a class="acTrigger">
-                        <div>
-                            <%- category_names[key] %>
+            <div class="selectArea type_02 m-Btm8">
+                <% Object.keys(filtered_comments).forEach(function (key) { %>
+                    <div class="selectArea_accordion">
+                        <div class="selectArea_accordion_title">
+                            <div>
+                                <%- category_names[key] %>
+                            </div>
                         </div>
-                    </a>
-                    <div class="accoBody" style="display:none;">
-                        <div class="m-Top8">
-                            <% Object.keys(filtered_comments[key]).forEach(function (key4) { %>
-                                <div class="comment_title_<%- data.attribute %>">
-                                    <%- type_names[key4] %>
-                                </div>
-                                <div class="comment_frame_wrapper_<%- data.attribute %> m-Btm8">
-                                    <% Object.keys(filtered_comments[key][key4]).forEach(function (key2) { %>
-                                        <% var attribute = data.attribute %>
-                                            <% if(voice[key2]) { %>
-                                                <div class="comment_frame<% if(comments[key2] == " ??? ") { %> _disable<% } %>">
-                                                    <div>
-                                                        <%- filtered_comments[key][key4][key2] %>
-                                                    </div>
-                                                    <% if(voice_enable) { %>
-                                                        <a class="btn_idol_voice se_000 attribute_<%- attribute.match(/^../) %>_voice_mark_02" id="jsBtnIdolVoice<%= key2 %>" data-voice-key="<%- key2 %>">
-                                                            <div></div>
-                                                        </a>
-                                                        <% } else { %>
-                                                            <div class="btn_idol_voice se_000 attribute_<%- attribute.match(/^../) %>_voice_mark_03">
-                                                            </div>
-                                                            <% } %>
-                                                </div>
-                                                <% } else { %>
+                        <div class="selectArea_accordion_body t-Lft">
+                            <div class="selectArea_accordion_body_inner">
+                                <% Object.keys(filtered_comments[key]).forEach(function (key4) { %>
+                                    <div class="comment_title_<%- data.attribute %>">
+                                        <%- type_names[key4] %>
+                                    </div>
+                                    <div class="comment_frame_wrapper_<%- data.attribute %> m-Btm8">
+                                        <% Object.keys(filtered_comments[key][key4]).forEach(function (key2) { %>
+                                            <% var attribute = data.attribute %>
+                                                <% if(voice[key2]) { %>
                                                     <div class="comment_frame<% if(comments[key2] == " ??? ") { %> _disable<% } %>">
                                                         <div>
                                                             <%- filtered_comments[key][key4][key2] %>
                                                         </div>
-                                                        <% if(comments[key2] != "???") { %>
-                                                            <div class="star_<%- attribute %>"></div>
-                                                            <% } %>
+                                                        <% if(voice_enable) { %>
+                                                            <a class="btn_idol_voice se_000 attribute_<%- attribute.match(/^../) %>_voice_mark_02" id="jsBtnIdolVoice<%= key2 %>" data-voice-key="<%- key2 %>"><div></div></a>
+                                                            <% } else { %>
+                                                                <div class="btn_idol_voice se_000 attribute_<%- attribute.match(/^../) %>_voice_mark_03">
+                                                                </div>
+                                                                <% } %>
                                                     </div>
-                                                    <% } %>
-                                                        <% }); %>
-                                </div>
-                                <% }); %>
+                                                    <% } else { %>
+                                                        <div class="comment_frame<% if(comments[key2] == " ??? ") { %> _disable<% } %>">
+                                                            <div>
+                                                                <%- filtered_comments[key][key4][key2] %>
+                                                            </div>
+                                                            <% if(comments[key2] != "???") { %>
+                                                                <div class="star_<%- attribute %>"></div>
+                                                                <% } %>
+                                                        </div>
+                                                        <% } %>
+                                                            <% }); %>
+                                    </div>
+                                    <% }); %>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <% }); %>
+                    <% }); %>
+            </div>
         </script>
         <script type="text/template" id="story-template">
             <% for(var i = paging_info.current_page * paging_info.contents_num; i < paging_info.current_page * (paging_info.contents_num) + paging_info.contents_num ; i++) { %>
