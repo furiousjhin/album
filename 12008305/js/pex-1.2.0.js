@@ -6393,7 +6393,7 @@
             b.ji = "FWS";
             g += 3;
             b.jj = h[g];
-            if (b.jj != 6) {
+            if (b.jj != 4) {
                 d("unsupported flash version: " + b.jj)
             }
             g++;
