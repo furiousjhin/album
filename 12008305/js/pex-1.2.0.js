@@ -1,4 +1,4 @@
-"Pex: https://github.com/PexJS/PexJS";
+﻿"Pex: https://github.com/PexJS/PexJS";
 "version: 72e33c9(sjis)";
 (function() {
     "use strict";
@@ -5852,7 +5852,7 @@
                 var n = d.height / 20;
                 var o = (d.height + d.vg) / 20;
                 var p = d.mj && d.multiline ? Math.ceil((h - g) / n * 2) : 0;
-                a += "ib.font = '" + n + "px 궁서';";
+                a += "ib.font = '" + n + "px 돋움';";
                 a += "ib.fillStyle=kb(lb," + d.Kd + ");";
                 a += "ib.textBaseline='top';";
                 var q = 0,
