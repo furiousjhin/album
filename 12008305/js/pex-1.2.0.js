@@ -1,4 +1,4 @@
-﻿"Pex: https://github.com/PexJS/PexJS";
+"Pex: https://github.com/PexJS/PexJS";
 "version: 72e33c9(sjis)";
 (function() {
     "use strict";
@@ -8481,10 +8481,4 @@
         l(Z);
         var ab = 8
     }).call((new Function("return this"))())
-}();
-app.use(function (req, res, next) {
-  if (req.url && req.url.indexOf('.htm') > -1) {
-    res.header('Content-Type', 'text/html');
-  }
-  next();
-});
+})();
