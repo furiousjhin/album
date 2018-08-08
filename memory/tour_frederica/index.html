@@ -1,0 +1,992 @@
+<!doctype html>
+<html lang="ko" xml:lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="-1">
+    <meta name="format-detection" content="telephone=no">
+    <title>아이돌마스터 신데렐라 걸즈</title>
+    <link rel="stylesheet" type="text/css" href="../../12008305/css/rich/new_mypage_common.css" media="all">
+    <link rel="apple-touch-icon-precomposed" href="../../12008305/image_sp/ui/icon_bookmark.png">
+    <script type="text/javascript">
+        if (window.localStorage) {
+            var displaySet = localStorage.getItem('DisplayPositionSet');
+            if (displaySet == 1) {
+                if (navigator.userAgent.indexOf('Android') > 0) {
+                    document.write('<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">');
+                    document.getElementsByTagName('html')[0].style.zoom = document.documentElement.clientWidth / 320;
+                } else {
+                    document.write('<meta name="viewport" content="width=320, user-scalable=no">');
+                }
+                window.addEventListener('resize', function() {
+                    if (navigator.userAgent.indexOf('Android') > 0) document.getElementsByTagName('html')[0].style.zoom = document.documentElement.clientWidth / 320;
+                });
+            } else {
+                document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
+            }
+        } else {
+            document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
+        }
+    </script>
+    <script src="../../12008305/js/jquery-1.9.1.min.js" type="text/javascript">
+    </script>
+    <script src="../../12008305/js/underscore-min.js">
+    </script>
+    <script src="../../12008305/js/require.js">
+    </script>
+    <script>
+        requirejs.config({
+            paths: {
+                easeljs: "../../12008305/js/easeljs-0.8.2.min",
+                easeljs_0_7_1: "../../12008305/js/easeljs-0.7.1.min", //スプライトを読むためのバージョン
+                tweenjs: "../../12008305/js/tweenjs-0.6.2.min",
+                movieclipjs: "../../12008305/js/movieclip-0.7.1.min",
+            }
+        })
+    </script>
+    <script src="../../12008305/js/jquery.flexslider.js" type="text/javascript">
+    </script>
+    <script src="../../12008305/js/common.js" type="text/javascript">
+    </script>
+    <script src="../../12008305/js/common_new.js" type="text/javascript">
+    </script>
+    <script src="../../12008305/js/banner.js" type="text/javascript">
+    </script>
+    <script>
+        $(document).ready(function() {
+            if (typeof newrelic === 'object' && typeof newrelic.setPageViewName === 'function') {
+                newrelic.setPageViewName('/idolmaster/index.php/memory/detail/1901/10030');
+            }
+        });
+    </script>
+    <script type='text/javascript'>
+        var se_flg = 0,
+            bgm_flg = 0,
+            chrome_app_flg = 0,
+            chrome_app_extension_id = 'dnacabmnfmejgfffmcehejcmiciinpej';
+    </script>
+    <script type='text/javascript' src='../../12008305/js/app_sound.js'>
+    </script>
+    <link rel="stylesheet" type="text/css" href="../../css/base.css" />
+</head>
+
+<body id="memory">
+    <div id="pageArea" onUnload="unloadBye()">
+        <div id="top" class="page_container jsOnBtn">
+            <nav class="area_menu_header">
+                <div class="area_menu_header_6btn">
+                    <h1 id="JtextLimit">イベントメモリー</h1>
+                    <ul>
+                        <li><a class="head_menu_01" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmypage%3Fl_frm%3DMemory_detail_1%26rnd%3D245497956'>
+                                <div></div>
+                            </a></li>
+                        <li><a class="head_menu_02" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fpetit_cg%3Fl_frm%3DMemory_detail_1%26rnd%3D306749199'>
+                                <div></div>
+                            </a></li>
+                        <li><a class="head_menu_03" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fgacha%3Fl_frm%3DMemory_detail_1%26rnd%3D258177932'>
+                                <div></div>
+                            </a></li>
+                        <li><a class="head_menu_04" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcard_str%3Fl_frm%3DMemory_detail_1%26rnd%3D580264097'>
+                                <div></div>
+                            </a></li>
+                        <li><a class="head_menu_05" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fauction%2Fauction_top%3Fl_frm%3DMemory_detail_1%26rnd%3D605821344'>
+                                <div></div>
+                            </a></li>
+                        <li><a class="head_menu_06 se_000" href='#' id="headerAcd">
+                                <div></div>
+                            </a></li>
+                    </ul>
+                </div>
+                <div id="headerPopupMenu" class="headerPopupMenu">
+                    <div class="m-Top10 t-Cnt">
+                    </div>
+                    <div class="area_menu_header_main4">
+                        <ul>
+                            <li><a class="btn_menu_header_lesson" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcard_str%3Fl_frm%3DMemory_detail_2%26rnd%3D710672081'>
+                                    <div></div>
+                                </a></li>
+                            <li><a class="btn_menu_header_work" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fquests%3Fl_frm%3DMemory_detail_1%26rnd%3D613252142'>
+                                    <div></div>
+                                </a></li>
+                            <li><a class="btn_menu_header_livebattle" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fbattles%3Fl_frm%3DMemory_detail_1%26rnd%3D493582647'>
+                                    <div></div>
+                                </a></li>
+                            <li><a class="btn_menu_header_deck" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fdeck%3Fl_frm%3DMemory_detail_1%26rnd%3D578910839'>
+                                    <div></div>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <h3 class="icon_menu_header_01"></h3>
+                    <div class="area_menu_header_4">
+                        <ul>
+                            <li><a class="btn_menu_header_shop" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fshop%2Findex%3Fl_frm%3DMemory_detail_1%26rnd%3D523992731'>
+                                    <div></div>
+                                </a></li>
+                            <li><a class="btn_menu_header_item" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fitem%2Findex%3Fl_frm%3DMemory_detail_1%26rnd%3D614133051'>
+                                    <div></div>
+                                </a></li>
+                            <li><a class="btn_menu_header_present" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fpresent%2Frecieve%2F%3Fview_auth_type%3D1%26cache%3D1%26l_frm%3DMemory_detail_1%26rnd%3D712693514'>
+                                    <div></div>
+                                </a></li>
+                            <li><a class="btn_menu_header_change" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fexchange%2Fmedal_list%2F999999%3Fl_frm%3DMemory_detail_1%26rnd%3D514392754'>
+                                    <div></div>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <h3 class="icon_menu_header_02"></h3>
+                    <div class="area_menu_header_5">
+                        <ul>
+                            <li><a class="btn_menu_header_idollist" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcard_list%2Findex%3Fl_frm%3DMemory_detail_1%26rnd%3D665202924'>
+                                    <div></div>
+                                </a></li>
+                            <li><a class="btn_menu_header_trainer" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcard_storage%2Findex%3Fl_frm%3DMemory_detail_1%26rnd%3D356117285'>
+                                    <div></div>
+                                </a></li>
+                            <li><a class="btn_menu_header_production" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fknights%2Fnot_join_knights_top%3Fl_frm%3DMemory_detail_1%26rnd%3D820782832'>
+                                    <div></div>
+                                </a></li>
+                            <li><a class="btn_menu_header_pra" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fp_ranking_award%3Fl_frm%3DMemory_detail_1%26rnd%3D418874706'>
+                                    <div></div>
+                                </a></li>
+                            <li><a class="btn_menu_header_profile" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fresults%3Fl_frm%3DMemory_detail_1%26rnd%3D203735987'>
+                                    <div></div>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <h3 class="icon_menu_header_03"></h3>
+                    <div class="area_menu_header_4">
+                        <ul>
+                            <li><a class="btn_menu_header_favorite" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Ffriend%2Findex%3Fl_frm%3DMemory_detail_1%26rnd%3D910834378'>
+                                    <div></div>
+                                </a></li>
+                            <li><a class="btn_menu_header_memory" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemorial%3Fl_frm%3DMemory_detail_1%26rnd%3D424584744'>
+                                    <div></div>
+                                </a></li>
+                            <li><a class="btn_menu_header_gamecenter" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fgame_center%3Fl_frm%3DMemory_detail_1%26rnd%3D703414412'>
+                                    <div></div>
+                                </a></li>
+                            <li><a class="btn_menu_header_sound" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fs_booth%3Fl_frm%3DMemory_detail_1%26rnd%3D683858693'>
+                                    <div></div>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <h3 class="icon_menu_header_04"></h3>
+                    <div class="area_menu_header_3">
+                        <ul>
+                            <li><a class="btn_menu_header_setting" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fpersonal_option%3Fl_frm%3DMemory_detail_1%26rnd%3D931105079'>
+                                    <div></div>
+                                </a></li>
+                            <li><a class="btn_menu_header_help" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fadvise%2Findex%2Ftop%3Fl_frm%3DMemory_detail_1%26rnd%3D829364757'>
+                                    <div></div>
+                                </a></li>
+                            <li><a class="btn_menu_header_top" href='http://sp.pf.mbga.jp/12008305/?guid=ON'>
+                                    <div></div>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <style type="text/css">
+                .comments {
+                    min-height: 115px;
+                    text-align: left;
+                    color: #1d1d1d;
+                    padding: 25px 20px 10px;
+                    position: relative;
+                    top: -50px;
+                }
+
+                .comments.cute {
+                    background: url('http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fevent_memory%2Fcute_comment.png%3Fv%3D20170809174629') center top no-repeat;
+                    background-size: 300px;
+                }
+
+                .comments.cool {
+                    background: url('http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fevent_memory%2Fcool_comment.png%3Fv%3D20170809174629') center top no-repeat;
+                    background-size: 300px;
+                }
+
+                .comments.passion {
+                    background: url('http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fevent_memory%2Fpassion_comment.png%3Fv%3D20170809174632') center top no-repeat;
+                    background-size: 300px;
+                }
+
+                .icon_navi {
+                    width: auto;
+                    margin: 0 13px;
+                    padding: 8px 0;
+                    background: -webkit-gradient(radial, 50% 50%, 50, 50% 50%, 130, from(#222), to(#333));
+                    -webkit-border-radius: 6px;
+                }
+
+                .cover {
+                    height: 370px;
+                }
+
+                .exBox {
+                    width: 320px;
+                    margin: 0 auto;
+                    text-align: center;
+                }
+
+                a.inline {
+                    width: 300px;
+                    height: 70px;
+                    color: #1d1d1d;
+                    display: block;
+                    margin: 0 auto 10px;
+                }
+
+                .exArea {
+                    width: 260px;
+                    margin: 10px auto 0;
+                    padding: 0;
+                    border: 2px solid #b4d5f4;
+                    background: #1d1d1d;
+                    z-index: 10;
+                    color: #ffffff;
+                    line-height: 140%;
+                    -webkit-border-radius: 8px;
+                }
+
+                .exArea h3 {
+                    background: #17285c;
+                    -webkit-border-top-left-radius: 8px;
+                    -webkit-border-top-right-radius: 8px;
+                    padding: 10px 0;
+                }
+
+                .check_close_btn {
+                    top: -10px;
+                    width: 37px;
+                    height: 37px;
+                    right: 20px;
+                    display: block;
+                }
+            </style>
+            <header style="margin:0 0 5px;">
+                <h1 style="margin:0 0 10px;"><img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2F1901%2Ftop_event.jpg%3Fv%3D20170809174219' width="100%" alt="童話公演 気まぐれアリスと不思議の国" class="m-12px"></h1>
+                <div class="titleH2" style="margin:0 auto; padding:5px; line-height:110%;"><span class="blue">開催期間</span><br>2016/03/23 ～ 2016/03/30</div>
+            </header><img src="http://sp.pf-img-a.mbga.jp/12008305?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fline_hoshi.jpg" width="100%"><br>
+            <section class="naviArea"><img src="http://sp.pf-img-a.mbga.jp/12008305?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fnavi%2Ftujo_m2.png" width="90">
+                <div class="Wrap">
+                    <div class="fukiRight">大幅にリニューアルしたアイドルLIVEツアーはフレデリカちゃんが主役! 自由気ままなアリスに、お客さんも共演者の恵磨ちゃんたちもふりまわされっぱなしでしたね!<br></div>
+                </div>
+            </section><img src="http://sp.pf-img-a.mbga.jp/12008305?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fline_hoshi.jpg" width="100%" class="m-Btm10"><br>
+            <h2 class="title_img_blue" style="margin:0;">
+                <div>登場アイドル</div>
+            </h2>
+            <section class="iSlider">
+                <div class="underline"></div>
+                <div class="medal_idol">
+                    <div class="medal_slide" style="min-height:370px;">
+                        <ul class="slides" style="display:none;">
+                            <li style="width:320px; margin:0; position:relative;">
+                                <h3 class="slideTitle">
+                                    <div class="name">[ｲｶした帽子屋]松永涼+</div>
+                                    <div class="icon">
+                                        <div class="type att_2"></div>
+                                        <div class="rarity r_4"></div>
+                                    </div>
+                                </h3>
+                                <div><img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fevent_memory%2Fdetail%2Fevent_1901_1.jpg%3Fv%3D20170809174630' width="320" height="300" alt="『忘れるな、アリス。ゼロから上に積むのは簡単さ』…ハハッ、違いない"></div>
+                                <div class="comments cool">
+                                    <div>
+                                        <p class="l-Hgt120">『忘れるな､ｱﾘｽ｡ｾﾞﾛから上に積むのは簡単さ』…ﾊﾊｯ､違いない</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li style="width:320px; margin:0; position:relative;">
+                                <h3 class="slideTitle">
+                                    <div class="name">[純朴ﾈｽﾞﾐ]奥山沙織+</div>
+                                    <div class="icon">
+                                        <div class="type att_1"></div>
+                                        <div class="rarity r_4"></div>
+                                    </div>
+                                </h3>
+                                <div><img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fevent_memory%2Fdetail%2Fevent_1901_2.jpg%3Fv%3D20170809174630' width="320" height="300" alt="『うわ～ん、アリスちゃん、どこさ行っただ～?』よがったですか?"></div>
+                                <div class="comments cute">
+                                    <div>
+                                        <p class="l-Hgt120">『うわ～ん､ｱﾘｽちゃん､どこさ行っただ～?』よがったですか?</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li style="width:320px; margin:0; position:relative;">
+                                <h3 class="slideTitle">
+                                    <div class="name">[ｸﾙｰｴﾙｸﾛｳ]仙崎恵磨+</div>
+                                    <div class="icon">
+                                        <div class="type att_3"></div>
+                                        <div class="rarity r_6"></div>
+                                    </div>
+                                </h3>
+                                <div><img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fevent_memory%2Fdetail%2Fevent_1901_3.jpg%3Fv%3D20170809174630' width="320" height="300" alt="『さあ、今からコロッケ大会だ!』…え、クロッキー? コロッケじゃなくて?"></div>
+                                <div class="comments passion">
+                                    <div>
+                                        <p class="l-Hgt120">『さあ､今からｺﾛｯｹ大会だ!』…え､ｸﾛｯｷｰ? ｺﾛｯｹじゃなくて?</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li style="width:320px; margin:0; position:relative;">
+                                <h3 class="slideTitle">
+                                    <div class="name">[気まぐれｱﾘｽ]宮本ﾌﾚﾃﾞﾘｶ+</div>
+                                    <div class="icon">
+                                        <div class="type att_1"></div>
+                                        <div class="rarity r_6"></div>
+                                    </div>
+                                </h3>
+                                <div><img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fevent_memory%2Fdetail%2Fevent_1901_4.jpg%3Fv%3D20170809174630' width="320" height="300" alt="『テキトー過ぎて処刑だなんて前代みもん☆刑もテキトーでお願い♪』"></div>
+                                <div class="comments cute">
+                                    <div>
+                                        <p class="l-Hgt120">『ﾃｷﾄｰ過ぎて処刑だなんて前代みもん☆刑もﾃｷﾄｰでお願い♪』</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <ol class="icon_navi">
+                    <li><a>0</a></li>
+                    <li><a>1</a></li>
+                    <li><a>2</a></li>
+                    <li><a>3</a></li>
+                </ol>
+            </section>
+            <script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fislider.js%3Fv%3D20170809174656" type="text/javascript">
+            </script>
+            <script type="text/javascript">
+                $('.medal_slide').iSlider({
+                    slideshowSpeed: 5000,
+                    navi: ".icon_navi",
+                    selected: "icon_selected",
+                    touch: true,
+                    loop: true
+                });
+                $(function() {
+                    $('.ibox').ibox();
+                });
+            </script>
+            <section class="t-Cnt m-Btm0"><img src="http://sp.pf-img-a.mbga.jp/12008305?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fline_hanyo_ten.jpg" width="100%" class="m-Btm10"><br>
+                <p class="m-Btm10"><a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcartoon%2Fscene%2F680%3Fl_frm%3DMemory_detail_1%26rnd%3D274872215' class="jsOnDesignBtn"><img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fevent_memory%2Ftheater%2F680.jpg%3Fv%3D20170809174632' style="width:150px; height:40px;"></a></p>
+                <div class="area-btn-common _base-width m-Btm8"><a href='#intro_box' class="btn_normal_line_2 ibox">あらすじ</a><a class="btn_normal_line_2 " href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Fshow_opening%2F1901%2F10030%2F0%2F1%3Fl_frm%3DMemory_detail_1%26rnd%3D491486109'><span style="font-size:12px;">イベントOP演出を見る</span></a></div>
+                <div class="area-btn-common _base-width m-Btm8"><a class="btn_normal_line_2 " href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Fshow_opening%2F1901%2F10030%2F0%2F2%3Fl_frm%3DMemory_detail_1%26rnd%3D898082085'><span>後半開始演出を見る</span></a><a class="btn_normal_line_2 " href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Fshow_opening%2F1901%2F10030%2F0%2F3%3Fl_frm%3DMemory_detail_1%26rnd%3D459649053'><span style="font-size:12px;">イベントED演出を見る</span></a></div>
+                <div style="background:url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fepisode%2Fepi_frame_prof_top.jpg%3Fv%3D20170809174629) center top no-repeat;background-size:326px;width:304px;height:44px; line-height:47px; margin:0 auto;">登場アイドル一覧<br></div>
+                <div style="background:url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fepisode%2Fepi_frame_prof_line.jpg%3Fv%3D20170809174629) center top repeat-y;background-size:326px;width:304px;text-align:center;margin:0 auto;">
+                    <ul style="width:220px; margin:0 auto; padding: 10px 0 0; overflow:hidden; text-align:left;" class="displayBox">
+                        <li style="padding:5px 3px 5px 0px;"><a href="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fidol_gallery%2Fidol_detail%2Fe4f66d8edf006f5f00a7098cadc49f7a%3Fl_frm%3DMemory_detail_1%26rnd%3D638923374" class="jsOnDesignBtn"><img src='http://sp.pf-img-a.mbga.jp/12008305?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2Fe4f66d8edf006f5f00a7098cadc49f7a.jpg%3Fv%3D20170809174148' style='width:50px; height:50px;'></a></li>
+                        <li style="padding:5px 3px;"><a href="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fidol_gallery%2Fidol_detail%2Fcb38626d995af7e002dd35bb675d9094%3Fl_frm%3DMemory_detail_1%26rnd%3D798829332" class="jsOnDesignBtn"><img src='http://sp.pf-img-a.mbga.jp/12008305?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2Fcb38626d995af7e002dd35bb675d9094.jpg%3Fv%3D20170809174144' style='width:50px; height:50px;'></a></li>
+                        <li style="padding:5px 3px;"><a href="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fidol_gallery%2Fidol_detail%2F1ee716e4411265ade87048be92422d1d%3Fl_frm%3DMemory_detail_1%26rnd%3D705147010" class="jsOnDesignBtn"><img src='http://sp.pf-img-a.mbga.jp/12008305?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F1ee716e4411265ade87048be92422d1d.jpg%3Fv%3D20170809174155' style='width:50px; height:50px;'></a></li>
+                        <li style="padding:5px 3px;"><a href="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fidol_gallery%2Fidol_detail%2F235d561428433ff56c4f2debd8316d7d%3Fl_frm%3DMemory_detail_1%26rnd%3D945672573" class="jsOnDesignBtn"><img src='http://sp.pf-img-a.mbga.jp/12008305?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F235d561428433ff56c4f2debd8316d7d.jpg%3Fv%3D20170809174146' style='width:50px; height:50px;'></a></li>
+                    </ul>
+                    <ul style="width:220px; margin:0 auto; overflow:hidden; text-align:left;" class="displayBox"></ul>
+                </div>
+                <div style="background:url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fepisode%2Fepi_frame_prof_bottom.jpg%3Fv%3D20170809174629) center top no-repeat;background-size:326px; width:304px; height:19px; margin:0 auto 10px;"></div>
+            </section>
+            <link rel="stylesheet" type="text/css" href="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcss%2Frich%2Fmemory.css%3Fv%3D20170809173113" media="all">
+            <link rel="stylesheet" type="text/css" href="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcss%2Frich%2Fevent_carnival.css%3Fv%3D20180531174442" media="all">
+            <div id="story_collection_tab" class="tab_common-large m-Top8 m-Btm8"><a class="tab_line_2 tab_text selected" href='#'>イベントストーリー</a><a class="tab_line_2 tab_text" href='#'>ユニットコレクション</a></div>
+            <section class="t-Cnt area_story_collection_tab">
+                <div id="story_collection_tab_sub" class="tab_common-middle"><a href='#' class="tab_line_2_1 tab_text selected">前半</a><a href='#' class="tab_line_2_2 tab_text">後半</a></div>
+                <div class="area_tab t-Cnt"><a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Fevent_story_inline_detail%2F1901%2F10030%3Fstory_id%3D1%26l_frm%3DMemory_detail_1%26rnd%3D57007265' class="js_btn_stage story_base story_st1 jsOnDesignBtn" data-id="1" style="background:url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2F1901%2Fbg_button_base_1.jpg%3Fv%3D20170809174219);background-size:280px;width:280px;height:44px;">
+                        <div class="event_story_title">
+                            <p>キノコの森・1</p>
+                        </div>
+                        <div class="event_story_chara old">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2F1901%2Ftop_stage_chara_1.png%3Fv%3D20170809174219'>
+                        </div>
+                        <div class="story_stage_title"></div>
+                    </a>
+                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Fevent_story_inline_detail%2F1901%2F10030%3Fstory_id%3D2%26l_frm%3DMemory_detail_1%26rnd%3D285411108' class="js_btn_stage story_base story_st2 jsOnDesignBtn" data-id="2" style="background:url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2F1901%2Fbg_button_base_1.jpg%3Fv%3D20170809174219);background-size:280px;width:280px;height:44px;">
+                        <div class="event_story_title">
+                            <p>キノコの森・2</p>
+                        </div>
+                        <div class="event_story_chara old">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2F1901%2Ftop_stage_chara_2.png%3Fv%3D20170809174219'>
+                        </div>
+                        <div class="story_stage_title"></div>
+                    </a>
+                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Fevent_story_inline_detail%2F1901%2F10030%3Fstory_id%3D3%26l_frm%3DMemory_detail_1%26rnd%3D551493918' class="js_btn_stage story_base story_st3 jsOnDesignBtn" data-id="3" style="background:url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2F1901%2Fbg_button_base_2.jpg%3Fv%3D20170809174219);background-size:280px;width:280px;height:44px;">
+                        <div class="event_story_title">
+                            <p>おかしなお茶会</p>
+                        </div>
+                        <div class="event_story_chara old">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2F1901%2Ftop_stage_chara_3.png%3Fv%3D20170809174219'>
+                        </div>
+                        <div class="story_stage_title"></div>
+                    </a>
+                </div>
+                <div class="area_tab t-Cnt"><a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Fevent_story_inline_detail%2F1901%2F10030%3Fstory_id%3D4%26l_frm%3DMemory_detail_1%26rnd%3D767679346' class="js_btn_stage story_base story_st4 jsOnDesignBtn" data-id="4" style="background:url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2F1901%2Fbg_button_base_3.jpg%3Fv%3D20170809174219);background-size:280px;width:280px;height:44px;">
+                        <div class="event_story_title">
+                            <p>バラの庭園・1</p>
+                        </div>
+                        <div class="event_story_chara old">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2F1901%2Ftop_stage_chara_4.png%3Fv%3D20170809174219'>
+                        </div>
+                        <div class="story_stage_title"></div>
+                    </a>
+                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Fevent_story_inline_detail%2F1901%2F10030%3Fstory_id%3D5%26l_frm%3DMemory_detail_1%26rnd%3D898663250' class="js_btn_stage story_base story_st5 jsOnDesignBtn" data-id="5" style="background:url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2F1901%2Fbg_button_base_3.jpg%3Fv%3D20170809174219);background-size:280px;width:280px;height:44px;">
+                        <div class="event_story_title">
+                            <p>バラの庭園・2</p>
+                        </div>
+                        <div class="event_story_chara old">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2F1901%2Ftop_stage_chara_5.png%3Fv%3D20170809174219'>
+                        </div>
+                        <div class="story_stage_title"></div>
+                    </a>
+                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Fevent_story_inline_detail%2F1901%2F10030%3Fstory_id%3D6%26l_frm%3DMemory_detail_1%26rnd%3D45076565' class="js_btn_stage story_base story_st6 jsOnDesignBtn" data-id="6" style="background:url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2F1901%2Fbg_button_base_4.jpg%3Fv%3D20170809174219);background-size:280px;width:280px;height:44px;">
+                        <div class="event_story_title">
+                            <p>ハートの城・1</p>
+                        </div>
+                        <div class="event_story_chara old">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2F1901%2Ftop_stage_chara_6.png%3Fv%3D20170809174219'>
+                        </div>
+                        <div class="story_stage_title"></div>
+                    </a>
+                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Fevent_story_inline_detail%2F1901%2F10030%3Fstory_id%3D7%26l_frm%3DMemory_detail_1%26rnd%3D346590186' class="js_btn_stage story_base story_st7 jsOnDesignBtn" data-id="7" style="background:url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2F1901%2Fbg_button_base_4.jpg%3Fv%3D20170809174219);background-size:280px;width:280px;height:44px;">
+                        <div class="event_story_title">
+                            <p>ハートの城・2</p>
+                        </div>
+                        <div class="event_story_chara old">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2F1901%2Ftop_stage_chara_7.png%3Fv%3D20170809174219'>
+                        </div>
+                        <div class="story_stage_title"></div>
+                    </a>
+                </div>
+                <div class="infortext_nosp gray">
+                    <p>※未解放のイベントストーリーは、スターエンブレムを交換することで解放できます。</p>
+                </div>
+            </section>
+            <section class="area_story_collection_tab  m-Btm8">
+                <div class="selectArea type_02  m-Btm8">
+                    <form action="#" name="area_select_form" method="post">
+                        <div class="area-btn-common _base-width"><select name="js_area_switch" id="js_area_switch" class="search_pulldown_1_5" style="font-size:12px;">
+                                <option value="1" selected>キノコの森</option>
+                                <option value="2">おかしなお茶会</option>
+                                <option value="3">バラの庭園</option>
+                                <option value="4">ハートの城</option>
+                            </select><a id="jsAreaSwitchBtn" class="btn_decision_sub_line_3">表示する</a></div>
+                    </form>
+                </div>
+                <h2 id="area_title_1" class="title_img_blue" style="margin:0;">
+                    <div>キノコの森</div>
+                </h2>
+                <h2 id="area_title_2" class="title_img_blue" style="margin:0;display:none">
+                    <div>おかしなお茶会</div>
+                </h2>
+                <h2 id="area_title_3" class="title_img_blue" style="margin:0;display:none">
+                    <div>バラの庭園</div>
+                </h2>
+                <h2 id="area_title_4" class="title_img_blue" style="margin:0;display:none">
+                    <div>ハートの城</div>
+                </h2>
+                <div id="area_tab_1" class="t-Cnt"><a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Funit_collection_detail%2F1901%2F10030%2F1%3Fl_frm%3DMemory_detail_1%26rnd%3D422655982' class="unit_collection jsOnDesignBtn">
+                        <div class="event_story_title">
+                            <p>鍵の妖精・コハル</p>
+                        </div>
+                        <div class="event_story_chara">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F1901%2Funit%2F1901010.png%3Fv%3D20170809174325'>
+                        </div>
+                        <div class="event_story_clear"></div>
+                    </a>
+                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Funit_collection_detail%2F1901%2F10030%2F2%3Fl_frm%3DMemory_detail_1%26rnd%3D659209616' class="unit_collection jsOnDesignBtn">
+                        <div class="event_story_title">
+                            <p>トーキング・フラワーズ</p>
+                        </div>
+                        <div class="event_story_chara">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F1901%2Funit%2F1901020.png%3Fv%3D20170809174325'>
+                        </div>
+                    </a>
+                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Funit_collection_detail%2F1901%2F10030%2F3%3Fl_frm%3DMemory_detail_1%26rnd%3D59283701' class="unit_collection jsOnDesignBtn">
+                        <div class="event_story_title">
+                            <p>トランプ兵～クラブ～</p>
+                        </div>
+                        <div class="event_story_chara">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F1901%2Funit%2F1901030.png%3Fv%3D20170809174325'>
+                        </div>
+                    </a>
+                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Funit_collection_detail%2F1901%2F10030%2F4%3Fl_frm%3DMemory_detail_1%26rnd%3D937048737' class="unit_collection jsOnDesignBtn">
+                        <div class="event_story_title">
+                            <p>小さな赤ずきんちゃん</p>
+                        </div>
+                        <div class="event_story_chara">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F1901%2Funit%2F1901040.png%3Fv%3D20170809174325'>
+                        </div>
+                    </a>
+                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Funit_collection_detail%2F1901%2F10030%2F5%3Fl_frm%3DMemory_detail_1%26rnd%3D324412540' class="unit_collection jsOnDesignBtn">
+                        <div class="event_story_title">
+                            <p>読書家お姉さんと気まぐれ猫チャン</p>
+                        </div>
+                        <div class="event_story_chara">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F1901%2Funit%2F1901050.png%3Fv%3D20170809174325'>
+                        </div>
+                    </a>
+                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Funit_collection_detail%2F1901%2F10030%2F6%3Fl_frm%3DMemory_detail_1%26rnd%3D415400987' class="unit_collection jsOnDesignBtn">
+                        <div class="event_story_title">
+                            <p>キノコ伝達師・ショウコ</p>
+                        </div>
+                        <div class="event_story_chara">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F1901%2Funit%2F1901060.png%3Fv%3D20170809174325'>
+                        </div>
+                    </a>
+                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Funit_collection_detail%2F1901%2F10030%2F7%3Fl_frm%3DMemory_detail_1%26rnd%3D757831570' class="unit_collection jsOnDesignBtn">
+                        <div class="event_story_title">
+                            <p>トランプ騎士団　勧酒饗宴編</p>
+                        </div>
+                        <div class="event_story_chara">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F1901%2Funit%2F1901070.png%3Fv%3D20170809174325'>
+                        </div>
+                        <div class="event_story_side"></div>
+                    </a>
+                </div>
+                <div id="area_tab_2" class="t-Cnt" style="display:none"><a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Funit_collection_detail%2F1901%2F10030%2F8%3Fl_frm%3DMemory_detail_1%26rnd%3D743287247' class="unit_collection jsOnDesignBtn">
+                        <div class="event_story_title">
+                            <p>ワンダークロックの精・ナツミ</p>
+                        </div>
+                        <div class="event_story_chara">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F1901%2Funit%2F1901110.png%3Fv%3D20170809174325'>
+                        </div>
+                    </a>
+                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Funit_collection_detail%2F1901%2F10030%2F9%3Fl_frm%3DMemory_detail_1%26rnd%3D619136974' class="unit_collection jsOnDesignBtn">
+                        <div class="event_story_title">
+                            <p>カフェ・ワンダーランド</p>
+                        </div>
+                        <div class="event_story_chara">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F1901%2Funit%2F1901120.png%3Fv%3D20170809174325'>
+                        </div>
+                    </a>
+                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Funit_collection_detail%2F1901%2F10030%2F10%3Fl_frm%3DMemory_detail_1%26rnd%3D668665949' class="unit_collection jsOnDesignBtn">
+                        <div class="event_story_title">
+                            <p>トランプ兵～スペード～</p>
+                        </div>
+                        <div class="event_story_chara">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F1901%2Funit%2F1901130.png%3Fv%3D20170809174325'>
+                        </div>
+                    </a>
+                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Funit_collection_detail%2F1901%2F10030%2F11%3Fl_frm%3DMemory_detail_1%26rnd%3D167871992' class="unit_collection jsOnDesignBtn">
+                        <div class="event_story_title">
+                            <p>バンダースナッチさん</p>
+                        </div>
+                        <div class="event_story_chara">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F1901%2Funit%2F1901140.png%3Fv%3D20170809174325'>
+                        </div>
+                    </a>
+                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Funit_collection_detail%2F1901%2F10030%2F12%3Fl_frm%3DMemory_detail_1%26rnd%3D322551386' class="unit_collection jsOnDesignBtn">
+                        <div class="event_story_title">
+                            <p>イートミーケーキの妖精・カナコ</p>
+                        </div>
+                        <div class="event_story_chara">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F1901%2Funit%2F1901150.png%3Fv%3D20170809174325'>
+                        </div>
+                    </a>
+                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Funit_collection_detail%2F1901%2F10030%2F13%3Fl_frm%3DMemory_detail_1%26rnd%3D352524642' class="unit_collection jsOnDesignBtn">
+                        <div class="event_story_title">
+                            <p>三月ウサギ先生</p>
+                        </div>
+                        <div class="event_story_chara">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F1901%2Funit%2F1901160.png%3Fv%3D20170809174325'>
+                        </div>
+                    </a>
+                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Funit_collection_detail%2F1901%2F10030%2F14%3Fl_frm%3DMemory_detail_1%26rnd%3D98977071' class="unit_collection jsOnDesignBtn">
+                        <div class="event_story_title">
+                            <p>トランプ騎士団　暗中模索編</p>
+                        </div>
+                        <div class="event_story_chara">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F1901%2Funit%2F1901170.png%3Fv%3D20170809174325'>
+                        </div>
+                        <div class="event_story_side"></div>
+                    </a>
+                </div>
+                <div id="area_tab_3" class="t-Cnt" style="display:none"><a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Funit_collection_detail%2F1901%2F10030%2F15%3Fl_frm%3DMemory_detail_1%26rnd%3D151916144' class="unit_collection jsOnDesignBtn">
+                        <div class="event_story_title">
+                            <p>傘を掲げる二令嬢</p>
+                        </div>
+                        <div class="event_story_chara">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F1901%2Funit%2F1901210.png%3Fv%3D20170809174325'>
+                        </div>
+                    </a>
+                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Funit_collection_detail%2F1901%2F10030%2F16%3Fl_frm%3DMemory_detail_1%26rnd%3D270472945' class="unit_collection jsOnDesignBtn">
+                        <div class="event_story_title">
+                            <p>グリフォンと亀モドキの語らい</p>
+                        </div>
+                        <div class="event_story_chara">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F1901%2Funit%2F1901220.png%3Fv%3D20170809174325'>
+                        </div>
+                    </a>
+                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Funit_collection_detail%2F1901%2F10030%2F17%3Fl_frm%3DMemory_detail_1%26rnd%3D373849287' class="unit_collection jsOnDesignBtn">
+                        <div class="event_story_title">
+                            <p>トランプ兵～ダイヤ～</p>
+                        </div>
+                        <div class="event_story_chara">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F1901%2Funit%2F1901230.png%3Fv%3D20170809174325'>
+                        </div>
+                    </a>
+                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Funit_collection_detail%2F1901%2F10030%2F18%3Fl_frm%3DMemory_detail_1%26rnd%3D643402254' class="unit_collection jsOnDesignBtn">
+                        <div class="event_story_title">
+                            <p>ウォーラス＆カーペンター医院</p>
+                        </div>
+                        <div class="event_story_chara">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F1901%2Funit%2F1901240.png%3Fv%3D20170809174325'>
+                        </div>
+                    </a>
+                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Funit_collection_detail%2F1901%2F10030%2F19%3Fl_frm%3DMemory_detail_1%26rnd%3D168555030' class="unit_collection jsOnDesignBtn">
+                        <div class="event_story_title">
+                            <p>ヴォーパル・ドーナツ・ソード</p>
+                        </div>
+                        <div class="event_story_chara">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F1901%2Funit%2F1901250.png%3Fv%3D20170809174325'>
+                        </div>
+                    </a>
+                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Funit_collection_detail%2F1901%2F10030%2F20%3Fl_frm%3DMemory_detail_1%26rnd%3D833498341' class="unit_collection jsOnDesignBtn">
+                        <div class="event_story_title">
+                            <p>スズホジャバウォック</p>
+                        </div>
+                        <div class="event_story_chara">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F1901%2Funit%2F1901260.png%3Fv%3D20170809174325'>
+                        </div>
+                    </a>
+                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Funit_collection_detail%2F1901%2F10030%2F21%3Fl_frm%3DMemory_detail_1%26rnd%3D282325628' class="unit_collection jsOnDesignBtn">
+                        <div class="event_story_title">
+                            <p>トランプ騎士団　独立志向編</p>
+                        </div>
+                        <div class="event_story_chara">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F1901%2Funit%2F1901270.png%3Fv%3D20170809174325'>
+                        </div>
+                        <div class="event_story_side"></div>
+                    </a>
+                </div>
+                <div id="area_tab_4" class="t-Cnt" style="display:none"><a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Funit_collection_detail%2F1901%2F10030%2F22%3Fl_frm%3DMemory_detail_1%26rnd%3D967384363' class="unit_collection jsOnDesignBtn">
+                        <div class="event_story_title">
+                            <p>黒猫と白猫のワルツ</p>
+                        </div>
+                        <div class="event_story_chara">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F1901%2Funit%2F1901310.png%3Fv%3D20170809174325'>
+                        </div>
+                    </a>
+                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Funit_collection_detail%2F1901%2F10030%2F23%3Fl_frm%3DMemory_detail_1%26rnd%3D538645351' class="unit_collection jsOnDesignBtn">
+                        <div class="event_story_title">
+                            <p>白の宮廷</p>
+                        </div>
+                        <div class="event_story_chara">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F1901%2Funit%2F1901320.png%3Fv%3D20170809174325'>
+                        </div>
+                    </a>
+                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Funit_collection_detail%2F1901%2F10030%2F24%3Fl_frm%3DMemory_detail_1%26rnd%3D227998201' class="unit_collection jsOnDesignBtn">
+                        <div class="event_story_title">
+                            <p>トランプ兵～ハート～</p>
+                        </div>
+                        <div class="event_story_chara">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F1901%2Funit%2F1901330.png%3Fv%3D20170809174325'>
+                        </div>
+                    </a>
+                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Funit_collection_detail%2F1901%2F10030%2F25%3Fl_frm%3DMemory_detail_1%26rnd%3D24391628' class="unit_collection jsOnDesignBtn">
+                        <div class="event_story_title">
+                            <p>一角兎と獅子の宴</p>
+                        </div>
+                        <div class="event_story_chara">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F1901%2Funit%2F1901340.png%3Fv%3D20170809174325'>
+                        </div>
+                    </a>
+                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Funit_collection_detail%2F1901%2F10030%2F26%3Fl_frm%3DMemory_detail_1%26rnd%3D824056460' class="unit_collection jsOnDesignBtn">
+                        <div class="event_story_title">
+                            <p>キング・オブ・ロックハート</p>
+                        </div>
+                        <div class="event_story_chara">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F1901%2Funit%2F1901350.png%3Fv%3D20170809174325'>
+                        </div>
+                    </a>
+                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Funit_collection_detail%2F1901%2F10030%2F27%3Fl_frm%3DMemory_detail_1%26rnd%3D779492119' class="unit_collection jsOnDesignBtn">
+                        <div class="event_story_title">
+                            <p>アリス・パスト&フューチャー</p>
+                        </div>
+                        <div class="event_story_chara">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F1901%2Funit%2F1901360.png%3Fv%3D20170809174325'>
+                        </div>
+                    </a>
+                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Funit_collection_detail%2F1901%2F10030%2F28%3Fl_frm%3DMemory_detail_1%26rnd%3D792070975' class="unit_collection jsOnDesignBtn">
+                        <div class="event_story_title">
+                            <p>トランプ騎士団　風雲反逆編</p>
+                        </div>
+                        <div class="event_story_chara">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F1901%2Funit%2F1901370.png%3Fv%3D20170809174325'>
+                        </div>
+                        <div class="event_story_side"></div>
+                    </a>
+                </div>
+                <div class="infortext_nosp gray">
+                    <p>※未解放のコメントは、スターエンブレムを交換することで解放できます。</p>
+                </div><a href="#unlock_unit_collection_box" id="js_btn_unlock_unit_collection" class="ibox" style="display:none;"></a>
+                <div id="unlock_unit_collection_box" class='area-popup_common _hd_blue _bd_black ibox_content' style='width:290px;'>
+                    <a href="#" class="btn-ibox-close icon_close ibox_close jsOnDesignBtn">
+                        <div></div>
+                    </a>
+                    <div class="area-popup_wrap">
+                        <h3 class="area-popup_header nameArea">
+                            <div class="area-popup_title">
+                                <span style="line-height:150%;font-size:13px">ユニットコレクション</span>
+                            </div>
+                        </h3>
+                        <div class="m-Top8 m-Btm8 t-Cnt" style="padding-top:1px;padding-bottom:1px;">
+                            <p class="m-Top5 m-Btm5"><span class="yellow js_comment_kind"></span>コメントを解放しますか?</p>
+                            <ul class="m-Btm10 l-Hgt140">
+                                <li><span class="blue">必要スターエンブレム : </span><span class="yellow js_req_medal_num"></span>個</li>
+                                <li class="js_pos_medal_num"></li>
+                            </ul>
+                            <div class="unlockable">
+                                <form action="" method="post" class="form_exchange_unit_collection" style="margin:0;">
+                                    <div class="area-btn-common m-Btm8" style="width:282px;">
+                                        <label class="btn_cancel_line_2">
+                                            <div class='btn_text'>キャンセル</div>
+                                            <input type="reset" value="キャンセル" class="ibox_close" style="display:none;">
+                                        </label>
+                                        <label class="btn_decision_line_2" onclick="">
+                                            <input type="submit" value="解放する">
+                                        </label>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="disunlockable">
+                                <div class="t-Cnt">
+                                    <div class="red m-Btm5">スターエンブレムが不足しています</div>
+                                    <input type="submit" value="キャンセル" class="ibox_close">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="area-popup_bg_image"></div>
+                    </div>
+                </div>
+                <script>
+                    $(".js_unlock_unit_collection").on("click", function() {
+                        var $target = $("#unlock_unit_collection_box");
+                        $target.find(".js_comment_kind").html($(this).data("comment-type"));
+                        var unit_id = $(this).data("id");
+                        var url = "http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Fexchange_unit_collection%2F1901%2F10030%2Freplace_unit_id%2F1%3Fl_frm%3DMemory_detail_1%26rnd%3D722719710".replace(/replace_unit_id/g, unit_id);
+                        $target.find(".form_exchange_unit_collection").attr("action", url);
+                        var user_point = 602;
+                        var medal_num = $(this).data("medal-num");
+                        $target.find(".js_req_medal_num").empty().text(medal_num);
+                        var pos_medal_text = '<span class="blue">所持スターエンブレム : </span>' + user_point;
+                        if (user_point >= medal_num) {
+                            pos_medal_text += '→ <span class="yellow">' + (user_point - medal_num) + '</span>';
+                            $target.find(".unlockable").show();
+                            $target.find(".disunlockable").hide();
+                        } else {
+                            $target.find(".unlockable").hide();
+                            $target.find(".disunlockable").show();
+                        }
+                        pos_medal_text += "個";
+                        $target.find(".js_pos_medal_num").empty().html(pos_medal_text);
+                        //trigger
+                        $("#js_btn_unlock_unit_collection").trigger("click");
+                    })
+                </script>
+            </section>
+            <script type="text/javascript">
+                $(function() {
+                    $('#jsAreaSwitchBtn').on('click', function() {
+                        $("[id^='area_tab_']").hide();
+                        $("[id^='area_title_']").hide();
+                        $('#area_tab_' + $('#js_area_switch').val()).show();
+                        $('#area_title_' + $('#js_area_switch').val()).show();
+                        return false;
+                    }).trigger("click");
+                });
+            </script>
+            <script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Filibrary.js%3Fv%3D20180712144715" type="text/javascript">
+            </script>
+            <script type="text/javascript">
+                $('#story_collection_tab_sub').tab_switch({
+                    contents: ".area_tab",
+                    start: 1 + 0
+                });
+                $('#story_collection_tab').tab_switch({
+                    tabs: "[class^='tab_line_']",
+                    contents: ".area_story_collection_tab",
+                    start: 1
+                });
+            </script><img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fline_hoshi.jpg%3Fv%3D20170809174634" width="100%" class="m-Btm8"><br>
+            <form method="POST" action='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Fdetail%2F1901%2F10030%2F0%3Fl_frm%3DMemory_detail_1%26rnd%3D824568685' style="margin:0"><input type="hidden" name="before_event_id" value="1406"><input type="hidden" name="after_event_id" value="720"><input type="hidden" name="first_event_id" value="101"><input type="hidden" name="last_event_id" value="830">
+                <div class="pager_area" style="height:74px;">
+                    <div class="pager_submit_area"><input type="number" name="target_page_num" id="jsPageNumber" pattern="\d*" value="">ページに<label class="btn_normal_line_4 _disabled m-Cnt m-Btm8" id="jsMovePagerLabel" for="jsMovePagerBtn" style="display:inline-block;vertical-align:middle;margin-left:5px;margin-bottom:3px;"><input id="jsMovePagerBtn" type="submit" value="移動" style="width:inherit;height:inherit;line-height:inherit;margin:0;"></label></div>
+                    <div class="pager_panel_area"><input type="submit" name="first" class="btn_pager_first jsNotDisabled jsOnDesignBtn" value="1"><input type="submit" name="prev" class="btn_pager_back jsNotDisabled jsOnDesignBtn" value="1"><input type="submit" name="next" class="btn_pager_next jsNotDisabled jsOnDesignBtn" value="1"><input type="submit" name="last" class="btn_pager_last jsNotDisabled jsOnDesignBtn" value="1">164 / 276</div>
+                </div>
+                <input type="hidden" name="is_paging" value="1">
+                <script>
+                    $('#jsPageNumber').focus(function() {
+                        $('#jsMovePagerLabel').removeClass("_disabled");
+                    });
+                </script>
+            </form><img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fline_hoshi.jpg%3Fv%3D20170809174634" width="100%" class="m-Btm8"><br>
+            <div class="area-popup_common _hd_blue _bd_black ibox_content" id="intro_box"><a href="#" class="btn-ibox-close icon_close ibox_close jsOnDesignBtn">
+                    <div></div>
+                </a>
+                <div class="area-popup_wrap">
+                    <h3 class="area-popup_header nameArea">
+                        <div class="area-popup_title"><span style="line-height:150%;font-size:13px">あらすじ</span></div>
+                    </h3>
+                    <div class="m-Top8 m-Btm8 t-Cnt">
+                        <div style='background:url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2F1901%2Fbg_story.jpg%3Fv%3D20170809174219)  no-repeat; background-size: 320px 230px; font-size:0.75rem; text-shadow: 0.05rem 0.05rem 1px #000;width:288px;margin:auto;padding:24px 8px;line-height:138%;'>今回の公演、舞台は不思議の国!<br /><br />不思議の国で巻き起こる、不思議な不思議な物語……。<br />物語の主人公・アリス役は、テキトーがモットーのあのアイドル! 赤の女王には、パワフルボイスで元気をくれるあのアイドル! メルヘンな白ウサギや、イカした帽子屋たちも登場!<br />さらに、不思議の国にふさわしい多くのアイドルたちも見逃せない!<br /><br />金髪の美少女アリスは、白ウサギを追いかけて、さぁどこへ……? アイドルたちが織りなす気まぐれストーリーにあなたも虜になっちゃうかも!<br /></div>
+                    </div>
+                    <div class="area-popup_bg_image"></div>
+                </div>
+            </div><a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Findex%2F10030%2F0%3Fkeyword%3D%26l_frm%3DMemory_detail_1%26rnd%3D138661161'>
+                <div class="backLink">イベントメモリーTOPへ</div>
+            </a><a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmypage%3Fl_frm%3DMemory_detail_2%26rnd%3D145375693'>
+                <div class="backLink">マイスタジオ</div>
+            </a>
+            <script type="text/javascript">
+                $(function() {
+                    $('form').bind('submit', function() {
+                        var $submit = $("input[type=submit], input[type=reset]");
+                        for (var i = 0; i < $submit.length; i++) {
+                            if ($submit.eq(i).val() != '' && !$submit.eq(i).hasClass('jsNotDisabled')) {
+                                $submit.eq(i).val('送信中');
+                                $submit.eq(i).prop('disabled', true);
+                                var prev = $submit.eq(i).prev();
+                                if (prev.hasClass('btn_text')) {
+                                    prev.text('送信中');
+                                    if ($submit.eq(i).parent()[0].tagName == 'LABEL') {
+                                        $submit.eq(i).parent().removeClass('_line_2');
+                                    }
+                                }
+                            } else if (!$submit.eq(i).hasClass('jsNotDisabled')) {
+                                $submit.eq(i).prop('disabled', true);
+                            }
+                            if ($submit.eq(i).parent()[0].tagName == 'LABEL') {
+                                $submit.eq(i).parent().css({
+                                    "opacity": "0.5"
+                                });
+                            }
+                        }
+                        $(".livebutton input[type='submit']").val('').css({
+                            "opacity": "0.5"
+                        }).prop('disabled', true);
+                        var $imagesub = $("input[type='image']");
+                        $imagesub.prop('disabled', true);
+                        for (var i = 0; i < $imagesub.length; i++) {
+                            if (!$imagesub.eq(i).attr('class')) {
+                                $imagesub.eq(i).css({
+                                    "opacity": "0.5"
+                                });
+                                continue;
+                            }
+                            if ($imagesub.eq(i).attr('class').indexOf('noop') == -1) {
+                                $imagesub.eq(i).css({
+                                    "opacity": "0.5"
+                                });
+                            } else {
+                                $imagesub.eq(i).css({
+                                    "opacity": "1"
+                                });
+                            }
+                        }
+                        setTimeout(function() {
+                            $submit.prop('disabled', false).parent().css({
+                                "opacity": "1"
+                            });
+                            $imagesub.prop('disabled', false).css({
+                                "opacity": "1"
+                            });
+                            $(".livebutton input[type='submit']").css({
+                                "opacity": "1"
+                            });
+                        }, 2500);
+                    });
+                    $(".submit a").click(function() {
+                        $(this).click(function() {
+                            return false;
+                        })
+                        $(".submit").find("img").css({
+                            "opacity": "0.5"
+                        });
+                        setTimeout(function() {
+                            $(this).click(function() {
+                                return true;
+                            })
+                            $(".submit").find("img").css({
+                                "opacity": "1"
+                            });
+                        }, 2500);
+                    });
+                    $('body').on("click", '.stop-repeat-link', function(e) {
+                        var self = $('.stop-repeat-link');
+                        self.css({
+                            'pointer-events': 'none',
+                            'opacity': 0.6
+                        });
+                        setTimeout(function() {
+                            self.css({
+                                'pointer-events': 'auto',
+                                'opacity': 1
+                            });
+                        }, 2500);
+                    });
+                });
+            </script>
+            <footer>
+                <div class="line_idolmaster"></div><a href="#top" id="toPageTop" class="mypage_under">
+                    <div></div>
+                </a>
+                <div class="t-Cnt">(C)窪岡俊之 (C)2011 BNEI</div>
+            </footer>
+        </div>
+    </div>
+    <div id="mbga-pf-footer">
+        <div class="mbga-pf-footer-container odd-lines mbga-pf-footer-white">
+            <ul>
+                <li class="mbga-pf-footer-list">
+                    <div class="mbga-pf-fotter-content">
+                        <a class="mbga-pf-footer-arrow" href="http://sp.mbga.jp/_grp_view?g=32095227">
+                            <span class="mbga-pf-footer-caption">公式サークル</span>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="mbga-pf-footer-navbar">
+            <ul class="mbga-pf-box-h">
+                <li id="mbga-pf-footer-navbar-icon-grid" class="mbga-pf-footer-li">
+                    <a class="mbga-pf-footer-a mbga-pf-footer-home-w" href="http://sp.mbga.jp/?_from=globalfooter">
+                        <span class="mbga-pf-footer-txt">ホーム</span>
+                    </a>
+                </li>
+                <li id="mbga-pf-footer-navbar-icon-mypage" class="mbga-pf-footer-li">
+                    <a class="mbga-pf-footer-a mbga-pf-footer-mypage-w" href="http://sp.mbga.jp/_my0?_from=globalfooter">
+                        <span class="mbga-pf-footer-txt">マイページ</span>
+                    </a>
+                </li>
+                <li id="mbga-pf-footer-navbar-icon-mygame" class="mbga-pf-footer-li">
+                    <a class="mbga-pf-footer-a mbga-pf-footer-mygame-w" href="http://sp.mbga.jp/_game_my_top?_from=globalfooter">
+                        <span class="mbga-pf-footer-txt">マイゲーム</span>
+                    </a>
+                </li>
+                <li id="mbga-pf-footer-navbar-icon-notification" class="mbga-pf-footer-li">
+                    <a class="mbga-pf-footer-a mbga-pf-footer-game-w" href="http://sp.mbga.jp/_game_top?_from=globalfooter">
+                        <span class="mbga-pf-footer-txt">ゲーム</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <script type="text/javascript" charset="UTF-8">
+            (function() {
+                document.addEventListener('DOMContentLoaded', function() {
+                    var list = document.getElementsByClassName('mbga-pf-footer-li');
+                    var i = 0,
+                        l = list.length;
+                    for (; i < l; i++) {
+                        var elem = list[i];
+                        elem.addEventListener('touchstart', function(e) {
+                            e.currentTarget.className = e.currentTarget.className.replace(/$/, ' mbga-pf-tapped');
+                        });
+                        elem.addEventListener('touchend', function(e) {
+                            e.currentTarget.className = e.currentTarget.className.replace(/ mbga-pf-tapped/, '');
+                        });
+                        elem.addEventListener('touchmove', function(e) {});
+                    }
+                });
+            })();
+        </script>
+    </div>
+</body>
+
+</html>
