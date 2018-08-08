@@ -1,0 +1,721 @@
+.large {
+	font-size: 22px
+}
+.small {
+	font-size: 10px
+}
+.red {
+	color: #ff0000
+}
+.red_mild {
+	color: #ff3333
+}
+.green {
+	color: #33ff33
+}
+.yellow {
+	color: #ff9900
+}
+.lemon_yellow {
+	color: #fff800
+}
+.blue {
+	color: #00ccff
+}
+.blue_st {
+	color: #0066ff
+}
+.gray {
+	color: #aaaaaa
+}
+.pink {
+	color: #f08080
+}
+.dark_gray {
+	color: #666666
+}
+.white {
+	color: #ffffff;
+	text-decoration: none
+}
+.defMargin {
+	width: 296px;
+	padding: 0 12px
+}
+.m-Btm0 {
+	margin-bottom: 0px
+}
+.m-Btm4 {
+	margin-bottom: 4px
+}
+.m-Btm5 {
+	margin-bottom: 5px
+}
+.m-Btm8 {
+	margin-bottom: 8px
+}
+.m-Btm10 {
+	margin-bottom: 10px
+}
+.m-Btm12 {
+	margin-bottom: 12px
+}
+.m-Btm15 {
+	margin-bottom: 15px
+}
+.m-Btm20 {
+	margin-bottom: 20px
+}
+.m-Top4 {
+	margin-top: 4px
+}
+.m-Top5 {
+	margin-top: 5px
+}
+.m-Top8 {
+	margin-top: 8px
+}
+.m-Top10 {
+	margin-top: 10px
+}
+.m-Top12 {
+	margin-top: 12px
+}
+.m-Head_img {
+	margin-top: -14px
+}
+.m-Cnt {
+	margin-left: auto;
+	margin-right: auto
+}
+.t-Lft {
+	text-align: left
+}
+.t-Rgt {
+	text-align: right
+}
+.t-Cnt {
+	text-align: center
+}
+.left_float {
+	float: left
+}
+.right_float {
+	float: right
+}
+.displayBox {
+	display: -webkit-box;
+	display: -moz-box;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto
+}
+.v-Top {
+	vertical-align: top
+}
+.v-Mdl {
+	vertical-align: middle
+}
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: block
+}
+.l-Hgt120 {
+	line-height: 120%
+}
+.l-Hgt140 {
+	line-height: 140%
+}
+.story_base {
+	display: block;
+	position: relative;
+	margin: 13px auto;
+	border-radius: 7px
+}
+.story_base:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 9px transparent solid;
+	border-top: 9px #1D1D1D solid;
+	border-left: 9px #1D1D1D solid
+}
+.story_base:after {
+	display: block;
+	content: "";
+	position: absolute;
+	z-index: 0
+}
+.story_base .event_story_clear {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -420px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 43px;
+	height: 13px;
+	display: block;
+	position: absolute;
+	z-index: 1;
+	bottom: -1px;
+	right: 4px
+}
+.story_base .event_story_title {
+	position: absolute;
+	left: 7px;
+	top: 10px;
+	z-index: 1;
+	font-size: 14px
+}
+.story_base .event_story_title>p {
+	color: white;
+	text-shadow: 0px 2px 1px #1d1d1d, 0px 1px 1px #1d1d1d, 1px 1px 1px #1d1d1d, 1px 0px 1px #1d1d1d, 2px 0px 1px #1d1d1d, 1px -1px 1px #1d1d1d, 1px -2px 1px #1d1d1d, 0px -2px 1px #1d1d1d, -1px -2px 1px #1d1d1d, -2px -2px 1px #1d1d1d, -2px -1px 1px #1d1d1d, -2px 0px 1px #1d1d1d, -2px 1px 1px #1d1d1d, -1px 1px 1px #1d1d1d;
+	width: 156px;
+	height: 38px;
+	display: table-cell;
+	vertical-align: middle;
+	line-height: 1
+}
+.story_base .event_story_chara {
+	position: absolute;
+	overflow: hidden;
+	width: 120px;
+	height: 42px;
+	top: 1px;
+	right: 1px;
+	box-sizing: border-box;
+	border: 1px transparent solid;
+	border-left: none;
+	border-radius: 4px
+}
+.story_base .event_story_chara:before {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -854px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 280px;
+	height: 44px;
+	content: "";
+	top: -2px;
+	left: -159px;
+	position: absolute
+}
+.story_base .event_story_chara>img {
+	width: 160px;
+	position: absolute;
+	top: -38px;
+	left: 5px
+}
+.story_base .event_story_chara.old>img {
+	top: -24px
+}
+.story_base .story_stage_title {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 35px
+}
+.story_st1:after {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -225px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 280px;
+	height: 44px
+}
+.story_st1 .story_stage_title {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -734px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 60px;
+	height: 14px
+}
+.story_stage_title_locked_st1 {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -839px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 60px;
+	height: 14px;
+	position: absolute;
+	top: 0;
+	left: 35px
+}
+.story_st2:after {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -180px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 280px;
+	height: 44px
+}
+.story_st2 .story_stage_title {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -614px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 60px;
+	height: 14px
+}
+.story_stage_title_locked_st2 {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -749px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 60px;
+	height: 14px;
+	position: absolute;
+	top: 0;
+	left: 35px
+}
+.story_st3:after {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -90px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 280px;
+	height: 44px
+}
+.story_st3 .story_stage_title {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -704px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 60px;
+	height: 14px
+}
+.story_stage_title_locked_st3 {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -809px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 60px;
+	height: 14px;
+	position: absolute;
+	top: 0;
+	left: 35px
+}
+.story_st4:after {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -45px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 280px;
+	height: 44px
+}
+.story_st4 .story_stage_title {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -629px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 60px;
+	height: 14px
+}
+.story_stage_title_locked_st4 {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -764px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 60px;
+	height: 14px;
+	position: absolute;
+	top: 0;
+	left: 35px
+}
+.story_st5:after {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -315px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 280px;
+	height: 44px
+}
+.story_st5 .story_stage_title {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -779px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 60px;
+	height: 14px
+}
+.story_stage_title_locked_st5 {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -824px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 60px;
+	height: 14px;
+	position: absolute;
+	top: 0;
+	left: 35px
+}
+.story_st6:after {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -270px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 280px;
+	height: 44px
+}
+.story_st6 .story_stage_title {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -539px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 60px;
+	height: 14px
+}
+.story_stage_title_locked_st6 {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -674px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 60px;
+	height: 14px;
+	position: absolute;
+	top: 0;
+	left: 35px
+}
+.story_st7:after {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -135px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 280px;
+	height: 44px
+}
+.story_st7 .story_stage_title {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -659px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 60px;
+	height: 14px
+}
+.story_stage_title_locked_st7 {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -794px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 60px;
+	height: 14px;
+	position: absolute;
+	top: 0;
+	left: 35px
+}
+.story_st8:after {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -225px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 280px;
+	height: 44px
+}
+.story_st8 .story_stage_title {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -599px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 60px;
+	height: 14px
+}
+.story_stage_title_locked_st8 {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -719px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 60px;
+	height: 14px;
+	position: absolute;
+	top: 0;
+	left: 35px
+}
+.story_st9:after {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -180px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 280px;
+	height: 44px
+}
+.story_st9 .story_stage_title {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -644px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 60px;
+	height: 14px
+}
+.story_stage_title_locked_st9 {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -689px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 60px;
+	height: 14px;
+	position: absolute;
+	top: 0;
+	left: 35px
+}
+.story_st10:after {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -90px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 280px;
+	height: 44px
+}
+.story_st10 .story_stage_title {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -464px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 68px;
+	height: 14px
+}
+.story_stage_title_locked_st10 {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -554px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 68px;
+	height: 14px;
+	position: absolute;
+	top: 0;
+	left: 35px
+}
+.story_st11:after {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -45px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 280px;
+	height: 44px
+}
+.story_st11 .story_stage_title {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -494px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 68px;
+	height: 14px
+}
+.story_stage_title_locked_st11 {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -584px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 68px;
+	height: 14px;
+	position: absolute;
+	top: 0;
+	left: 35px
+}
+.story_st12:after {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -315px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 280px;
+	height: 44px
+}
+.story_st12 .story_stage_title {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -449px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 68px;
+	height: 14px
+}
+.story_stage_title_locked_st12 {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -524px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 68px;
+	height: 14px;
+	position: absolute;
+	top: 0;
+	left: 35px
+}
+.story_st13:after {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -270px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 280px;
+	height: 44px
+}
+.story_st13 .story_stage_title {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -509px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 68px;
+	height: 14px
+}
+.story_stage_title_locked_st13 {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -569px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 68px;
+	height: 14px;
+	position: absolute;
+	top: 0;
+	left: 35px
+}
+.story_st14:after {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -135px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 280px;
+	height: 44px
+}
+.story_st14 .story_stage_title {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -434px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 68px;
+	height: 14px
+}
+.story_stage_title_locked_st14 {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -479px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 68px;
+	height: 14px;
+	position: absolute;
+	top: 0;
+	left: 35px
+}
+.story_blank {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Fstory-s0d8fd5c0e9.png%3F1491803328) no-repeat 0 -360px;
+	-webkit-background-size: 280px 897px;
+	background-size: 280px 897px;
+	width: 280px;
+	height: 44px;
+	display: block;
+	position: relative;
+	margin: 13px auto
+}
+.unit_collection_blank {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Funit-s9deffe64bc.png%3F1487720051) no-repeat 0 -90px;
+	-webkit-background-size: 280px 182px;
+	background-size: 280px 182px;
+	width: 280px;
+	height: 44px;
+	display: block;
+	position: relative;
+	margin: 13px auto
+}
+.unit_collection_blank .event_story_side_lock {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Funit-s9deffe64bc.png%3F1487720051) no-repeat 0 -167px;
+	-webkit-background-size: 280px 182px;
+	background-size: 280px 182px;
+	width: 65px;
+	height: 15px;
+	display: block;
+	position: absolute;
+	top: -6px;
+	right: 0
+}
+.unit_collection {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Funit-s9deffe64bc.png%3F1487720051) no-repeat 0 0;
+	-webkit-background-size: 280px 182px;
+	background-size: 280px 182px;
+	width: 280px;
+	height: 44px;
+	display: block;
+	position: relative;
+	margin: 13px auto
+}
+.unit_collection:after {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Funit-s9deffe64bc.png%3F1487720051) no-repeat 0 -45px;
+	-webkit-background-size: 280px 182px;
+	background-size: 280px 182px;
+	width: 280px;
+	height: 44px;
+	display: block;
+	content: "";
+	position: absolute;
+	z-index: 0
+}
+.unit_collection .event_story_clear {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Funit-s9deffe64bc.png%3F1487720051) no-repeat 0 -135px;
+	-webkit-background-size: 280px 182px;
+	background-size: 280px 182px;
+	width: 75px;
+	height: 15px;
+	display: block;
+	position: absolute;
+	z-index: 1;
+	top: -6px
+}
+.unit_collection .event_story_title {
+	position: absolute;
+	left: 7px;
+	top: 2px;
+	z-index: 1
+}
+.unit_collection .event_story_title>p {
+	color: white;
+	text-shadow: 0px 2px 1px #0021ad, 0px 1px 1px #0021ad, 1px 1px 1px #0021ad, 1px 0px 1px #0021ad, 2px 0px 1px #0021ad, 1px -1px 1px #0021ad, 1px -2px 1px #0021ad, 0px -2px 1px #0021ad, -1px -2px 1px #0021ad, -2px -2px 1px #0021ad, -2px -1px 1px #0021ad, -2px 0px 1px #0021ad, -2px 1px 1px #0021ad, -1px 1px 1px #0021ad;
+	width: 156px;
+	height: 38px;
+	display: table-cell;
+	vertical-align: middle;
+	line-height: 1
+}
+.unit_collection .event_story_side {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcarnival%2Fsprite%2Funit-s9deffe64bc.png%3F1487720051) no-repeat 0 -151px;
+	-webkit-background-size: 280px 182px;
+	background-size: 280px 182px;
+	width: 65px;
+	height: 15px;
+	display: block;
+	position: absolute;
+	z-index: 1;
+	top: -6px;
+	right: 0
+}
+.unit_collection .event_story_chara {
+	position: absolute;
+	overflow: hidden;
+	width: 120px;
+	height: 40px;
+	top: 0px;
+	right: 2px;
+	box-sizing: border-box;
+	border: 1px rgba(0, 0, 0, 0) solid;
+	border-radius: 4px
+}
+.unit_collection .event_story_chara>img {
+	width: 120px;
+	position: absolute;
+	top: -17px;
+	right: 0
+}
+.unit_collection .event_story_chara:after {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 10px;
+	background: -webkit-linear-gradient(left, #fff 0%, rgba(255, 255, 255, 0) 100%)
+}
