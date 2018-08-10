@@ -9,18 +9,21 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimal-ui">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href='../../12008305/css/game/pex.css' media="all">
-    <script src='../../12008305/js/jquery-1.9.1.min.js'></script>
-    <script src='../../12008305/js/pex-1.2.0.js'></script>
-    <script src='../../12008305/js/pex_common.js'></script>
+    <link rel="stylesheet" href='../../../../../12008305/css/game/pex.css' media="all">
+    <script src='../../../../../12008305/js/jquery-1.9.1.min.js'>
+    </script>
+    <script src='../../../../../12008305/js/pex-1.2.0.js'>
+    </script>
+    <script src='../../../../../12008305/js/pex_common.js'>
+    </script>
     <script>
         $(document).ready(function() {
             if (typeof newrelic === 'object' && typeof newrelic.setPageViewName === 'function') {
-                newrelic.setPageViewName('/idolmaster/index.php/smart_phone_flash/convert/idol_storySsSsflashSsSs269SsSs2SsSs1SsSsidol_gallery--idol_detail--ab148b33c781fb0345cd41403adb0424--2SsSs0/0/0/0/1/0/1/0/0');
+                newrelic.setPageViewName('/idolmaster/index.php/smart_phone_flash/convert/idol_storySsSsflashSsSs269SsSs2SsSs1SsSsidol_gallery--idol_detail--89e0c550a69afb655275039c74cb0b2b--2SsSs0/0/0/0/1/0/1/0/0');
             }
         });
     </script>
-    <title>ｱｲﾄﾞﾙﾏｽﾀｰ ｼﾝﾃﾞﾚﾗｶﾞｰﾙｽﾞ </title>
+    <title>아이돌마스터 신데렐라 걸즈 </title>
     <style>
         #container {
             position: relative;
@@ -55,6 +58,11 @@
             z-index: 200;
         }
     </style>
+    <style>
+        #mbga-pf-footer {
+            display: none;
+        }
+    </style>
     <script>
         var isTouch = ('ontouchstart' in window);
         var isSp = false;
@@ -65,6 +73,43 @@
         var width = 240 * displayScaleValue * 2;
         marginLeft = widthMarginCheck(displayScaleValue);
         marginTop = topMarginCheck(displayScaleValue);
+
+        function setScrollTop() {
+            if (document.documentElement) {
+                document.documentElement.scrollTop = 0;
+            }
+            if (document.body) {
+                document.body.scrollTop = 0
+            }
+        }
+        window.addEventListener("DOMContentLoaded", function() {
+            no_scroll();
+
+            function no_scroll() {
+                var scroll_event = 'onwheel' in document ? 'wheel' : 'onmousewheel' in document ? 'mousewheel' : 'DOMMouseScroll';
+                document.addEventListener(scroll_event, function(e) {
+                    e.preventDefault()
+                }, {
+                    passive: false
+                });
+                document.addEventListener('touchstart', function(e) {
+                    setScrollTop()
+                }, {
+                    passive: false
+                });
+                document.addEventListener('touchend', function(e) {
+                    setScrollTop()
+                }, {
+                    passive: false
+                });
+                document.addEventListener('touchmove', function(e) {
+                    setScrollTop();
+                    e.preventDefault()
+                }, {
+                    passive: false
+                });
+            }
+        });
         window.onunload = function() {};
         window.onload = function() {
             var option = {
@@ -81,8 +126,11 @@
             container.setAttribute("style", "margin-left:" + (marginLeft) + "px");
             container.style.marginTop = (marginTop) + "px";
             container.style.zoom = "50%";
-            container.style.marginBottom = "1200px";
-            var pex = new Pex('https://furiousjhin.github.io/album/test/flash/test_last.swf', "container", option);
+            container.style.height = (window.outerHeight * 2 - marginTop) + "px";
+            var pex = new Pex('episode.swf', "container", option);
+            pex.getAPI().ready(function() {
+                setScrollTop();
+            });
             var pexApi = pex.getAPI();
             window.pexApi = pexApi;
             (function($) {
@@ -122,7 +170,7 @@
         };
 
         function redirect() {
-            location.href = "http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Ferror%3Fl_frm%3DSmart_phone_flash_convert_1%26rnd%3D782881319";
+            location.href = "http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Ferror%3Fl_frm%3DSmart_phone_flash_convert_1%26rnd%3D303081521";
         };
 
         function isFlash() {
@@ -249,18 +297,22 @@
             chrome_app_flg = 0,
             chrome_app_extension_id = 'dnacabmnfmejgfffmcehejcmiciinpej';
     </script>
-    <script type='text/javascript' src='../../12008305/js/app_sound.js'></script>
-    <link rel="stylesheet" type="text/css" href="../../css/base.css" />
+    <script type='text/javascript' src='../../../../../12008305/js/app_sound.js'>
+    </script>
+    <link rel="stylesheet" type="text/css" href="../../../../../css/base.css" />
 </head>
 
 <body style="height:100%">
-    <a href="#" id="voiceTouch"></a><div id="container"></div>
+    <a href="#" id="voiceTouch"></a>
+    <div id="container"></div>
     <script>
         white_flag = 0;
         vote_simple_swf_flg = 0;
     </script>
-    <script src="../../12008305/js/boombox.min.js"></script>
-    <script src="../../12008305/js/voice_2.js"></script>
+    <script src="../../../../../12008305/js/boombox.min.js">
+    </script>
+    <script src="../../../../../12008305/js/voice_2.js">
+    </script>
     <div id="mbga-pf-footer">
         <div class="mbga-pf-footer-container odd-lines mbga-pf-footer-white">
             <ul>
