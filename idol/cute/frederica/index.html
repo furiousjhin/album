@@ -477,7 +477,7 @@
                                                         <% val2 = val.icon[key2] %>
                                                             <% if (+val.open_flag[key2]) { %>
                                                                 <li style="<% if (total == 2) { %>width:50%;<% } else if(total == 3) { %> width:33%; <% } else { %>margin:0 5px;<% } %>">
-                                                                    <form method="post" action="<%- val.flash_path[key2].replace('__hash_card_id__', idol_detail.data.hash_card_id) %>" style="height:90px;">
+                                                                    <form method="get" action="<%- val.flash_path[key2].replace('__hash_card_id__', idol_detail.data.hash_card_id) %>" style="height:90px;">
                                                                         <input type="image" src="<%- val2 %>" height="75" class="jsOnDesignBtn"><br>
                                                                         <% if (+val.voice_enable[key2]) { %>
                                                                             <input class="movie_name jsOnDesignBtn" type="image" src="<%- val.movie_name_voice[key2] %>" width="77" style="width:77px;position:relative;top:-15px;"><br>
