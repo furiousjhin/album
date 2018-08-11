@@ -300,8 +300,9 @@
     <script type='text/javascript' src='../../../../../12008305/js/app_sound.js'>
     </script>
     <link rel="stylesheet" type="text/css" href="../../../../../css/base.css" />
+</head>
 
-    //파라메터에서 voice on/off 가져오기?
+<body style="height:100%">
     <script type="text/javascript">
         var urlParams = location.search.split(/[?&]/).slice(1).map(function(paramPair){
           return paramPair.split(/=(.+)?/).slice(0, 2);
@@ -310,11 +311,8 @@
           return ojb;
         }, {});
 
-        var voiceOn = urlParams.voice;
+      var voiceOn = urlParams.voice;
     </script>
-</head>
-
-<body style="height:100%">
     <a href="#" id="voiceTouch"></a>
     <div id="container"></div>
     <script>
