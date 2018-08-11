@@ -304,14 +304,14 @@
 
 <body style="height:100%">
     <script type="text/javascript">
-        var urlParams = location.search.split(/[?&]/).slice(1).map(function(paramPair){
-          return paramPair.split(/=(.+)?/).slice(0, 2);
-        }).reduce(function(obj, pairArray){
-          obj[pairArray[0]] = pairArray[1];
-          return ojb;
-        }, {});
+        function getParameterByName(name) {
+            name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+            var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+                results = regex.exec(location.search);
+                return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+        }
 
-      var voiceOn = urlParams.voice;
+        var voiceOn = getParameterByName('voice');
     </script>
     <a href="#" id="voiceTouch"></a>
     <div id="container"></div>
