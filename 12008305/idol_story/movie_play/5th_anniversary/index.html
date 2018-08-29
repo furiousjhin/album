@@ -9,10 +9,10 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimal-ui">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href='../../../../../12008305/css/game/pex.css' media="all">
-    <script src='../../../../../12008305/js/jquery-1.9.1.min.js'></script>
-    <script src='../../../../../12008305/js/pex-1.2.0.js'></script>
-    <script src='../../../../../12008305/js/pex_common.js'></script>
+    <link rel="stylesheet" href='../../../../12008305/css/game/pex.css' media="all">
+    <script src='../../../../12008305/js/jquery-1.9.1.min.js'></script>
+    <script src='../../../../12008305/js/pex-1.2.0.js'></script>
+    <script src='../../../../12008305/js/pex_common.js'></script>
     <script>
         $(document).ready(function() {
             if (typeof newrelic === 'object' && typeof newrelic.setPageViewName === 'function') {
@@ -22,6 +22,16 @@
     </script>
     <title>아이돌마스터 신데렐라 걸즈 </title>
     <style>#mbga-pf-footer {display:none;}</style>
+    <script type="text/javascript"> // 파라미터 가져오기
+        function getParameterByName(name) {
+            name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+            var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+                results = regex.exec(location.search);
+                return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+        }
+
+        var card_hash = getParameterByName('card_hash');
+    </script>
     <script>
         var isTouch = ('ontouchstart' in window);
         var isSp = false;
@@ -85,7 +95,7 @@
             container.style.marginTop = (marginTop) + "px";
             container.style.zoom = "50%";
             container.style.height = (window.outerHeight * 2 - marginTop) + "px";
-            var pex = new Pex('episode.swf', "container", option);
+            var pex = new Pex('/' + card_hash + '/episode.swf', "container", option);
             pex.getAPI().ready(function() {
                 setScrollTop();
             });
@@ -255,8 +265,8 @@
             chrome_app_flg = 0,
             chrome_app_extension_id = 'dnacabmnfmejgfffmcehejcmiciinpej';
     </script>
-    <script type='text/javascript' src='../../../../../12008305/js/app_sound.js'></script>
-    <link rel="stylesheet" type="text/css" href="../../../../../css/base.css" />
+    <script type='text/javascript' src='../../../../12008305/js/app_sound.js'></script>
+    <link rel="stylesheet" type="text/css" href="../../../../css/base.css" />
 </head>
 
 <body style="height:100%">
