@@ -67,6 +67,16 @@
 </head>
 
 <body id="idol_gallery" class="idol_detail">
+  <script type="text/javascript"> // 파라미터 가져오기
+      function getParameterByName(name) {
+          name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+          var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+              results = regex.exec(location.search);
+              return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+      }
+
+      var producer = getParameterByName('pro');
+  </script>
     <div id="top" class="page_container jsOnBtn">
         <nav class="area_menu_header">
             <div class="area_menu_header_6btn">
@@ -771,7 +781,7 @@
                         "comments_my_1": "하이♪ 프로듀서! 안녕? ",
                         "comments_my_2": "오늘은 뭐 할까~",
                         "comments_my_3": "후아~, 밤샘 촬영은 졸리네에",
-                        "comments_my_4": "○○○프로듀서~! 나, 오늘은 레슨받고 싶은데에~",
+                        "comments_my_4": producer + "프로듀서~! 나, 오늘은 레슨받고 싶은데에~",
                         "comments_my_max": "○○○프로듀서, 오늘의 코디네이트 멋지네♪",
                         "comments_work_1": "나한테 맡기면 확실해♪",
                         "comments_work_2": "수고하셨습니다~! ",
