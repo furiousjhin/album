@@ -74,7 +74,7 @@
               results = regex.exec(location.search);
               return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
       }
-      var producer = getParameterByName('pro');
+      var producer = getParameterByName('pro') + " ";
 
       if(producer == "")
       {
@@ -786,15 +786,15 @@
                         "comments_my_2": "오늘은 뭐 할까~",
                         "comments_my_3": "후아~, 밤샘 촬영은 졸리네에",
                         "comments_my_4": producer + "프로듀서~! 나, 오늘은 레슨받고 싶은데에~",
-                        "comments_my_max": "○○○프로듀서, 오늘의 코디네이트 멋지네♪",
+                        "comments_my_max": producer + "프로듀서, 오늘의 코디네이트 멋지네♪",
                         "comments_work_1": "나한테 맡기면 확실해♪",
                         "comments_work_2": "수고하셨습니다~! ",
                         "comments_work_3": "일거리 실부플레~? ",
-                        "comments_work_4": "○○○프로듀서의 다음 장소는 오디임니카~? …어때? 혼혈 같아? ",
+                        "comments_work_4": producer + "프로듀서 다음 장소는 오디임니카~? …어때? 혼혈 같아? ",
                         "comments_work_max": "다음은, Live야? 레슨이야? 아니면 나･아･야? 막 이래~♪",
-                        "comments_work_love_up": "○○○프로듀서, 일 즐겁네~♪",
+                        "comments_work_love_up": producer + "프로듀서, 일 즐겁네~♪",
                         "comments_live": "받아라! 갈레트 브르통!!! ",
-                        "comments_love_max": "○○○프로듀서, 나를 프로듀스해줘서 정말로 고마워~! 진심으로 감사하고 있어♪"
+                        "comments_love_max": producer + "프로듀서, 나를 프로듀스해줘서 정말로 고마워~! 진심으로 감사하고 있어♪"
                     },
                     "voice": {
                         "comment": "../../../sound/1200501comment.mp4",
@@ -868,16 +868,16 @@
                         "comments_my_1": "하이♪ 프로듀서! 안녕? ",
                         "comments_my_2": "오늘은 뭐 할까~",
                         "comments_my_3": "흥흥흐흥~흥흐흐~, 프레데리카~♪",
-                        "comments_my_4": "○○○프로듀서! 나, 오늘은 Live에 나가고 싶어~",
-                        "comments_my_max": "오늘도 보러 와줘서 고마워~♪ ○○○프로듀서~! ",
+                        "comments_my_4": producer + "프로듀서! 나, 오늘은 Live에 나가고 싶어~",
+                        "comments_my_max": "오늘도 보러 와줘서 고마워~♪ " + producer + "프로듀서~! ",
                         "comments_work_1": "나한테 맡기면 확실해♪",
                         "comments_work_2": "수고하셨습니다~! ",
                         "comments_work_3": "메르시~보쿠~……? ",
-                        "comments_work_4": "○○○프로듀서, 오늘도 내일도 힘내자~~!! ",
-                        "comments_work_max": "○○○프로듀서! 열심히 해준 보상으로 쪽~ 해줄게♪",
-                        "comments_work_love_up": "○○○프로듀서, 나를 계~속 프로듀스해줘♪",
+                        "comments_work_4": producer + "프로듀서, 오늘도 내일도 힘내자~~!! ",
+                        "comments_work_max": producer + "프로듀서! 열심히 해준 보상으로 쪽~ 해줄게♪",
+                        "comments_work_love_up": producer + "프로듀서, 나를 계~속 프로듀스해줘♪",
                         "comments_live": "필살! 비스퀴 드 사부아~! ",
-                        "comments_love_max": "○○○프로듀서, 나를 여기까지 키워줘서 고마워~! 덕분에 프레데리카는 이렇게 크게 성장했답니다~! "
+                        "comments_love_max": producer + "프로듀서, 나를 여기까지 키워줘서 고마워~! 덕분에 프레데리카는 이렇게 크게 성장했답니다~! "
                     },
                     "voice": {
                         "comment": "../../../sound/1300502/comment.mp4",
@@ -941,20 +941,20 @@
                         "card_cv": "\u9ad9\u91ce\u9ebb\u7f8e"
                     },
                     "comments": {
-                        "comment": "흥흥흐흐~…어라, 이거 어떻게 하는 거야~? 허리띠 묶는 법 모르겠어~. 그야, 나, 유카타 같은 거 입어본 적이 없거든~! 그러니까, ○○○프로듀서, 묶어줘 묶어줘~? 앗, 갑자기 가까워~♪",
+                        "comment": "흥흥흐흐~…어라, 이거 어떻게 하는 거야~? 허리띠 묶는 법 모르겠어~. 그야, 나, 유카타 같은 거 입어본 적이 없거든~! 그러니까, " + producer + "프로듀서, 묶어줘 묶어줘~? 앗, 갑자기 가까워~♪",
                         "comments_my_1": "혼욕이 아니야~! 유감~?",
                         "comments_my_2": "등 좀, 실부플레~?",
                         "comments_my_3": "벗어버릴까나! 거짓말~♪",
                         "comments_my_4": "오늘 밤은 방에서, 아침까지 밤샘이지! 어, 피부에 안 좋아? 온천으로 때우자~♪",
-                        "comments_my_max": "○○○프로듀서, 유카타 입은 모습 멋진데! 역시 나의 담당P~♪",
+                        "comments_my_max": producer + "프로듀서, 유카타 입은 모습 멋진데! 역시 나의 담당P~♪",
                         "comments_work_1": "왠지, 조금 미지근~한데♪",
                         "comments_work_2": "슬슬 올라가도 될까~?",
                         "comments_work_3": "자신있는 피부가 더욱 아름답게~♪",
                         "comments_work_4": "재미있어 보여서 더는 못 기다려! 저기, 빨리 끝내고 목욕하러 가자~?",
-                        "comments_work_max": "○○○프로듀서한테, 온천 마을 가이드 하･는･일･이네♪",
-                        "comments_work_love_up": "○○○프로듀서도, 유카타 입어봐! 자, 벗어 벗어♪",
+                        "comments_work_max": producer + "프로듀서한테, 온천 마을 가이드 하･는･일･이네♪",
+                        "comments_work_love_up": producer + "프로듀서도, 유카타 입어봐! 자, 벗어 벗어♪",
                         "comments_live": "목욕 후에는! 커피 우유!!",
-                        "comments_love_max": "모두랑 온천이라니, ○○○프로듀서 상냥해~! 저기, 프랑스어로 온천을 뭐라고 하는지 알아? 어~…나 정답 몰~라♪"
+                        "comments_love_max": "모두랑 온천이라니, " + producer + "프로듀서 상냥해~! 저기, 프랑스어로 온천을 뭐라고 하는지 알아? 어~…나 정답 몰~라♪"
                     },
                     "voice": {
                         "comment": "../../../sound/1212901/comment.mp4",
@@ -1023,15 +1023,15 @@
                         "comments_my_2": "등 좀, 실부플레~?",
                         "comments_my_3": "온천달걀 먹고 싶어! 껍질 까줘♪",
                         "comments_my_4": "초☆반장이란 게 뭐야~? 음~, 생각해봐도 초☆모르겠는걸!",
-                        "comments_my_max": "숙박하니까 ○○○프로듀서한테 잔뜩 장난쳐야지! 막 이래♪",
+                        "comments_my_max": "숙박하니까 " + producer + "프로듀서한테 잔뜩 장난쳐야지! 막 이래♪",
                         "comments_work_1": "왠지, 조금 미지근~한데♪",
                         "comments_work_2": "슬슬 올라가도 될까~?",
                         "comments_work_3": "나, 예뻐진 거 같아?",
                         "comments_work_4": "레이코 씨의 데헷페로, 굉장해! 진짜로 먹을 수 있을 거 같아!",
-                        "comments_work_max": "후~! 뜨거워~♪ 땀 식을 때까지 기다려줘, ○○○프로듀서!",
+                        "comments_work_max": "후~! 뜨거워~♪ 땀 식을 때까지 기다려줘, " + producer + "프로듀서!",
                         "comments_work_love_up": "온천에서 콧노래라고 한다면~? 자 하나~ 둘! 흥흥흐흥~♪",
                         "comments_live": "갓 쪄진! 온천 만쥬!!",
-                        "comments_love_max": "○○○프로듀서는, 수증기 너머로, 좋은 느낌이 전해져~♪ 그럼 수증기가 사라지면…아, 역시 좋은 느낌~☆"
+                        "comments_love_max": producer + "프로듀서는, 수증기 너머로, 좋은 느낌이 전해져~♪ 그럼 수증기가 사라지면…아, 역시 좋은 느낌~☆"
                     },
                     "voice": {
                         "comment": "../../../sound/1312902/comment.mp4",
@@ -1108,7 +1108,7 @@
                         "comments_work_max": "오조니 먹고 싶어? 자, 뜨거우니까 후~ 후~ 불어서…음~, 맛있어~♪",
                         "comments_work_love_up": "엄마가 만든 부르고뉴풍 조니도 맛있다고♪ 우리 집에 먹으러 올래~?",
                         "comments_live": "떡, 미뇽~♪",
-                        "comments_love_max": "있잖아, ○○○프로듀서, 뭐 잊어먹은 거 없어~? 모르겠다고? 그럼 힌트로 노래를 불러줄게~. 흥흥흐흥~ 설날세뱃돈~♪"
+                        "comments_love_max": "있잖아, " + producer + "프로듀서, 뭐 잊어먹은 거 없어~? 모르겠다고? 그럼 힌트로 노래를 불러줄게~. 흥흥흐흥~ 설날세뱃돈~♪"
                     },
                     "voice": {
                         "comment": "../../../sound/1225401/comment.mp4",
@@ -1177,15 +1177,15 @@
                         "comments_my_2": "아~, 올해도 365일 남은 건가~…",
                         "comments_my_3": "오세치도 좋지만, 프레데리카도!",
                         "comments_my_4": "머리에 있는 건 「귤」이 아니라 「광귤」이래. 유익한데~♪",
-                        "comments_my_max": "카가미비라키~♪ ○○○프로듀서, 나랑 조니 만들자~☆",
+                        "comments_my_max": "카가미비라키~♪ " + producer + "프로듀서, 나랑 조니 만들자~☆",
                         "comments_work_1": "첫째는 후지 산, 둘째는 매, 셋째는 후레짱~♪",
                         "comments_work_2": "흥흥~, 올해도 후레짱 컨디션 최고♪",
                         "comments_work_3": "귀여워? 딱이지♪ 떡이니까~",
                         "comments_work_4": "코 투 요로~♪ 프랑스어로 「올해도 잘 부탁해」라는 뜻이야. 거짓말이지만~",
-                        "comments_work_max": "○○○프로듀서, 근사한 설날, 메르시 보쿠♪",
+                        "comments_work_max": producer + "프로듀서, 근사한 설날, 메르시 보쿠♪",
                         "comments_work_love_up": "나랑 있으면, 잘 될 거 같은 느낌이 든다고? 자주 그런 말 들어~♪",
                         "comments_live": "새해 복 많이! 갈레트 데 루아!",
-                        "comments_love_max": "재밌었다~♪ ○○○프로듀서의 사랑으로, 내 마음도 몸도, 꿈 가득히 떡 가득히 부풀었어♪ 봐봐, 뽈록~☆"
+                        "comments_love_max": "재밌었다~♪ " + producer + "프로듀서의 사랑으로, 내 마음도 몸도, 꿈 가득히 떡 가득히 부풀었어♪ 봐봐, 뽈록~☆"
                     },
                     "voice": {
                         "comment": "../../../sound/1325402/comment.mp4",
@@ -1249,20 +1249,20 @@
                         "card_cv": null
                     },
                     "comments": {
-                        "comment": "파~앙♪ 아핫, 서프라이즈 대성공~! 역시 ○○○프로듀서, 리액션 100점 만저엄♪ 딱히 무슨 기념일 같은 건 아니지만, 폭죽이 터졌으니까 경사스러운 날이야~☆ 축하하지 않으면 안 되겠지~!",
+                        "comment": "파~앙♪ 아핫, 서프라이즈 대성공~! 역시 " + producer + "프로듀서, 리액션 100점 만저엄♪ 딱히 무슨 기념일 같은 건 아니지만, 폭죽이 터졌으니까 경사스러운 날이야~☆ 축하하지 않으면 안 되겠지~!",
                         "comments_my_1": "오늘데리카~♪ 내일데리카~♪",
                         "comments_my_2": "매일 항~상 즐거워엇",
                         "comments_my_3": "논노~온! 애정 표~현♪",
                         "comments_my_4": "언제나 활기 가득☆ 좋은 일이지~, 역시 후레짱!",
-                        "comments_my_max": "○○○프로듀서, 폭죽 들었지? 하나 둘에 가는 거야~♪",
+                        "comments_my_max": producer + "프로듀서, 폭죽 들었지? 하나 둘에 가는 거야~♪",
                         "comments_work_1": "하이텐션으로! 실부플레~☆",
                         "comments_work_2": "와오☆ 반짝반짝 미소, 항상 감사♪",
                         "comments_work_3": "폭죽, 좀 더 가져와야지~",
                         "comments_work_4": "축하하는 것도 즐겁네~♪ 오늘은 특별…아, 즐거운 건 항상 그런가!",
-                        "comments_work_max": "있잖아 있잖아 ○○○프로듀서, 매일 축하해줄까?",
-                        "comments_work_love_up": "한 번 더 터트릴게, ○○○프로듀서! 서프라이즈 제2탄☆",
+                        "comments_work_max": "있잖아 있잖아 " + producer + "프로듀서, 매일 축하해줄까?",
+                        "comments_work_love_up": "한 번 더 터트릴게, " + producer + "프로듀서! 서프라이즈 제2탄☆",
                         "comments_live": "두근두근! 봉봉 캔디!",
-                        "comments_love_max": "더 축하하고 싶다~. ○○○프로듀서랑 함께라면 내일도 모레도 쭈~욱 기념일인데 말이야~? 매일 이름 붙이는 것도 큰일♪"
+                        "comments_love_max": "더 축하하고 싶다~. " + producer + "프로듀서랑 함께라면 내일도 모레도 쭈~욱 기념일인데 말이야~? 매일 이름 붙이는 것도 큰일♪"
                     },
                     "voice": {
                         "comment": null,
@@ -1331,15 +1331,15 @@
                         "comments_my_2": "매일 항~상 즐거워엇",
                         "comments_my_3": "선택받은 마드모와젤! …은 나?",
                         "comments_my_4": "맞춰서 입은 의상, 시크해서 좋은데! 쿨한 후레짱, 절찬 판매 중☆",
-                        "comments_my_max": "○○○프로듀서 록 온~! 나의 마음, 날아가라~♪",
+                        "comments_my_max": producer + "프로듀서 록 온~! 나의 마음, 날아가라~♪",
                         "comments_work_1": "하이텐션으로! 실부플레~☆",
                         "comments_work_2": "와오☆ 반짝반짝 미소, 항상 감사♪",
                         "comments_work_3": "이제 500곡 부르는 건가~♪",
                         "comments_work_4": "쿨하지만, 활활 타올라서 두근두근, 가끔은 안절부절…이거, 알고 있지?",
-                        "comments_work_max": "○○○프로듀서! 방금 키스 날리기, 100점 만점 중에서 100 몇 점?",
-                        "comments_work_love_up": "키스 날리기, 쿨한 거랑 귀여운 것 중에서, ○○○프로듀서는 어디 파?",
+                        "comments_work_max": producer + "프로듀서! 방금 키스 날리기, 100점 만점 중에서 100 몇 점?",
+                        "comments_work_love_up": "키스 날리기, 쿨한 거랑 귀여운 것 중에서, " + producer + "프로듀서는 어디 파?",
                         "comments_live": "야경의 콩피튀르!!",
-                        "comments_love_max": "오늘 LIVE, 지금까지 한 것 중에서 최고일지도♪ ○○○프로듀서랑 함께라면, 항상 최고 기록 갱신이야! 어디까지 갈 수 있을까나~♪"
+                        "comments_love_max": "오늘 LIVE, 지금까지 한 것 중에서 최고일지도♪ " producer + "프로듀서랑 함께라면, 항상 최고 기록 갱신이야! 어디까지 갈 수 있을까나~♪"
                     },
                     "voice": {
                         "comment": null,
