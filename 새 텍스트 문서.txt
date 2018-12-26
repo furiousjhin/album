@@ -1,0 +1,1393 @@
+Push "url" "http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Fevent_story_inline_detail%2F1914%2F0%3Fstory_id%3D2%26l_frm%3DMemory_event_quest_story_swf_1%26rnd%3D289424282"
+SetVariable
+Push "iosFlg" "1"
+SetVariable
+Push "cno1" "0"
+SetVariable
+Push "bgimg1" "191401"
+SetVariable
+Push "name1" "????"
+SetVariable
+Push "cno2" "1"
+SetVariable
+Push "name2" "???"
+SetVariable
+Push "cno3" "2"
+SetVariable
+Push "pos3" "R"
+SetVariable
+Push "mov3" "in_L"
+SetVariable
+Push "msg3" "?c?c??????\n???????©©?????©©???`?"
+SetVariable
+Push "_br3" "1"
+SetVariable
+Push "cno4" "2"
+SetVariable
+Push "pos4" "R"
+SetVariable
+Push "mov4" "question_left2"
+SetVariable
+Push "msg4" "????????\n????????????????`?"
+SetVariable
+Push "_br4" "1"
+SetVariable
+Push "name3" "?????"
+SetVariable
+Push "cno5" "3"
+SetVariable
+Push "pos5" "L"
+SetVariable
+Push "mov5" "in_L"
+SetVariable
+Push "msg5" "???!"
+SetVariable
+Push "_br5" "1"
+SetVariable
+Push "chara_effect5" "1"
+SetVariable
+Push "cno6" "0"
+SetVariable
+Push "mov6" "all_out_fade"
+SetVariable
+Push "msg6" " "
+SetVariable
+Push "timing6" "4"
+SetVariable
+Push "name4" "??????"
+SetVariable
+Push "cno7" "4"
+SetVariable
+Push "pos7" "R"
+SetVariable
+Push "mov7" "in_R"
+SetVariable
+Push "msg7" "??????\n????E???????????"
+SetVariable
+Push "_br7" "1"
+SetVariable
+Push "cno8" "4"
+SetVariable
+Push "pos8" "R"
+SetVariable
+Push "mov8" "nod"
+SetVariable
+Push "msg8" "?Å°?C????????\n?????ú»????©©????????\n??????????"
+SetVariable
+Push "_br8" "1"
+SetVariable
+Push "name5" "???"
+SetVariable
+Push "cno9" "5"
+SetVariable
+Push "pos9" "L"
+SetVariable
+Push "mov9" "in_L"
+SetVariable
+Push "msg9" "???R??\n?????D?????q?©©?????"
+SetVariable
+Push "_br9" "1"
+SetVariable
+Push "cno10" "5"
+SetVariable
+Push "pos10" "L"
+SetVariable
+Push "mov10" "down"
+SetVariable
+Push "msg10" "?Å°????????{???©©????\n?l??????????????c?c?"
+SetVariable
+Push "_br10" "1"
+SetVariable
+Push "cno11" "0"
+SetVariable
+Push "mov11" "all_out_fade"
+SetVariable
+Push "msg11" " "
+SetVariable
+Push "_br11" "0"
+SetVariable
+Push "cname11" " "
+SetVariable
+Push "timing11" "4"
+SetVariable
+Push "name6" "???"
+SetVariable
+Push "cno12" "6"
+SetVariable
+Push "pos12" "L"
+SetVariable
+Push "mov12" "in_L"
+SetVariable
+Push "msg12" "???????????\n???????R??????????"
+SetVariable
+Push "_br12" "1"
+SetVariable
+Push "cno13" "2"
+SetVariable
+Push "pos13" "R"
+SetVariable
+Push "mov13" "in_R"
+SetVariable
+Push "msg13" "?c"
+SetVariable
+Push "_br13" "0"
+SetVariable
+Push "timing13" "6"
+SetVariable
+Push "cno14" "2"
+SetVariable
+Push "msg14" "?c?c"
+SetVariable
+Push "_br14" "0"
+SetVariable
+Push "timing14" "6"
+SetVariable
+Push "cno15" "2"
+SetVariable
+Push "pos15" "R"
+SetVariable
+Push "mov15" "nod"
+SetVariable
+Push "msg15" "?c?c????B"
+SetVariable
+Push "_br15" "1"
+SetVariable
+Push "cno16" "6"
+SetVariable
+Push "pos16" "L"
+SetVariable
+Push "mov16" "out"
+SetVariable
+Push "msg16" " "
+SetVariable
+Push "_br16" "0"
+SetVariable
+Push "cname16" " "
+SetVariable
+Push "timing16" "0"
+SetVariable
+Push "name7" "???"
+SetVariable
+Push "cno17" "7"
+SetVariable
+Push "pos17" "L"
+SetVariable
+Push "mov17" "in_L"
+SetVariable
+Push "msg17" "?c?c?c?c?c?c?c?c?"
+SetVariable
+Push "_br17" "1"
+SetVariable
+Push "cno18" "7"
+SetVariable
+Push "pos18" "L"
+SetVariable
+Push "mov18" "out"
+SetVariable
+Push "msg18" " "
+SetVariable
+Push "_br18" "0"
+SetVariable
+Push "cname18" " "
+SetVariable
+Push "timing18" "0"
+SetVariable
+Push "name8" "????"
+SetVariable
+Push "cno19" "8"
+SetVariable
+Push "pos19" "L"
+SetVariable
+Push "mov19" "in_L"
+SetVariable
+Push "msg19" "????????????????\n?m??????E????????????\n????c?c"
+SetVariable
+Push "_br19" "1"
+SetVariable
+Push "cno20" "8"
+SetVariable
+Push "pos20" "L"
+SetVariable
+Push "mov20" "pop"
+SetVariable
+Push "msg20" "????????????????R????\n??????????"
+SetVariable
+Push "_br20" "1"
+SetVariable
+Push "cno21" "2"
+SetVariable
+Push "pos21" "R"
+SetVariable
+Push "mov21" "question_left2"
+SetVariable
+Push "msg21" "????????c?c?"
+SetVariable
+Push "_br21" "1"
+SetVariable
+Push "cno22" "2"
+SetVariable
+Push "pos22" "R"
+SetVariable
+Push "mov22" "nod_double"
+SetVariable
+Push "msg22" "????????????\\?\\"
+SetVariable
+Push "_br22" "1"
+SetVariable
+Push "cno23" "0"
+SetVariable
+Push "msg23" "?"
+SetVariable
+Push "_br23" "0"
+SetVariable
+Push "cname23" "???"
+SetVariable
+Push "cno24" "0"
+SetVariable
+Push "msg24" "??"
+SetVariable
+Push "_br24" "0"
+SetVariable
+Push "cname24" "???"
+SetVariable
+Push "cno25" "0"
+SetVariable
+Push "msg25" "???"
+SetVariable
+Push "_br25" "0"
+SetVariable
+Push "cname25" "???"
+SetVariable
+Push "cno26" "0"
+SetVariable
+Push "msg26" "???"
+SetVariable
+Push "_br26" "1"
+SetVariable
+Push "cname26" "???"
+SetVariable
+Push "cno27" "8"
+SetVariable
+Push "pos27" "L"
+SetVariable
+Push "mov27" "out"
+SetVariable
+Push "msg27" " "
+SetVariable
+Push "_br27" "0"
+SetVariable
+Push "cname27" " "
+SetVariable
+Push "timing27" "0"
+SetVariable
+Push "cno28" "2"
+SetVariable
+Push "pos28" "R"
+SetVariable
+Push "mov28" "out"
+SetVariable
+Push "msg28" " "
+SetVariable
+Push "_br28" "0"
+SetVariable
+Push "cname28" " "
+SetVariable
+Push "timing28" "0"
+SetVariable
+Push "cno29" "8"
+SetVariable
+Push "pos29" "LL"
+SetVariable
+Push "mov29" "in_R"
+SetVariable
+Push "msg29" " "
+SetVariable
+Push "_br29" "0"
+SetVariable
+Push "cname29" " "
+SetVariable
+Push "timing29" "0"
+SetVariable
+Push "cno30" "2"
+SetVariable
+Push "pos30" "RR"
+SetVariable
+Push "mov30" "in_L"
+SetVariable
+Push "msg30" " "
+SetVariable
+Push "_br30" "0"
+SetVariable
+Push "cname30" " "
+SetVariable
+Push "timing30" "0"
+SetVariable
+Push "name9" "??"
+SetVariable
+Push "cno31" "9"
+SetVariable
+Push "pos31" "C"
+SetVariable
+Push "mov31" "in_R"
+SetVariable
+Push "msg31" "???????????????b????"
+SetVariable
+Push "_br31" "1"
+SetVariable
+Push "cno32" "8"
+SetVariable
+Push "pos32" "LL"
+SetVariable
+Push "mov32" "pop"
+SetVariable
+Push "msg32" "??????!?"
+SetVariable
+Push "_br32" "1"
+SetVariable
+Push "chara_effect32" "2"
+SetVariable
+Push "effect_dir32" "R"
+SetVariable
+Push "cno33" "9"
+SetVariable
+Push "pos33" "C"
+SetVariable
+Push "mov33" "question_left2"
+SetVariable
+Push "msg33" "??????????????????\n??©©???????????"
+SetVariable
+Push "_br33" "1"
+SetVariable
+Push "cno34" "2"
+SetVariable
+Push "pos34" "RR"
+SetVariable
+Push "mov34" "out"
+SetVariable
+Push "msg34" " "
+SetVariable
+Push "_br34" "0"
+SetVariable
+Push "cname34" " "
+SetVariable
+Push "timing34" "0"
+SetVariable
+Push "name10" "??"
+SetVariable
+Push "cno35" "10"
+SetVariable
+Push "pos35" "RR"
+SetVariable
+Push "mov35" "in_R"
+SetVariable
+Push "msg35" "??????"
+SetVariable
+Push "_br35" "1"
+SetVariable
+Push "cno36" "10"
+SetVariable
+Push "pos36" "RR"
+SetVariable
+Push "mov36" "pop"
+SetVariable
+Push "msg36" "???O??????????????????\n?w?????x??o????????????"
+SetVariable
+Push "_br36" "1"
+SetVariable
+Push "cno37" "8"
+SetVariable
+Push "pos37" "LL"
+SetVariable
+Push "mov37" "out"
+SetVariable
+Push "msg37" " "
+SetVariable
+Push "_br37" "0"
+SetVariable
+Push "cname37" " "
+SetVariable
+Push "timing37" "0"
+SetVariable
+Push "cno38" "9"
+SetVariable
+Push "pos38" "C"
+SetVariable
+Push "mov38" "out"
+SetVariable
+Push "msg38" " "
+SetVariable
+Push "_br38" "0"
+SetVariable
+Push "cname38" " "
+SetVariable
+Push "timing38" "0"
+SetVariable
+Push "name11" "???"
+SetVariable
+Push "cno39" "11"
+SetVariable
+Push "pos39" "C"
+SetVariable
+Push "mov39" "in_L"
+SetVariable
+Push "msg39" "?w??l!?x\n?w?????!?x"
+SetVariable
+Push "_br39" "0"
+SetVariable
+Push "chara_effect39" "1"
+SetVariable
+Push "cname39" "????&???"
+SetVariable
+Push "timing39" "1"
+SetVariable
+Push "cno40" "1"
+SetVariable
+Push "pos40" "LL"
+SetVariable
+Push "mov40" "in_L"
+SetVariable
+Push "msg40" "?w??l!?x\n?w?????!?x"
+SetVariable
+Push "_br40" "1"
+SetVariable
+Push "cname40" "????&???"
+SetVariable
+Push "cno41" "1"
+SetVariable
+Push "pos41" "LL"
+SetVariable
+Push "mov41" "out"
+SetVariable
+Push "msg41" " "
+SetVariable
+Push "_br41" "0"
+SetVariable
+Push "cname41" " "
+SetVariable
+Push "timing41" "0"
+SetVariable
+Push "name12" "??"
+SetVariable
+Push "cno42" "12"
+SetVariable
+Push "pos42" "LL"
+SetVariable
+Push "mov42" "in_L"
+SetVariable
+Push "msg42" "????????v??????????\n??"
+SetVariable
+Push "_br42" "1"
+SetVariable
+Push "cno43" "12"
+SetVariable
+Push "pos43" "LL"
+SetVariable
+Push "mov43" "question_right2"
+SetVariable
+Push "msg43" "????c?c\n?????????q??????????"
+SetVariable
+Push "_br43" "1"
+SetVariable
+Push "cno44" "10"
+SetVariable
+Push "pos44" "RR"
+SetVariable
+Push "mov44" "nod_double"
+SetVariable
+Push "msg44" "?????\n?K?????????g?????"
+SetVariable
+Push "_br44" "1"
+SetVariable
+Push "cno45" "12"
+SetVariable
+Push "pos45" "LL"
+SetVariable
+Push "mov45" "nod2"
+SetVariable
+Push "msg45" "???????\n?{???©©???¥Ó????\n???????????…þ???\\?\\"
+SetVariable
+Push "_br45" "1"
+SetVariable
+Push "cno46" "0"
+SetVariable
+Push "mov46" "all_out_fade"
+SetVariable
+Push "msg46" " "
+SetVariable
+Push "_br46" "0"
+SetVariable
+Push "cname46" " "
+SetVariable
+Push "timing46" "4"
+SetVariable
+Push "cno47" "9"
+SetVariable
+Push "pos47" "R"
+SetVariable
+Push "mov47" "in_R"
+SetVariable
+Push "msg47" "?c"
+SetVariable
+Push "_br47" "0"
+SetVariable
+Push "timing47" "2"
+SetVariable
+Push "cno48" "9"
+SetVariable
+Push "msg48" "?c?c"
+SetVariable
+Push "_br48" "0"
+SetVariable
+Push "timing48" "2"
+SetVariable
+Push "cno49" "9"
+SetVariable
+Push "msg49" "?c?c?c?"
+SetVariable
+Push "_br49" "1"
+SetVariable
+Push "cno50" "7"
+SetVariable
+Push "pos50" "L"
+SetVariable
+Push "mov50" "in_L"
+SetVariable
+Push "msg50" " "
+SetVariable
+Push "_br50" "0"
+SetVariable
+Push "timing50" "2"
+SetVariable
+Push "cno51" "7"
+SetVariable
+Push "msg51" "?c"
+SetVariable
+Push "_br51" "0"
+SetVariable
+Push "timing51" "2"
+SetVariable
+Push "cno52" "7"
+SetVariable
+Push "msg52" "?c?c"
+SetVariable
+Push "_br52" "0"
+SetVariable
+Push "timing52" "2"
+SetVariable
+Push "cno53" "7"
+SetVariable
+Push "msg53" "?c?c?c?"
+SetVariable
+Push "_br53" "1"
+SetVariable
+Push "cno54" "0"
+SetVariable
+Push "mov54" "all_out_fade"
+SetVariable
+Push "msg54" " "
+SetVariable
+Push "_br54" "0"
+SetVariable
+Push "cname54" " "
+SetVariable
+Push "timing54" "4"
+SetVariable
+Push "cno55" "1"
+SetVariable
+Push "pos55" "L"
+SetVariable
+Push "mov55" "in_L"
+SetVariable
+Push "msg55" "????????????C????\n????©©???????l?"
+SetVariable
+Push "_br55" "1"
+SetVariable
+Push "cno56" "11"
+SetVariable
+Push "pos56" "R"
+SetVariable
+Push "mov56" "in_R"
+SetVariable
+Push "msg56" "???????????\n?c?O?????c?c?"
+SetVariable
+Push "_br56" "1"
+SetVariable
+Push "cno57" "0"
+SetVariable
+Push "mov57" "all_out_fade"
+SetVariable
+Push "msg57" " "
+SetVariable
+Push "_br57" "0"
+SetVariable
+Push "cname57" " "
+SetVariable
+Push "timing57" "4"
+SetVariable
+Push "cno58" "9"
+SetVariable
+Push "pos58" "R"
+SetVariable
+Push "mov58" "in_L"
+SetVariable
+Push "msg58" "??[??\n???C????????"
+SetVariable
+Push "_br58" "1"
+SetVariable
+Push "cno59" "7"
+SetVariable
+Push "pos59" "L"
+SetVariable
+Push "mov59" "in_R"
+SetVariable
+Push "msg59" "??????\n??????????¨©c?c"
+SetVariable
+Push "_br59" "1"
+SetVariable
+Push "cno60" "7"
+SetVariable
+Push "pos60" "L"
+SetVariable
+Push "mov60" "pop"
+SetVariable
+Push "msg60" "?????????????????"
+SetVariable
+Push "_br60" "1"
+SetVariable
+Push "cno61" "9"
+SetVariable
+Push "pos61" "R"
+SetVariable
+Push "mov61" "question_left2"
+SetVariable
+Push "msg61" "???????????"
+SetVariable
+Push "_br61" "1"
+SetVariable
+Push "cno62" "9"
+SetVariable
+Push "pos62" "R"
+SetVariable
+Push "mov62" "nod_double"
+SetVariable
+Push "msg62" "??????????????????\n?????©©??????????????\n?S???????q????????"
+SetVariable
+Push "_br62" "1"
+SetVariable
+Push "cno63" "7"
+SetVariable
+Push "pos63" "L"
+SetVariable
+Push "msg63" "?c"
+SetVariable
+Push "_br63" "0"
+SetVariable
+Push "timing63" "3"
+SetVariable
+Push "cno64" "7"
+SetVariable
+Push "pos64" "L"
+SetVariable
+Push "msg64" "?c?c"
+SetVariable
+Push "_br64" "0"
+SetVariable
+Push "timing64" "3"
+SetVariable
+Push "cno65" "7"
+SetVariable
+Push "pos65" "L"
+SetVariable
+Push "msg65" "?c?c?c?"
+SetVariable
+Push "_br65" "1"
+SetVariable
+Push "timing65" "3"
+SetVariable
+Push "cno66" "7"
+SetVariable
+Push "pos66" "L"
+SetVariable
+Push "mov66" "pop"
+SetVariable
+Push "msg66" "??????"
+SetVariable
+Push "_br66" "1"
+SetVariable
+Push "cno67" "9"
+SetVariable
+Push "pos67" "R"
+SetVariable
+Push "mov67" "pop"
+SetVariable
+Push "msg67" "??????????!!"
+SetVariable
+Push "_br67" "1"
+SetVariable
+Push "fade67" "flash_short"
+SetVariable
+Push "chara_effect67" "1"
+SetVariable
+Push "cno68" "7"
+SetVariable
+Push "pos68" "L"
+SetVariable
+Push "mov68" "nod"
+SetVariable
+Push "msg68" "!!"
+SetVariable
+Push "_br68" "1"
+SetVariable
+Push "chara_effect68" "2"
+SetVariable
+Push "effect_dir68" "R"
+SetVariable
+Push "cno69" "9"
+SetVariable
+Push "pos69" "R"
+SetVariable
+Push "mov69" "shake"
+SetVariable
+Push "msg69" "??????!"
+SetVariable
+Push "_br69" "1"
+SetVariable
+Push "chara_effect69" "1"
+SetVariable
+Push "cno70" "9"
+SetVariable
+Push "pos70" "R"
+SetVariable
+Push "mov70" "shake"
+SetVariable
+Push "msg70" "???????!"
+SetVariable
+Push "_br70" "1"
+SetVariable
+Push "chara_effect70" "1"
+SetVariable
+Push "cno71" "9"
+SetVariable
+Push "pos71" "R"
+SetVariable
+Push "mov71" "down"
+SetVariable
+Push "msg71" "?????????????O??\n????~????????c?c!"
+SetVariable
+Push "_br71" "1"
+SetVariable
+Push "fade71" "flash_short"
+SetVariable
+Push "chara_effect71" "1"
+SetVariable
+Push "cno72" "7"
+SetVariable
+Push "pos72" "L"
+SetVariable
+Push "mov72" "shake"
+SetVariable
+Push "msg72" "???????c?c!"
+SetVariable
+Push "_br72" "1"
+SetVariable
+Push "cno73" "7"
+SetVariable
+Push "pos73" "L"
+SetVariable
+Push "mov73" "out"
+SetVariable
+Push "msg73" " "
+SetVariable
+Push "_br73" "0"
+SetVariable
+Push "timing73" "0"
+SetVariable
+Push "cno74" "8"
+SetVariable
+Push "pos74" "LL"
+SetVariable
+Push "mov74" "in_L"
+SetVariable
+Push "msg74" "????????\n????????????"
+SetVariable
+Push "_br74" "1"
+SetVariable
+Push "chara_effect74" "2"
+SetVariable
+Push "effect_dir74" "R"
+SetVariable
+Push "cno75" "8"
+SetVariable
+Push "pos75" "LL"
+SetVariable
+Push "mov75" "swing"
+SetVariable
+Push "msg75" "???????????????\n??????????????c?c?"
+SetVariable
+Push "_br75" "1"
+SetVariable
+Push "cno76" "9"
+SetVariable
+Push "pos76" "R"
+SetVariable
+Push "mov76" "nod2"
+SetVariable
+Push "msg76" "????????????????\n?b????????????????"
+SetVariable
+Push "_br76" "1"
+SetVariable
+Push "cno77" "9"
+SetVariable
+Push "pos77" "R"
+SetVariable
+Push "mov77" "pop"
+SetVariable
+Push "msg77" "????q???c?c\n?~?????????!"
+SetVariable
+Push "_br77" "1"
+SetVariable
+Push "cno78" "9"
+SetVariable
+Push "pos78" "R"
+SetVariable
+Push "mov78" "out"
+SetVariable
+Push "msg78" " "
+SetVariable
+Push "_br78" "0"
+SetVariable
+Push "timing78" "0"
+SetVariable
+Push "cno79" "9"
+SetVariable
+Push "pos79" "CR"
+SetVariable
+Push "mov79" "in_R"
+SetVariable
+Push "msg79" "????!"
+SetVariable
+Push "_br79" "1"
+SetVariable
+Push "fade79" "flash_short"
+SetVariable
+Push "chara_effect79" "1"
+SetVariable
+Push "cname79" " "
+SetVariable
+Push "cno80" "10"
+SetVariable
+Push "pos80" "RR"
+SetVariable
+Push "mov80" "in_R"
+SetVariable
+Push "msg80" "???C?????"
+SetVariable
+Push "_br80" "1"
+SetVariable
+Push "cno81" "9"
+SetVariable
+Push "pos81" "CR"
+SetVariable
+Push "mov81" "nod"
+SetVariable
+Push "msg81" "?????????????"
+SetVariable
+Push "_br81" "1"
+SetVariable
+Push "cno82" "10"
+SetVariable
+Push "pos82" "RR"
+SetVariable
+Push "mov82" "question_left2"
+SetVariable
+Push "msg82" "?c?c???????\n???O???????]??????"
+SetVariable
+Push "_br82" "1"
+SetVariable
+Push "cno83" "8"
+SetVariable
+Push "pos83" "LL"
+SetVariable
+Push "mov83" "pop"
+SetVariable
+Push "msg83" "?????!"
+SetVariable
+Push "_br83" "1"
+SetVariable
+Push "chara_effect83" "1"
+SetVariable
+Push "cno84" "8"
+SetVariable
+Push "pos84" "LL"
+SetVariable
+Push "mov84" "out_R"
+SetVariable
+Push "msg84" "???!"
+SetVariable
+Push "_br84" "1"
+SetVariable
+Push "fade84" "flash_short"
+SetVariable
+Push "chara_effect84" "1"
+SetVariable
+Push "cname84" " "
+SetVariable
+Push "cno85" "9"
+SetVariable
+Push "pos85" "CR"
+SetVariable
+Push "mov85" "down"
+SetVariable
+Push "msg85" "????!?\n????c?c??????!"
+SetVariable
+Push "_br85" "1"
+SetVariable
+Push "chara_effect85" "2"
+SetVariable
+Push "cno86" "8"
+SetVariable
+Push "pos86" "LL"
+SetVariable
+Push "mov86" "in_R"
+SetVariable
+Push "msg86" "????????????!"
+SetVariable
+Push "_br86" "1"
+SetVariable
+Push "cno87" "8"
+SetVariable
+Push "pos87" "LL"
+SetVariable
+Push "mov87" "jump_double"
+SetVariable
+Push "msg87" "????????????????!"
+SetVariable
+Push "_br87" "1"
+SetVariable
+Push "cno88" "8"
+SetVariable
+Push "pos88" "LL"
+SetVariable
+Push "mov88" "out"
+SetVariable
+Push "msg88" " "
+SetVariable
+Push "_br88" "0"
+SetVariable
+Push "cname88" " "
+SetVariable
+Push "timing88" "0"
+SetVariable
+Push "cno89" "7"
+SetVariable
+Push "pos89" "LL"
+SetVariable
+Push "mov89" "in_L"
+SetVariable
+Push "msg89" "?c?c??????!"
+SetVariable
+Push "_br89" "1"
+SetVariable
+Push "cno90" "7"
+SetVariable
+Push "pos90" "LL"
+SetVariable
+Push "mov90" "out_L"
+SetVariable
+Push "msg90" "???????????c?c"
+SetVariable
+Push "_br90" "1"
+SetVariable
+Push "cname90" " "
+SetVariable
+Push "cno91" "9"
+SetVariable
+Push "pos91" "CR"
+SetVariable
+Push "mov91" "question_left2"
+SetVariable
+Push "msg91" "?????!"
+SetVariable
+Push "_br91" "1"
+SetVariable
+Push "cno92" "9"
+SetVariable
+Push "pos92" "CR"
+SetVariable
+Push "msg92" "?c"
+SetVariable
+Push "_br92" "0"
+SetVariable
+Push "timing92" "3"
+SetVariable
+Push "cno93" "9"
+SetVariable
+Push "pos93" "CR"
+SetVariable
+Push "msg93" "?c?c"
+SetVariable
+Push "_br93" "0"
+SetVariable
+Push "timing93" "3"
+SetVariable
+Push "cno94" "9"
+SetVariable
+Push "pos94" "CR"
+SetVariable
+Push "mov94" "pop"
+SetVariable
+Push "msg94" "?c?c???!"
+SetVariable
+Push "_br94" "1"
+SetVariable
+Push "chara_effect94" "1"
+SetVariable
+Push "cno95" "9"
+SetVariable
+Push "pos95" "CR"
+SetVariable
+Push "mov95" "shake"
+SetVariable
+Push "msg95" "????????©©??!"
+SetVariable
+Push "_br95" "1"
+SetVariable
+Push "chara_effect95" "1"
+SetVariable
+Push "cpt_end" "95"
+SetVariable
+Push "place_name" ""
+SetVariable
+Push "event_type" "0"
+SetVariable
+Push "voice_flag" "0"
+SetVariable
+Push "allskip_flag" "1"
+SetVariable
+Push "medium" "SetQuality" "2"
+Pop
+Push "" "17" "0"
+SetProperty
+Push "position1" "LL"
+SetVariable
+Push "position2" "L"
+SetVariable
+Push "position3" "CL"
+SetVariable
+Push "position4" "C"
+SetVariable
+Push "position5" "CR"
+SetVariable
+Push "position6" "R"
+SetVariable
+Push "position7" "RR"
+SetVariable
+Push "position_len" "7"
+SetVariable
+Push "LX" "60"
+SetVariable
+Push "RX" "180"
+SetVariable
+Push "CX" "120"
+SetVariable
+Push "LLX" "45"
+SetVariable
+Push "RRX" "195"
+SetVariable
+Push "CLX" "90"
+SetVariable
+Push "CRX" "150"
+SetVariable
+Push "cpt" "0"
+SetVariable
+Push "MAXNUM" "20"
+SetVariable
+Push "key_flag" "0"
+SetVariable
+Push "skip_flag" "0"
+SetVariable
+Push "win_open" "0"
+SetVariable
+Push "window_flag" "1"
+SetVariable
+Push "key_act_flag" "1"
+SetVariable
+Push "fin_flag" "0"
+SetVariable
+Push "bg_condition" "1"
+SetVariable
+Push "timer_active_flag" "0"
+SetVariable
+Push "voice_count" "1"
+SetVariable
+Push "move_wait_flag" "0"
+SetVariable
+Push "window_width" "1"
+SetVariable
+Push "condition_init"
+Call
+Push "i" "1"
+SetVariable
+loc361d:Push "i"
+GetVariable
+Push "MAXNUM"
+GetVariable
+Push "1"
+Add
+Less
+Not
+If loc3a54
+Push "ln" "name" "i"
+GetVariable
+StringAdd
+GetVariable
+StringLength
+SetVariable
+Push "1" "ln"
+GetVariable
+Less
+Not
+If loc379c
+Push "c" "i"
+GetVariable
+StringAdd
+Push "/c_col/c"
+StringAdd
+SetTarget2
+Push "/:i"
+GetVariable
+GotoFrame2 false false 
+SetTarget ""
+Push "c" "i"
+GetVariable
+StringAdd
+Push "/c_col/:dark"
+StringAdd
+GotoFrame2 false false 
+Push "c" "i"
+GetVariable
+StringAdd
+Push "_t/c_col/c"
+StringAdd
+SetTarget2
+Push "/:i"
+GetVariable
+GotoFrame2 false false 
+SetTarget ""
+Push "hdiff" "i"
+GetVariable
+StringAdd
+GetVariable
+Push ""
+StringEquals
+Not
+Not
+If loc379c
+Push "c" "i"
+GetVariable
+StringAdd
+Push "_t"
+StringAdd
+Push "1" "c" "i"
+GetVariable
+StringAdd
+Push "_t"
+StringAdd
+Push "1"
+GetProperty
+Push "hdiff" "i"
+GetVariable
+StringAdd
+GetVariable
+Subtract
+SetProperty
+Push "c" "i"
+GetVariable
+StringAdd
+Push "1" "c" "i"
+GetVariable
+StringAdd
+Push "1"
+GetProperty
+Push "hdiff" "i"
+GetVariable
+StringAdd
+GetVariable
+Subtract
+SetProperty
+loc379c:Push "c" "i"
+GetVariable
+StringAdd
+Push "7" "0"
+SetProperty
+Push "c" "i"
+GetVariable
+StringAdd
+Push "_t"
+StringAdd
+Push "7" "0"
+SetProperty
+Push "cf" "i"
+GetVariable
+StringAdd
+Push "/"
+StringAdd
+Push "ef_position"
+StringAdd
+Push "0"
+GetProperty
+Push ""
+StringEquals
+Not
+Not
+If loc386b
+Push "ch" "i"
+GetVariable
+StringAdd
+Push "_efposition_x"
+StringAdd
+Push "cf" "i"
+GetVariable
+StringAdd
+Push "/"
+StringAdd
+Push "ef_position"
+StringAdd
+Push "0"
+GetProperty
+SetVariable
+Jump loc3894
+loc386b:Push "ch" "i"
+GetVariable
+StringAdd
+Push "_efposition_x"
+StringAdd
+Push "0"
+SetVariable
+loc3894:Push "cf" "i"
+GetVariable
+StringAdd
+Push "/"
+StringAdd
+Push "ef_position"
+StringAdd
+Push "1"
+GetProperty
+Push ""
+StringEquals
+Not
+Not
+If loc3942
+Push "ch" "i"
+GetVariable
+StringAdd
+Push "_efposition_y"
+StringAdd
+Push "cf" "i"
+GetVariable
+StringAdd
+Push "/"
+StringAdd
+Push "ef_position"
+StringAdd
+Push "1"
+GetProperty
+Push "hdiff" "i"
+GetVariable
+StringAdd
+GetVariable
+Subtract
+Push "310"
+Add
+SetVariable
+Jump loc3981
+loc3942:Push "ch" "i"
+GetVariable
+StringAdd
+Push "_efposition_y"
+StringAdd
+Push "100" "hdiff" "i"
+GetVariable
+StringAdd
+GetVariable
+Subtract
+SetVariable
+loc3981:Push "10" "ln"
+GetVariable
+Less
+Not
+If loc39d1
+Push "window_1/win_base/:3"
+GotoFrame2 false false 
+Push "window_width" "3"
+SetVariable
+Jump loc3a3a
+loc39d1:Push "6" "ln"
+GetVariable
+Less
+Not
+If loc3a3a
+Push "window_width"
+GetVariable
+Push "3"
+Less
+Not
+If loc3a3a
+Push "window_1/win_base/:2"
+GotoFrame2 false false 
+Push "window_width" "2"
+SetVariable
+loc3a3a:Push "i" "i"
+GetVariable
+Push "1"
+Add
+SetVariable
+Jump loc361d
+loc3a54:Push "i" "1"
+SetVariable
+loc3a61:Push "cpt_end"
+GetVariable
+Push "i"
+GetVariable
+Less
+Not
+Not
+If loc3b6c
+Push "ln" "cname" "i"
+GetVariable
+StringAdd
+GetVariable
+StringLength
+SetVariable
+Push "10" "ln"
+GetVariable
+Less
+Not
+If loc3ae9
+Push "window_1/win_base/:3"
+GotoFrame2 false false 
+Push "window_width" "3"
+SetVariable
+Jump loc3b52
+loc3ae9:Push "6" "ln"
+GetVariable
+Less
+Not
+If loc3b52
+Push "window_width"
+GetVariable
+Push "3"
+Less
+Not
+If loc3b52
+Push "window_1/win_base/:2"
+GotoFrame2 false false 
+Push "window_width" "2"
+SetVariable
+loc3b52:Push "i" "i"
+GetVariable
+Push "1"
+Add
+SetVariable
+Jump loc3a61
+loc3b6c:
