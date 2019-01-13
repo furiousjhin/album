@@ -897,7 +897,8 @@ section {
 }
 .selectArea.type_02._in_area {
 	width: 286px;
-	font-size: 12px
+	font-size: 12px;
+	padding: 4px 0
 }
 .selectArea.type_02._information {
 	background-color: #1d1d1d;
@@ -16624,33 +16625,33 @@ a.none {
 }
 .search_pulldown_1 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fcommon%2Fsearch-sb191747782.png%3F1498110531) no-repeat 0 -148px;
-	-webkit-background-size: 304px 924px;
-	background-size: 304px 924px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fcommon%2Fsearch-s411023f06f.png%3F1544420902) no-repeat 0 -296px;
+	-webkit-background-size: 304px 1072px;
+	background-size: 304px 1072px;
 	width: 280px;
 	height: 36px
 }
 .search_pulldown_1_5 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fcommon%2Fsearch-sb191747782.png%3F1498110531) no-repeat 0 -185px;
-	-webkit-background-size: 304px 924px;
-	background-size: 304px 924px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fcommon%2Fsearch-s411023f06f.png%3F1544420902) no-repeat 0 -333px;
+	-webkit-background-size: 304px 1072px;
+	background-size: 304px 1072px;
 	width: 184px;
 	height: 36px
 }
 .search_pulldown_2 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fcommon%2Fsearch-sb191747782.png%3F1498110531) no-repeat 0 -296px;
-	-webkit-background-size: 304px 924px;
-	background-size: 304px 924px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fcommon%2Fsearch-s411023f06f.png%3F1544420902) no-repeat 0 -444px;
+	-webkit-background-size: 304px 1072px;
+	background-size: 304px 1072px;
 	width: 136px;
 	height: 36px
 }
 .search_pulldown_3 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fcommon%2Fsearch-sb191747782.png%3F1498110531) no-repeat 0 -370px;
-	-webkit-background-size: 304px 924px;
-	background-size: 304px 924px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fcommon%2Fsearch-s411023f06f.png%3F1544420902) no-repeat 0 -518px;
+	-webkit-background-size: 304px 1072px;
+	background-size: 304px 1072px;
 	width: 88px;
 	height: 36px
 }
