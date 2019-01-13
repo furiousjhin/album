@@ -850,12 +850,14 @@ body#cartoon {
 	background-color: #1d1d1d;
 	border-radius: 6px
 }
+/* new_mypage_common랑 겹침
 .pager_area {
 	padding: 4px 0 3px;
 	background-color: #c7edf8;
 	color: #0056b8;
 	text-shadow: 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff
 }
+*/
 .pager_area .pager_area .pager_submit_area {
 	top: 32px
 }
