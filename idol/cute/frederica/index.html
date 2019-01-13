@@ -263,7 +263,7 @@
           <!--test-->
           <section class="area_story_collection_tab  m-Btm8">
               <div class="selectArea type_02  m-Btm8">
-                  <form action="#" name="area_select_form" method="post">
+                  <form action="#" name="area_select_form" method="post" style="margin-bottom: 0px;">
                       <div class="area-btn-common _base-width">
                           <select name="js_area_switch" id="js_area_switch" class="search_pulldown_1_5" style="font-size:12px;">
                               <option value="1">카드 에피소드</option>
@@ -369,76 +369,8 @@
               </div>
               <div id="area_tab_4" class="t-Cnt" style="display:none">
               </div>
-              <a href="#unlock_unit_collection_box" id="js_btn_unlock_unit_collection" class="ibox" style="display:none;"></a>
-              <div id="unlock_unit_collection_box" class='area-popup_common _hd_blue _bd_black ibox_content' style='width:290px;'>
-                  <a href="#" class="btn-ibox-close icon_close ibox_close jsOnDesignBtn">
-                      <div></div>
-                  </a>
-                  <div class="area-popup_wrap">
-                      <h3 class="area-popup_header nameArea">
-                          <div class="area-popup_title">
-                              <span style="line-height:150%;font-size:13px">ユニットコレクション</span>
-                          </div>
-                      </h3>
-                      <div class="m-Top8 m-Btm8 t-Cnt" style="padding-top:1px;padding-bottom:1px;">
-                          <p class="m-Top5 m-Btm5"><span class="yellow js_comment_kind"></span>コメントを解放しますか?</p>
-                          <ul class="m-Btm10 l-Hgt140">
-                              <li><span class="blue">必要スターエンブレム : </span><span class="yellow js_req_medal_num"></span>個</li>
-                              <li class="js_pos_medal_num"></li>
-                          </ul>
-                          <div class="unlockable">
-                              <form action="" method="post" class="form_exchange_unit_collection" style="margin:0;">
-                                  <div class="area-btn-common m-Btm8" style="width:282px;">
-                                      <label class="btn_cancel_line_2">
-                                          <div class='btn_text'>キャンセル</div>
-                                          <input type="reset" value="キャンセル" class="ibox_close" style="display:none;">
-                                      </label>
-                                      <label class="btn_decision_line_2" onclick="">
-                                          <input type="submit" value="解放する">
-                                      </label>
-                                  </div>
-                              </form>
-                          </div>
-                          <div class="disunlockable">
-                              <div class="t-Cnt">
-                                  <div class="red m-Btm5">スターエンブレムが不足しています</div>
-                                  <input type="submit" value="キャンセル" class="ibox_close">
-                              </div>
-                          </div>
-                      </div>
-                      <div class="area-popup_bg_image"></div>
-                  </div>
-              </div>
-              <script>
-                  $(".js_unlock_unit_collection").on("click", function() {
-                      var $target = $("#unlock_unit_collection_box");
-                      $target.find(".js_comment_kind").html($(this).data("comment-type"));
-                      var unit_id = $(this).data("id");
-                      var url = "http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Fexchange_unit_collection%2F1914%2F0%2Freplace_unit_id%2F1%3Fl_frm%3DMemory_detail_1%26rnd%3D825952278".replace(/replace_unit_id/g, unit_id);
-                      $target.find(".form_exchange_unit_collection").attr("action", url);
-                      var user_point = 1135;
-                      var medal_num = $(this).data("medal-num");
-                      $target.find(".js_req_medal_num").empty().text(medal_num);
-                      var pos_medal_text = '<span class="blue">所持スターエンブレム : </span>' + user_point;
-                      if (user_point >= medal_num) {
-                          pos_medal_text += '→ <span class="yellow">' + (user_point - medal_num) + '</span>';
-                          $target.find(".unlockable").show();
-                          $target.find(".disunlockable").hide();
-                      } else {
-                          $target.find(".unlockable").hide();
-                          $target.find(".disunlockable").show();
-                      }
-                      pos_medal_text += "個";
-                      $target.find(".js_pos_medal_num").empty().html(pos_medal_text);
-                      //trigger
-                      $("#js_btn_unlock_unit_collection").trigger("click");
-                  })
-              </script>
           </section>
           <!--test-->
-
-
-
 
 
         </div>
@@ -705,7 +637,7 @@
                                                         <% val2 = val.icon[key2] %>
                                                             <% if (+val.open_flag[key2]) { %>
                                                                 <li style="<% if (total == 2) { %>width:50%;<% } else if(total == 3) { %> width:33%; <% } else { %>margin:0 5px;<% } %>">
-                                                                    <form method="get" action="<%- val.flash_path[key2].replace('__hash_card_id__', idol_detail.data.hash_card_id) %>" style="height:90px;">
+                                                                    <form method="get" action="<%- val.flash_path[key2].replace('__hash_card_id__', idol_detail.data.hash_card_id) %>" style="height:90px; margin-bottom: 0px;">
                                                                         <input type="image" src="<%- val2 %>" height="75" class="jsOnDesignBtn"><br>
                                                                         <% if (+val.voice_enable[key2]) { %>
                                                                             <input class="movie_name jsOnDesignBtn" type="image" src="<%- val.movie_name_voice[key2] %>" width="77" style="width:77px;position:relative;top:-15px;"><br>
