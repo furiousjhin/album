@@ -1,0 +1,877 @@
+.large {
+	font - size: 22 px
+}
+.small {
+	font - size: 10 px
+}
+.red {
+	color: #ff0000
+}
+.red_mild {
+	color: #ff3333
+}
+.green {
+	color: #33ff33
+}
+.yellow {
+	color: # ff9900
+}
+.lemon_yellow {
+	color: #fff800
+}
+.blue {
+	color: #00ccff
+}
+.blue_st {
+	color: # 0066 ff
+}
+.gray {
+	color: #aaaaaa
+}
+.pink {
+	color: #f08080
+}
+.dark_gray {
+	color: #666666
+}
+.white {
+	color: # ffffff;
+	text - decoration: none
+}
+.defMargin {
+	width: 296 px;
+	padding: 0 12 px
+}
+.m - Btm0 {
+	margin - bottom: 0 px
+}
+.m - Btm4 {
+	margin - bottom: 4 px
+}
+.m - Btm5 {
+	margin - bottom: 5 px
+}
+.m - Btm8 {
+	margin - bottom: 8 px
+}
+.m - Btm10 {
+	margin - bottom: 10 px
+}
+.m - Btm12 {
+	margin - bottom: 12 px
+}
+.m - Btm15 {
+	margin - bottom: 15 px
+}
+.m - Btm20 {
+	margin - bottom: 20 px
+}
+.m - Top4 {
+	margin - top: 4 px
+}
+.m - Top5 {
+	margin - top: 5 px
+}
+.m - Top8 {
+	margin - top: 8 px
+}
+.m - Top10 {
+	margin - top: 10 px
+}
+.m - Top12 {
+	margin - top: 12 px
+}
+.m - Head_img {
+	margin - top: -14 px
+}
+.m - Cnt {
+	margin - left: auto;
+	margin - right: auto
+}
+.t - Lft {
+	text - align: left
+}
+.t - Rgt {
+	text - align: right
+}
+.t - Cnt {
+	text - align: center
+}
+.left_float {
+	float: left
+}
+.right_float {
+	float: right
+}
+.displayBox {
+	display: -webkit - box;
+	display: -moz - box;
+	text - align: center;
+	margin - left: auto;
+	margin - right: auto
+}
+.v - Top {
+	vertical - align: top
+}
+.v - Mdl {
+	vertical - align: middle
+}
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: block
+}
+.l - Hgt120 {
+	line - height: 120 %
+}
+.l - Hgt140 {
+	line - height: 140 %
+}
+.theater - btn_idol_gallery {
+	display: block;
+	background: url(http: //sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -1070px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 64px;
+	height: 36px
+}
+.theater-btn_like {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -1189px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 47px;
+	height: 44px
+}
+.theater-btn_like_gray {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -1144px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 47px;
+	height: 44px
+}
+.theater-btn_selected_theater {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -1107px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 64px;
+	height: 36px
+}
+.theater-btn_watch {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -1234px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 32px;
+	height: 40px
+}
+.theater-frame_cartoon {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -1499px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 304px;
+	height: 15px
+}
+.theater-frame_common {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -1449px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 32px;
+	height: 32px
+}
+.theater-frame_idol {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -1275px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 57px;
+	height: 57px
+}
+.theater-idol_bg_cool_1 {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -616px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 288px;
+	height: 52px
+}
+.theater-idol_bg_cool_3 {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -404px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 288px;
+	height: 52px
+}
+.theater-idol_bg_cute_1 {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -669px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 288px;
+	height: 52px
+}
+.theater-idol_bg_cute_3 {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -351px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 288px;
+	height: 52px
+}
+.theater-idol_bg_passion_1 {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -775px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 288px;
+	height: 52px
+}
+.theater-idol_bg_passion_3 {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -457px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 288px;
+	height: 52px
+}
+.theater-idol_bg_trainer_1 {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -722px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 288px;
+	height: 52px
+}
+.theater-idol_bg_trainer_3 {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -510px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 288px;
+	height: 52px
+}
+.theater-idol_bg_trainer_5 {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -563px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 288px;
+	height: 52px
+}
+.theater-idol_name_frame_cool {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -963px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 92px;
+	height: 44px
+}
+.theater-idol_name_frame_cute {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -828px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 92px;
+	height: 44px
+}
+.theater-idol_name_frame_passion {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -873px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 92px;
+	height: 44px
+}
+.theater-idol_name_frame_trainer {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -918px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 92px;
+	height: 44px
+}
+.theater-like_thumbnail {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -1401px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 18px;
+	height: 18px
+}
+.theater-page_footer {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -1008px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 320px;
+	height: 28px
+}
+.theater-page_header {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -269px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 320px;
+	height: 81px
+}
+.theater-page_header_new {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 0;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 320px;
+	height: 268px
+}
+.theater-text_appearance_idol {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -1052px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 171px;
+	height: 17px
+}
+.theater-text_notice {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -1037px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 195px;
+	height: 14px
+}
+.theater-textbox_story_number {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -1420px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 50px;
+	height: 28px
+}
+.theater-thumbnail_bottom {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -1333px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 88px;
+	height: 22px
+}
+.theater-thumbnail_top {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -1482px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 88px;
+	height: 16px
+}
+.theater-title_bg {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -1356px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 236px;
+	height: 44px
+}
+body#cartoon {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fmypage_new%2Fbg%2Fbg_status_mypage_01.png%3F1487720324);
+	background-size: 7px 7px
+}
+.theater-content {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite%2Fpage_bg.jpg%3F1533102418);
+	background-size: 320px 5px;
+	position: relative
+}
+.theater-content .theater-page_header_new .theater-latest_story_num {
+	position: absolute;
+	top: 85px;
+	left: 171px;
+	text-shadow: 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f;
+	font-size: 12px
+}
+.theater-content .theater-page_header_new .theater-latest_update_date {
+	position: absolute;
+	top: 86px;
+	left: 227px;
+	color: #0056b8;
+	text-shadow: 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff;
+	font-size: 12px
+}
+.theater-content .theater-page_header_new .theater-latest_title {
+	position: absolute;
+	top: 100px;
+	left: 169px;
+	color: #0056b8;
+	width: 104px;
+	height: 28px;
+	text-align: center;
+	font-size: 10px;
+	text-shadow: 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff
+}
+.theater-content .theater-page_header_new .theater-latest_title .theater-latest_title_text {
+	display: table-cell;
+	width: inherit;
+	height: inherit;
+	vertical-align: middle;
+	line-height: 1.1
+}
+.theater-content .theater-page_header_new .theater-history_story_num {
+	position: absolute;
+	top: 141px;
+	left: 171px;
+	text-shadow: 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f;
+	font-size: 12px
+}
+.theater-content .theater-page_header_new .theater-history_update_date {
+	position: absolute;
+	top: 142px;
+	left: 227px;
+	color: #0056b8;
+	text-shadow: 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff;
+	font-size: 12px
+}
+.theater-content .theater-page_header_new .theater-history_title {
+	position: absolute;
+	top: 156px;
+	left: 169px;
+	color: #0056b8;
+	width: 104px;
+	height: 28px;
+	text-align: center;
+	font-size: 10px;
+	text-shadow: 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff
+}
+.theater-content .theater-page_header_new .theater-history_title .theater-latest_title_text {
+	display: table-cell;
+	width: inherit;
+	height: inherit;
+	vertical-align: middle;
+	line-height: 1.1
+}
+.theater-content .theater-page_header_new .theater-latest_thumbnail {
+	position: absolute;
+	top: 86px;
+	left: 9px
+}
+.theater-content .theater-page_header_new .theater-btn_new_theater {
+	position: absolute;
+	top: 88px;
+	left: 276px
+}
+.theater-content .theater-page_header_new .theater-recent_story {
+	position: absolute;
+	top: 144px;
+	left: 197px;
+	width: 56px;
+	font-size: 15px;
+	text-align: center;
+	text-shadow: 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f
+}
+.theater-content .theater-page_header_new .theater-btn_recent {
+	position: absolute;
+	top: 144px;
+	left: 276px
+}
+.theater-content .theater-page_header_new .theater-textbox_story_number {
+	position: absolute;
+	top: 211px;
+	left: 192px;
+	border: none;
+	outline: none;
+	padding: 0;
+	box-sizing: border-box;
+	padding-top: 6px;
+	padding-left: 5px;
+	text-align: center
+}
+.theater-content .theater-page_header_new .theater-btn_search_story {
+	position: absolute;
+	top: 199px;
+	left: 276px
+}
+.theater-content .theater-thumbnail_list {
+	width: 288px;
+	padding-top: 4px
+}
+.theater-content .theater-thumbnail_list .theater-thumbnail {
+	position: relative;
+	display: inline-block;
+	margin: 2px 4px 6px;
+	text-decoration: none
+}
+.theater-content .theater-thumbnail_list .theater-thumbnail .theater-thumbnail_top {
+	position: relative;
+	text-align: center
+}
+.theater-content .theater-thumbnail_list .theater-thumbnail .theater-thumbnail_top .theater-story_num {
+	text-shadow: 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f;
+	font-size: 11px;
+	color: white
+}
+.theater-content .theater-thumbnail_list .theater-thumbnail .theater-thumbnail_top .theater-story_num._like {
+	position: relative;
+	left: -5px
+}
+.theater-content .theater-thumbnail_list .theater-thumbnail .theater-thumbnail_top .theater-like_thumbnail {
+	position: absolute;
+	top: -1px;
+	left: 67px
+}
+.theater-content .theater-thumbnail_list .theater-thumbnail .theater-thumbnail_bottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	text-align: center
+}
+.theater-content .theater-thumbnail_list .theater-thumbnail .theater-thumbnail_bottom .theater-update_date {
+	margin-top: 1px;
+	color: #0056b8;
+	text-shadow: 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff;
+	font-size: 12px
+}
+.theater-content .theater-thumbnail_list .theater-thumbnail:after {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 1px;
+	height: 100px;
+	background: #afafaf
+}
+.theater-content .theater-title_area {
+	position: relative;
+	height: 50px;
+	background-color: #8ce5ff
+}
+.theater-content .theater-title_area:before {
+	content: "";
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -1356px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 236px;
+	height: 44px;
+	position: absolute;
+	top: 3px;
+	left: 0px;
+	right: 0px;
+	margin: auto
+}
+.theater-content .theater-title_area .theater-story_num {
+	position: absolute;
+	top: 5px;
+	left: 57px;
+	text-shadow: 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f, 0px 0px 2px #d1015f;
+	font-size: 13px
+}
+.theater-content .theater-title_area .theater-update_date {
+	position: absolute;
+	top: 5px;
+	left: 117px;
+	color: #0056b8;
+	text-shadow: 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff;
+	font-size: 13px
+}
+.theater-content .theater-title_area .theater-latest_title {
+	position: absolute;
+	top: 25px;
+	left: 42px;
+	color: #0056b8;
+	width: 208px;
+	text-align: center;
+	font-size: 13px;
+	text-shadow: 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff
+}
+.theater-content .theater-title_area .theater-next {
+	position: absolute;
+	top: 10px;
+	left: 0px;
+	padding-left: 7px;
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgame_center%2F00_common%2Farrow_left.png%3F1487720200);
+	background-size: 18px;
+	background-repeat: no-repeat;
+	background-position-x: right;
+	width: 18px;
+	height: 33px
+}
+.theater-content .theater-title_area .theater-previous {
+	position: absolute;
+	top: 10px;
+	right: 0px;
+	padding-right: 7px;
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgame_center%2F00_common%2Farrow_right.png%3F1487720200);
+	background-size: 18px;
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 33px
+}
+.theater-content .theater-title_area .theater-btn_like {
+	position: absolute;
+	top: 3px;
+	left: 231px
+}
+.theater-content .theater-title_area .theater-btn_like._blank {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -1144px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 47px;
+	height: 44px
+}
+.theater-content .theater-appearance_idol_list {
+	width: 288px
+}
+.theater-content .theater-appearance_idol_list .theater-appearance_idol {
+	display: inline-block;
+	margin: 4px;
+	position: relative
+}
+.theater-content .theater-appearance_idol_list .theater-appearance_idol .theater-appearance_idol_img {
+	width: 49.6px;
+	position: relative
+}
+.theater-content .theater-appearance_idol_list .theater-appearance_idol._selected:after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(1, 1, 1, 0.5)
+}
+.theater-content .theater-idol_bg {
+	position: relative
+}
+.theater-content .theater-idol_bg[data-type="cute_1"] {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -669px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 288px;
+	height: 52px
+}
+.theater-content .theater-idol_bg[data-type="cute_3"] {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -351px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 288px;
+	height: 52px
+}
+.theater-content .theater-idol_bg[data-type="cool_1"] {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -616px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 288px;
+	height: 52px
+}
+.theater-content .theater-idol_bg[data-type="cool_3"] {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -404px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 288px;
+	height: 52px
+}
+.theater-content .theater-idol_bg[data-type="passion_1"] {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -775px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 288px;
+	height: 52px
+}
+.theater-content .theater-idol_bg[data-type="passion_3"] {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -457px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 288px;
+	height: 52px
+}
+.theater-content .theater-idol_bg[data-type="trainer_1"] {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -722px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 288px;
+	height: 52px
+}
+.theater-content .theater-idol_bg[data-type="trainer_3"] {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -510px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 288px;
+	height: 52px
+}
+.theater-content .theater-idol_bg[data-type="trainer_5"] {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -563px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 288px;
+	height: 52px
+}
+.theater-content .theater-idol_bg .theater-btn_selected_theater {
+	position: absolute;
+	top: 8px;
+	left: 148px
+}
+.theater-content .theater-idol_bg .theater-btn_idol_gallery {
+	position: absolute;
+	top: 8px;
+	left: 220px
+}
+.theater-content .theater-idol_bg .theater-idol_wrapper {
+	width: 200px;
+	height: 63px;
+	position: absolute;
+	bottom: 0px;
+	left: 63px;
+	overflow: hidden
+}
+.theater-content .theater-idol_bg .theater-idol_wrapper .theater-idol_image {
+	width: inherit;
+	height: 81px;
+	position: absolute;
+	top: -18px;
+	background-size: 114px;
+	background-repeat: no-repeat;
+	pointer-events: none;
+	-webkit-mask-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fmask_idol.png%3F1533102418);
+	-webkit-mask-size: 200px
+}
+.theater-content .theater-idol_bg .theater-idol_wrapper .theater-idol_image._appear {
+	-webkit-animation-name: idol_appear;
+	-webkit-animation-duration: 0.3s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-fill-mode: forwards
+}
+.theater-content .theater-idol_bg .theater-idol_name_frame {
+	position: absolute;
+	top: 5px;
+	left: 4px;
+	padding-top: 13px;
+	box-sizing: border-box
+}
+.theater-content .theater-idol_bg .theater-idol_name_frame[data-attribute-name="cool"] {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -963px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 92px;
+	height: 44px;
+	text-shadow: 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff
+}
+.theater-content .theater-idol_bg .theater-idol_name_frame[data-attribute-name="cute"] {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -828px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 92px;
+	height: 44px;
+	text-shadow: 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073
+}
+.theater-content .theater-idol_bg .theater-idol_name_frame[data-attribute-name="passion"] {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -873px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 92px;
+	height: 44px;
+	text-shadow: 0px 0px 3px #fa0, 0px 0px 3px #fa0, 0px 0px 3px #fa0, 0px 0px 3px #fa0, 0px 0px 3px #fa0, 0px 0px 3px #fa0, 0px 0px 3px #fa0, 0px 0px 3px #fa0
+}
+.theater-content .theater-idol_bg .theater-idol_name_frame[data-attribute-name="trainer"] {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite-s4333892f09.png%3F1533102418) no-repeat 0 -918px;
+	-webkit-background-size: 320px 1514px;
+	background-size: 320px 1514px;
+	width: 92px;
+	height: 44px;
+	text-shadow: 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421
+}
+.theater-content .theater-page_footer {
+	position: relative;
+	top: 6px;
+	margin-top: -6px;
+	margin-bottom: 6px
+}
+.theater-content .theater-common_area {
+	position: relative;
+	width: 304px;
+	margin-left: auto;
+	margin-right: auto;
+	background: white;
+	border-radius: 15px;
+	min-height: 24px;
+	padding: 6px;
+	box-sizing: border-box
+}
+.theater-content .theater-common_area .theater-common_area_title {
+	position: absolute;
+	top: -5px;
+	left: 0;
+	right: 0;
+	margin: auto
+}
+.theater-content .theater-common_area:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	box-sizing: border-box;
+	pointer-events: none;
+	border-style: solid;
+	border-width: 12px;
+	border-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite%2Fframe_common.png%3F1533102418) 24 fill stretch;
+	-webkit-border-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite%2Fframe_common.png%3F1533102418) 24 stretch
+}
+.theater-content .theater-cartoon_area {
+	position: relative;
+	width: 306px;
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 7px;
+	min-height: 14px;
+	border-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite%2Fframe_cartoon.png%3F1533102418) 14 fill stretch;
+	-webkit-border-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Ftheater%2Fsprite%2Fframe_cartoon.png%3F1533102418) 14 stretch;
+	background-color: #1d1d1d;
+	border-radius: 6px
+}
+.pager_area {
+	padding: 4px 0 3px;
+	background-color: #c7edf8;
+	color: #0056b8;
+	text-shadow: 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff, 0px 0px 2px #ffffff
+}
+.pager_area .pager_area .pager_submit_area {
+	top: 32px
+}
+.theater-search_not_found {
+	position: relative;
+	top: -2px;
+	color: #0056b8;
+	font-size: 10px
+}
+@-webkit-keyframes idol_appear {
+	0% {
+		opacity: 0;
+		margin-left: -5px
+	}
+	100% {
+		opacity: 1;
+		margin-left: 0
+	}
+}
