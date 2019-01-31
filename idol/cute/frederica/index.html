@@ -80,11 +80,25 @@
               return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
       }
       var producer = getParameterByName('pro') + " ";
+      var firstIndex = getParameterByName('index') + "";
+      var firstSlide = getParameterByName('slide') + "";
 
       if(producer == " ")
       {
         producer = "○○○"
       }
+
+      if(firstIndex == "")
+      {
+        firstIndex = "0"
+      }
+
+      if(firstIndex == "")
+      {
+        firstIndex = "0"
+      }
+
+
   </script>
     <div id="top" class="page_container jsOnBtn">
         <nav class="area_menu_header">
@@ -4571,7 +4585,7 @@
                 window.idol = idol;
             })();
             var birthday_flag = false;
-            var select_card_index = "0";
+            var select_card_index = firstIndex;
             var selected_num = null;
             var url_trade = 'http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fauction%2Fsearch_top%2F0%2F__hash_card_id__%3Fl_frm%3DIdol_gallery_idol_detail_1%26rnd%3D959008265';
             var url_album = 'http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Farchive%2Fview%2F__hash_card_id__%2F0%2F0%2F0%3Fl_frm%3DIdol_gallery_idol_detail_1%26rnd%3D657544208';
@@ -4579,7 +4593,7 @@
             var url_other_event = 'http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fidol_gallery%2Findex%2F0%2F0%2F2%2F0%3Fis_search%3D1%26event_category%3D__category_id__%26event_id%3D__event_id__%26l_frm%3DIdol_gallery_idol_detail_1%26rnd%3D851722987';
             var url_cartoon = 'http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcartoon%2Fsearch%3F__idol_search_param__%26l_frm%3DIdol_gallery_idol_detail_1%26rnd%3D999965906';
             var url_comment_5th_redirect = "idol_gallery/idol_detail/__hash_card_id__";
-            var slider_pos = 0;
+            var slider_pos = firstSlide;
             var select_tab = 0;
             var comments_info = {
                 "comment": {
