@@ -1,0 +1,1038 @@
+<!doctype html>
+<html lang="ja" xml:lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="pragma" content="no-cache">
+        <meta http-equiv="cache-control" content="no-cache">
+        <meta http-equiv="expires" content="-1">
+        <meta name="format-detection" content="telephone=no">
+        <title>アイドルマスター シンデレラガールズ</title>
+        <link rel="stylesheet" type="text/css" href="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcss%2Frich%2Fnew_mypage_common.css%3Fv%3D20190118114734" media="all">
+        <link rel="stylesheet" type="text/css" href='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcss%2Frich%2Fevent_royale.css%3Fv%3D20180918144837' media="all">
+        <link rel="apple-touch-icon-precomposed" href="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Ficon_bookmark.png%3Fv%3D20181128144654">
+        <script type="text/javascript">
+            if (window.localStorage) {
+                var displaySet = localStorage.getItem('DisplayPositionSet');
+                if (displaySet == 1) {
+                    if (navigator.userAgent.indexOf('Android') > 0) {
+                        document.write('<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">');
+                        document.getElementsByTagName('html')[0].style.zoom = document.documentElement.clientWidth / 320;
+                    } else {
+                        document.write('<meta name="viewport" content="width=320, user-scalable=no">');
+                    }
+                    window.addEventListener('resize', function() {
+                        if (navigator.userAgent.indexOf('Android') > 0)
+                            document.getElementsByTagName('html')[0].style.zoom = document.documentElement.clientWidth / 320;
+                    });
+                } else {
+                    document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
+                }
+            } else {
+                document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
+            }
+        </script>
+        <script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fjquery-2.2.2.min.js%3Fv%3D20170222083919"></script>
+        <script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Funderscore-min.js%3Fv%3D20170222083931"></script>
+        <script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fcommon.js%3Fv%3D20181127190316"></script>
+        <script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fcommon_new.js%3Fv%3D20181212190310"></script>
+        <script>
+            $(function() {
+                window.$ibox = $('.ibox').ibox();
+            });
+        </script>
+        <script>
+            $(document).ready(function() {
+                if (typeof newrelic === 'object' && typeof newrelic.setPageViewName === 'function') {
+                    newrelic.setPageViewName('/idolmaster/index.php/event_royale/get_raid_boss/4056219');
+                }
+            });
+        </script>
+        <script type='text/javascript'>
+            var se_flg = 0
+              , bgm_flg = 0
+              , chrome_app_flg = 0
+              , chrome_app_extension_id = 'dnacabmnfmejgfffmcehejcmiciinpej';
+        </script>
+        <script type='text/javascript' src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fapp_sound.js%3Fv%3D20170222083914'></script>
+        <link rel="stylesheet" type="text/css" href="http://sp.pf-img-a.mbga.jp/css/base.css?20171116"/>
+    </head>
+    <body id="event_royale">
+        <div id="top" class="page_container jsOnBtn">
+            <header class="event_header">
+                <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_royale%2Findex%3Fl_frm%3DEvent_royale_get_raid_boss_1%26rnd%3D679371146' id="header_tap_area" style='background-image:url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2F833%2Fevent_header.jpg%3Fv%3D20190123144656)'>
+                    <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F833%2Franking%2Fevent_logo.png%3Fv%3D20190123144656' style="position:absolute;left:8px;top:-2px" width="98">
+                    <div id="event_round_info">
+                        最終ラウンド<br>1/29 22:00～1/30 22:59
+
+                    </div>
+                </a>
+                <style>
+                    #menu_switch {
+                        width: 48px !important;
+                    }
+                </style>
+                <div class="jsOnBtn">
+                    <a class="btn_new_work_menu" href="#" id="menu_switch">
+                        <div></div>
+                    </a>
+                </div>
+                <nav class="area_menu_header">
+                    <div class="area_menu_header_6btn" style="display:none">
+                        <h1 id="menu_page_title">アイドルLIVEロワイヤル</h1>
+                        <ul class="jsOnBtn">
+                            <li>
+                                <a class="head_menu_01" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmypage%3Fl_frm%3DEvent_royale_get_raid_boss_1%26rnd%3D556691480'>
+                                    <div></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="head_menu_02" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fpetit_cg%3Fl_frm%3DEvent_royale_get_raid_boss_1%26rnd%3D9029487'>
+                                    <div></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="head_menu_03" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fgacha%3Fl_frm%3DEvent_royale_get_raid_boss_1%26rnd%3D379865246'>
+                                    <div></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="head_menu_04" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcard_str%3Fl_frm%3DEvent_royale_get_raid_boss_1%26rnd%3D164380578'>
+                                    <div></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="head_menu_05" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fauction%2Fauction_top%3Fl_frm%3DEvent_royale_get_raid_boss_1%26rnd%3D581334238'>
+                                    <div></div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="headerPopupMenu" class="headerPopupMenu">
+                        <div class="m-Top10">
+                            <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_royale%2Findex%3Fbanner_id%3D000833%26img%3D0%26l_frm%3DEvent_royale_get_raid_boss_1%26rnd%3D201295928' class="jsOnDesignBtn">
+                                <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2F833%2Fbanner_event_01.png%3Fv%3D20190123144656' width="280" height="60">
+                            </a>
+                        </div>
+                        <div class="area_menu_header_main4">
+                            <ul class="jsOnBtn">
+                                <li>
+                                    <a class="btn_menu_header_lesson" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcard_str%3Fl_frm%3DEvent_royale_get_raid_boss_2%26rnd%3D405400633'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn_menu_header_work" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fquests%3Fl_frm%3DEvent_royale_get_raid_boss_1%26rnd%3D186444910'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn_menu_header_livebattle" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fbattles%3Fl_frm%3DEvent_royale_get_raid_boss_1%26rnd%3D542374821'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn_menu_header_deck" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fdeck%3Fl_frm%3DEvent_royale_get_raid_boss_1%26rnd%3D27197062'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <h3 class="icon_menu_header_01"></h3>
+                        <div class="area_menu_header_4">
+                            <ul class="jsOnBtn">
+                                <li>
+                                    <a class="btn_menu_header_shop" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fshop%2Findex%3Fl_frm%3DEvent_royale_get_raid_boss_1%26rnd%3D444029606'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn_menu_header_item" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fitem%2Findex%3Fl_frm%3DEvent_royale_get_raid_boss_1%26rnd%3D40109653'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn_menu_header_present" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fpresent%2Frecieve%2F%3Fview_auth_type%3D1%26cache%3D1%26l_frm%3DEvent_royale_get_raid_boss_1%26rnd%3D399368065'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn_menu_header_change" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fexchange%2Fmedal_list%2F999999%3Fl_frm%3DEvent_royale_get_raid_boss_1%26rnd%3D377012508'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <h3 class="icon_menu_header_02"></h3>
+                        <div class="area_menu_header_5">
+                            <ul class="jsOnBtn">
+                                <li>
+                                    <a class="btn_menu_header_idollist" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcard_list%2Findex%3Fl_frm%3DEvent_royale_get_raid_boss_1%26rnd%3D689833257'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn_menu_header_trainer" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcard_storage%2Findex%3Fl_frm%3DEvent_royale_get_raid_boss_1%26rnd%3D631994148'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn_menu_header_production" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fknights%2Fnot_join_knights_top%3Fl_frm%3DEvent_royale_get_raid_boss_1%26rnd%3D953348417'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn_menu_header_pra" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fp_ranking_award%3Fl_frm%3DEvent_royale_get_raid_boss_1%26rnd%3D196962869'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn_menu_header_profile" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fresults%3Fl_frm%3DEvent_royale_get_raid_boss_1%26rnd%3D413321963'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <h3 class="icon_menu_header_03"></h3>
+                        <div class="area_menu_header_4">
+                            <ul class="jsOnBtn">
+                                <li>
+                                    <a class="btn_menu_header_favorite" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Ffriend%2Findex%3Fl_frm%3DEvent_royale_get_raid_boss_1%26rnd%3D437337975'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn_menu_header_memory" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemorial%3Fl_frm%3DEvent_royale_get_raid_boss_1%26rnd%3D279172537'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn_menu_header_gamecenter" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fgame_center%3Fl_frm%3DEvent_royale_get_raid_boss_1%26rnd%3D693593233'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn_menu_header_sound" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fs_booth%3Fl_frm%3DEvent_royale_get_raid_boss_1%26rnd%3D110861752'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <h3 class="icon_menu_header_04"></h3>
+                        <div class="area_menu_header_3">
+                            <ul class="jsOnBtn">
+                                <li>
+                                    <a class="btn_menu_header_setting" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fpersonal_option%3Fl_frm%3DEvent_royale_get_raid_boss_1%26rnd%3D67690029'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn_menu_header_help" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fadvise%2Findex%2Ftop%3Fl_frm%3DEvent_royale_get_raid_boss_1%26rnd%3D484478262'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn_menu_header_top" href='http://sp.pf.mbga.jp/12008305/?guid=ON'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <script type="text/javascript">
+                $(function() {
+                    $('.area_menu_header').css('margin-top', '-60px');
+                    $('.btn_new_work_menu').on(end, function(e) {
+                        $('html,body').stop();
+                        var elem = $('#headerPopupMenu,.area_menu_header_6btn');
+                        if (elem.css('display') == 'none') {
+                            $('.page_container').css('min-height', '650px');
+                            $('body').addClass('lightbox');
+                            elem.show();
+                            $(this).addClass("_close");
+                            se_play('se_006');
+                        } else {
+                            $('.page_container').css('min-height', '0px');
+                            $('body').removeClass('lightbox');
+                            elem.hide();
+                            $(this).removeClass("_close");
+                            se_play('se_007');
+                        }
+                        $('html,body').animate({
+                            scrollTop: 0
+                        }, 500);
+                        e.preventDefault();
+                    });
+                });
+            </script>
+            <input id="delay" type="hidden" value="0">
+            <style>
+                #animation object {
+                    width: 320px;
+                    height: 240px;
+                }
+            </style>
+            <section class="t-Cnt" id="mapIdolArea">
+                <script type="text/javascript" src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fpex-1.2.0.js%3Fv%3D20170222083930"></script>
+                <script type="text/javascript">
+                    document.write('<style type="text/css"> @media only screen and (-webkit-min-device-pixel-ratio: 1.5) { #animation > canvas { zoom: 50%; } } </style>');
+                    window.onunload = function() {
+                        if (typeof pex != "undefined") {
+                            pex.getAPI().destroy();
+                        }
+                    }
+                    ;
+                    window.onload = function() {
+                        var flashPlayerVersion = getFlashPlayerVersion();
+                        var native_app_flg = "";
+                        var chrome_app_flg = "";
+                        var andapp_flg = "";
+                        var capture = "";
+                        var use_pex = "0";
+                        if (flashPlayerVersion == "" || native_app_flg === "1" || chrome_app_flg === "1" || andapp_flg === "1" || use_pex === "1" || capture) {
+                            var ratio = window.devicePixelRatio >= 1.5 || chrome_app_flg === "1" || andapp_flg === "1" || capture ? 2 : 1;
+                            var option = {
+                                'width': 320 * ratio,
+                                'transparent': true,
+                                'operation': {
+                                    lighter_tgt: "lighter"
+                                },
+                                'disableTouch': true
+                            };
+                            option['frameCallback'] = {
+                                '/sound_mc': {
+                                    '8': function() {
+                                        se_play('se_102');
+                                    },
+                                    '10': function() {
+                                        se_play('se_130');
+                                    },
+                                    '9': function() {
+                                        se_play('se_105');
+                                    },
+                                    '11': function() {
+                                        se_play('se_114');
+                                    },
+                                    '5': function() {
+                                        se_play('se_108');
+                                    },
+                                    '6': function() {
+                                        se_play('se_109');
+                                    },
+                                    '7': function() {
+                                        se_play('se_103');
+                                    },
+                                    '4': function() {
+                                        se_play('se_101');
+                                    },
+                                },
+                            };
+                            var container = document.getElementById("animation");
+                            var pex = new Pex("http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_royale%2Fshow_inline_flash%2Fappear%2F4056219%2F1%3Fl_frm%3DEvent_royale_get_raid_boss_1%26rnd%3D254233691","animation",option);
+                        } else {
+                            console.log("flashPlayer_on");
+                            var objEle = document.createElement("object");
+                            objEle.setAttribute("data", "http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_royale%2Fshow_inline_flash%2Fappear%2F4056219%2F1%3Fl_frm%3DEvent_royale_get_raid_boss_2%26rnd%3D678712724");
+                            objEle.setAttribute("type", "application/x-shockwave-flash");
+                            objEle.setAttribute("width", "320");
+                            objEle.setAttribute("height", "240");
+                            objEle.setAttribute("loop", "on");
+                            objEle.setAttribute("quality", "high");
+                            objEle.setAttribute("src", "http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_royale%2Fshow_inline_flash%2Fappear%2F4056219%2F1%3Fl_frm%3DEvent_royale_get_raid_boss_3%26rnd%3D549771374");
+                            var container = document.getElementById("animation");
+                            container.appendChild(objEle);
+                        }
+                    }
+                    ;
+                    function getFlashPlayerVersion() {
+                        var vsn = '';
+                        if (navigator.plugins["Shockwave Flash"] && navigator.mimeTypes.length) {
+                            // not IE
+                            var tmp = navigator.plugins["Shockwave Flash"].description.match(/([0-9]+)/);
+                            vsn = tmp[0];
+                        } else {
+                            // IE
+                            try {
+                                var tmp = new ActiveXObject("ShockwaveFlash.ShockwaveFlash").GetVariable("$version").match(/([0-9]+)/);
+                                vsn = tmp[0];
+                            } catch (e) {}
+                        }
+                        return vsn;
+                    }
+                </script>
+                <div id="animation" style="width:320px;height:240px;overflow:hidden;"></div>
+            </section>
+            <div id="raid_boss_info" class="m-Btm10">
+                <div>宮本フレデリカ(Lv 2)
+</div>
+                <div class="displayBox" style="-webkit-box-pack:justify;">
+                    <div style="width:252px;">
+                        <div class="bossLifeGaugeWrap">
+                            <div class="bossLifeGauge">
+                                <div class="inner" style="width:85.840243902439%;"></div>
+                            </div>
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Froyale%2Fbar_kiryoku_gauge.png%3Fv%3D20170222083529' width="240" height="20" class="gaugeImg" style="position:absolute;top:0;left:0;">
+                            <div class="white lifeText">
+                                <span style="color:yellow;">1,055,835</span>
+                                / 1,230,000
+                            </div>
+                        </div>
+                    </div>
+                    <a class="btn_option jsOnDesignBtn" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_royale%2Ftoggle_inline_flash%2F4056219%3Fl_frm%3DEvent_royale_get_raid_boss_1%26rnd%3D950438761'>
+                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Froyale%2Fbutton%2Fbutton_inline_off.png%3Fv%3D20170222083529' width="50" height="27">
+                    </a>
+                </div>
+                <div class="displayBox" style="-webkit-box-pack:justify;">
+                    <div style="font-size:11px; margin:5px 0 0 5px; ">
+                        終了まであと<span class="yellow">0:15:37</span>
+                    </div>
+                    <div class="m-Top5 t-Rgt">
+                        <a id="js_btn_raid_boss_detail" class="js_show_detail" data-target="js_raid_boss_detail" style="font-size:11px;color:white;">タップで詳細表示▼</a>
+                    </div>
+                </div>
+            </div>
+            <section id="js_raid_boss_detail" class="detail_area t-Cnt m-Top10" style="display:none;">
+                <p class="m-Btm5">
+                    BP2で1ターンに失わせる予想気力:<span class="yellow">121</span>
+                </p>
+                <p class="gray m-Btm5">※予想気力はぷちデレラの発揮値を含んだ値です。</p>
+                <p class="m-Top10">勝利報酬確認</p>
+                <div class="m-Top5">
+                    勝利で<span class="yellow">1,920</span>
+                    ロワイヤルptGET!<br>
+                    <span style="color:#fff800;">イエローメダル</span>
+                    248枚GET!
+
+                </div>
+            </section>
+            <section class="t-Cnt" id="itemSelect">
+                <div class="royale_bp_panel_area">
+                    <div id="royale_bp_panel" class="royale_bp_panel">
+                        <form action='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_royale%2Fraid_battle%3Fl_frm%3DEvent_royale_get_raid_boss_1%26rnd%3D358083870' method="post">
+                            <input type="hidden" name="use_bp" class="use_bp" value="1">
+                            <input type="hidden" name="deck_type" value="1">
+                            <input type="hidden" name="current_bp" value="1">
+                            <input type="hidden" name="lv" value="2801">
+                            <input type="hidden" name="check_voltage" class="check_voltage" value="0">
+                            <input type="hidden" name="raid_id" value="4056219">
+                            <input type="hidden" name="call_help_members_flag" value="0">
+                            <input type="hidden" name="use_bp_num" value="0" class="use_bp_n">
+                            <input type="hidden" name="use_bp_item_num" value="0" class="use_bp_f">
+                            <input type="hidden" name="use_half_bp_item_num" value="0" class="use_bp_m">
+                            <input type="hidden" name="use_chapter_half_bp_item_num" value="0" class="use_bp_r">
+                            <label class='button_bp_g_Array jsOnDesignBtn' onClick="">
+                                <input type='submit' style="display:none;" value='' disabled>
+                            </label>
+                            <span class="blue">50%</span>
+                        </form>
+                        <form action='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_royale%2Fraid_battle%3Fl_frm%3DEvent_royale_get_raid_boss_2%26rnd%3D106462854' method="post">
+                            <input type="hidden" name="use_bp" class="use_bp" value="2">
+                            <input type="hidden" name="deck_type" value="1">
+                            <input type="hidden" name="current_bp" value="1">
+                            <input type="hidden" name="lv" value="2801">
+                            <input type="hidden" name="check_voltage" class="check_voltage" value="0">
+                            <input type="hidden" name="raid_id" value="4056219">
+                            <input type="hidden" name="call_help_members_flag" value="0">
+                            <input type="hidden" name="use_bp_num" value="0" class="use_bp_n">
+                            <input type="hidden" name="use_bp_item_num" value="0" class="use_bp_f">
+                            <input type="hidden" name="use_half_bp_item_num" value="0" class="use_bp_m">
+                            <input type="hidden" name="use_chapter_half_bp_item_num" value="0" class="use_bp_r">
+                            <label class='button_bp_g_Array jsOnDesignBtn' onClick="">
+                                <input type='submit' style="display:none;" value='' disabled>
+                            </label>
+                            <span class="blue">100%</span>
+                        </form>
+                        <form action='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_royale%2Fraid_battle%3Fl_frm%3DEvent_royale_get_raid_boss_3%26rnd%3D959468248' method="post">
+                            <input type="hidden" name="use_bp" class="use_bp" value="3">
+                            <input type="hidden" name="deck_type" value="1">
+                            <input type="hidden" name="current_bp" value="1">
+                            <input type="hidden" name="lv" value="2801">
+                            <input type="hidden" name="check_voltage" class="check_voltage" value="0">
+                            <input type="hidden" name="raid_id" value="4056219">
+                            <input type="hidden" name="call_help_members_flag" value="0">
+                            <input type="hidden" name="use_bp_num" value="0" class="use_bp_n">
+                            <input type="hidden" name="use_bp_item_num" value="0" class="use_bp_f">
+                            <input type="hidden" name="use_half_bp_item_num" value="0" class="use_bp_m">
+                            <input type="hidden" name="use_chapter_half_bp_item_num" value="0" class="use_bp_r">
+                            <label class='button_bp_g_Array jsOnDesignBtn' onClick="">
+                                <input type='submit' style="display:none;" value='' disabled>
+                            </label>
+                            <span class="blue">160%</span>
+                        </form>
+                        <form action='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_royale%2Fraid_battle%3Fl_frm%3DEvent_royale_get_raid_boss_4%26rnd%3D737949117' method="post">
+                            <input type="hidden" name="use_bp" class="use_bp" value="4">
+                            <input type="hidden" name="deck_type" value="1">
+                            <input type="hidden" name="current_bp" value="1">
+                            <input type="hidden" name="lv" value="2801">
+                            <input type="hidden" name="check_voltage" class="check_voltage" value="0">
+                            <input type="hidden" name="raid_id" value="4056219">
+                            <input type="hidden" name="call_help_members_flag" value="0">
+                            <input type="hidden" name="use_bp_num" value="0" class="use_bp_n">
+                            <input type="hidden" name="use_bp_item_num" value="0" class="use_bp_f">
+                            <input type="hidden" name="use_half_bp_item_num" value="0" class="use_bp_m">
+                            <input type="hidden" name="use_chapter_half_bp_item_num" value="0" class="use_bp_r">
+                            <label class='button_bp_g_Array jsOnDesignBtn' onClick="">
+                                <input type='submit' style="display:none;" value='' disabled>
+                            </label>
+                            <span class="blue">225%</span>
+                        </form>
+                        <form action='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_royale%2Fraid_battle%3Fl_frm%3DEvent_royale_get_raid_boss_5%26rnd%3D270843433' method="post">
+                            <input type="hidden" name="use_bp" class="use_bp" value="5">
+                            <input type="hidden" name="deck_type" value="1">
+                            <input type="hidden" name="current_bp" value="1">
+                            <input type="hidden" name="lv" value="2801">
+                            <input type="hidden" name="check_voltage" class="check_voltage" value="0">
+                            <input type="hidden" name="raid_id" value="4056219">
+                            <input type="hidden" name="call_help_members_flag" value="0">
+                            <input type="hidden" name="use_bp_num" value="0" class="use_bp_n">
+                            <input type="hidden" name="use_bp_item_num" value="0" class="use_bp_f">
+                            <input type="hidden" name="use_half_bp_item_num" value="0" class="use_bp_m">
+                            <input type="hidden" name="use_chapter_half_bp_item_num" value="0" class="use_bp_r">
+                            <label class='button_bp_g_Array jsOnDesignBtn' onClick="">
+                                <input type='submit' style="display:none;" value='' disabled>
+                            </label>
+                            <span class="blue">300%</span>
+                        </form>
+                    </div>
+                    <p class="t-Cnt m-Btm5">
+                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Froyale%2Fbattle_announce.png%3Fv%3D20170222083529' width="175"/>
+                    </p>
+                </div>
+                <div class="js_detail_sub">
+                    <div class="m-Btm5 m-Top5">
+                        BP2で1ターンに失わせる予想気力:<span class="yellow">121</span>
+                    </div>
+                </div>
+                <div class="btn_menu_type_2">
+                    <ul class="raid_recovery_area">
+                        <li>
+                            <div class='royaleRecoverList'>
+                                <div class="displayBox m-Btm5" style="padding-top:5px;">
+                                    <div style="margin:0 5px;">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fm%2F80102.jpg%3Fv%3D20170222083704' width="30" height="30">
+                                    </div>
+                                    <div style="height:30px; display:table-cell; vertical-align:middle;">
+                                        × <span style="font-size:15px">48</span>
+                                    </div>
+                                </div>
+                                <div class="displayBox">
+                                    <div style="margin:0 5px;">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Froyale%2Fevent_item_801_m.jpg%3Fv%3D20170222083529' width="30" height="30">
+                                    </div>
+                                    <div style="height:30px; display:table-cell; vertical-align:middle;">
+                                        × <span style="font-size:15px">9</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="royaleUseItem">
+                            <a href='#' id="recover_btn" class="recoveryBtn jsOnDesignBtn">
+                                <span class="bp_item">1</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="t-Cnt m-Btm5">
+                    <div id="bp_mic" style="height:20px;">
+                        <span style="vertical-align:middle" class="blue">BP : </span>
+                        <span id="current_bp">1</span>
+                        / 5
+
+                        <span id="remain_recover" class="gray">
+                            (全回復まで<span class="yellow">1:15:45</span>
+                            )
+
+                        </span>
+                    </div>
+                </div>
+                <script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fmin%2Fbp_manager_royale.min.js%3Fv%3D20181211144703" type="text/javascript"></script>
+                <script>
+                    $(function() {
+                        if (window.localStorage) {
+                            var voltageFlashSkip = localStorage.getItem('voltageFlashSkip');
+                            var check_voltage = $('.check_voltage');
+                            if (voltageFlashSkip) {
+                                check_voltage.val(voltageFlashSkip);
+                            }
+                        }
+                        var base_input = {
+                            "bp_list": {
+                                "n": {
+                                    num: parseInt(1),
+                                    effect: 1
+                                },
+                                "m": {
+                                    num: parseInt(48),
+                                    effect: 1
+                                },
+                                "r": {
+                                    num: parseInt(9),
+                                    effect: 1
+                                },
+                                "f": {
+                                    num: parseInt(1),
+                                    effect: 5
+                                },
+                            },
+                            "bp_flag_list": {
+                                "is_auto": parseInt(0),
+                                "is_priority_half": parseInt(1),
+                            },
+                            "bp_master": {
+                                "bp_usable_max": 5,
+                                "bp_name": "bp",
+                            }
+                        }
+                        var dom = {
+                            "$battle_buttons": $('#royale_bp_panel form'),
+                            "$recover_btn": $('#recover_btn'),
+                        }
+                        var bp_manager = new BattlePointManagerRoyale(base_input);
+                        bp_manager.setup_draw_and_action(dom);
+                    })
+                </script>
+                <a class='royale_auto_btn jsOnDesignBtn' style="margin-top:10px;">
+                    <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fm%2F80101.jpg%3Fv%3D20170222083704'>
+                    <div class='royale_auto_info'>
+                        BPドリンク自動使用設定<br>
+                        <span class='blue'>現在の設定 : </span>
+                        <span class='yellow'>自動使用しない</span>
+                    </div>
+                </a>
+                <script type="text/template" id="tpl_auto_pop" data-title="BPドリンク自動使用設定">
+
+<div class="royaleArea type_01 displayBox m-Top10 m-Btm10" style="margin-left:auto;margin-right:auto;">
+<div style="width:33%">
+<img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2Fbox%2Fm%2Fevent_item_801.png%3Fv%3D20170222083522' width="50" height="50">
+<div>×9</div>
+</div>
+<div style="width:33%">
+<img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fm%2F80102.jpg%3Fv%3D20170222083704' width="50" height="50">
+<div>×48</div>
+</div>
+<div style="width:33%">
+<img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fm%2F80101.jpg%3Fv%3D20170222083704' width="50" height="50">
+<div>×1</div>
+</div>
+</div>
+<div class="t-Cnt m-Btm10">
+<span class="blue">現在の設定</span>: <span class="yellow">自動使用しない</span>
+</div>
+<form action='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_royale%2Fupdate_compensation_item%3Fl_frm%3DEvent_royale_get_raid_boss_1%26rnd%3D540802487' method="post" class="m-Btm10">
+<input type="hidden" name="chk" value="1">
+<input type="hidden" name="raid_boss_id" value="4056219">
+<div class="area-btn-common _base-width m-Btm8">
+<div class="search_radio_2">
+<div class="line_2">BPドリンクを<br />自動で使用する</div>
+<input type="radio" value="1" name="flag" >
+</div>
+<div class="search_radio_2">
+<div class="line_2">BPドリンクを<br />自動で使用しない</div>
+<input type="radio" value="0" name="flag" checked="checked">
+</div>
+</div>
+<div class="area-popup_line_dot"></div>
+<div class="t-Lft m-Cnt m-Btm5" style="font-size:12px;">
+BPドリンクを自動使用する場合に<span class="yellow">BPドリンク1/5</span>を優先して使用するか設定できます。
+</div>
+<div class="t-Cnt m-Btm10">
+<span class="blue">現在の設定</span>: <span class="yellow">優先して使用する</span>
+</div>
+<div class="area-btn-common _base-width m-Btm8">
+<div class="search_radio_2">
+<div class="line_2">BPドリンク1/5を<br />優先して使用する</div>
+<input type="radio" value="1" name="is_priority_half_bp" checked="checked">
+</div>
+<div class="search_radio_2">
+<div class="line_2">BPドリンク1/5を<br />優先して使用しない</div>
+<input type="radio" value="0" name="is_priority_half_bp" >
+</div>
+</div>
+<div class="gray t-Lft text_sup" style="font-size:10px;">
+・「優先して使用する」に設定するとラウンド専用BPドリンク1/5⇒BPドリンク1/5⇒BPドリンクの順に使用されます。
+</div>
+<div class="gray t-Lft text_sup" style="font-size:10px;">
+・BPドリンクを自動使用しない場合はこの設定は反映されません。
+</div>
+<div class="area-btn-common _base-width m-Btm8 m-Top8">
+<label class="btn_decision_line_2 m-Cnt" onClick=""><input type="submit" value="設定を変更する"></label>
+</div>
+</form>
+
+                </script>
+                <script>
+                    $(function() {
+                        Commonjs.createPopupByTemplate({
+                            "id": "tpl_auto_pop",
+                            $trigger: $(".royale_auto_btn"),
+                            onTrigger: function(e, popup) {
+                                Commonjs.setSearchRadio(popup.get_contents().find(".search_radio_2"));
+                                popup.open();
+                            }
+                        });
+                    })
+                </script>
+                <div class="royaleArea type_raidInfo" style="margin:10px;">
+                    <div id="help_frame" class="displayBox  type_01">
+                        <input type="checkbox" id="help_chk" value="0" style="margin:10px 10px 5px;">
+                        <div class="help_text">
+                            <div style="font-size:11px;">プロダクションメンバーのアイドルを呼ぶ</div>
+                            <span class="blue small" style="vertical-align: middle;">消費攻コスト: </span>
+                            <span class="yellow" style="vertical-align: middle;">20</span>
+                            <span class="blue small" style="vertical-align: middle;">攻コスト: </span>
+                            61 / 102
+
+                        </div>
+                    </div>
+                    <script type="text/javascript">
+                        <!--
+                        $('#help_frame').click(function() {
+                            var call_flags = $('input[name=call_help_members_flag]');
+                            if ($(call_flags[0]).val() == 1) {
+                                $.each(call_flags, function() {
+                                    $(this).val(0);
+                                });
+                                $(this).find('#help_chk').prop('checked', false);
+                            } else {
+                                $.each(call_flags, function() {
+                                    $(this).val(1);
+                                });
+                                $(this).find('#help_chk').prop('checked', true);
+                            }
+                        });
+                        -->
+                    </script>
+                </div>
+                <style>
+                    label {
+                        -webkit-transform: scale(1);
+                    }
+                </style>
+                <div class="btn_menu_type_2">
+                    <ul class="raid_recovery_area">
+                        <li>
+                            <div class="inner_txt_elm">
+                                <form method="post" action='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_royale%2Fuse_item%3Fl_frm%3DEvent_royale_get_raid_boss_1%26rnd%3D939245045' class="skipAdmit" style="margin:0">
+                                    <input type="hidden" name="mode" value="event_royale">
+                                    <input type="hidden" name="event_id" value="833">
+                                    <input type="hidden" name="raid_id" value="4056219">
+                                    <input type="hidden" name="item_id" value='9'>
+                                    <input type="hidden" name="skip" class="skipAdmitFlag" value="0">
+                                    <label for="recovery_half" class="submitBt button_energy_recovery_half jsOnDesignBtn" onClick="">
+                                        <input id="recovery_half" type="submit" style="display:none;">
+                                        <div class="yellow">2652</div>
+                                    </label>
+                                </form>
+                            </div>
+                            <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fitem%2Findex%3Fl_frm%3DEvent_royale_get_raid_boss_2%26rnd%3D676244067' class="btn_normal_line_2 m-Cnt m-Top12" style="font-size:13px;">他のアイテムを使う</a>
+                        </li>
+                        <li>
+                            <div class="inner_txt_elm">
+                                <form method="post" action='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_royale%2Fuse_item%3Fl_frm%3DEvent_royale_get_raid_boss_2%26rnd%3D727247398' class="skipAdmit" style="margin:0">
+                                    <input type="hidden" name="mode" value="event_royale">
+                                    <input type="hidden" name="event_id" value="833">
+                                    <input type="hidden" name="raid_id" value="4056219">
+                                    <input type="hidden" name="item_id" value='15'>
+                                    <input type="hidden" name="skip" class="skipAdmitFlag" value="0">
+                                    <label for="recovery_full" class="submitBt button_energy_recovery_full_01 jsOnDesignBtn" onClick="">
+                                        <input id="recovery_full" type="submit" style="display:none;">
+                                        <div class="yellow">317</div>
+                                    </label>
+                                </form>
+                            </div>
+                            <div class="search_checkbox_2" style="top:12px;">
+                                確認をスキップ
+    <input type="checkbox" value="1" id="sendBox" name="sendBox" class="skipFlag" checked="checked">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <script type="text/javascript">
+                    $(function() {
+                        $('.submitBt').click(function() {
+                            var btFlag = $('#sendBox').is(':checked');
+                            if (btFlag) {
+                                $('.skipAdmitFlag').val(1);
+                            } else {
+                                $('.skipAdmitFlag').val(0);
+                            }
+                        });
+                        Commonjs.setSearchCheckBox($(".search_checkbox_2"));
+                    });
+                </script>
+            </section>
+            <div class="voltage_gauge_area">
+                <div class="current_voltage">
+                    <span style="width:74%;"></span>
+                </div>
+            </div>
+            <div class=" t-Cnt m-Btm10">
+                <span class="blue">現在ボルテージ : </span>
+                <span class="yellow">74%</span>
+                (攻守発揮値<span class="yellow">20%</span>
+                UP!!)<br>
+            </div>
+            <div class="limited_shop type_02">
+                <ul class="jsOnBtn">
+                    <li>
+                        <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fshop%2Findex%2F3%3Fl_frm%3DEvent_royale_get_raid_boss_1%26rnd%3D481619867#page_link_80108' class="btn_banner_limited">
+                            <div class="text_info">
+                                <span>
+                                    BPドリンク5+<br/>スタドリ3セット300MC!
+                                </span>
+                            </div>
+                            <div class="text_limit">あと13:20:55</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fshop%2Findex%2F3%3Fl_frm%3DEvent_royale_get_raid_boss_2%26rnd%3D703441130#page_link_80103' class="btn_banner_limited">
+                            <div class="text_info">
+                                <span>
+                                    BPドリンク×3個で<br/>150MC!
+                                </span>
+                            </div>
+                            <div class="text_limit">あと15:20:55</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <img src="http://sp.pf-img-a.mbga.jp/12008305?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_hoshi.jpg" width="100%" class="m-Btm5">
+            <br>
+            <section class="naviArea">
+                <img src="http://sp.pf-img-a.mbga.jp/12008305?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fnavi%2Ftujo_m2.png" width="90">
+                <div class="Wrap">
+                    <div class="fukiRight">
+                        BPを投入してLIVEをしましょう!<br>
+                        <span class="yellow">投入BPが多いほどライバルユニットの気力をたくさん減らせますよ!</span>
+                        ロワイヤルバトル中であれば何度もLIVEできます!
+
+                    </div>
+                </div>
+            </section>
+            <img src="http://sp.pf-img-a.mbga.jp/12008305?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_hoshi.jpg" width="100%" class="m-Btm10">
+            <br>
+            <section class="t-Cnt">
+                <h3 class="title_img event_red m-Btm5">
+                    <div class="frame">ゲストLIVE編成</div>
+                </h3>
+                <table width="100%" style="width:100%; margin:0 auto 5px">
+                    <tr>
+                        <td align="center" width="60" style="width:60px;">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F9d8f7ddf9814571ec92baa652f20ead5.jpg%3Fv%3D20170222083234' width="60">
+                        </td>
+                    </tr>
+                </table>
+                <p class="blue t-Lft">バックメンバー:0人</p>
+                <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_royale%2Fevent_deck_edit%3Fdeck%3D1%26l_frm%3DEvent_royale_get_raid_boss_1%26rnd%3D171277005' class="btn_normal_line_2 m-Cnt m-Top8 m-Btm8">ユニット編成</a>
+            </section>
+            <section class="royale_bp_panel_area">
+                <div class="titleH2 eventH2Color_red">参加するぷちデレラ</div>
+                <div style="padding:0 10px; line-height:180%;">
+                    <div style="overflow:hidden;margin-bottom:3px;line-height:20px">
+                        <div class="attribute_type_base attribute_type2" style="float:left"></div>
+                        <div style="float:left;margin-bottom:3px;padding-left:10px">佐々木千枝
+</div>
+                    </div>
+                    <div style="overflow:hidden;margin-bottom:3px;line-height:20px">
+                        <div class="attribute_type_base attribute_type2" style="float:left"></div>
+                        <div style="float:left;margin-bottom:3px;padding-left:10px">ﾗｲﾗ
+</div>
+                    </div>
+                    <div style="overflow:hidden;margin-bottom:3px;line-height:20px">
+                        <div class="attribute_type_base attribute_type2" style="float:left"></div>
+                        <div style="float:left;margin-bottom:3px;padding-left:10px">ｹｲﾄ
+</div>
+                    </div>
+                </div>
+            </section>
+            <section class="t-Cnt">
+                <img src="http://sp.pf-img-a.mbga.jp/12008305?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_hoshi.jpg" width="100%" class="m-Top8 m-Btm8">
+                <br>
+                <form action='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_royale%2Fwork%3Fl_frm%3DEvent_royale_get_raid_boss_1%26rnd%3D521729520' method="post">
+                    <label class="btn_decision_line_2 m-Cnt" onClick="">
+                        <input type="submit" value="お仕事を続ける"/>
+                    </label>
+                </form>
+            </section>
+            <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_royale%2Fhelp%2F1%3Fl_frm%3DEvent_royale_get_raid_boss_1%26rnd%3D102809195' class="btn_sup_line_2 m-Cnt m-Btm8">注意事項(必読)</a>
+            <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_royale%2Findex%3Fl_frm%3DEvent_royale_get_raid_boss_2%26rnd%3D548289514'>
+                <div class="backLink">アイドルLIVEロワイヤルTOP</div>
+            </a>
+            <script>
+                <!--
+                $(function() {
+                    var $sub = $(".js_detail_sub");
+                    $("#js_btn_raid_boss_detail").on("click", function() {
+                        var $this = $(this);
+                        var target_id = "#" + $(this).data("target");
+                        var $target = $(target_id);
+                        if ($target.is(":visible")) {
+                            $target.hide();
+                            $sub.show();
+                            $this.text("タップで詳細表示▼");
+                        } else {
+                            $target.show();
+                            $sub.hide();
+                            $this.text("タップで詳細表示▲");
+                        }
+                    })
+                })
+                -->
+            </script>
+            <script type="text/javascript">
+                $(function() {
+                    $('form').bind('submit', function() {
+                        var $submit = $("input[type=submit], input[type=reset]");
+                        for (var i = 0; i < $submit.length; i++) {
+                            if ($submit.eq(i).val() != '' && !$submit.eq(i).hasClass('jsNotDisabled')) {
+                                $submit.eq(i).val('送信中');
+                                $submit.eq(i).prop('disabled', true);
+                                var prev = $submit.eq(i).prev();
+                                if (prev.hasClass('btn_text')) {
+                                    prev.text('送信中');
+                                    if ($submit.eq(i).parent()[0].tagName == 'LABEL') {
+                                        $submit.eq(i).parent().removeClass('_line_2');
+                                    }
+                                }
+                            } else if (!$submit.eq(i).hasClass('jsNotDisabled')) {
+                                $submit.eq(i).prop('disabled', true);
+                            }
+                            if ($submit.eq(i).parent()[0].tagName == 'LABEL') {
+                                $submit.eq(i).parent().css({
+                                    "opacity": "0.5"
+                                });
+                            }
+                        }
+                        $(".livebutton input[type='submit']").val('').css({
+                            "opacity": "0.5"
+                        }).prop('disabled', true);
+                        var $imagesub = $("input[type='image']");
+                        $imagesub.prop('disabled', true);
+                        for (var i = 0; i < $imagesub.length; i++) {
+                            if (!$imagesub.eq(i).attr('class')) {
+                                $imagesub.eq(i).css({
+                                    "opacity": "0.5"
+                                });
+                                continue;
+                            }
+                            if ($imagesub.eq(i).attr('class').indexOf('noop') == -1) {
+                                $imagesub.eq(i).css({
+                                    "opacity": "0.5"
+                                });
+                            } else {
+                                $imagesub.eq(i).css({
+                                    "opacity": "1"
+                                });
+                            }
+                        }
+                        setTimeout(function() {
+                            $submit.prop('disabled', false).parent().css({
+                                "opacity": "1"
+                            });
+                            $imagesub.prop('disabled', false).css({
+                                "opacity": "1"
+                            });
+                            $(".livebutton input[type='submit']").css({
+                                "opacity": "1"
+                            });
+                        }, 2500);
+                    });
+                    $(".submit a").click(function() {
+                        $(this).click(function() {
+                            return false;
+                        })
+                        $(".submit").find("img").css({
+                            "opacity": "0.5"
+                        });
+                        setTimeout(function() {
+                            $(this).click(function() {
+                                return true;
+                            })
+                            $(".submit").find("img").css({
+                                "opacity": "1"
+                            });
+                        }, 2500);
+                    });
+                    $('body').on("click", '.stop-repeat-link', function(e) {
+                        var self = $('.stop-repeat-link');
+                        self.css({
+                            'pointer-events': 'none',
+                            'opacity': 0.6
+                        });
+                        setTimeout(function() {
+                            self.css({
+                                'pointer-events': 'auto',
+                                'opacity': 1
+                            });
+                        }, 2500);
+                    });
+                });
+            </script>
+            <footer>
+                <div class="line_idolmaster"></div>
+                <a href="#top" id="toPageTop" class="mypage_under">
+                    <div></div>
+                </a>
+                <div class="t-Cnt">(C)窪岡俊之 (C)2011 BNEI</div>
+            </footer>
+        </div>
+        <div id="mbga-pf-footer">
+            <div class="mbga-pf-footer-container odd-lines mbga-pf-footer-white">
+                <ul>
+                    <li class="mbga-pf-footer-list">
+                        <div class="mbga-pf-fotter-content">
+                            <a class="mbga-pf-footer-arrow" href="http://sp.mbga.jp/_grp_view?g=32095227">
+                                <span class="mbga-pf-footer-caption">公式サークル</span>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="mbga-pf-footer-navbar">
+                <ul class="mbga-pf-box-h">
+                    <li id="mbga-pf-footer-navbar-icon-grid" class="mbga-pf-footer-li">
+                        <a class="mbga-pf-footer-a mbga-pf-footer-home-w" href="http://sp.mbga.jp/?_from=globalfooter">
+                            <span class="mbga-pf-footer-txt">ホーム</span>
+                        </a>
+                    </li>
+                    <li id="mbga-pf-footer-navbar-icon-mypage" class="mbga-pf-footer-li">
+                        <a class="mbga-pf-footer-a mbga-pf-footer-mypage-w" href="http://sp.mbga.jp/_my0?_from=globalfooter">
+                            <span class="mbga-pf-footer-txt">マイページ</span>
+                        </a>
+                    </li>
+                    <li id="mbga-pf-footer-navbar-icon-mygame" class="mbga-pf-footer-li">
+                        <a class="mbga-pf-footer-a mbga-pf-footer-mygame-w" href="http://sp.mbga.jp/_game_my_top?_from=globalfooter">
+                            <span class="mbga-pf-footer-txt">マイゲーム</span>
+                        </a>
+                    </li>
+                    <li id="mbga-pf-footer-navbar-icon-notification" class="mbga-pf-footer-li">
+                        <a class="mbga-pf-footer-a mbga-pf-footer-game-w" href="http://sp.mbga.jp/_game_top?_from=globalfooter">
+                            <span class="mbga-pf-footer-txt">ゲーム</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <script type="text/javascript" charset="UTF-8">
+                (function() {
+                    document.addEventListener('DOMContentLoaded', function() {
+                        var list = document.getElementsByClassName('mbga-pf-footer-li');
+                        var i = 0
+                          , l = list.length;
+                        for (; i < l; i++) {
+                            var elem = list[i];
+                            elem.addEventListener('touchstart', function(e) {
+                                e.currentTarget.className = e.currentTarget.className.replace(/$/, ' mbga-pf-tapped');
+                            });
+                            elem.addEventListener('touchend', function(e) {
+                                e.currentTarget.className = e.currentTarget.className.replace(/ mbga-pf-tapped/, '');
+                            });
+                            elem.addEventListener('touchmove', function(e) {});
+                        }
+                    });
+                }
+                )();
+            </script>
+        </div>
+    </body>
+</html>

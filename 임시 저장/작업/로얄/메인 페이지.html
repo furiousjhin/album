@@ -1,0 +1,727 @@
+<!doctype html>
+<html lang="ja" xml:lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="pragma" content="no-cache">
+        <meta http-equiv="cache-control" content="no-cache">
+        <meta http-equiv="expires" content="-1">
+        <meta name="format-detection" content="telephone=no">
+        <title>アイドルマスター シンデレラガールズ</title>
+        <link rel="stylesheet" type="text/css" href="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcss%2Frich%2Fnew_mypage_common.css%3Fv%3D20190118114734" media="all">
+        <link rel="stylesheet" type="text/css" href='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcss%2Frich%2Fevent_royale.css%3Fv%3D20180918144837' media="all">
+        <link rel="apple-touch-icon-precomposed" href="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Ficon_bookmark.png%3Fv%3D20181128144654">
+        <script type="text/javascript">
+            if (window.localStorage) {
+                var displaySet = localStorage.getItem('DisplayPositionSet');
+                if (displaySet == 1) {
+                    if (navigator.userAgent.indexOf('Android') > 0) {
+                        document.write('<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">');
+                        document.getElementsByTagName('html')[0].style.zoom = document.documentElement.clientWidth / 320;
+                    } else {
+                        document.write('<meta name="viewport" content="width=320, user-scalable=no">');
+                    }
+                    window.addEventListener('resize', function() {
+                        if (navigator.userAgent.indexOf('Android') > 0)
+                            document.getElementsByTagName('html')[0].style.zoom = document.documentElement.clientWidth / 320;
+                    });
+                } else {
+                    document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
+                }
+            } else {
+                document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
+            }
+        </script>
+        <script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fjquery-2.2.2.min.js%3Fv%3D20170222083919"></script>
+        <script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Funderscore-min.js%3Fv%3D20170222083931"></script>
+        <script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fcommon.js%3Fv%3D20181127190316"></script>
+        <script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fcommon_new.js%3Fv%3D20181212190310"></script>
+        <script>
+            $(function() {
+                window.$ibox = $('.ibox').ibox();
+            });
+        </script>
+        <script>
+            $(document).ready(function() {
+                if (typeof newrelic === 'object' && typeof newrelic.setPageViewName === 'function') {
+                    newrelic.setPageViewName('/idolmaster/index.php/event_royale');
+                }
+            });
+        </script>
+        <script type='text/javascript'>
+            var se_flg = 0
+              , bgm_flg = 0
+              , chrome_app_flg = 0
+              , chrome_app_extension_id = 'dnacabmnfmejgfffmcehejcmiciinpej';
+        </script>
+        <script type='text/javascript' src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fapp_sound.js%3Fv%3D20170222083914'></script>
+        <link rel="stylesheet" type="text/css" href="http://sp.pf-img-a.mbga.jp/css/base.css?20171116"/>
+    </head>
+    <body id="event_royale">
+        <div id="top" class="page_container jsOnBtn">
+            <header class="event_header">
+                <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_royale%2Findex%3Fl_frm%3DEvent_royale_index_1%26rnd%3D390875921' id="header_tap_area" style='background-image:url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2F833%2Fevent_header.jpg%3Fv%3D20190123144656)'>
+                    <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F833%2Franking%2Fevent_logo.png%3Fv%3D20190123144656' style="position:absolute;left:8px;top:-2px" width="98">
+                    <div id="event_round_info">
+                        最終ラウンド<br>1/29 22:00～1/30 22:59
+
+                    </div>
+                </a>
+                <style>
+                    #menu_switch {
+                        width: 48px !important;
+                    }
+                </style>
+                <div class="jsOnBtn">
+                    <a class="btn_new_work_menu" href="#" id="menu_switch">
+                        <div></div>
+                    </a>
+                </div>
+                <nav class="area_menu_header">
+                    <div class="area_menu_header_6btn" style="display:none">
+                        <h1 id="menu_page_title">アイドルLIVEロワイヤル</h1>
+                        <ul class="jsOnBtn">
+                            <li>
+                                <a class="head_menu_01" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmypage%3Fl_frm%3DEvent_royale_index_1%26rnd%3D704019415'>
+                                    <div></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="head_menu_02" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fpetit_cg%3Fl_frm%3DEvent_royale_index_1%26rnd%3D948800683'>
+                                    <div></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="head_menu_03" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fgacha%3Fl_frm%3DEvent_royale_index_1%26rnd%3D27303593'>
+                                    <div></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="head_menu_04" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcard_str%3Fl_frm%3DEvent_royale_index_1%26rnd%3D182212144'>
+                                    <div></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="head_menu_05" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fauction%2Fauction_top%3Fl_frm%3DEvent_royale_index_1%26rnd%3D212242948'>
+                                    <div></div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="headerPopupMenu" class="headerPopupMenu">
+                        <div class="m-Top10">
+                            <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_royale%2Findex%3Fbanner_id%3D000833%26img%3D0%26l_frm%3DEvent_royale_index_1%26rnd%3D385484572' class="jsOnDesignBtn">
+                                <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2F833%2Fbanner_event_01.png%3Fv%3D20190123144656' width="280" height="60">
+                            </a>
+                        </div>
+                        <div class="area_menu_header_main4">
+                            <ul class="jsOnBtn">
+                                <li>
+                                    <a class="btn_menu_header_lesson" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcard_str%3Fl_frm%3DEvent_royale_index_2%26rnd%3D244899364'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn_menu_header_work" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fquests%3Fl_frm%3DEvent_royale_index_1%26rnd%3D433997165'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn_menu_header_livebattle" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fbattles%3Fl_frm%3DEvent_royale_index_1%26rnd%3D817969499'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn_menu_header_deck" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fdeck%3Fl_frm%3DEvent_royale_index_1%26rnd%3D286667839'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <h3 class="icon_menu_header_01"></h3>
+                        <div class="area_menu_header_4">
+                            <ul class="jsOnBtn">
+                                <li>
+                                    <a class="btn_menu_header_shop" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fshop%2Findex%3Fl_frm%3DEvent_royale_index_1%26rnd%3D606769294'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn_menu_header_item" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fitem%2Findex%3Fl_frm%3DEvent_royale_index_1%26rnd%3D119535225'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn_menu_header_present" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fpresent%2Frecieve%2F%3Fview_auth_type%3D1%26cache%3D1%26l_frm%3DEvent_royale_index_1%26rnd%3D88288146'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn_menu_header_change" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fexchange%2Fmedal_list%2F999999%3Fl_frm%3DEvent_royale_index_1%26rnd%3D969233779'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <h3 class="icon_menu_header_02"></h3>
+                        <div class="area_menu_header_5">
+                            <ul class="jsOnBtn">
+                                <li>
+                                    <a class="btn_menu_header_idollist" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcard_list%2Findex%3Fl_frm%3DEvent_royale_index_1%26rnd%3D533247943'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn_menu_header_trainer" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcard_storage%2Findex%3Fl_frm%3DEvent_royale_index_1%26rnd%3D851467201'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn_menu_header_production" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fknights%2Fnot_join_knights_top%3Fl_frm%3DEvent_royale_index_1%26rnd%3D429092912'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn_menu_header_pra" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fp_ranking_award%3Fl_frm%3DEvent_royale_index_1%26rnd%3D900132939'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn_menu_header_profile" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fresults%3Fl_frm%3DEvent_royale_index_1%26rnd%3D138842926'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <h3 class="icon_menu_header_03"></h3>
+                        <div class="area_menu_header_4">
+                            <ul class="jsOnBtn">
+                                <li>
+                                    <a class="btn_menu_header_favorite" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Ffriend%2Findex%3Fl_frm%3DEvent_royale_index_1%26rnd%3D174143172'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn_menu_header_memory" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemorial%3Fl_frm%3DEvent_royale_index_1%26rnd%3D807549795'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn_menu_header_gamecenter" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fgame_center%3Fl_frm%3DEvent_royale_index_1%26rnd%3D357276377'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn_menu_header_sound" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fs_booth%3Fl_frm%3DEvent_royale_index_1%26rnd%3D430742152'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <h3 class="icon_menu_header_04"></h3>
+                        <div class="area_menu_header_3">
+                            <ul class="jsOnBtn">
+                                <li>
+                                    <a class="btn_menu_header_setting" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fpersonal_option%3Fl_frm%3DEvent_royale_index_1%26rnd%3D840284402'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn_menu_header_help" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fadvise%2Findex%2Ftop%3Fl_frm%3DEvent_royale_index_1%26rnd%3D607086731'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn_menu_header_top" href='http://sp.pf.mbga.jp/12008305/?guid=ON'>
+                                        <div></div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <script type="text/javascript">
+                $(function() {
+                    $('.area_menu_header').css('margin-top', '-60px');
+                    $('.btn_new_work_menu').on(end, function(e) {
+                        $('html,body').stop();
+                        var elem = $('#headerPopupMenu,.area_menu_header_6btn');
+                        if (elem.css('display') == 'none') {
+                            $('.page_container').css('min-height', '650px');
+                            $('body').addClass('lightbox');
+                            elem.show();
+                            $(this).addClass("_close");
+                            se_play('se_006');
+                        } else {
+                            $('.page_container').css('min-height', '0px');
+                            $('body').removeClass('lightbox');
+                            elem.hide();
+                            $(this).removeClass("_close");
+                            se_play('se_007');
+                        }
+                        $('html,body').animate({
+                            scrollTop: 0
+                        }, 500);
+                        e.preventDefault();
+                    });
+                });
+            </script>
+            <input id="delay" type="hidden" value="0">
+            <script type="text/template" id="tpl_new_info">
+
+<section id="newInfo" class='newInfoArea'>
+<img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fchallenge%2Fwindow%2Fpopup_ue.png%3Fv%3D20170222083412' width="280" height="50">
+<div class="newInfoBody">
+<ul>
+</ul>
+</div>
+<img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fchallenge%2Fwindow%2Fpopup_sita.png%3Fv%3D20170222083412' width="280" height="38">
+<a class='js_popup_close' style="display: block;width: 95px;height: 25px;position: absolute;right: 113px;bottom: 9px;"></a>
+<a class='js_popup_close' style="display: block;width: 34px;height: 34px;position: absolute;right: 20px;top: 9px;"></a>
+</section>
+
+            </script>
+            <section id="event_header_info">
+                <span class='eventPeriodColor_red'>★イベント開催期間★</span>
+                1/23 15:00～1/30 22:59
+
+                <div class="user_palam_wrap">
+                    <div class="user_palam" style="width:130px">
+                        <span class="yellow" style="font-size:10px">スタミナ</span>
+                        312/670
+
+                        <div style="font-size:10px">
+                            (全回復まで<span class="yellow">17:51:42</span>
+                            )
+
+                        </div>
+                    </div>
+                    <div class="user_palam" style="width:120px">
+                        <span class="yellow">BP</span>
+                        4/5
+
+                        <div style="font-size:10px">
+                            (全回復まで<span class="yellow">0:15:28</span>
+                            )
+
+                        </div>
+                    </div>
+                </div>
+                <div class="newInfo newInfo_img_gray"></div>
+            </section>
+            <script>
+                $(function() {
+                    var template = $("#popup-custom").html();
+                    Commonjs.createPopupByTemplate({
+                        "id": "tpl_new_info",
+                        $trigger: $(".js_newInfo"),
+                        "custom_flg": true,
+                    });
+                })
+            </script>
+            <div class='tab_common-large_red tab_color-red m-Top8' style="">
+                <a class='tab_line_2 tab_text  selected' style="">お仕事</a>
+                <a href="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_ranking%2Franking_menu%3Fevent_id%3D833%26l_frm%3DEvent_royale_index_1%26rnd%3D447216290" class='tab_line_2 tab_text ' style="">報酬</a>
+            </div>
+            <section class="event_main_graphic" style='background-image:url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2F833%2Ftop_stage_bg_1.jpg%3Fv%3D20190123144656);margin-bottom:4px'>
+                <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2F833%2Ftop_stage_chara_1.png%3Fv%3D20190123144656' class="main_idol_img" style="z-index:0;">
+                <div class="main_info_area">
+                    <div class="mini voltage_gauge_area">
+                        <div class="current_voltage">
+                            <span style="width:0%;"></span>
+                        </div>
+                    </div>
+                    <div class="voltage_top_info t-Cnt m-Btm10">
+                        <span class="blue">現在ボルテージ : </span>
+                        <span class="yellow">0%</span>
+                        <br>
+                        (30%からボーナス発生!)<br>
+                    </div>
+                </div>
+                <div class="idol_comment_new comment_attr_cute">
+                    <div class="comment_fukidashi fukidashi_attr_cute">楽しい時間のﾊｼﾞﾏﾘ､ﾊｼﾞﾏﾘ～! 座ってしるぶぷれ♪</div>
+                </div>
+                <div class="event_items">
+                    <div class="items">
+                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fm%2F80101.gif%3Fv%3D20170222083704'>×1
+                    </div>
+                    <div class="items">
+                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fm%2F80102.gif%3Fv%3D20170222083704'>×48
+                    </div>
+                    <div class="items">
+                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2Fbox%2Fm%2Fevent_item_801.png%3Fv%3D20170222083522'>×20
+                    </div>
+                </div>
+                <div class="btn_play_area">
+                    <div class="btn_menu_type_2 _wide">
+                        <ul>
+                            <li class="_btm_0">
+                                <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_royale%2Fwork%2F%3Fstage%3D7%26l_frm%3DEvent_royale_index_1%26rnd%3D51040468' class="button_event_area_01 jsOnDesignBtn">
+                                    <div></div>
+                                </a>
+                            </li>
+                            <li class="_btm_0">
+                                <div class="btn_battle_none"></div>
+                                <div style="position:relative">
+                                    <span class="button_event_battle_gray"></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="win_stage_count">
+                <div class="title t-Lft" style="text-indent:5px; font-size:11px;">
+                    ゲストLIVEまでロワイヤルLIVEあと<span class="yellow">2連勝!</span>
+                </div>
+                <div class="in_body">
+                    <ul>
+                        <li class="type01">
+                            <div class="icon_win_count_01_gray"></div>
+                        </li>
+                        <li class="type01">
+                            <div class="icon_win_count_02_gray"></div>
+                        </li>
+                        <li class="type02">
+                            <div class="icon_win_count_03_gray"></div>
+                        </li>
+                        <li class="type01">
+                            <div class="icon_win_count_01_gray"></div>
+                        </li>
+                        <li class="type01">
+                            <div class="icon_win_count_02_gray"></div>
+                        </li>
+                        <li class="type02">
+                            <div class="icon_win_count_03_gray"></div>
+                        </li>
+                        <li class="type03">
+                            <div class="icon_win_count_04_gray"></div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <div style="margin-top:-12px;margin-bottom:8px">
+                <img src="http://sp.pf-img-a.mbga.jp/12008305?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_hoshi.jpg" width="100%">
+            </div>
+            <section>
+                <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_royale_box_reward%2Findex%3Fl_frm%3DEvent_royale_index_1%26rnd%3D495251901' class="btn_medal_top jsOnDesignBtn" style='background-image:url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2F833%2Fmedal%2Fbutton_chance_01.png%3Fv%3D20190123144656)'>
+                    <div class="medal_val_text">6655枚
+</div>
+                </a>
+            </section>
+            <div style="margin-top:-5px;margin-bottom:3px">
+                <div class="limited_shop type_02">
+                    <ul class="jsOnBtn">
+                        <li>
+                            <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fshop%2Findex%2F3%3Fl_frm%3DEvent_royale_index_1%26rnd%3D934132994#page_link_80108' class="btn_banner_limited">
+                                <div class="text_info">
+                                    <span>
+                                        BPドリンク5+<br/>スタドリ3セット300MC!
+                                    </span>
+                                </div>
+                                <div class="text_limit">あと14:56:15</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fshop%2Findex%2F3%3Fl_frm%3DEvent_royale_index_2%26rnd%3D441916389#page_link_80103' class="btn_banner_limited">
+                                <div class="text_info">
+                                    <span>
+                                        BPドリンク×3個で<br/>150MC!
+                                    </span>
+                                </div>
+                                <div class="text_limit">あと16:56:15</div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <section class="m-Btm8">
+                <img src="http://sp.pf-img-a.mbga.jp/12008305?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_hoshi.jpg" width="100%">
+                <div class="naviArea">
+                    <img src="http://sp.pf-img-a.mbga.jp/12008305?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fnavi%2Ftujo_m2.png" width="90">
+                    <div class="Wrap">
+                        <div class="fukiRight">ロワイヤルLIVEを勝ち進みゲストLIVEに勝利して、たくさんのロワイヤルptとメダルを獲得しましょう!</div>
+                    </div>
+                </div>
+                <img src="http://sp.pf-img-a.mbga.jp/12008305?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_hoshi.jpg" width="100%">
+                <br>
+            </section>
+            <section class="m-Btm8">
+                <div id="event_royale_tab" class='tab_common-middle tab_color-red m-Btm12' style="">
+                    <a class='tab_line_2_1 tab_text  ' style="">メニュー</a>
+                    <a class='tab_line_2_2 tab_text  ' style="">成績</a>
+                </div>
+                <div class="area_tab">
+                    <div class="btn_menu_type_2 m-Top10">
+                        <ul>
+                            <li>
+                                <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_royale%2Ftopics%3Ftab%3D0%26l_frm%3DEvent_royale_index_1%26rnd%3D199271317' class="button_event_tutorial jsOnDesignBtn">
+                                    <div></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_royale%2Fvoltage_chance_user_status%3Fl_frm%3DEvent_royale_index_1%26rnd%3D882933677' class="button_event_voltagechance jsOnDesignBtn">
+                                    <div></div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="btn_menu_type_3">
+                        <ul>
+                            <li>
+                                <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_royale%2Fdeck_index%3Fl_frm%3DEvent_royale_index_1%26rnd%3D469219983' class="button_event_unit jsOnDesignBtn">
+                                    <div></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fknights%2Fknights_event_building%3Fl_frm%3DEvent_royale_index_1%26rnd%3D381483462' class="button_event_trainingroom jsOnDesignBtn">
+                                    <div></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_royale%2Fidol_ability_list%3Fl_frm%3DEvent_royale_index_1%26rnd%3D95176625' class="button_event_skill jsOnDesignBtn">
+                                    <div></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fshop%2Findex%2F1%3Fbanner_id%3D833006%26tap%3D1%26l_frm%3DEvent_royale_index_1%26rnd%3D854704556' class="button_event_shop jsOnDesignBtn">
+                                    <div></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fexchange%2Fmedal_list%2F999999%2F2%3Fl_frm%3DEvent_royale_index_1%26rnd%3D626382826' class="button_event_exchange jsOnDesignBtn">
+                                    <div></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_royale%2Fhelp%2F1%3Fl_frm%3DEvent_royale_index_1%26rnd%3D529173791' class="button_event_hints jsOnDesignBtn">
+                                    <div></div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_royale%2Fevent_defense_success%3Fevent_id%3D833%26l_frm%3DEvent_royale_index_1%26rnd%3D672674056' class="btn_sup_line_2 m-Cnt m-Top4 m-Btm12" style="font-size:12px;">挑まれて勝利した履歴</a>
+                </div>
+                <div class="area_tab t-Cnt">
+                    <section class="statusArea_royale">
+                        <h3>最終ラウンド成績</h3>
+                        <div class="line m-Btm10"></div>
+                        <ul class="list01 t-Lft">
+                            <li>
+                                <span class="blue">グループ内順位:</span>
+                                20位
+                            </li>
+                            <li>
+                                <span class="blue">最終ラウンドの獲得ロワイヤルpt:</span>
+                                0
+                            </li>
+                            <li>
+                                次のロワイヤルpt報酬:あと<span class="yellow">50</span>
+                                ロワイヤルpt
+                            </li>
+                        </ul>
+                        <div class="t-Cnt yellow m-Btm5">ラウンド終了まで24時間56分15秒!</div>
+                        <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_royale%2Fchapter_ranking%3Fl_frm%3DEvent_royale_index_1%26rnd%3D913050666' class="btn_normal_line_2 m-Cnt m-Btm8">ラウンドランキング</a>
+                        <h3>総合成績</h3>
+                        <div class="line m-Btm10"></div>
+                        <ul class="list01 t-Lft" style="margin-bottom:0;">
+                            <li>
+                                <span class="blue">現在順位:</span>
+                                11位
+                            </li>
+                            <li>
+                                <span class="yellow">10</span>
+                                位まであと<span class="yellow">1,264,598</span>
+                                ロワイヤルpt!
+                            </li>
+                            <li>
+                                <span class="blue">獲得ロワイヤルpt:</span>
+                                20,571,336
+                            </li>
+                            <li>
+                                <span class="blue">順位点:</span>
+                                50
+                            </li>
+                            <div class="area-btn-common _base-width m-Top4">
+                                <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_ranking%2Franking_top%3Fevent_id%3D833%26l_frm%3DEvent_royale_index_1%26rnd%3D135943085' class="btn_normal_line_2">ランキング</a>
+                                <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_ranking%2Franking_for_user%2F4%3Fevent_id%3D833%26l_frm%3DEvent_royale_index_1%26rnd%3D792209281' class="btn_normal_line_2">ボーダーライン</a>
+                            </div>
+                        </ul>
+                    </section>
+                </div>
+            </section>
+            <div class="area-btn-common _base-width m-Btm12">
+                <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_royale%2Fevent_setting%3Fl_frm%3DEvent_royale_index_1%26rnd%3D1338812' class="btn_sup_line_2 _line_2" style="font-size:11px;">
+                    BPドリンク<br/>自動使用設定
+                </a>
+                <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_royale%2Fsetting%3Fl_frm%3DEvent_royale_index_1%26rnd%3D105176865' class="btn_sup_line_2 _line_2" style="font-size:11px;">
+                    アイドルLIVEロワイヤル<br/>演出設定
+                </a>
+            </div>
+            <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmypage%3Fl_frm%3DEvent_royale_index_2%26rnd%3D325457225'>
+                <div class="backLink">マイスタジオ</div>
+            </a>
+            <script type="text/javascript">
+                $(function() {
+                    $('form').bind('submit', function() {
+                        var $submit = $("input[type=submit], input[type=reset]");
+                        for (var i = 0; i < $submit.length; i++) {
+                            if ($submit.eq(i).val() != '' && !$submit.eq(i).hasClass('jsNotDisabled')) {
+                                $submit.eq(i).val('送信中');
+                                $submit.eq(i).prop('disabled', true);
+                                var prev = $submit.eq(i).prev();
+                                if (prev.hasClass('btn_text')) {
+                                    prev.text('送信中');
+                                    if ($submit.eq(i).parent()[0].tagName == 'LABEL') {
+                                        $submit.eq(i).parent().removeClass('_line_2');
+                                    }
+                                }
+                            } else if (!$submit.eq(i).hasClass('jsNotDisabled')) {
+                                $submit.eq(i).prop('disabled', true);
+                            }
+                            if ($submit.eq(i).parent()[0].tagName == 'LABEL') {
+                                $submit.eq(i).parent().css({
+                                    "opacity": "0.5"
+                                });
+                            }
+                        }
+                        $(".livebutton input[type='submit']").val('').css({
+                            "opacity": "0.5"
+                        }).prop('disabled', true);
+                        var $imagesub = $("input[type='image']");
+                        $imagesub.prop('disabled', true);
+                        for (var i = 0; i < $imagesub.length; i++) {
+                            if (!$imagesub.eq(i).attr('class')) {
+                                $imagesub.eq(i).css({
+                                    "opacity": "0.5"
+                                });
+                                continue;
+                            }
+                            if ($imagesub.eq(i).attr('class').indexOf('noop') == -1) {
+                                $imagesub.eq(i).css({
+                                    "opacity": "0.5"
+                                });
+                            } else {
+                                $imagesub.eq(i).css({
+                                    "opacity": "1"
+                                });
+                            }
+                        }
+                        setTimeout(function() {
+                            $submit.prop('disabled', false).parent().css({
+                                "opacity": "1"
+                            });
+                            $imagesub.prop('disabled', false).css({
+                                "opacity": "1"
+                            });
+                            $(".livebutton input[type='submit']").css({
+                                "opacity": "1"
+                            });
+                        }, 2500);
+                    });
+                    $(".submit a").click(function() {
+                        $(this).click(function() {
+                            return false;
+                        })
+                        $(".submit").find("img").css({
+                            "opacity": "0.5"
+                        });
+                        setTimeout(function() {
+                            $(this).click(function() {
+                                return true;
+                            })
+                            $(".submit").find("img").css({
+                                "opacity": "1"
+                            });
+                        }, 2500);
+                    });
+                    $('body').on("click", '.stop-repeat-link', function(e) {
+                        var self = $('.stop-repeat-link');
+                        self.css({
+                            'pointer-events': 'none',
+                            'opacity': 0.6
+                        });
+                        setTimeout(function() {
+                            self.css({
+                                'pointer-events': 'auto',
+                                'opacity': 1
+                            });
+                        }, 2500);
+                    });
+                });
+            </script>
+            <script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Filibrary.js%3Fv%3D20181127190316"></script>
+            <script>
+                $('#event_royale_tab').tab_switch({
+                    contents: ".area_tab",
+                    storage: "royale_top",
+                    start: +0
+                });
+            </script>
+            <footer>
+                <div class="line_idolmaster"></div>
+                <a href="#top" id="toPageTop" class="mypage_under">
+                    <div></div>
+                </a>
+                <div class="t-Cnt">(C)窪岡俊之 (C)2011 BNEI</div>
+            </footer>
+        </div>
+        <div id="mbga-pf-footer">
+            <div class="mbga-pf-footer-container odd-lines mbga-pf-footer-white">
+                <ul>
+                    <li class="mbga-pf-footer-list">
+                        <div class="mbga-pf-fotter-content">
+                            <a class="mbga-pf-footer-arrow" href="http://sp.mbga.jp/_grp_view?g=32095227">
+                                <span class="mbga-pf-footer-caption">公式サークル</span>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="mbga-pf-footer-navbar">
+                <ul class="mbga-pf-box-h">
+                    <li id="mbga-pf-footer-navbar-icon-grid" class="mbga-pf-footer-li">
+                        <a class="mbga-pf-footer-a mbga-pf-footer-home-w" href="http://sp.mbga.jp/?_from=globalfooter">
+                            <span class="mbga-pf-footer-txt">ホーム</span>
+                        </a>
+                    </li>
+                    <li id="mbga-pf-footer-navbar-icon-mypage" class="mbga-pf-footer-li">
+                        <a class="mbga-pf-footer-a mbga-pf-footer-mypage-w" href="http://sp.mbga.jp/_my0?_from=globalfooter">
+                            <span class="mbga-pf-footer-txt">マイページ</span>
+                        </a>
+                    </li>
+                    <li id="mbga-pf-footer-navbar-icon-mygame" class="mbga-pf-footer-li">
+                        <a class="mbga-pf-footer-a mbga-pf-footer-mygame-w" href="http://sp.mbga.jp/_game_my_top?_from=globalfooter">
+                            <span class="mbga-pf-footer-txt">マイゲーム</span>
+                        </a>
+                    </li>
+                    <li id="mbga-pf-footer-navbar-icon-notification" class="mbga-pf-footer-li">
+                        <a class="mbga-pf-footer-a mbga-pf-footer-game-w" href="http://sp.mbga.jp/_game_top?_from=globalfooter">
+                            <span class="mbga-pf-footer-txt">ゲーム</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <script type="text/javascript" charset="UTF-8">
+                (function() {
+                    document.addEventListener('DOMContentLoaded', function() {
+                        var list = document.getElementsByClassName('mbga-pf-footer-li');
+                        var i = 0
+                          , l = list.length;
+                        for (; i < l; i++) {
+                            var elem = list[i];
+                            elem.addEventListener('touchstart', function(e) {
+                                e.currentTarget.className = e.currentTarget.className.replace(/$/, ' mbga-pf-tapped');
+                            });
+                            elem.addEventListener('touchend', function(e) {
+                                e.currentTarget.className = e.currentTarget.className.replace(/ mbga-pf-tapped/, '');
+                            });
+                            elem.addEventListener('touchmove', function(e) {});
+                        }
+                    });
+                }
+                )();
+            </script>
+        </div>
+    </body>
+</html>
