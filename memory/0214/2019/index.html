@@ -103,12 +103,16 @@
                         },
                     },
                 };
-                var pex = new Pex('episode.swf',"container",option);
+                var pex = new Pex('episode_1.swf',"container",option);
                 pex.getAPI().ready(function() {
                     setScrollTop();
                 });
                 var pexApi = pex.getAPI();
                 window.pexApi = pexApi;
+
+                //테스트중
+                pexApi.setVariable("","txt3_3","나, 쿠레본스 프로듀서의 마음을");
+                
                 (function($) {
                     $.fn.pexConsole = function() {
                         if (globalNextLabel) {
