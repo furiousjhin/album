@@ -105,6 +105,7 @@
                 };
                 var pex = new Pex('episode_1.swf',"container",option);
                 pex.getAPI().ready(function() {
+                    setSerif();
                     setScrollTop();
                 });
                 var pexApi = pex.getAPI();
@@ -147,7 +148,6 @@
                 )(jQuery);
                 timerId = setTimeout("isFlash()", 60000);
 
-                setSerif();
             }
             ;
             function touchHandler(event) {
