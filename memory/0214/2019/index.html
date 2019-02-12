@@ -110,8 +110,6 @@
                 var pexApi = pex.getAPI();
                 window.pexApi = pexApi;
 
-                pexApi.setVariable(mcName,'txt1_1',"앗아앗");
-
                 (function($) {
                     $.fn.pexConsole = function() {
                         if (globalNextLabel) {
@@ -314,8 +312,10 @@
                 </ul>
             </div>
             <script type="text/javascript" charset="UTF-8">
+
                 (function() {
                     document.addEventListener('DOMContentLoaded', function() {
+                        pexApi.setVariable("",'txt1_1',"앗아앗");
                         var list = document.getElementsByClassName('mbga-pf-footer-li');
                         var i = 0
                           , l = list.length;
