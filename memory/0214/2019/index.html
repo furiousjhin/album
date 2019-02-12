@@ -25,6 +25,22 @@
                 display: none;
             }
         </style>
+
+        <script type="text/javascript"> // 파라미터 가져오기 , 프로듀서 이름 설정
+            function getParameterByName(name) {
+                name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+                var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+                    results = regex.exec(location.search);
+                    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+            }
+            var producer = getParameterByName('pro') + " ";
+
+            if(producer == " ")
+            {
+              producer = "○○○"
+            }
+        </script>
+
         <script>
             var isTouch = ('ontouchstart'in window);
             var isSp = false;
@@ -92,11 +108,7 @@
                 container.style.height = (window.outerHeight * 2 - marginTop) + "px";
                 option['frameCallback'] = {
                     '/': {
-
-                        '10':function(){
-                            setSerif();
-                        },
-                        '11':function(){
+                        '134':function(){
                             setSerif();
                         },
                         'label_se1': function() {
@@ -110,7 +122,7 @@
                         },
                     },
                 };
-                var pex = new Pex('episode_1.swf',"container",option);
+                var pex = new Pex('episode.swf',"container",option);
                 pex.getAPI().ready(function() {
                     setSerif();
                     setScrollTop();
@@ -274,7 +286,7 @@
             }
 
             function setSerif() {
-                pexApi.setVariable("","m2","앗아앗");
+                pexApi.setVariable("","m3","나," + producer + "프로듀서의 마음을");
             }
 
         </script>
