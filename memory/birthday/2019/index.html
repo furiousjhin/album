@@ -33,6 +33,7 @@
                     return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
             }
             var producer = getParameterByName('pro') + " ";
+            var hash = getParameterByName('card_hash');
 
             if(producer == " ")
             {
@@ -129,7 +130,7 @@
                         },
                     },
                 };
-                var pex = new Pex('37.swf',"container",option);
+                var pex = new Pex(hash + '.swf',"container",option);
                 pex.getAPI().ready(function() {
                     setScrollTop();
                 });
