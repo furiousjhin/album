@@ -369,7 +369,7 @@
                                             <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fbutton_item_02.png%3Fv%3D20170809174635' width="111" id="no_use">
                                         </div>
                                         <div class="box_right" style="width:140px; text-align:left; padding-left:10px;">
-                                            <form action="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fitem%2Fuse_item%3Fl_frm%3DMemory_produce_work_memory_1%26rnd%3D607721152" method="post" id="item_form">
+                                            <form action="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fitem%2Fuse_item%3Fl_frm%3DMemory_produce_work_memory_1%26rnd%3D607721152" method="get" id="item_form">
                                                 <input type="hidden" name="item_id" value="" id="item_id">
                                                 <input type="hidden" name="use_num" value="" id="use_num">
                                                 <input type="hidden" name="" value="" id="csrf_token">
@@ -505,7 +505,7 @@
                             <a href="#" id="change_comment" style="display:none;" class="se_008" onclick="return false;"></a>
                         </section>
                         <section id="play_area" style='background-image:url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Ffooter_bg.png%3Fv%3D20170809174635); background-repeat:no-repeat; background-size:100%; background-position:0px 2px;height:30px'>
-                            <form action='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fajax_play%3Fl_frm%3DMemory_produce_work_memory_1%26rnd%3D778200502' method="post" id="play">
+                            <form action='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fajax_play%3Fl_frm%3DMemory_produce_work_memory_1%26rnd%3D778200502' method="get" id="play">
                                 <input type="button" value="" id="play_button" class="play_btn_df se_008">
                                 <input type="hidden" name="area_id" value="5">
                                 <input type="hidden" name="quest_id" value="1">
@@ -524,153 +524,155 @@
                     </div>
                 </div>
                 <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fget_raid_boss%3Fres_type%3Djson%26l_frm%3DMemory_produce_work_memory_1%26rnd%3D556384691' id="communication_event_json" style="display:none;"></a>
+
+                <!--노말/굿/퍼펙트-->
                 <script type="text/template" id="template_choose_item">
 
-<section class="t-Cnt m-Top10 m-Btm10 l-Hgt140" id="itemSelect">
-<div class="m-Cnt" style="width:280px;">
-<img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fchance%2Fbutton_chance_item_exit01.png%3Fv%3D20170809174408' id="choose_item_close">
-<div class="<% if (raid_boss.boss_type !== 'extra') { %> displayBox<% } %>" style="-webkit-box-pack:justify;">
-<form action='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory_produce%2Fproduce_swf_memory%2F1716%2F5%2F28%2F0%3Fbg_id%3D%26l_frm%3DMemory_produce_work_memory_1%26rnd%3D14565337' method="post"<% if (raid_boss.boss_type !== 'extra') { %> style="width:88px;"<% } %>>
-<input type="hidden" name="use_item" value="3">
-<input type="hidden" name="area_id" value="5">
-<input type='hidden' name="max_use_flag" id="max_use_flag" value="0">
-<% if (raid_boss.boss_type == 'extra') { %>
-<% } else { %>
-<div>
-<input type="image" src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fproduce%2Fsprite%2Flookback%2Fbtn_normal.png%3Fv%3D20181128144653' class="jsOnDesignBtn" width="88" value=""><br>
-</div>
-<% } %>
-</form>
-<form action='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory_produce%2Fproduce_swf_memory%2F1716%2F5%2F28%2F1%3Fbg_id%3D%26l_frm%3DMemory_produce_work_memory_1%26rnd%3D708766346' method="post"<% if (raid_boss.boss_type !== 'extra') { %> style="width:88px;"<% } %>>
-<input type="hidden" name="use_item" value="3">
-<input type="hidden" name="area_id" value="5">
-<input type='hidden' name="max_use_flag" id="max_use_flag" value="1">
-<% if (raid_boss.boss_type == 'extra') { %>
-<% } else { %>
-<div>
-<input type="image" src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fproduce%2Fsprite%2Flookback%2Fbtn_good.png%3Fv%3D20181128144653' class="jsOnDesignBtn" width="88" value=""><br>
-</div>
-<% } %>
-</form>
-<% if (raid_boss.boss_type !== 'extra') { %>
-<form action='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory_produce%2Fproduce_swf_memory%2F1716%2F5%2F28%2F2%3Fbg_id%3D%26l_frm%3DMemory_produce_work_memory_1%26rnd%3D123461789' method="post" style="width:88px;">
-<div>
-<input type="hidden" name="use_item" value="1">
-<input type="hidden" name="area_id" value="5">
-<input type="image" src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fproduce%2Fsprite%2Flookback%2Fbtn_perfect.png%3Fv%3D20181128144653' class="jsOnDesignBtn" width="88" value=""><br>
-</div>
-</form>
-<% } %>
-</div>
-<div class="t-Cnt m-Top4" style="font-size:12px">
-※アイテムは使用されません
-</div>
-</div>
-</section>
+                  <section class="t-Cnt m-Top10 m-Btm10 l-Hgt140" id="itemSelect">
+                    <div class="m-Cnt" style="width:280px;">
+                      <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fgacha%2Fchance%2Fbutton_chance_item_exit01.png%3Fv%3D20170809174408' id="choose_item_close">
+                      <div class="<% if (raid_boss.boss_type !== 'extra') { %> displayBox<% } %>" style="-webkit-box-pack:justify;">
+                        <form action='0.swf' method="get"<% if (raid_boss.boss_type !== 'extra') { %> style="width:88px;"<% } %>>
+                          <input type="hidden" name="use_item" value="3">
+                          <input type="hidden" name="area_id" value="5">
+                          <input type='hidden' name="max_use_flag" id="max_use_flag" value="0">
+                          <% if (raid_boss.boss_type == 'extra') { %>
+                            <% } else { %>
+                              <div>
+                                <input type="image" src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fproduce%2Fsprite%2Flookback%2Fbtn_normal.png%3Fv%3D20181128144653' class="jsOnDesignBtn" width="88" value=""><br>
+                              </div>
+                              <% } %>
+                            </form>
+                            <form action='1.swf' method="get"<% if (raid_boss.boss_type !== 'extra') { %> style="width:88px;"<% } %>>
+                              <input type="hidden" name="use_item" value="3">
+                              <input type="hidden" name="area_id" value="5">
+                              <input type='hidden' name="max_use_flag" id="max_use_flag" value="1">
+                              <% if (raid_boss.boss_type == 'extra') { %>
+                                <% } else { %>
+                                  <div>
+                                    <input type="image" src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fproduce%2Fsprite%2Flookback%2Fbtn_good.png%3Fv%3D20181128144653' class="jsOnDesignBtn" width="88" value=""><br>
+                                  </div>
+                                  <% } %>
+                                </form>
+                                <% if (raid_boss.boss_type !== 'extra') { %>
+                                  <form action='2.swf' method="get" style="width:88px;">
+                                    <div>
+                                      <input type="hidden" name="use_item" value="1">
+                                      <input type="hidden" name="area_id" value="5">
+                                      <input type="image" src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fproduce%2Fsprite%2Flookback%2Fbtn_perfect.png%3Fv%3D20181128144653' class="jsOnDesignBtn" width="88" value=""><br>
+                                    </div>
+                                  </form>
+                                  <% } %>
+                                </div>
+                                <div class="t-Cnt m-Top4" style="font-size:12px">
+                                  ※アイテムは使用されません
+                                </div>
+                              </div>
+                            </section>
 
-                </script>
-                <script type="text/template" id="template_energy_item">
+                          </script>
+                          <script type="text/template" id="template_energy_item">
 
-<div id="item_list_energy">
-<section style="margin:0; padding-bottom:10px;">
-<div id="item_title_energy">
-<span id="title_val_energy"></span>
-</div>
-<img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fline_item_01.png%3Fv%3D20170809174635" width="271">
-<div id="item_select_energy">
-以下のアイテムで攻コストを回復できます<br>
-<div class="item_box">
-<div id="item9" class="item_left" style="width:70px; padding:0px 5px 0px 5px;">
-1/2回復<br>
-<% if(user_item9.item_num > 0){ %>
-<img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2F9.jpg%3Fv%3D20170809174507" id="item_img8" width="60">
-<% } else { %>
-<img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Ficon_gray_item_06.jpg%3Fv%3D20170809174635" id="gray_img9" width="60">
-<% } %>
-×<span id="user_item_num9"><%= user_item9.item_num %></span>個
-<div style="margin-top: 5px; height:42px;">
-<% if(user_item9.item_num > 0){ %>
-<input type="image" id="use_item_button9" src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fbutton_item_use.png%3Fv%3D20170809174635' width="56">
-<% } else { %>
-<img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fbutton_gray_item_use.png%3Fv%3D20170809174635" id="use_item_empty15" width="56">
-<% } %>
-</div>
-</div>
-<div id="item15" class="item_center" style="width:70px; padding:0px 5px 0px 5px;">
-全回復<br>
-<% if(user_item15.item_num > 0){ %>
-<img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2F15.jpg%3Fv%3D20170809174505" id="item_img14" width="60">
-<% } else { %>
-<img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Ficon_gray_item_05.jpg%3Fv%3D20170809174635" id="gray_img14" width="60">
-<% } %>
-×<span id="user_item_num15"><%= user_item15.item_num %></span>個
-<div style="margin-top: 5px; height:42px;">
-<% if(user_item15.item_num > 0){ %>
-<input type="image" id="use_item_button15" src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fbutton_item_use.png%3Fv%3D20170809174635' width="56">
-<% } else { %>
-<img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fbutton_gray_item_use.png%3Fv%3D20170809174635" id="use_item_empty15" width="56">
-<% } %>
-</div>
-</div>
-<div id="item2" class="item_right" style="width:70px; padding:0px 5px 0px 5px;">
-全回復<br>
-<% if(user_item2.item_num > 0){ %>
-<img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2F2.jpg%3Fv%3D20170809174506" id="item_img2" width="60">
-<% } else { %>
-<img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Ficon_gray_item_04.jpg%3Fv%3D20170809174635" id="gray_img1" width="60">
-<% } %>
-×<span id="user_item_num2"><%= user_item2.item_num %></span>個
-<div style="margin-top: 5px; height:42px;">
-<% if(user_item2.item_num > 0){ %>
-<input type="image" id="use_item_button2" src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fbutton_item_use.png%3Fv%3D20170809174635' width="56">
-<% } else { %>
-<a href="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fshop%3Fl_frm%3DMemory_produce_work_memory_1%26rnd%3D537228572"><img id="buy_item_button2" src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fbutton_item_buy.png%3Fv%3D20170809174635" width="56"></a>
-<% } %>
-</div>
-</div>
-</div>
-<a href="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fitem%2Findex%3Fl_frm%3DMemory_produce_work_memory_3%26rnd%3D211911386"><img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fbutton_item_03.png%3Fv%3D20170809174635" width="256" style="margin-top: 15px;" id="use_other_item"></a><br>
-<div id="close_recovery"><img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fevent%2Fproduce%2Fbutton_return_event.png%3Fv%3D20170809174635' style="width:256px; margin-top: 15px;"></div>
-</div>
-<div id="item_result_energy" style="display:none;">
-<img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2F2.jpg%3Fv%3D20170809174506" id="item_img_result2" width="80" style="margin: 5px 0px 5px 0px;">
-<img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2F9.jpg%3Fv%3D20170809174507" id="item_img_result9" width="80" style="margin: 5px 0px 5px 0px;">
-<img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2F15.jpg%3Fv%3D20170809174505" id="item_img_result15" width="80" style="margin: 5px 0px 5px 0px;"><br>
-<span id="result_text_energy"></span><br>
-<img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fline_item_01.png%3Fv%3D20170809174635" width="271"><br>
-<span class="blue">所持数</span> <span class="before_num"> </span> ⇒ <span class="after_num"> </span>個<br>
-<span class="blue">攻コスト</span> <span class="before_hp"></span> ⇒ <span class="cur_hp" ></span>/<span class="max_hp"></span><br>
-<img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fline_item_01.png%3Fv%3D20170809174635" width="271"><br>
-<img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fbutton_item_06.png%3Fv%3D20170809174635" alt="もう1個使う" id="use_energy_item_button_once" width="256" style="margin-top: 10px; margin-bottom: 5px;">
-<img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fevent%2Fproduce%2Fbutton_return_event.png%3Fv%3D20170809174635" alt="コミュイベントに戻る" id="go_commu" width="256" style="margin-top: 10px;">
-</div>
-<div id="item_confirm_energy" style="display:none;">
-<img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2F2.jpg%3Fv%3D20170809174506" id="item_img_confirm2" width="80" style="margin: 5px 0px 5px 0px;">
-<img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2F9.jpg%3Fv%3D20170809174507" id="item_img_confirm9" width="80" style="margin: 5px 0px 5px 0px;">
-<img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2F15.jpg%3Fv%3D20170809174505" id="item_img_confirm15" width="80" style="margin: 5px 0px 5px 0px;"><br>
-<span id="item_confirm_text2">攻ｺｽﾄと守ｺｽﾄが全回復する｡</span>
-<span id="item_confirm_text9">攻ｺｽﾄと守ｺｽﾄが最大値の半分回復する｡</span>
-<span id="item_confirm_text15">攻ｺｽﾄと守ｺｽﾄが全回復する｡</span><br>
-<img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fline_item_01.png%3Fv%3D20170809174635" width="271"><br>
-<span class="blue">所持数</span> <span class="before_num"> </span> ⇒ <span class="after_num"> </span>個<br>
-<img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fline_item_01.png%3Fv%3D20170809174635" width="271"><br>
-<div class="box_top" style="margin-top:5px;">
-<div class="box_left" style="width:140px; text-align:right; padding-right:10px;">
-<img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fbutton_item_02.png%3Fv%3D20170809174635" width="111" id="cancel_item">
-</div>
-<div class="box_right" style="width:140px; text-align:left; padding-left:10px;">
-<form action="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fitem%2Fuse_item%3Fl_frm%3DMemory_produce_work_memory_2%26rnd%3D256849960" method="post">
-<input type="hidden" name="item_id" value="">
-<input type="hidden" name="res_type" value="json">
-<input type="image" value="使用する" src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fbutton_item_01.png%3Fv%3D20170809174635' width="111">
-</form>
-</div>
-</div>
-</div>
-</section>
-</div>
+                            <div id="item_list_energy">
+                              <section style="margin:0; padding-bottom:10px;">
+                                <div id="item_title_energy">
+                                  <span id="title_val_energy"></span>
+                                </div>
+                                <img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fline_item_01.png%3Fv%3D20170809174635" width="271">
+                                <div id="item_select_energy">
+                                  以下のアイテムで攻コストを回復できます<br>
+                                  <div class="item_box">
+                                    <div id="item9" class="item_left" style="width:70px; padding:0px 5px 0px 5px;">
+                                      1/2回復<br>
+                                      <% if(user_item9.item_num > 0){ %>
+                                        <img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2F9.jpg%3Fv%3D20170809174507" id="item_img8" width="60">
+                                        <% } else { %>
+                                          <img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Ficon_gray_item_06.jpg%3Fv%3D20170809174635" id="gray_img9" width="60">
+                                          <% } %>
+                                          ×<span id="user_item_num9"><%= user_item9.item_num %></span>個
+                                          <div style="margin-top: 5px; height:42px;">
+                                            <% if(user_item9.item_num > 0){ %>
+                                              <input type="image" id="use_item_button9" src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fbutton_item_use.png%3Fv%3D20170809174635' width="56">
+                                              <% } else { %>
+                                                <img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fbutton_gray_item_use.png%3Fv%3D20170809174635" id="use_item_empty15" width="56">
+                                                <% } %>
+                                              </div>
+                                            </div>
+                                            <div id="item15" class="item_center" style="width:70px; padding:0px 5px 0px 5px;">
+                                              全回復<br>
+                                              <% if(user_item15.item_num > 0){ %>
+                                                <img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2F15.jpg%3Fv%3D20170809174505" id="item_img14" width="60">
+                                                <% } else { %>
+                                                  <img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Ficon_gray_item_05.jpg%3Fv%3D20170809174635" id="gray_img14" width="60">
+                                                  <% } %>
+                                                  ×<span id="user_item_num15"><%= user_item15.item_num %></span>個
+                                                  <div style="margin-top: 5px; height:42px;">
+                                                    <% if(user_item15.item_num > 0){ %>
+                                                      <input type="image" id="use_item_button15" src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fbutton_item_use.png%3Fv%3D20170809174635' width="56">
+                                                      <% } else { %>
+                                                        <img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fbutton_gray_item_use.png%3Fv%3D20170809174635" id="use_item_empty15" width="56">
+                                                        <% } %>
+                                                      </div>
+                                                    </div>
+                                                    <div id="item2" class="item_right" style="width:70px; padding:0px 5px 0px 5px;">
+                                                      全回復<br>
+                                                      <% if(user_item2.item_num > 0){ %>
+                                                        <img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2F2.jpg%3Fv%3D20170809174506" id="item_img2" width="60">
+                                                        <% } else { %>
+                                                          <img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Ficon_gray_item_04.jpg%3Fv%3D20170809174635" id="gray_img1" width="60">
+                                                          <% } %>
+                                                          ×<span id="user_item_num2"><%= user_item2.item_num %></span>個
+                                                          <div style="margin-top: 5px; height:42px;">
+                                                            <% if(user_item2.item_num > 0){ %>
+                                                              <input type="image" id="use_item_button2" src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fbutton_item_use.png%3Fv%3D20170809174635' width="56">
+                                                              <% } else { %>
+                                                                <a href="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fshop%3Fl_frm%3DMemory_produce_work_memory_1%26rnd%3D537228572"><img id="buy_item_button2" src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fbutton_item_buy.png%3Fv%3D20170809174635" width="56"></a>
+                                                                <% } %>
+                                                              </div>
+                                                            </div>
+                                                          </div>
+                                                          <a href="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fitem%2Findex%3Fl_frm%3DMemory_produce_work_memory_3%26rnd%3D211911386"><img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fbutton_item_03.png%3Fv%3D20170809174635" width="256" style="margin-top: 15px;" id="use_other_item"></a><br>
+                                                          <div id="close_recovery"><img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fevent%2Fproduce%2Fbutton_return_event.png%3Fv%3D20170809174635' style="width:256px; margin-top: 15px;"></div>
+                                                        </div>
+                                                        <div id="item_result_energy" style="display:none;">
+                                                          <img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2F2.jpg%3Fv%3D20170809174506" id="item_img_result2" width="80" style="margin: 5px 0px 5px 0px;">
+                                                          <img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2F9.jpg%3Fv%3D20170809174507" id="item_img_result9" width="80" style="margin: 5px 0px 5px 0px;">
+                                                          <img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2F15.jpg%3Fv%3D20170809174505" id="item_img_result15" width="80" style="margin: 5px 0px 5px 0px;"><br>
+                                                          <span id="result_text_energy"></span><br>
+                                                          <img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fline_item_01.png%3Fv%3D20170809174635" width="271"><br>
+                                                          <span class="blue">所持数</span> <span class="before_num"> </span> ⇒ <span class="after_num"> </span>個<br>
+                                                          <span class="blue">攻コスト</span> <span class="before_hp"></span> ⇒ <span class="cur_hp" ></span>/<span class="max_hp"></span><br>
+                                                          <img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fline_item_01.png%3Fv%3D20170809174635" width="271"><br>
+                                                          <img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fbutton_item_06.png%3Fv%3D20170809174635" alt="もう1個使う" id="use_energy_item_button_once" width="256" style="margin-top: 10px; margin-bottom: 5px;">
+                                                          <img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fevent%2Fproduce%2Fbutton_return_event.png%3Fv%3D20170809174635" alt="コミュイベントに戻る" id="go_commu" width="256" style="margin-top: 10px;">
+                                                        </div>
+                                                        <div id="item_confirm_energy" style="display:none;">
+                                                          <img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2F2.jpg%3Fv%3D20170809174506" id="item_img_confirm2" width="80" style="margin: 5px 0px 5px 0px;">
+                                                          <img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2F9.jpg%3Fv%3D20170809174507" id="item_img_confirm9" width="80" style="margin: 5px 0px 5px 0px;">
+                                                          <img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2F15.jpg%3Fv%3D20170809174505" id="item_img_confirm15" width="80" style="margin: 5px 0px 5px 0px;"><br>
+                                                          <span id="item_confirm_text2">攻ｺｽﾄと守ｺｽﾄが全回復する｡</span>
+                                                          <span id="item_confirm_text9">攻ｺｽﾄと守ｺｽﾄが最大値の半分回復する｡</span>
+                                                          <span id="item_confirm_text15">攻ｺｽﾄと守ｺｽﾄが全回復する｡</span><br>
+                                                          <img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fline_item_01.png%3Fv%3D20170809174635" width="271"><br>
+                                                          <span class="blue">所持数</span> <span class="before_num"> </span> ⇒ <span class="after_num"> </span>個<br>
+                                                          <img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fline_item_01.png%3Fv%3D20170809174635" width="271"><br>
+                                                          <div class="box_top" style="margin-top:5px;">
+                                                            <div class="box_left" style="width:140px; text-align:right; padding-right:10px;">
+                                                              <img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fbutton_item_02.png%3Fv%3D20170809174635" width="111" id="cancel_item">
+                                                            </div>
+                                                            <div class="box_right" style="width:140px; text-align:left; padding-left:10px;">
+                                                              <form action="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fitem%2Fuse_item%3Fl_frm%3DMemory_produce_work_memory_2%26rnd%3D256849960" method="get">
+                                                                <input type="hidden" name="item_id" value="">
+                                                                <input type="hidden" name="res_type" value="json">
+                                                                <input type="image" value="使用する" src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fbutton_item_01.png%3Fv%3D20170809174635' width="111">
+                                                              </form>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                      </section>
+                                                    </div>
 
-                </script>
+                                                  </script>
                 <script type="text/template" id="template_communication_result_lose">
 
 <% $('#petit_ing').hide() %>
@@ -992,9 +994,9 @@ shop_url: "http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169
                                 "character_num": 1,
                                 "ch": "5_1",
                                 "pair_produce_idol_id": false,
-                                "card_comm1_1": "\u307f\u306a\u3055\u3093\u306e\uff7a\uff70\uff99\uff64\u672c\u5f53\u306b\u5143\u6c17\u3044\u3063",
-                                "card_comm1_2": "\u3071\u3044\u3067\u3059! \u8ca0\u3051\u306a\u3044\u3088\u3046\u306b\u9811\u5f35",
-                                "card_comm1_3": "\u3089\u306a\u3044\u3068\u3063"
+                                "card_comm1_1": "가나다",
+                                "card_comm1_2": "라마바",
+                                "card_comm1_3": "아자차"
                             },
                             "flash_id": 544056,
                             "swf_images": {
