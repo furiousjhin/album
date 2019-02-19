@@ -107,8 +107,20 @@
                 container.style.height = (window.outerHeight * 2 - marginTop) + "px";
                 option['frameCallback'] = {
                     '/': {
-                        '2':function(){
+                        '3':function(){
                             setNowEnding();
+                        },
+                        'label1': function() {
+                            se_play('se_038');
+                        },
+                        'label2': function() {
+                            se_play('se_039');
+                        },
+                        'label3': function() {
+                            se_play('se_040');
+                        },
+                        'label4': function() {
+                            se_play('se_040');
                         },
                     },
                 };
@@ -292,6 +304,7 @@
             }
             function setNowEnding() {
                 pexApi.setVariable("","now_ending", ending);
+                pexApi.setVariable("","heart_f", "10");
             }
         </script>
         <script type='text/javascript'>
