@@ -90,7 +90,7 @@
                 container.style.marginTop = (marginTop) + "px";
                 container.style.zoom = "50%";
                 container.style.height = (window.outerHeight * 2 - marginTop) + "px";
-                var pex = new Pex('https://furiousjhin.github.io/album/memory/ipro/epi/episode.swf',"container",option);
+                var pex = new Pex('episode.swf',"container",option);
                 pex.getAPI().ready(function() {
                     setScrollTop();
                 });
@@ -251,7 +251,7 @@
                 $.ajax({
                     data: data,
                     type: "get",
-                    url: 'https://furiousjhin.github.io/album/memory/ipro/epi/data/',
+                    url: 'https://furiousjhin.github.io/album/memory/ipro/epi/data/index.html',
                     success: function(data) {
                         if (data.type == "redirect")
                             location.href = data.url;
