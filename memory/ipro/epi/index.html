@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ja" xml:lang="ja">
+<html lang="ko" xml:lang="ko">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="pragma" content="no-cache">
@@ -19,12 +19,27 @@
                 }
             });
         </script>
-        <title>ｱｲﾄﾞﾙﾏｽﾀｰ ｼﾝﾃﾞﾚﾗｶﾞｰﾙｽﾞ </title>
+        <title>아이돌마스터 프레데리카 걸즈 </title>
         <style>
             #mbga-pf-footer {
                 display: none;
             }
         </style>
+        <script type="text/javascript"> // 파라미터 가져오기 , 프로듀서 이름 설정
+            function getParameterByName(name) {
+                name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+                var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+                    results = regex.exec(location.search);
+                    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+            }
+            var producer = getParameterByName('pro') + " ";
+            var ending = getParameterByName('end');
+
+            if(producer == " ")
+            {
+              producer = "○○○"
+            }
+        </script>
         <script>
             var isTouch = ('ontouchstart'in window);
             var isSp = false;
@@ -90,6 +105,13 @@
                 container.style.marginTop = (marginTop) + "px";
                 container.style.zoom = "50%";
                 container.style.height = (window.outerHeight * 2 - marginTop) + "px";
+                option['frameCallback'] = {
+                    '/': {
+                        '2':function(){
+                            setNowEnding();
+                        },
+                    },
+                };
                 var pex = new Pex('episode.swf',"container",option);
                 pex.getAPI().ready(function() {
                     setScrollTop();
@@ -251,7 +273,7 @@
                 $.ajax({
                     data: data,
                     type: "get",
-                    url: 'https://furiousjhin.github.io/album/memory/ipro/epi/data/mydata.jsp',
+                    url: '',
                     success: function(data) {
                         if (data.type == "redirect")
                             location.href = data.url;
@@ -267,6 +289,9 @@
             }
             function nextJump(url) {
                 location.href = url;
+            }
+            function setNowEnding() {
+                pexApi.setVariable("","now_ending", ending);
             }
         </script>
         <script type='text/javascript'>
