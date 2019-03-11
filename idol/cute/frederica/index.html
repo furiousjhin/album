@@ -292,9 +292,10 @@
                               <option value="4">신데렐라 걸즈 극장</option>
                               <option value="5">크리스마스 에피소드</option>
                               <option value="6">발렌타인 에피소드</option>
-                              <option value="7">유닛 연출 모음</option>
-                              <option value="8">생일 연출 모음</option>
-                              <option value="9">프로듀서 이름 입력</option>
+                              <option value="7">화이트데이 에피소드</option>
+                              <option value="8">유닛 연출 모음</option>
+                              <option value="9">생일 연출 모음</option>
+                              <option value="10">프로듀서 이름 입력</option>
                           </select>
                           <a id="jsAreaSwitchBtn" class="btn_decision_sub_line_3">
                               선택
@@ -650,7 +651,26 @@
 
               </div>
 
-              <div id="area_tab_7" class="t-Cnt"> <!--유닛 연출 모음-->
+              <div id="area_tab_7" class="t-Cnt" style="display:none">
+                <h3 class="title_hanyo m-Top8 m-Btm8">
+                      <div style="font-size:14px;">
+                        2019년 화이트데이
+                      </div>
+                </h3>
+                <form action='https://furiousjhin.github.io/album/memory/0314/2019/' method="get">
+
+                  <input type="text" id="producer_name" placeholder="※사용할 프로듀서의 이름을 입력하세요" value='' name="pro" class="search_text_1 m-Cnt m-Btm8">
+
+                  <div class="area-btn-common _base-width">
+                    <label class="btn_decision_sub_line_2 m-Cnt">
+                      <input type="submit" value="보러간다" class="">
+                    </label>
+                  </div>
+
+                </form>
+              </div>
+
+              <div id="area_tab_8" class="t-Cnt"> <!--유닛 연출 모음-->
 
                 <h3 class="title_hanyo m-Top8 m-Btm8">
                       <div style="font-size:14px;">
@@ -686,7 +706,7 @@
 
               </div>
 
-              <div id="area_tab_8" class="t-Cnt"> <!--생일 연출 모음-->
+              <div id="area_tab_9" class="t-Cnt"> <!--생일 연출 모음-->
                 <h3 class="title_hanyo m-Top8 m-Btm8">
                       <div style="font-size:14px;">
                         2019년 생일 연출
@@ -706,7 +726,7 @@
                             <option class="birthday" value="9">[꽃의 파리지엔느]미야모토 프레데리카+</option>
                             <option class="birthday" value="10">[미소의 파리지엔느]미야모토 프레데리카+</option>
                             <option class="birthday" value="11">[소악마 메이드]미야모토 프레데리카</option>
-                            <option class="birthday" value="12">[소악마 메이]미야모토 프레데리카+</option>
+                            <option class="birthday" value="12">[소악마 메이드]미야모토 프레데리카+</option>
                             <option class="birthday" value="13">[쇼콜라 발렌타]미야모토 프레데리카</option>
                             <option class="birthday" value="14">[쇼콜라 발렌타인]미야모토 프레데리카+</option>
                             <option class="birthday" value="15">[쇼콜라·스마일]미야모토 프레데리카</option>
@@ -741,7 +761,7 @@
 
               </div>
 
-              <div id="area_tab_9" class="t-Cnt"> <!--프로듀서 이름 입력-->
+              <div id="area_tab_10" class="t-Cnt"> <!--프로듀서 이름 입력-->
                 <form action='https://furiousjhin.github.io/album/idol/cute/frederica/' method="get">
 
                   <input type="text" id="producer_name" placeholder="※사용할 프로듀서의 이름을 입력하세요" value='' name="pro" class="search_text_1 m-Cnt m-Btm8">
@@ -4757,7 +4777,7 @@
                 idol.apple_review = null;
                 window.idol = idol;
             })();
-            var birthday_flag = true;
+            var birthday_flag = false;
             var select_card_index = firstIndex;
             var selected_num = null;
             var url_trade = 'http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fauction%2Fsearch_top%2F0%2F__hash_card_id__%3Fl_frm%3DIdol_gallery_idol_detail_1%26rnd%3D959008265';
