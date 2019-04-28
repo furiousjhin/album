@@ -295,7 +295,8 @@
                               <option value="7">화이트데이 에피소드</option>
                               <option value="8">유닛 연출 모음</option>
                               <option value="9">생일 연출 모음</option>
-                              <option value="10">프로듀서 이름 입력</option>
+                              <option value="10">총선 투표 대사</option>
+                              <option value="11">프로듀서 이름 입력</option>
                           </select>
                           <a id="jsAreaSwitchBtn" class="btn_decision_sub_line_3">
                               선택
@@ -761,7 +762,27 @@
 
               </div>
 
-              <div id="area_tab_10" class="t-Cnt"> <!--프로듀서 이름 입력-->
+              <div id="area_tab_10" class="t-Cnt" style="display:none"> <!--총선 투표 대사-->
+                <h3 class="title_hanyo m-Top8 m-Btm8">
+                      <div style="font-size:14px;">
+                        제8회 신데렐라 걸 총선 투표 대사
+                      </div>
+                </h3>
+                <form action='https://furiousjhin.github.io/album/memory/vote/8th/' method="get">
+
+                  <input type="text" id="producer_name" placeholder="※사용할 프로듀서의 이름을 입력하세요" value='' name="pro" class="search_text_1 m-Cnt m-Btm8">
+
+                  <div class="area-btn-common _base-width">
+                    <label class="btn_decision_sub_line_2 m-Cnt">
+                      <input type="submit" value="보러간다" class="">
+                    </label>
+                  </div>
+
+                </form>
+              </div>
+
+
+              <div id="area_tab_11" class="t-Cnt"> <!--프로듀서 이름 입력-->
                 <form action='https://furiousjhin.github.io/album/idol/cute/frederica/' method="get">
 
                   <input type="text" id="producer_name" placeholder="※사용할 프로듀서의 이름을 입력하세요" value='' name="pro" class="search_text_1 m-Cnt m-Btm8">
