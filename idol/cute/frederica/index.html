@@ -1222,6 +1222,13 @@
                                 </div>
                             </div>
                         </div>
+                        <%if ( ! $.isEmptyObject(data.skill_effect_2)) { %>
+                          <div class="data_list line">
+                          <div class="wrap">
+                          <div class="title skl_ef"></div><div class="pr"><%- data.skill_effect_2 %></div>
+                          </div>
+                          </div>
+                          <% } %>
                         <% } %>
                             <% } %>
             </section>
