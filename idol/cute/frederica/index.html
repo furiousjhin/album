@@ -308,7 +308,8 @@
                               <option value="9">생일 연출 모음</option>
                               <option value="10">총선 투표 대사</option>
                               <option value="11">획득 연출 모음</option>
-                              <option value="12">프로듀서 이름 입력</option>
+                              <option value="12">친애도 상승 연출 모음</option>
+                              <option value="13">프로듀서 이름 입력</option>
                           </select>
                           <a id="jsAreaSwitchBtn" class="btn_decision_sub_line_3">
                               선택
@@ -810,10 +811,67 @@
                   </div>
 
                 </form>
+
+                <h3 class="title_hanyo m-Top8 m-Btm8">
+                      <div style="font-size:14px;">
+                        [한여름의 아방튀르]미야모토 프레데리카 획득 연출
+                      </div>
+                </h3>
+
+                <form action='https://furiousjhin.github.io/album/memory/gacha/38/' method="get">
+
+
+                  <div class="area-btn-common _base-width">
+                    <label class="btn_decision_sub_line_2 m-Cnt">
+                      <input type="submit" value="보러간다" class="">
+                    </label>
+                  </div>
+
+                </form>
               </div>
 
+              <div id="area_tab_12" class="t-Cnt"> <!--친애도 연출-->
 
-              <div id="area_tab_12" class="t-Cnt"> <!--프로듀서 이름 입력-->
+                <h3 class="title_hanyo m-Top8 m-Btm8">
+                      <div style="font-size:14px;">
+                        [한여름의 아방튀르]미야모토 프레데리카
+                      </div>
+                </h3>
+
+                <form method="get">
+
+                  <input type="text" id="producer_name" placeholder="※사용할 프로듀서의 이름을 입력하세요" value='' name="pro" class="search_text_1 m-Cnt m-Btm8">
+
+                  <div class="area-btn-common _base-width m-Btm8">
+                    <label class="btn_normal_line_2">
+                      <input type="submit" value="친애도 상승" class="" onclick="javascript: form.action='https://furiousjhin.github.io/album/memory/love/38/up/';"/>
+                    </label>
+                    <label class="btn_normal_line_2">
+                      <input type="submit" value="친애도 MAX" class="" onclick="javascript: form.action='https://furiousjhin.github.io/album/memory/love/38/max/';"/>
+                    </label>
+
+                  </div>
+
+                </form>
+
+
+                <!--<a href='https://furiousjhin.github.io/album/memory/833/rival/1st/battle/' class="btn_normal_line_2">친애도 상승</a>
+                <a href='https://furiousjhin.github.io/album/memory/love/38/max/' class="btn_normal_line_2">친애도 MAX</a>-->
+
+                <h3 class="title_hanyo m-Top8 m-Btm8">
+                      <div style="font-size:14px;">
+                        [한여름의 아방튀르]미야모토 프레데리카+
+                      </div>
+                </h3>
+
+                <div class="area-btn-common _base-width m-Btm8">
+                    <a href='https://furiousjhin.github.io/album/memory/833/rival/1st/battle/' class="btn_normal_line_2">친애도 상승</a>
+                    <a href='https://furiousjhin.github.io/album/memory/833/rival/2nd/battle/' class="btn_normal_line_2">친애도 MAX</a>
+                </div>
+
+              </div>
+
+              <div id="area_tab_13" class="t-Cnt"> <!--프로듀서 이름 입력-->
                 <form action='https://furiousjhin.github.io/album/idol/cute/frederica/' method="get">
 
                   <input type="text" id="producer_name" placeholder="※사용할 프로듀서의 이름을 입력하세요" value='' name="pro" class="search_text_1 m-Cnt m-Btm8">
