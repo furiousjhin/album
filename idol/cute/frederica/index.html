@@ -856,20 +856,27 @@
 
                 </form>
 
-
-                <!--<a href='https://furiousjhin.github.io/album/memory/833/rival/1st/battle/' class="btn_normal_line_2">친애도 상승</a>
-                <a href='https://furiousjhin.github.io/album/memory/love/38/max/' class="btn_normal_line_2">친애도 MAX</a>-->
-
                 <h3 class="title_hanyo m-Top8 m-Btm8">
                       <div style="font-size:14px;">
                         [한여름의 아방튀르]미야모토 프레데리카+
                       </div>
                 </h3>
 
-                <div class="area-btn-common _base-width m-Btm8">
-                    <a href='https://furiousjhin.github.io/album/memory/833/rival/1st/battle/' class="btn_normal_line_2">친애도 상승</a>
-                    <a href='https://furiousjhin.github.io/album/memory/833/rival/2nd/battle/' class="btn_normal_line_2">친애도 MAX</a>
-                </div>
+                <form method="get">
+
+                  <input type="text" id="producer_name" placeholder="※사용할 프로듀서의 이름을 입력하세요" value='' name="pro" class="search_text_1 m-Cnt m-Btm8">
+
+                  <div class="area-btn-common _base-width m-Btm8">
+                    <label class="btn_normal_line_2">
+                      <input type="submit" value="친애도 상승" class="" onclick="javascript: form.action='https://furiousjhin.github.io/album/memory/love/39/up/';"/>
+                    </label>
+                    <label class="btn_normal_line_2">
+                      <input type="submit" value="친애도 MAX" class="" onclick="javascript: form.action='https://furiousjhin.github.io/album/memory/love/39/max/';"/>
+                    </label>
+
+                  </div>
+
+                </form>
 
               </div>
 
