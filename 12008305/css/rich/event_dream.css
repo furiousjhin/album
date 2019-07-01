@@ -127,6 +127,1383 @@
 .l-Hgt140 {
 	line-height: 140%
 }
+h2.title_img.event_red {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_head_bg.jpg%3F1487720052)
+}
+h2.title_img.event_red div {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_head_bottom.jpg%3F1487720052)
+}
+h2.title_img.event_red:before {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_head_top.jpg%3F1487720052)
+}
+h3.title_img.event_red {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_normal_bg.jpg%3F1487720052)
+}
+h3.title_img.event_red div.frame {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_normal_bottom.jpg%3F1487720052)
+}
+h3.title_img.event_red:before {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_normal_top.jpg%3F1487720052)
+}
+.eventH2Color_red {
+	background: #922a2a !important
+}
+.eventPeriodColor_red {
+	color: #e67373
+}
+.title.inner_red {
+	padding: 3px 0;
+	margin-bottom: 5px;
+	font-size: 16px;
+	background: -webkit-linear-gradient(left, #1d1d1d 3%, #942222 51%, #1d1d1d 98%);
+	text-shadow: 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d
+}
+.title.inner_red.m-Btm10 {
+	margin-bottom: 10px
+}
+.medal_idol_event_red {
+	width: 320px
+}
+.medal_idol_event_red:before {
+	width: 320px;
+	height: 6px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_normal_top.jpg%3F1487720052) center top no-repeat;
+	background-size: 320px 6px;
+	content: "";
+	display: block
+}
+.medal_idol_event_red:after {
+	width: 320px;
+	height: 6px;
+	content: "";
+	display: block
+}
+.medal_idol_event_red .status {
+	line-height: 120%;
+	margin-bottom: 5px
+}
+.medal_idol_event_red .slideTitle {
+	text-align: center;
+	padding: 8px 0 14px;
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_normal_bg.jpg%3F1487720052);
+	background-size: 320px
+}
+.medal_idol_event_red .img {
+	width: 320px;
+	height: 400px;
+	text-align: center;
+	margin-bottom: 5px
+}
+.underline_event_red {
+	width: 320px;
+	height: 6px;
+	margin-top: 36px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_normal_bottom.jpg%3F1487720052) center top no-repeat;
+	background-size: 320px;
+	z-index: 20;
+	position: absolute
+}
+.scheduleArea.event_red {
+	border: 2px solid #e67373;
+	background-color: #381313;
+	color: #ffffff;
+	-webkit-box-shadow: 3px 3px 3px #973434 inset, -3px -3px 3px #973434 inset
+}
+.scheduleArea.event_red h3.titleMin {
+	background: #922a2a
+}
+.tab_link.event_red {
+	color: #33ff33
+}
+.tab_link.event_red .selected {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a32d2d), color-stop(50%, #611e1e), color-stop(100%, #1d1d1d))
+}
+.tab_link.event_red .selected:active {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c93a3a), color-stop(50%, #882a2a), color-stop(100%, #1d1d1d))
+}
+.eventFBColor_red {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #8b2828), color-stop(50%, #641414), color-stop(100%, #8b2828))
+}
+.eventFBColor_red:active,
+.eventFBColor_red:hover {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #b33333), color-stop(50%, #8f1d1d), color-stop(100%, #b33333))
+}
+.eventBGColor01_red_grad_lr {
+	background: -webkit-linear-gradient(left, #381313 0%, rgba(255, 255, 255, 0) 100%)
+}
+.statusArea2.event_red {
+	border: 2px solid #e67373
+}
+.statusArea2.event_red h3 {
+	background: #381313;
+	border-bottom: 0.12rem dashed #e67373
+}
+.statusArea2.event_red h3.line {
+	border-top: 0.12rem solid #e67373
+}
+.statusArea2.event_red h2 {
+	background: #381313;
+	margin-bottom: 0;
+	font-size: 0.8rem;
+	line-height: 1.0em;
+	-webkit-box-shadow: 2px 2px 2px #973434 inset, -2px 2px 2px #973434 inset, 0px 0px 0px #973434, -2px -2px 2px #973434;
+	border-top: 0.1rem solid #e67373;
+	position: relative;
+	margin-bottom: -5px;
+	padding-top: 15px;
+	padding-bottom: 10px
+}
+.statusArea2.event_red .title {
+	background: #381313;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	-webkit-box-shadow: 2px 2px 2px #973434 inset, -2px 2px 2px #973434 inset, 0px 0px 0px #973434, -2px -2px 2px #973434
+}
+.statusArea2.event_red .line_dashed_top {
+	border-top: 0.12rem dashed #e67373
+}
+.statusArea2.event_red .line_dashed_bottom {
+	border-bottom: 0.12rem dashed #e67373
+}
+.statusArea2.event_red._important {
+	border: 2px solid #e67373;
+	-webkit-box-shadow: 2px 2px 2px #973434 inset, -2px -2px 2px #973434 inset, 0px 0px 0px #973434, 0px 0px 0px #973434 !important
+}
+.statusArea2.event_red._important h3 {
+	background: #381313 !important;
+	border-bottom: 0.12rem dashed #e67373 !important;
+	-webkit-box-shadow: 2px 2px 2px #973434 inset, -2px 2px 2px #973434 inset, 0px 0px 0px #973434, -2px -2px 2px #973434 !important
+}
+.statusArea2.event_red._important h3.line {
+	border-top: 0.12rem solid #e67373 !important
+}
+.event_red_line_dashed_bottom {
+	border-bottom: 0.12rem dashed #922a2a
+}
+h2.title_img.event_orange {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Forange%2Fline_head_bg.jpg%3F1487720052)
+}
+h2.title_img.event_orange div {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Forange%2Fline_head_bottom.jpg%3F1487720052)
+}
+h2.title_img.event_orange:before {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Forange%2Fline_head_top.jpg%3F1487720052)
+}
+h3.title_img.event_orange {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Forange%2Fline_normal_bg.jpg%3F1487720052)
+}
+h3.title_img.event_orange div.frame {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Forange%2Fline_normal_bottom.jpg%3F1487720052)
+}
+h3.title_img.event_orange:before {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Forange%2Fline_normal_top.jpg%3F1487720052)
+}
+.eventH2Color_orange {
+	background: #ca5f11 !important
+}
+.eventPeriodColor_orange {
+	color: #ffc694
+}
+.title.inner_orange {
+	padding: 3px 0;
+	margin-bottom: 5px;
+	font-size: 16px;
+	background: -webkit-linear-gradient(left, #1d1d1d 3%, #c1611a 51%, #1d1d1d 98%);
+	text-shadow: 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d
+}
+.title.inner_orange.m-Btm10 {
+	margin-bottom: 10px
+}
+.medal_idol_event_orange {
+	width: 320px
+}
+.medal_idol_event_orange:before {
+	width: 320px;
+	height: 6px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Forange%2Fline_normal_top.jpg%3F1487720052) center top no-repeat;
+	background-size: 320px 6px;
+	content: "";
+	display: block
+}
+.medal_idol_event_orange:after {
+	width: 320px;
+	height: 6px;
+	content: "";
+	display: block
+}
+.medal_idol_event_orange .status {
+	line-height: 120%;
+	margin-bottom: 5px
+}
+.medal_idol_event_orange .slideTitle {
+	text-align: center;
+	padding: 8px 0 14px;
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Forange%2Fline_normal_bg.jpg%3F1487720052);
+	background-size: 320px
+}
+.medal_idol_event_orange .img {
+	width: 320px;
+	height: 400px;
+	text-align: center;
+	margin-bottom: 5px
+}
+.underline_event_orange {
+	width: 320px;
+	height: 6px;
+	margin-top: 36px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Forange%2Fline_normal_bottom.jpg%3F1487720052) center top no-repeat;
+	background-size: 320px;
+	z-index: 20;
+	position: absolute
+}
+.scheduleArea.event_orange {
+	border: 2px solid #ffc694;
+	background-color: #552609;
+	color: #ffffff;
+	-webkit-box-shadow: 3px 3px 3px #ad6327 inset, -3px -3px 3px #ad6327 inset
+}
+.scheduleArea.event_orange h3.titleMin {
+	background: #ca5f11
+}
+.tab_link.event_orange {
+	color: #33ff33
+}
+.tab_link.event_orange .selected {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c4670c), color-stop(50%, #924703), color-stop(100%, #1d1d1d))
+}
+.tab_link.event_orange .selected:active {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f18012), color-stop(50%, #c45f04), color-stop(100%, #1d1d1d))
+}
+.eventFBColor_orange {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c1611a), color-stop(50%, #9d4909), color-stop(100%, #c1611a))
+}
+.eventFBColor_orange:active,
+.eventFBColor_orange:hover {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e3792b), color-stop(50%, #cd5f0c), color-stop(100%, #e3792b))
+}
+.eventBGColor01_orange_grad_lr {
+	background: -webkit-linear-gradient(left, #552609 0%, rgba(255, 255, 255, 0) 100%)
+}
+.statusArea2.event_orange {
+	border: 2px solid #ffc694
+}
+.statusArea2.event_orange h3 {
+	background: #552609;
+	border-bottom: 0.12rem dashed #ffc694
+}
+.statusArea2.event_orange h3.line {
+	border-top: 0.12rem solid #ffc694
+}
+.statusArea2.event_orange h2 {
+	background: #552609;
+	margin-bottom: 0;
+	font-size: 0.8rem;
+	line-height: 1.0em;
+	-webkit-box-shadow: 2px 2px 2px #ad6327 inset, -2px 2px 2px #ad6327 inset, 0px 0px 0px #ad6327, -2px -2px 2px #ad6327;
+	border-top: 0.1rem solid #ffc694;
+	position: relative;
+	margin-bottom: -5px;
+	padding-top: 15px;
+	padding-bottom: 10px
+}
+.statusArea2.event_orange .title {
+	background: #552609;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	-webkit-box-shadow: 2px 2px 2px #ad6327 inset, -2px 2px 2px #ad6327 inset, 0px 0px 0px #ad6327, -2px -2px 2px #ad6327
+}
+.statusArea2.event_orange .line_dashed_top {
+	border-top: 0.12rem dashed #ffc694
+}
+.statusArea2.event_orange .line_dashed_bottom {
+	border-bottom: 0.12rem dashed #ffc694
+}
+.statusArea2.event_orange._important {
+	border: 2px solid #ffc694;
+	-webkit-box-shadow: 2px 2px 2px #ad6327 inset, -2px -2px 2px #ad6327 inset, 0px 0px 0px #ad6327, 0px 0px 0px #ad6327 !important
+}
+.statusArea2.event_orange._important h3 {
+	background: #552609 !important;
+	border-bottom: 0.12rem dashed #ffc694 !important;
+	-webkit-box-shadow: 2px 2px 2px #ad6327 inset, -2px 2px 2px #ad6327 inset, 0px 0px 0px #ad6327, -2px -2px 2px #ad6327 !important
+}
+.statusArea2.event_orange._important h3.line {
+	border-top: 0.12rem solid #ffc694 !important
+}
+.event_orange_line_dashed_bottom {
+	border-bottom: 0.12rem dashed #ca5f11
+}
+h2.title_img.event_green {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fgreen%2Fline_head_bg.jpg%3F1487720052)
+}
+h2.title_img.event_green div {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fgreen%2Fline_head_bottom.jpg%3F1487720052)
+}
+h2.title_img.event_green:before {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fgreen%2Fline_head_top.jpg%3F1487720052)
+}
+h3.title_img.event_green {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fgreen%2Fline_normal_bg.jpg%3F1487720052)
+}
+h3.title_img.event_green div.frame {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fgreen%2Fline_normal_bottom.jpg%3F1487720052)
+}
+h3.title_img.event_green:before {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fgreen%2Fline_normal_top.jpg%3F1487720052)
+}
+.eventH2Color_green {
+	background: #255d25 !important
+}
+.eventPeriodColor_green {
+	color: #5d9e5c
+}
+.title.inner_green {
+	padding: 3px 0;
+	margin-bottom: 5px;
+	font-size: 16px;
+	background: -webkit-linear-gradient(left, #1d1d1d 3%, #1b461b 51%, #1d1d1d 98%);
+	text-shadow: 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d
+}
+.title.inner_green.m-Btm10 {
+	margin-bottom: 10px
+}
+.medal_idol_event_green {
+	width: 320px
+}
+.medal_idol_event_green:before {
+	width: 320px;
+	height: 6px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fgreen%2Fline_normal_top.jpg%3F1487720052) center top no-repeat;
+	background-size: 320px 6px;
+	content: "";
+	display: block
+}
+.medal_idol_event_green:after {
+	width: 320px;
+	height: 6px;
+	content: "";
+	display: block
+}
+.medal_idol_event_green .status {
+	line-height: 120%;
+	margin-bottom: 5px
+}
+.medal_idol_event_green .slideTitle {
+	text-align: center;
+	padding: 8px 0 14px;
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fgreen%2Fline_normal_bg.jpg%3F1487720052);
+	background-size: 320px
+}
+.medal_idol_event_green .img {
+	width: 320px;
+	height: 400px;
+	text-align: center;
+	margin-bottom: 5px
+}
+.underline_event_green {
+	width: 320px;
+	height: 6px;
+	margin-top: 36px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fgreen%2Fline_normal_bottom.jpg%3F1487720052) center top no-repeat;
+	background-size: 320px;
+	z-index: 20;
+	position: absolute
+}
+.scheduleArea.event_green {
+	border: 2px solid #5d9e5c;
+	background-color: #122715;
+	color: #ffffff;
+	-webkit-box-shadow: 3px 3px 3px #1f4722 inset, -3px -3px 3px #1f4722 inset
+}
+.scheduleArea.event_green h3.titleMin {
+	background: #255d25
+}
+.tab_link.event_green {
+	color: #33ff33
+}
+.tab_link.event_green .selected {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #215321), color-stop(50%, #1b401a), color-stop(100%, #1d1d1d))
+}
+.tab_link.event_green .selected:active {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #307730), color-stop(50%, #2a6429), color-stop(100%, #1d1d1d))
+}
+.eventFBColor_green {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #244b24), color-stop(50%, #143515), color-stop(100%, #244b24))
+}
+.eventFBColor_green:active,
+.eventFBColor_green:hover {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #356d35), color-stop(50%, #225a24), color-stop(100%, #356d35))
+}
+.eventBGColor01_green_grad_lr {
+	background: -webkit-linear-gradient(left, #122715 0%, rgba(255, 255, 255, 0) 100%)
+}
+.statusArea2.event_green {
+	border: 2px solid #5d9e5c
+}
+.statusArea2.event_green h3 {
+	background: #122715;
+	border-bottom: 0.12rem dashed #5d9e5c
+}
+.statusArea2.event_green h3.line {
+	border-top: 0.12rem solid #5d9e5c
+}
+.statusArea2.event_green h2 {
+	background: #122715;
+	margin-bottom: 0;
+	font-size: 0.8rem;
+	line-height: 1.0em;
+	-webkit-box-shadow: 2px 2px 2px #1f4722 inset, -2px 2px 2px #1f4722 inset, 0px 0px 0px #1f4722, -2px -2px 2px #1f4722;
+	border-top: 0.1rem solid #5d9e5c;
+	position: relative;
+	margin-bottom: -5px;
+	padding-top: 15px;
+	padding-bottom: 10px
+}
+.statusArea2.event_green .title {
+	background: #122715;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	-webkit-box-shadow: 2px 2px 2px #1f4722 inset, -2px 2px 2px #1f4722 inset, 0px 0px 0px #1f4722, -2px -2px 2px #1f4722
+}
+.statusArea2.event_green .line_dashed_top {
+	border-top: 0.12rem dashed #5d9e5c
+}
+.statusArea2.event_green .line_dashed_bottom {
+	border-bottom: 0.12rem dashed #5d9e5c
+}
+.statusArea2.event_green._important {
+	border: 2px solid #5d9e5c;
+	-webkit-box-shadow: 2px 2px 2px #1f4722 inset, -2px -2px 2px #1f4722 inset, 0px 0px 0px #1f4722, 0px 0px 0px #1f4722 !important
+}
+.statusArea2.event_green._important h3 {
+	background: #122715 !important;
+	border-bottom: 0.12rem dashed #5d9e5c !important;
+	-webkit-box-shadow: 2px 2px 2px #1f4722 inset, -2px 2px 2px #1f4722 inset, 0px 0px 0px #1f4722, -2px -2px 2px #1f4722 !important
+}
+.statusArea2.event_green._important h3.line {
+	border-top: 0.12rem solid #5d9e5c !important
+}
+.event_green_line_dashed_bottom {
+	border-bottom: 0.12rem dashed #255d25
+}
+h2.title_img.event_bluegreen {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fbluegreen%2Fline_head_bg.jpg%3F1487720052)
+}
+h2.title_img.event_bluegreen div {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fbluegreen%2Fline_head_bottom.jpg%3F1487720052)
+}
+h2.title_img.event_bluegreen:before {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fbluegreen%2Fline_head_top.jpg%3F1487720052)
+}
+h3.title_img.event_bluegreen {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fbluegreen%2Fline_normal_bg.jpg%3F1487720052)
+}
+h3.title_img.event_bluegreen div.frame {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fbluegreen%2Fline_normal_bottom.jpg%3F1487720052)
+}
+h3.title_img.event_bluegreen:before {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fbluegreen%2Fline_normal_top.jpg%3F1487720052)
+}
+.eventH2Color_bluegreen {
+	background: #0d5a50 !important
+}
+.eventPeriodColor_bluegreen {
+	color: #5dedd0
+}
+.title.inner_bluegreen {
+	padding: 3px 0;
+	margin-bottom: 5px;
+	font-size: 16px;
+	background: -webkit-linear-gradient(left, #1d1d1d 3%, #095544 51%, #1d1d1d 98%);
+	text-shadow: 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d
+}
+.title.inner_bluegreen.m-Btm10 {
+	margin-bottom: 10px
+}
+.medal_idol_event_bluegreen {
+	width: 320px
+}
+.medal_idol_event_bluegreen:before {
+	width: 320px;
+	height: 6px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fbluegreen%2Fline_normal_top.jpg%3F1487720052) center top no-repeat;
+	background-size: 320px 6px;
+	content: "";
+	display: block
+}
+.medal_idol_event_bluegreen:after {
+	width: 320px;
+	height: 6px;
+	content: "";
+	display: block
+}
+.medal_idol_event_bluegreen .status {
+	line-height: 120%;
+	margin-bottom: 5px
+}
+.medal_idol_event_bluegreen .slideTitle {
+	text-align: center;
+	padding: 8px 0 14px;
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fbluegreen%2Fline_normal_bg.jpg%3F1487720052);
+	background-size: 320px
+}
+.medal_idol_event_bluegreen .img {
+	width: 320px;
+	height: 400px;
+	text-align: center;
+	margin-bottom: 5px
+}
+.underline_event_bluegreen {
+	width: 320px;
+	height: 6px;
+	margin-top: 36px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fbluegreen%2Fline_normal_bottom.jpg%3F1487720052) center top no-repeat;
+	background-size: 320px;
+	z-index: 20;
+	position: absolute
+}
+.scheduleArea.event_bluegreen {
+	border: 2px solid #5dedd0;
+	background-color: #123e38;
+	color: #ffffff;
+	-webkit-box-shadow: 3px 3px 3px #227d72 inset, -3px -3px 3px #227d72 inset
+}
+.scheduleArea.event_bluegreen h3.titleMin {
+	background: #0d5a50
+}
+.tab_link.event_bluegreen {
+	color: #33ff33
+}
+.tab_link.event_bluegreen .selected {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00806f), color-stop(50%, #094739), color-stop(100%, #1d1d1d))
+}
+.tab_link.event_bluegreen .selected:active {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00b39b), color-stop(50%, #0f745d), color-stop(100%, #1d1d1d))
+}
+.eventFBColor_bluegreen {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #007558), color-stop(50%, #015341), color-stop(100%, #007558))
+}
+.eventFBColor_bluegreen:active,
+.eventFBColor_bluegreen:hover {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00a87e), color-stop(50%, #028568), color-stop(100%, #00a87e))
+}
+.eventBGColor01_bluegreen_grad_lr {
+	background: -webkit-linear-gradient(left, #123e38 0%, rgba(255, 255, 255, 0) 100%)
+}
+.statusArea2.event_bluegreen {
+	border: 2px solid #5dedd0
+}
+.statusArea2.event_bluegreen h3 {
+	background: #123e38;
+	border-bottom: 0.12rem dashed #5dedd0
+}
+.statusArea2.event_bluegreen h3.line {
+	border-top: 0.12rem solid #5dedd0
+}
+.statusArea2.event_bluegreen h2 {
+	background: #123e38;
+	margin-bottom: 0;
+	font-size: 0.8rem;
+	line-height: 1.0em;
+	-webkit-box-shadow: 2px 2px 2px #227d72 inset, -2px 2px 2px #227d72 inset, 0px 0px 0px #227d72, -2px -2px 2px #227d72;
+	border-top: 0.1rem solid #5dedd0;
+	position: relative;
+	margin-bottom: -5px;
+	padding-top: 15px;
+	padding-bottom: 10px
+}
+.statusArea2.event_bluegreen .title {
+	background: #123e38;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	-webkit-box-shadow: 2px 2px 2px #227d72 inset, -2px 2px 2px #227d72 inset, 0px 0px 0px #227d72, -2px -2px 2px #227d72
+}
+.statusArea2.event_bluegreen .line_dashed_top {
+	border-top: 0.12rem dashed #5dedd0
+}
+.statusArea2.event_bluegreen .line_dashed_bottom {
+	border-bottom: 0.12rem dashed #5dedd0
+}
+.statusArea2.event_bluegreen._important {
+	border: 2px solid #5dedd0;
+	-webkit-box-shadow: 2px 2px 2px #227d72 inset, -2px -2px 2px #227d72 inset, 0px 0px 0px #227d72, 0px 0px 0px #227d72 !important
+}
+.statusArea2.event_bluegreen._important h3 {
+	background: #123e38 !important;
+	border-bottom: 0.12rem dashed #5dedd0 !important;
+	-webkit-box-shadow: 2px 2px 2px #227d72 inset, -2px 2px 2px #227d72 inset, 0px 0px 0px #227d72, -2px -2px 2px #227d72 !important
+}
+.statusArea2.event_bluegreen._important h3.line {
+	border-top: 0.12rem solid #5dedd0 !important
+}
+.event_bluegreen_line_dashed_bottom {
+	border-bottom: 0.12rem dashed #0d5a50
+}
+h2.title_img.event_blue {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fblue%2Fline_head_bg.jpg%3F1487720052)
+}
+h2.title_img.event_blue div {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fblue%2Fline_head_bottom.jpg%3F1487720052)
+}
+h2.title_img.event_blue:before {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fblue%2Fline_head_top.jpg%3F1487720052)
+}
+h3.title_img.event_blue {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fblue%2Fline_normal_bg.jpg%3F1487720052)
+}
+h3.title_img.event_blue div.frame {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fblue%2Fline_normal_bottom.jpg%3F1487720052)
+}
+h3.title_img.event_blue:before {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fblue%2Fline_normal_top.jpg%3F1487720052)
+}
+.eventH2Color_blue {
+	background: #013c53 !important
+}
+.eventPeriodColor_blue {
+	color: #5be1fe
+}
+.title.inner_blue {
+	padding: 3px 0;
+	margin-bottom: 5px;
+	font-size: 16px;
+	background: -webkit-linear-gradient(left, #1d1d1d 3%, #014560 51%, #1d1d1d 98%);
+	text-shadow: 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d
+}
+.title.inner_blue.m-Btm10 {
+	margin-bottom: 10px
+}
+.medal_idol_event_blue {
+	width: 320px
+}
+.medal_idol_event_blue:before {
+	width: 320px;
+	height: 6px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fblue%2Fline_normal_top.jpg%3F1487720052) center top no-repeat;
+	background-size: 320px 6px;
+	content: "";
+	display: block
+}
+.medal_idol_event_blue:after {
+	width: 320px;
+	height: 6px;
+	content: "";
+	display: block
+}
+.medal_idol_event_blue .status {
+	line-height: 120%;
+	margin-bottom: 5px
+}
+.medal_idol_event_blue .slideTitle {
+	text-align: center;
+	padding: 8px 0 14px;
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fblue%2Fline_normal_bg.jpg%3F1487720052);
+	background-size: 320px
+}
+.medal_idol_event_blue .img {
+	width: 320px;
+	height: 400px;
+	text-align: center;
+	margin-bottom: 5px
+}
+.underline_event_blue {
+	width: 320px;
+	height: 6px;
+	margin-top: 36px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fblue%2Fline_normal_bottom.jpg%3F1487720052) center top no-repeat;
+	background-size: 320px;
+	z-index: 20;
+	position: absolute
+}
+.scheduleArea.event_blue {
+	border: 2px solid #5be1fe;
+	background-color: #041f29;
+	color: #ffffff;
+	-webkit-box-shadow: 3px 3px 3px #013c53 inset, -3px -3px 3px #013c53 inset
+}
+.scheduleArea.event_blue h3.titleMin {
+	background: #013c53
+}
+.tab_link.event_blue {
+	color: #33ff33
+}
+.tab_link.event_blue .selected {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #005c80), color-stop(50%, #092e47), color-stop(100%, #1d1d1d))
+}
+.tab_link.event_blue .selected:active {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0081b3), color-stop(50%, #0f4b74), color-stop(100%, #1d1d1d))
+}
+.eventFBColor_blue {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #006288), color-stop(50%, #013c53), color-stop(100%, #006288))
+}
+.eventFBColor_blue:active,
+.eventFBColor_blue:hover {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0087bb), color-stop(50%, #026085), color-stop(100%, #0087bb))
+}
+.eventBGColor01_blue_grad_lr {
+	background: -webkit-linear-gradient(left, #041f29 0%, rgba(255, 255, 255, 0) 100%)
+}
+.statusArea2.event_blue {
+	border: 2px solid #5be1fe
+}
+.statusArea2.event_blue h3 {
+	background: #041f29;
+	border-bottom: 0.12rem dashed #5be1fe
+}
+.statusArea2.event_blue h3.line {
+	border-top: 0.12rem solid #5be1fe
+}
+.statusArea2.event_blue h2 {
+	background: #041f29;
+	margin-bottom: 0;
+	font-size: 0.8rem;
+	line-height: 1.0em;
+	-webkit-box-shadow: 2px 2px 2px #013c53 inset, -2px 2px 2px #013c53 inset, 0px 0px 0px #013c53, -2px -2px 2px #013c53;
+	border-top: 0.1rem solid #5be1fe;
+	position: relative;
+	margin-bottom: -5px;
+	padding-top: 15px;
+	padding-bottom: 10px
+}
+.statusArea2.event_blue .title {
+	background: #041f29;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	-webkit-box-shadow: 2px 2px 2px #013c53 inset, -2px 2px 2px #013c53 inset, 0px 0px 0px #013c53, -2px -2px 2px #013c53
+}
+.statusArea2.event_blue .line_dashed_top {
+	border-top: 0.12rem dashed #5be1fe
+}
+.statusArea2.event_blue .line_dashed_bottom {
+	border-bottom: 0.12rem dashed #5be1fe
+}
+.statusArea2.event_blue._important {
+	border: 2px solid #5be1fe;
+	-webkit-box-shadow: 2px 2px 2px #013c53 inset, -2px -2px 2px #013c53 inset, 0px 0px 0px #013c53, 0px 0px 0px #013c53 !important
+}
+.statusArea2.event_blue._important h3 {
+	background: #041f29 !important;
+	border-bottom: 0.12rem dashed #5be1fe !important;
+	-webkit-box-shadow: 2px 2px 2px #013c53 inset, -2px 2px 2px #013c53 inset, 0px 0px 0px #013c53, -2px -2px 2px #013c53 !important
+}
+.statusArea2.event_blue._important h3.line {
+	border-top: 0.12rem solid #5be1fe !important
+}
+.event_blue_line_dashed_bottom {
+	border-bottom: 0.12rem dashed #013c53
+}
+h2.title_img.event_pink {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpink%2Fline_head_bg.jpg%3F1487720052)
+}
+h2.title_img.event_pink div {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpink%2Fline_head_bottom.jpg%3F1487720052)
+}
+h2.title_img.event_pink:before {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpink%2Fline_head_top.jpg%3F1487720052)
+}
+h3.title_img.event_pink {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpink%2Fline_normal_bg.jpg%3F1487720052)
+}
+h3.title_img.event_pink div.frame {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpink%2Fline_normal_bottom.jpg%3F1487720052)
+}
+h3.title_img.event_pink:before {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpink%2Fline_normal_top.jpg%3F1487720052)
+}
+.eventH2Color_pink {
+	background: #dc749f !important
+}
+.eventPeriodColor_pink {
+	color: #e78ab1
+}
+.title.inner_pink {
+	padding: 3px 0;
+	margin-bottom: 5px;
+	font-size: 16px;
+	background: -webkit-linear-gradient(left, #1d1d1d 3%, #c45785 51%, #1d1d1d 98%);
+	text-shadow: 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d
+}
+.title.inner_pink.m-Btm10 {
+	margin-bottom: 10px
+}
+.medal_idol_event_pink {
+	width: 320px
+}
+.medal_idol_event_pink:before {
+	width: 320px;
+	height: 6px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpink%2Fline_normal_top.jpg%3F1487720052) center top no-repeat;
+	background-size: 320px 6px;
+	content: "";
+	display: block
+}
+.medal_idol_event_pink:after {
+	width: 320px;
+	height: 6px;
+	content: "";
+	display: block
+}
+.medal_idol_event_pink .status {
+	line-height: 120%;
+	margin-bottom: 5px
+}
+.medal_idol_event_pink .slideTitle {
+	text-align: center;
+	padding: 8px 0 14px;
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpink%2Fline_normal_bg.jpg%3F1487720052);
+	background-size: 320px
+}
+.medal_idol_event_pink .img {
+	width: 320px;
+	height: 400px;
+	text-align: center;
+	margin-bottom: 5px
+}
+.underline_event_pink {
+	width: 320px;
+	height: 6px;
+	margin-top: 36px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpink%2Fline_normal_bottom.jpg%3F1487720052) center top no-repeat;
+	background-size: 320px;
+	z-index: 20;
+	position: absolute
+}
+.scheduleArea.event_pink {
+	border: 2px solid #e78ab1;
+	background-color: #30252a;
+	color: #ffffff;
+	-webkit-box-shadow: 3px 3px 3px #96335d inset, -3px -3px 3px #96335d inset
+}
+.scheduleArea.event_pink h3.titleMin {
+	background: #dc749f
+}
+.tab_link.event_pink {
+	color: #33ff33
+}
+.tab_link.event_pink .selected {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fe93bf), color-stop(50%, #9c5070), color-stop(100%, #1d1d1d))
+}
+.tab_link.event_pink .selected:active {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fec6dd), color-stop(50%, #b36c8a), color-stop(100%, #1d1d1d))
+}
+.eventFBColor_pink {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ed5697), color-stop(50%, #c53170), color-stop(100%, #ed5697))
+}
+.eventFBColor_pink:active,
+.eventFBColor_pink:hover {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f284b3), color-stop(50%, #d5548b), color-stop(100%, #f284b3))
+}
+.eventBGColor01_pink_grad_lr {
+	background: -webkit-linear-gradient(left, #30252a 0%, rgba(255, 255, 255, 0) 100%)
+}
+.statusArea2.event_pink {
+	border: 2px solid #e78ab1
+}
+.statusArea2.event_pink h3 {
+	background: #30252a;
+	border-bottom: 0.12rem dashed #e78ab1
+}
+.statusArea2.event_pink h3.line {
+	border-top: 0.12rem solid #e78ab1
+}
+.statusArea2.event_pink h2 {
+	background: #30252a;
+	margin-bottom: 0;
+	font-size: 0.8rem;
+	line-height: 1.0em;
+	-webkit-box-shadow: 2px 2px 2px #96335d inset, -2px 2px 2px #96335d inset, 0px 0px 0px #96335d, -2px -2px 2px #96335d;
+	border-top: 0.1rem solid #e78ab1;
+	position: relative;
+	margin-bottom: -5px;
+	padding-top: 15px;
+	padding-bottom: 10px
+}
+.statusArea2.event_pink .title {
+	background: #30252a;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	-webkit-box-shadow: 2px 2px 2px #96335d inset, -2px 2px 2px #96335d inset, 0px 0px 0px #96335d, -2px -2px 2px #96335d
+}
+.statusArea2.event_pink .line_dashed_top {
+	border-top: 0.12rem dashed #e78ab1
+}
+.statusArea2.event_pink .line_dashed_bottom {
+	border-bottom: 0.12rem dashed #e78ab1
+}
+.statusArea2.event_pink._important {
+	border: 2px solid #e78ab1;
+	-webkit-box-shadow: 2px 2px 2px #96335d inset, -2px -2px 2px #96335d inset, 0px 0px 0px #96335d, 0px 0px 0px #96335d !important
+}
+.statusArea2.event_pink._important h3 {
+	background: #30252a !important;
+	border-bottom: 0.12rem dashed #e78ab1 !important;
+	-webkit-box-shadow: 2px 2px 2px #96335d inset, -2px 2px 2px #96335d inset, 0px 0px 0px #96335d, -2px -2px 2px #96335d !important
+}
+.statusArea2.event_pink._important h3.line {
+	border-top: 0.12rem solid #e78ab1 !important
+}
+.event_pink_line_dashed_bottom {
+	border-bottom: 0.12rem dashed #dc749f
+}
+h2.title_img.event_crimson {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fcrimson%2Fline_head_bg.jpg%3F1487720052)
+}
+h2.title_img.event_crimson div {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fcrimson%2Fline_head_bottom.jpg%3F1487720052)
+}
+h2.title_img.event_crimson:before {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fcrimson%2Fline_head_top.jpg%3F1487720052)
+}
+h3.title_img.event_crimson {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fcrimson%2Fline_normal_bg.jpg%3F1487720052)
+}
+h3.title_img.event_crimson div.frame {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fcrimson%2Fline_normal_bottom.jpg%3F1487720052)
+}
+h3.title_img.event_crimson:before {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fcrimson%2Fline_normal_top.jpg%3F1487720052)
+}
+.eventH2Color_crimson {
+	background: #972447 !important
+}
+.eventPeriodColor_crimson {
+	color: #f07198
+}
+.title.inner_crimson {
+	padding: 3px 0;
+	margin-bottom: 5px;
+	font-size: 16px;
+	background: -webkit-linear-gradient(left, #1d1d1d 3%, #9f1d43 51%, #1d1d1d 98%);
+	text-shadow: 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d
+}
+.title.inner_crimson.m-Btm10 {
+	margin-bottom: 10px
+}
+.medal_idol_event_crimson {
+	width: 320px
+}
+.medal_idol_event_crimson:before {
+	width: 320px;
+	height: 6px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fcrimson%2Fline_normal_top.jpg%3F1487720052) center top no-repeat;
+	background-size: 320px 6px;
+	content: "";
+	display: block
+}
+.medal_idol_event_crimson:after {
+	width: 320px;
+	height: 6px;
+	content: "";
+	display: block
+}
+.medal_idol_event_crimson .status {
+	line-height: 120%;
+	margin-bottom: 5px
+}
+.medal_idol_event_crimson .slideTitle {
+	text-align: center;
+	padding: 8px 0 14px;
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fcrimson%2Fline_normal_bg.jpg%3F1487720052);
+	background-size: 320px
+}
+.medal_idol_event_crimson .img {
+	width: 320px;
+	height: 400px;
+	text-align: center;
+	margin-bottom: 5px
+}
+.underline_event_crimson {
+	width: 320px;
+	height: 6px;
+	margin-top: 36px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fcrimson%2Fline_normal_bottom.jpg%3F1487720052) center top no-repeat;
+	background-size: 320px;
+	z-index: 20;
+	position: absolute
+}
+.scheduleArea.event_crimson {
+	border: 2px solid #f07198;
+	background-color: #35111c;
+	color: #ffffff;
+	-webkit-box-shadow: 3px 3px 3px #9f1d43 inset, -3px -3px 3px #9f1d43 inset
+}
+.scheduleArea.event_crimson h3.titleMin {
+	background: #972447
+}
+.tab_link.event_crimson {
+	color: #33ff33
+}
+.tab_link.event_crimson .selected {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9f1d43), color-stop(50%, #661a31), color-stop(100%, #1d1d1d))
+}
+.tab_link.event_crimson .selected:active {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ca2555), color-stop(50%, #8f2445), color-stop(100%, #1d1d1d))
+}
+.eventFBColor_crimson {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #661a31), color-stop(50%, #42111f), color-stop(100%, #661a31))
+}
+.eventFBColor_crimson:active,
+.eventFBColor_crimson:hover {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #8f2445), color-stop(50%, #6b1b32), color-stop(100%, #8f2445))
+}
+.eventBGColor01_crimson_grad_lr {
+	background: -webkit-linear-gradient(left, #35111c 0%, rgba(255, 255, 255, 0) 100%)
+}
+.statusArea2.event_crimson {
+	border: 2px solid #f07198
+}
+.statusArea2.event_crimson h3 {
+	background: #35111c;
+	border-bottom: 0.12rem dashed #f07198
+}
+.statusArea2.event_crimson h3.line {
+	border-top: 0.12rem solid #f07198
+}
+.statusArea2.event_crimson h2 {
+	background: #35111c;
+	margin-bottom: 0;
+	font-size: 0.8rem;
+	line-height: 1.0em;
+	-webkit-box-shadow: 2px 2px 2px #9f1d43 inset, -2px 2px 2px #9f1d43 inset, 0px 0px 0px #9f1d43, -2px -2px 2px #9f1d43;
+	border-top: 0.1rem solid #f07198;
+	position: relative;
+	margin-bottom: -5px;
+	padding-top: 15px;
+	padding-bottom: 10px
+}
+.statusArea2.event_crimson .title {
+	background: #35111c;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	-webkit-box-shadow: 2px 2px 2px #9f1d43 inset, -2px 2px 2px #9f1d43 inset, 0px 0px 0px #9f1d43, -2px -2px 2px #9f1d43
+}
+.statusArea2.event_crimson .line_dashed_top {
+	border-top: 0.12rem dashed #f07198
+}
+.statusArea2.event_crimson .line_dashed_bottom {
+	border-bottom: 0.12rem dashed #f07198
+}
+.statusArea2.event_crimson._important {
+	border: 2px solid #f07198;
+	-webkit-box-shadow: 2px 2px 2px #9f1d43 inset, -2px -2px 2px #9f1d43 inset, 0px 0px 0px #9f1d43, 0px 0px 0px #9f1d43 !important
+}
+.statusArea2.event_crimson._important h3 {
+	background: #35111c !important;
+	border-bottom: 0.12rem dashed #f07198 !important;
+	-webkit-box-shadow: 2px 2px 2px #9f1d43 inset, -2px 2px 2px #9f1d43 inset, 0px 0px 0px #9f1d43, -2px -2px 2px #9f1d43 !important
+}
+.statusArea2.event_crimson._important h3.line {
+	border-top: 0.12rem solid #f07198 !important
+}
+.event_crimson_line_dashed_bottom {
+	border-bottom: 0.12rem dashed #972447
+}
+h2.title_img.event_parple {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fparple%2Fline_head_bg.jpg%3F1487720052)
+}
+h2.title_img.event_parple div {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fparple%2Fline_head_bottom.jpg%3F1487720052)
+}
+h2.title_img.event_parple:before {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fparple%2Fline_head_top.jpg%3F1487720052)
+}
+h3.title_img.event_parple {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fparple%2Fline_normal_bg.jpg%3F1487720052)
+}
+h3.title_img.event_parple div.frame {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fparple%2Fline_normal_bottom.jpg%3F1487720052)
+}
+h3.title_img.event_parple:before {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fparple%2Fline_normal_top.jpg%3F1487720052)
+}
+.eventH2Color_parple {
+	background: #312d82 !important
+}
+.eventPeriodColor_parple {
+	color: #899aff
+}
+.title.inner_parple {
+	padding: 3px 0;
+	margin-bottom: 5px;
+	font-size: 16px;
+	background: -webkit-linear-gradient(left, #1d1d1d 3%, #292573 51%, #1d1d1d 98%);
+	text-shadow: 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d
+}
+.title.inner_parple.m-Btm10 {
+	margin-bottom: 10px
+}
+.medal_idol_event_parple {
+	width: 320px
+}
+.medal_idol_event_parple:before {
+	width: 320px;
+	height: 6px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fparple%2Fline_normal_top.jpg%3F1487720052) center top no-repeat;
+	background-size: 320px 6px;
+	content: "";
+	display: block
+}
+.medal_idol_event_parple:after {
+	width: 320px;
+	height: 6px;
+	content: "";
+	display: block
+}
+.medal_idol_event_parple .status {
+	line-height: 120%;
+	margin-bottom: 5px
+}
+.medal_idol_event_parple .slideTitle {
+	text-align: center;
+	padding: 8px 0 14px;
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fparple%2Fline_normal_bg.jpg%3F1487720052);
+	background-size: 320px
+}
+.medal_idol_event_parple .img {
+	width: 320px;
+	height: 400px;
+	text-align: center;
+	margin-bottom: 5px
+}
+.underline_event_parple {
+	width: 320px;
+	height: 6px;
+	margin-top: 36px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fparple%2Fline_normal_bottom.jpg%3F1487720052) center top no-repeat;
+	background-size: 320px;
+	z-index: 20;
+	position: absolute
+}
+.scheduleArea.event_parple {
+	border: 2px solid #899aff;
+	background-color: #1c185d;
+	color: #ffffff;
+	-webkit-box-shadow: 3px 3px 3px #382ca2 inset, -3px -3px 3px #382ca2 inset
+}
+.scheduleArea.event_parple h3.titleMin {
+	background: #312d82
+}
+.tab_link.event_parple {
+	color: #33ff33
+}
+.tab_link.event_parple .selected {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #373391), color-stop(50%, #28246d), color-stop(100%, #1d1d1d))
+}
+.tab_link.event_parple .selected:active {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4540b7), color-stop(50%, #363193), color-stop(100%, #1d1d1d))
+}
+.eventFBColor_parple {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2b2778), color-stop(50%, #1a1750), color-stop(100%, #2b2778))
+}
+.eventFBColor_parple:active,
+.eventFBColor_parple:hover {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #39349e), color-stop(50%, #272278), color-stop(100%, #39349e))
+}
+.eventBGColor01_parple_grad_lr {
+	background: -webkit-linear-gradient(left, #1c185d 0%, rgba(255, 255, 255, 0) 100%)
+}
+.statusArea2.event_parple {
+	border: 2px solid #899aff
+}
+.statusArea2.event_parple h3 {
+	background: #1c185d;
+	border-bottom: 0.12rem dashed #899aff
+}
+.statusArea2.event_parple h3.line {
+	border-top: 0.12rem solid #899aff
+}
+.statusArea2.event_parple h2 {
+	background: #1c185d;
+	margin-bottom: 0;
+	font-size: 0.8rem;
+	line-height: 1.0em;
+	-webkit-box-shadow: 2px 2px 2px #382ca2 inset, -2px 2px 2px #382ca2 inset, 0px 0px 0px #382ca2, -2px -2px 2px #382ca2;
+	border-top: 0.1rem solid #899aff;
+	position: relative;
+	margin-bottom: -5px;
+	padding-top: 15px;
+	padding-bottom: 10px
+}
+.statusArea2.event_parple .title {
+	background: #1c185d;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	-webkit-box-shadow: 2px 2px 2px #382ca2 inset, -2px 2px 2px #382ca2 inset, 0px 0px 0px #382ca2, -2px -2px 2px #382ca2
+}
+.statusArea2.event_parple .line_dashed_top {
+	border-top: 0.12rem dashed #899aff
+}
+.statusArea2.event_parple .line_dashed_bottom {
+	border-bottom: 0.12rem dashed #899aff
+}
+.statusArea2.event_parple._important {
+	border: 2px solid #899aff;
+	-webkit-box-shadow: 2px 2px 2px #382ca2 inset, -2px -2px 2px #382ca2 inset, 0px 0px 0px #382ca2, 0px 0px 0px #382ca2 !important
+}
+.statusArea2.event_parple._important h3 {
+	background: #1c185d !important;
+	border-bottom: 0.12rem dashed #899aff !important;
+	-webkit-box-shadow: 2px 2px 2px #382ca2 inset, -2px 2px 2px #382ca2 inset, 0px 0px 0px #382ca2, -2px -2px 2px #382ca2 !important
+}
+.statusArea2.event_parple._important h3.line {
+	border-top: 0.12rem solid #899aff !important
+}
+.event_parple_line_dashed_bottom {
+	border-bottom: 0.12rem dashed #312d82
+}
+h2.title_img.event_purplepink {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpurplepink%2Fline_head_bg.jpg%3F1487720052)
+}
+h2.title_img.event_purplepink div {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpurplepink%2Fline_head_bottom.jpg%3F1487720052)
+}
+h2.title_img.event_purplepink:before {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpurplepink%2Fline_head_top.jpg%3F1487720052)
+}
+h3.title_img.event_purplepink {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpurplepink%2Fline_normal_bg.jpg%3F1487720052)
+}
+h3.title_img.event_purplepink div.frame {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpurplepink%2Fline_normal_bottom.jpg%3F1487720052)
+}
+h3.title_img.event_purplepink:before {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpurplepink%2Fline_normal_top.jpg%3F1487720052)
+}
+.eventH2Color_purplepink {
+	background: #cd59aa !important
+}
+.eventPeriodColor_purplepink {
+	color: #9c2a72
+}
+.title.inner_purplepink {
+	padding: 3px 0;
+	margin-bottom: 5px;
+	font-size: 16px;
+	background: -webkit-linear-gradient(left, #1d1d1d 3%, #a33a8a 51%, #1d1d1d 98%);
+	text-shadow: 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d
+}
+.title.inner_purplepink.m-Btm10 {
+	margin-bottom: 10px
+}
+.medal_idol_event_purplepink {
+	width: 320px
+}
+.medal_idol_event_purplepink:before {
+	width: 320px;
+	height: 6px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpurplepink%2Fline_normal_top.jpg%3F1487720052) center top no-repeat;
+	background-size: 320px 6px;
+	content: "";
+	display: block
+}
+.medal_idol_event_purplepink:after {
+	width: 320px;
+	height: 6px;
+	content: "";
+	display: block
+}
+.medal_idol_event_purplepink .status {
+	line-height: 120%;
+	margin-bottom: 5px
+}
+.medal_idol_event_purplepink .slideTitle {
+	text-align: center;
+	padding: 8px 0 14px;
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpurplepink%2Fline_normal_bg.jpg%3F1487720052);
+	background-size: 320px
+}
+.medal_idol_event_purplepink .img {
+	width: 320px;
+	height: 400px;
+	text-align: center;
+	margin-bottom: 5px
+}
+.underline_event_purplepink {
+	width: 320px;
+	height: 6px;
+	margin-top: 36px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpurplepink%2Fline_normal_bottom.jpg%3F1487720052) center top no-repeat;
+	background-size: 320px;
+	z-index: 20;
+	position: absolute
+}
+.scheduleArea.event_purplepink {
+	border: 2px solid #9c2a72;
+	background-color: #36112a;
+	color: #ffffff;
+	-webkit-box-shadow: 3px 3px 3px #a3328a inset, -3px -3px 3px #a3328a inset
+}
+.scheduleArea.event_purplepink h3.titleMin {
+	background: #cd59aa
+}
+.tab_link.event_purplepink {
+	color: #33ff33
+}
+.tab_link.event_purplepink .selected {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a3328a), color-stop(50%, #79215d), color-stop(100%, #1d1d1d))
+}
+.tab_link.event_purplepink .selected:active {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c543a8), color-stop(50%, #a12c7c), color-stop(100%, #1d1d1d))
+}
+.eventFBColor_purplepink {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #421132), color-stop(50%, #79215d), color-stop(100%, #421132))
+}
+.eventFBColor_purplepink:active,
+.eventFBColor_purplepink:hover {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6b1b51), color-stop(50%, #a12c7c), color-stop(100%, #6b1b51))
+}
+.eventBGColor01_purplepink_grad_lr {
+	background: -webkit-linear-gradient(left, #36112a 0%, rgba(255, 255, 255, 0) 100%)
+}
+.statusArea2.event_purplepink {
+	border: 2px solid #9c2a72
+}
+.statusArea2.event_purplepink h3 {
+	background: #36112a;
+	border-bottom: 0.12rem dashed #9c2a72
+}
+.statusArea2.event_purplepink h3.line {
+	border-top: 0.12rem solid #9c2a72
+}
+.statusArea2.event_purplepink h2 {
+	background: #36112a;
+	margin-bottom: 0;
+	font-size: 0.8rem;
+	line-height: 1.0em;
+	-webkit-box-shadow: 2px 2px 2px #a3328a inset, -2px 2px 2px #a3328a inset, 0px 0px 0px #a3328a, -2px -2px 2px #a3328a;
+	border-top: 0.1rem solid #9c2a72;
+	position: relative;
+	margin-bottom: -5px;
+	padding-top: 15px;
+	padding-bottom: 10px
+}
+.statusArea2.event_purplepink .title {
+	background: #36112a;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	-webkit-box-shadow: 2px 2px 2px #a3328a inset, -2px 2px 2px #a3328a inset, 0px 0px 0px #a3328a, -2px -2px 2px #a3328a
+}
+.statusArea2.event_purplepink .line_dashed_top {
+	border-top: 0.12rem dashed #9c2a72
+}
+.statusArea2.event_purplepink .line_dashed_bottom {
+	border-bottom: 0.12rem dashed #9c2a72
+}
+.statusArea2.event_purplepink._important {
+	border: 2px solid #9c2a72;
+	-webkit-box-shadow: 2px 2px 2px #a3328a inset, -2px -2px 2px #a3328a inset, 0px 0px 0px #a3328a, 0px 0px 0px #a3328a !important
+}
+.statusArea2.event_purplepink._important h3 {
+	background: #36112a !important;
+	border-bottom: 0.12rem dashed #9c2a72 !important;
+	-webkit-box-shadow: 2px 2px 2px #a3328a inset, -2px 2px 2px #a3328a inset, 0px 0px 0px #a3328a, -2px -2px 2px #a3328a !important
+}
+.statusArea2.event_purplepink._important h3.line {
+	border-top: 0.12rem solid #9c2a72 !important
+}
+.event_purplepink_line_dashed_bottom {
+	border-bottom: 0.12rem dashed #cd59aa
+}
 .eventTop {
 	text-align: center;
 	margin-bottom: 10px
@@ -2021,7 +3398,7 @@ h3.title_img.m-Btm10 {
 }
 .button_energy_recovery_full_01 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fsprite%2Fbutton%2Fcost_recovery-s39d643653f.png%3F1516600335) no-repeat 0 -366px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fsprite%2Fbutton%2Fcost_recovery-s39d643653f.png%3F1558677417) no-repeat 0 -366px;
 	-webkit-background-size: 136px 731px;
 	background-size: 136px 731px;
 	width: 136px;
@@ -2029,7 +3406,7 @@ h3.title_img.m-Btm10 {
 }
 .button_energy_recovery_full_01_gray {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fsprite%2Fbutton%2Fcost_recovery-s39d643653f.png%3F1516600335) no-repeat 0 -61px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fsprite%2Fbutton%2Fcost_recovery-s39d643653f.png%3F1558677417) no-repeat 0 -61px;
 	-webkit-background-size: 136px 731px;
 	background-size: 136px 731px;
 	width: 136px;
@@ -2037,7 +3414,7 @@ h3.title_img.m-Btm10 {
 }
 .button_energy_recovery_full_02 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fsprite%2Fbutton%2Fcost_recovery-s39d643653f.png%3F1516600335) no-repeat 0 -488px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fsprite%2Fbutton%2Fcost_recovery-s39d643653f.png%3F1558677417) no-repeat 0 -488px;
 	-webkit-background-size: 136px 731px;
 	background-size: 136px 731px;
 	width: 136px;
@@ -2045,7 +3422,7 @@ h3.title_img.m-Btm10 {
 }
 .button_energy_recovery_full_02_gray {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fsprite%2Fbutton%2Fcost_recovery-s39d643653f.png%3F1516600335) no-repeat 0 -244px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fsprite%2Fbutton%2Fcost_recovery-s39d643653f.png%3F1558677417) no-repeat 0 -244px;
 	-webkit-background-size: 136px 731px;
 	background-size: 136px 731px;
 	width: 136px;
@@ -2053,7 +3430,7 @@ h3.title_img.m-Btm10 {
 }
 .button_energy_recovery_half {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fsprite%2Fbutton%2Fcost_recovery-s39d643653f.png%3F1516600335) no-repeat 0 -427px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fsprite%2Fbutton%2Fcost_recovery-s39d643653f.png%3F1558677417) no-repeat 0 -427px;
 	-webkit-background-size: 136px 731px;
 	background-size: 136px 731px;
 	width: 136px;
@@ -2061,7 +3438,7 @@ h3.title_img.m-Btm10 {
 }
 .button_energy_recovery_half_gray {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fsprite%2Fbutton%2Fcost_recovery-s39d643653f.png%3F1516600335) no-repeat 0 -183px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fsprite%2Fbutton%2Fcost_recovery-s39d643653f.png%3F1558677417) no-repeat 0 -183px;
 	-webkit-background-size: 136px 731px;
 	background-size: 136px 731px;
 	width: 136px;
@@ -2069,7 +3446,7 @@ h3.title_img.m-Btm10 {
 }
 .button_stamina_recovery_full_01 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fsprite%2Fbutton%2Fcost_recovery-s39d643653f.png%3F1516600335) no-repeat 0 -610px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fsprite%2Fbutton%2Fcost_recovery-s39d643653f.png%3F1558677417) no-repeat 0 -610px;
 	-webkit-background-size: 136px 731px;
 	background-size: 136px 731px;
 	width: 136px;
@@ -2077,7 +3454,7 @@ h3.title_img.m-Btm10 {
 }
 .button_stamina_recovery_full_01_gray {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fsprite%2Fbutton%2Fcost_recovery-s39d643653f.png%3F1516600335) no-repeat 0 0;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fsprite%2Fbutton%2Fcost_recovery-s39d643653f.png%3F1558677417) no-repeat 0 0;
 	-webkit-background-size: 136px 731px;
 	background-size: 136px 731px;
 	width: 136px;
@@ -2085,7 +3462,7 @@ h3.title_img.m-Btm10 {
 }
 .button_stamina_recovery_full_02 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fsprite%2Fbutton%2Fcost_recovery-s39d643653f.png%3F1516600335) no-repeat 0 -671px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fsprite%2Fbutton%2Fcost_recovery-s39d643653f.png%3F1558677417) no-repeat 0 -671px;
 	-webkit-background-size: 136px 731px;
 	background-size: 136px 731px;
 	width: 136px;
@@ -2093,7 +3470,7 @@ h3.title_img.m-Btm10 {
 }
 .button_stamina_recovery_full_02_gray {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fsprite%2Fbutton%2Fcost_recovery-s39d643653f.png%3F1516600335) no-repeat 0 -305px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fsprite%2Fbutton%2Fcost_recovery-s39d643653f.png%3F1558677417) no-repeat 0 -305px;
 	-webkit-background-size: 136px 731px;
 	background-size: 136px 731px;
 	width: 136px;
@@ -2101,7 +3478,7 @@ h3.title_img.m-Btm10 {
 }
 .button_stamina_recovery_half {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fsprite%2Fbutton%2Fcost_recovery-s39d643653f.png%3F1516600335) no-repeat 0 -549px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fsprite%2Fbutton%2Fcost_recovery-s39d643653f.png%3F1558677417) no-repeat 0 -549px;
 	-webkit-background-size: 136px 731px;
 	background-size: 136px 731px;
 	width: 136px;
@@ -2109,7 +3486,7 @@ h3.title_img.m-Btm10 {
 }
 .button_stamina_recovery_half_gray {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fsprite%2Fbutton%2Fcost_recovery-s39d643653f.png%3F1516600335) no-repeat 0 -122px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fsprite%2Fbutton%2Fcost_recovery-s39d643653f.png%3F1558677417) no-repeat 0 -122px;
 	-webkit-background-size: 136px 731px;
 	background-size: 136px 731px;
 	width: 136px;
@@ -2118,7 +3495,7 @@ h3.title_img.m-Btm10 {
 .btn_coin_reward_cool {
 	position: relative;
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fmedal%2Fbutton_medal_reward_bg_cool.png%3F1526525227);
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fmedal%2Fbutton_medal_reward_bg_cool.png%3F1561095998);
 	background-size: 280px;
 	width: 280px;
 	height: 44px;
@@ -2140,7 +3517,7 @@ h3.title_img.m-Btm10 {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fmedal%2Fbutton_medal_reward_frame_cool.png%3F1526525227);
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fmedal%2Fbutton_medal_reward_frame_cool.png%3F1561095998);
 	background-size: 280px;
 	width: 280px;
 	height: 44px
@@ -2148,7 +3525,7 @@ h3.title_img.m-Btm10 {
 .btn_coin_reward_cute {
 	position: relative;
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fmedal%2Fbutton_medal_reward_bg_cute.png%3F1526525227);
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fmedal%2Fbutton_medal_reward_bg_cute.png%3F1561095998);
 	background-size: 280px;
 	width: 280px;
 	height: 44px;
@@ -2170,7 +3547,7 @@ h3.title_img.m-Btm10 {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fmedal%2Fbutton_medal_reward_frame_cute.png%3F1526525227);
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fmedal%2Fbutton_medal_reward_frame_cute.png%3F1561095998);
 	background-size: 280px;
 	width: 280px;
 	height: 44px
@@ -2178,7 +3555,7 @@ h3.title_img.m-Btm10 {
 .btn_coin_reward_passion {
 	position: relative;
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fmedal%2Fbutton_medal_reward_bg_passion.png%3F1526525227);
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fmedal%2Fbutton_medal_reward_bg_passion.png%3F1561095998);
 	background-size: 280px;
 	width: 280px;
 	height: 44px;
@@ -2200,7 +3577,7 @@ h3.title_img.m-Btm10 {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fmedal%2Fbutton_medal_reward_frame_passion.png%3F1526525227);
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fmedal%2Fbutton_medal_reward_frame_passion.png%3F1561095998);
 	background-size: 280px;
 	width: 280px;
 	height: 44px
@@ -2277,7 +3654,7 @@ h3.title_img.m-Btm10 {
 	height: 13px;
 	margin-top: -6.5px;
 	margin-left: -57px;
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Ficon_getup_starmemory.png%3F1548924118);
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Ficon_getup_starmemory.png%3F1558677417);
 	background-size: 114px 13px
 }
 .getup_wrap .number-area {
@@ -2289,1382 +3666,638 @@ h3.title_img.m-Btm10 {
 	display: inline-block;
 	margin-left: -3px
 }
-h2.title_img.event_red {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_head_bg.jpg%3F1487720052)
+.position._relative {
+	position: relative
 }
-h2.title_img.event_red div {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_head_bottom.jpg%3F1487720052)
-}
-h2.title_img.event_red:before {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_head_top.jpg%3F1487720052)
-}
-h3.title_img.event_red {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_normal_bg.jpg%3F1487720052)
-}
-h3.title_img.event_red div.frame {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_normal_bottom.jpg%3F1487720052)
-}
-h3.title_img.event_red:before {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_normal_top.jpg%3F1487720052)
-}
-.eventH2Color_red {
-	background: #922a2a !important
-}
-.eventPeriodColor_red {
-	color: #e67373
-}
-.title.inner_red {
-	padding: 3px 0;
-	margin-bottom: 5px;
-	font-size: 16px;
-	background: -webkit-linear-gradient(left, #1d1d1d 3%, #942222 51%, #1d1d1d 98%);
-	text-shadow: 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d
-}
-.title.inner_red.m-Btm10 {
-	margin-bottom: 10px
-}
-.medal_idol_event_red {
-	width: 320px
-}
-.medal_idol_event_red:before {
-	width: 320px;
-	height: 6px;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_normal_top.jpg%3F1487720052) center top no-repeat;
-	background-size: 320px 6px;
-	content: "";
-	display: block
-}
-.medal_idol_event_red:after {
-	width: 320px;
-	height: 6px;
-	content: "";
-	display: block
-}
-.medal_idol_event_red .status {
-	line-height: 120%;
-	margin-bottom: 5px
-}
-.medal_idol_event_red .slideTitle {
-	text-align: center;
-	padding: 8px 0 14px;
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_normal_bg.jpg%3F1487720052);
-	background-size: 320px
-}
-.medal_idol_event_red .img {
-	width: 320px;
-	height: 400px;
-	text-align: center;
-	margin-bottom: 5px
-}
-.underline_event_red {
-	width: 320px;
-	height: 6px;
-	margin-top: 36px;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_normal_bottom.jpg%3F1487720052) center top no-repeat;
-	background-size: 320px;
-	z-index: 20;
+.position._absolute {
 	position: absolute
 }
-.scheduleArea.event_red {
-	border: 2px solid #e67373;
+.display._block {
+	display: block
+}
+.display._inline {
+	display: inline
+}
+.display._inline_block {
+	display: inline-block
+}
+.display._none {
+	display: none
+}
+.vertical_align._top {
+	vertical-align: top
+}
+.vertical_align._middle {
+	vertical-align: middle
+}
+.vertical_align._bottom {
+	vertical-align: bottom
+}
+.box._bg_gray {
+	background: #333333
+}
+.box._r_1 {
+	-webkit-border-radius: 1px;
+	-ms-border-radius: 1px;
+	border-radius: 1px
+}
+.box._r_2 {
+	-webkit-border-radius: 2px;
+	-ms-border-radius: 2px;
+	border-radius: 2px
+}
+.box._r_3 {
+	-webkit-border-radius: 3px;
+	-ms-border-radius: 3px;
+	border-radius: 3px
+}
+.box._r_4 {
+	-webkit-border-radius: 4px;
+	-ms-border-radius: 4px;
+	border-radius: 4px
+}
+.box._r_5 {
+	-webkit-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px
+}
+.box._r_6 {
+	-webkit-border-radius: 6px;
+	-ms-border-radius: 6px;
+	border-radius: 6px
+}
+.box._r_7 {
+	-webkit-border-radius: 7px;
+	-ms-border-radius: 7px;
+	border-radius: 7px
+}
+.box._r_8 {
+	-webkit-border-radius: 8px;
+	-ms-border-radius: 8px;
+	border-radius: 8px
+}
+.box._r_9 {
+	-webkit-border-radius: 9px;
+	-ms-border-radius: 9px;
+	border-radius: 9px
+}
+.box._r_10 {
+	-webkit-border-radius: 10px;
+	-ms-border-radius: 10px;
+	border-radius: 10px
+}
+.box._r_11 {
+	-webkit-border-radius: 11px;
+	-ms-border-radius: 11px;
+	border-radius: 11px
+}
+.box._r_12 {
+	-webkit-border-radius: 12px;
+	-ms-border-radius: 12px;
+	border-radius: 12px
+}
+.box._r_13 {
+	-webkit-border-radius: 13px;
+	-ms-border-radius: 13px;
+	border-radius: 13px
+}
+.box._r_14 {
+	-webkit-border-radius: 14px;
+	-ms-border-radius: 14px;
+	border-radius: 14px
+}
+.box._r_15 {
+	-webkit-border-radius: 15px;
+	-ms-border-radius: 15px;
+	border-radius: 15px
+}
+.box._r_16 {
+	-webkit-border-radius: 16px;
+	-ms-border-radius: 16px;
+	border-radius: 16px
+}
+.box._r_17 {
+	-webkit-border-radius: 17px;
+	-ms-border-radius: 17px;
+	border-radius: 17px
+}
+.box._r_18 {
+	-webkit-border-radius: 18px;
+	-ms-border-radius: 18px;
+	border-radius: 18px
+}
+.box._r_19 {
+	-webkit-border-radius: 19px;
+	-ms-border-radius: 19px;
+	border-radius: 19px
+}
+.box._w_5 {
+	width: 5%
+}
+.box._w_10 {
+	width: 10%
+}
+.box._w_15 {
+	width: 15%
+}
+.box._w_20 {
+	width: 20%
+}
+.box._w_25 {
+	width: 25%
+}
+.box._w_30 {
+	width: 30%
+}
+.box._w_35 {
+	width: 35%
+}
+.box._w_40 {
+	width: 40%
+}
+.box._w_45 {
+	width: 45%
+}
+.box._w_50 {
+	width: 50%
+}
+.box._w_55 {
+	width: 55%
+}
+.box._w_60 {
+	width: 60%
+}
+.box._w_65 {
+	width: 65%
+}
+.box._w_70 {
+	width: 70%
+}
+.box._w_75 {
+	width: 75%
+}
+.box._w_80 {
+	width: 80%
+}
+.box._w_85 {
+	width: 85%
+}
+.box._w_90 {
+	width: 90%
+}
+.box._w_95 {
+	width: 95%
+}
+.event_contents {
+	position: relative;
+	margin-top: -5px;
+	padding-bottom: 8px
+}
+.event_contents._into_header {
+	margin-top: -14px;
+	padding-top: 14px
+}
+.event_contents:after {
+	position: absolute;
+	left: 0;
+	width: 320px;
+	height: 12px;
+	background-repeat: no-repeat;
+	background-size: 320px 10px;
+	content: ''
+}
+.event_contents .event_contents-bg-top {
+	position: absolute;
+	top: 0
+}
+.event_contents .event_contents-bg-top:after {
+	display: block;
+	position: absolute;
+	z-index: 0;
+	bottom: 0;
+	width: 320px;
+	height: 64px;
+	content: '';
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(90%, #381313));
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #381313 90%);
+	background-image: linear-gradient(top, rgba(0, 0, 0, 0) 0%, #381313 90%)
+}
+.event_contents._red {
+	background-color: #381313
+}
+.event_contents._red:after {
+	background-image: url("http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fcommon%2Ftab%2Ftab_large_red%2Fline_btm.png%3F1561095999")
+}
+.event_contents._blue {
+	background-color: #041f29
+}
+.event_contents._blue:after {
+	background-image: url("http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fcommon%2Ftab%2Ftab_large_blue%2Fline_btm.png%3F1561095999")
+}
+.area_menu_header_6btn._event .btn-popupmenu {
+	position: absolute;
+	right: 0
+}
+.area_menu_header_6btn._event .event_logo-area {
+	display: block;
+	position: absolute;
+	z-index: 2;
+	left: 48px;
+	width: 222px;
+	height: 34px;
+	background-size: 224px;
+	background-position: 2px top;
+	background-repeat: no-repeat;
+	-webkit-border-bottom-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	border-bottom-right-radius: 6px
+}
+.area_menu_header_6btn._event .event_logo-area:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fsprite%2Fheader-s5f7a8682d1.png%3F1561095998) no-repeat 0 0;
+	-webkit-background-size: 224px 106px;
+	background-size: 224px 106px;
+	width: 224px;
+	height: 40px;
+	content: ''
+}
+.area_menu_header_6btn._event .event_logo-area._hover:after {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fsprite%2Fheader-s5f7a8682d1.png%3F1561095998) no-repeat 0 -41px;
+	-webkit-background-size: 224px 106px;
+	background-size: 224px 106px;
+	width: 224px;
+	height: 40px
+}
+.area_menu_header_6btn._event .event_logo-area .logo-area {
+	position: absolute;
+	left: 8px;
+	top: -2px
+}
+.area_menu_header_6btn._event .event_logo-area .round_info-area {
+	position: absolute;
+	top: 5px;
+	left: 72px;
+	padding-top: 2px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fsprite%2Fheader-s5f7a8682d1.png%3F1561095998) no-repeat 0 -82px;
+	-webkit-background-size: 224px 106px;
+	background-size: 224px 106px;
+	width: 144px;
+	height: 24px;
+	font-size: 11px;
+	text-align: center;
+	color: #1D1D1D;
+	line-height: 100%;
+	text-decoration: none;
+	text-shadow: 0px 0px 1px #ffffff, 0px 0px 1px #ffffff, 0px 0px 1px #ffffff, 0px 0px 1px #ffffff, 0px 0px 1px #ffffff, 0px 0px 1px #ffffff, 0px 0px 1px #ffffff, 0px 0px 1px #ffffff
+}
+.area-frame_event {
+	width: 304px !important;
+	background-color: #08123f;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	padding: 8px 0 4px;
+	-webkit-border-radius: 8px;
+	padding-top: 4px
+}
+.area-frame_event._bd_black {
+	background-color: #1d1d1d
+}
+.area-frame_event .area-frame_wrap {
+	position: relative
+}
+.area-frame_event .area-frame_header {
+	text-align: center;
+	position: relative
+}
+.area-frame_event .area-frame_header:before {
+	content: '';
+	display: block;
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fframe-se5d8e3d00f.png%3F1561095998) no-repeat 0 0;
+	-webkit-background-size: 304px 115px;
+	background-size: 304px 115px;
+	width: 35px;
+	height: 27px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	left: 10px;
+	padding-bottom: 2px;
+	z-index: 3
+}
+.area-frame_event .area-frame_header:after {
+	content: '';
+	display: block;
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fframe-se5d8e3d00f.png%3F1561095998) no-repeat 0 -28px;
+	-webkit-background-size: 304px 115px;
+	background-size: 304px 115px;
+	width: 35px;
+	height: 27px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	right: 10px;
+	padding-bottom: 2px;
+	z-index: 3
+}
+.area-frame_event .area-frame_header .area-frame_title {
+	padding: 5px 10px 10px;
+	position: relative;
+	word-break: break-all;
+	line-height: 120%;
+	z-index: 4
+}
+.area-frame_event .area-frame_header .area-frame_title:after {
+	content: '';
+	display: block;
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fframe-se5d8e3d00f.png%3F1561095998) no-repeat 0 -106px;
+	-webkit-background-size: 304px 115px;
+	background-size: 304px 115px;
+	width: 299px;
+	height: 5px;
+	position: absolute;
+	bottom: 0;
+	left: 2px
+}
+.area-frame_event .area-frame_header.nameArea:before,
+.area-frame_event .area-frame_header.nameArea:after {
+	background: none;
+	display: none
+}
+.area-frame_event .area-frame_contents {
+	width: 280px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8px;
+	margin-bottom: 8px
+}
+.area-frame_event .area-frame_subtitle {
+	text-align: left
+}
+.area-frame_event .area-frame_subtitle .subtitle_text {
+	display: inline-block;
+	background-color: #2b42ad;
+	-webkit-border-radius: 12px;
+	padding: 2px 8px
+}
+.area-frame_event .area-frame_bg_image {
+	width: 304px;
+	height: 100%;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fframe%2Fbody.png%3F1561095998) repeat-y;
+	background-size: 304px 1px;
+	position: absolute;
+	top: 0px;
+	pointer-events: none
+}
+.area-frame_event:before {
+	content: '';
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fframe-se5d8e3d00f.png%3F1561095998) no-repeat 0 -77px;
+	-webkit-background-size: 304px 115px;
+	background-size: 304px 115px;
+	width: 304px;
+	height: 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+	z-index: 1;
+	border-radius: 8px 8px 0 0
+}
+.area-frame_event:after {
+	content: '';
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fframe-se5d8e3d00f.png%3F1561095998) no-repeat 0 -56px;
+	-webkit-background-size: 304px 115px;
+	background-size: 304px 115px;
+	width: 304px;
+	height: 20px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	pointer-events: none
+}
+.area-frame_event .area-frame_more_link {
+	width: 100%;
+	height: 22px;
+	background-color: #08123f;
+	position: relative
+}
+.area-frame_event .area-frame_more_link:before {
+	content: '';
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fcommon%2Fbtn-s6a7af53721.png%3F1487720313) no-repeat 0 -200px;
+	-webkit-background-size: 60px 291px;
+	background-size: 60px 291px;
+	width: 40px;
+	height: 15px;
+	position: absolute;
+	top: 3px;
+	right: 40px
+}
+.area-frame_event .area-frame_more_link .area-frame_btn_more_link {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	right: 15px;
+	text-decoration: none;
+	width: 88px;
+	background-position-x: 66px
+}
+.area-frame_event .area-frame_more_contents {
+	width: 100%;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0733c3), to(#08123f));
+	bottom: -4px;
+	border-radius: 0 0 7px 7px;
+	height: 23px;
+	border-top: double 3px #8b98ba;
+	position: relative;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	margin-top: -6px
+}
+.area-frame_event .area-frame_more_contents:before {
+	content: '';
+	margin-top: 3px;
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fcommon%2Fbtn-s6a7af53721.png%3F1487720313) no-repeat 0 -216px;
+	-webkit-background-size: 60px 291px;
+	background-size: 60px 291px;
+	width: 60px;
+	height: 15px;
+	position: relative;
+	z-index: 1
+}
+.area-frame_event .area-frame_more_contents .area-frame_btn_more_link {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fcommon%2Fbtn-s6a7af53721.png%3F1487720313) no-repeat 0 -283px;
+	-webkit-background-size: 60px 291px;
+	background-size: 60px 291px;
+	width: 13px;
+	height: 8px;
+	text-decoration: none;
+	margin-top: 7px;
+	position: relative;
+	z-index: 1
+}
+.area-frame_event .area-frame_more_contents._close:before {
+	content: '';
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fcommon%2Fbtn-s6a7af53721.png%3F1487720313) no-repeat 0 -184px;
+	-webkit-background-size: 60px 291px;
+	background-size: 60px 291px;
+	width: 40px;
+	height: 15px
+}
+.area-frame_event .area-frame_more_contents._close .area-frame_btn_more_link {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fcommon%2Fbtn-s6a7af53721.png%3F1487720313) no-repeat 0 -274px;
+	-webkit-background-size: 60px 291px;
+	background-size: 60px 291px;
+	width: 13px;
+	height: 8px
+}
+.area-frame_event .area-frame_line_dot {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fframe-se5d8e3d00f.png%3F1561095998) no-repeat 0 -98px;
+	-webkit-background-size: 304px 115px;
+	background-size: 304px 115px;
+	width: 282px;
+	height: 5px;
+	margin-left: auto;
+	margin-right: auto
+}
+.area-frame_event .area-frame_line_solid {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fframe-se5d8e3d00f.png%3F1561095998) no-repeat 0 -112px;
+	-webkit-background-size: 304px 115px;
+	background-size: 304px 115px;
+	width: 299px;
+	height: 3px;
+	margin-left: auto;
+	margin-right: auto
+}
+.area-frame_event.area-frame_no_image {
+	background: none
+}
+.area-frame_event.area-frame_no_image:before,
+.area-frame_event.area-frame_no_image:after {
+	background: none;
+	display: none
+}
+.area-frame_event._has_accordion {
+	padding-bottom: 0
+}
+.area-frame_event._has_accordion:after {
+	background: none
+}
+.area-frame_event._hd_red:before {
+	background-color: #381313
+}
+.area-frame_event._hd_red .area-frame_header {
 	background-color: #381313;
-	color: #ffffff;
-	-webkit-box-shadow: 3px 3px 3px #973434 inset, -3px -3px 3px #973434 inset
+	text-shadow: -1px -1px 0px #e67373, 1px -1px 0px #e67373, 1px 1px 0px #e67373, -1px 1px 0px #e67373, 1px 2px 3px rgba(230, 115, 115, 0.6)
 }
-.scheduleArea.event_red h3.titleMin {
-	background: #922a2a
+.area-frame_event._bd_red {
+	background-color: #381313
 }
-.tab_link.event_red {
-	color: #33ff33
+.area-frame_event._hd_orange:before {
+	background-color: #552609
 }
-.tab_link.event_red .selected {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a32d2d), color-stop(50%, #611e1e), color-stop(100%, #1d1d1d))
-}
-.tab_link.event_red .selected:active {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c93a3a), color-stop(50%, #882a2a), color-stop(100%, #1d1d1d))
-}
-.eventFBColor_red {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #8b2828), color-stop(50%, #641414), color-stop(100%, #8b2828))
-}
-.eventFBColor_red:active,
-.eventFBColor_red:hover {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #b33333), color-stop(50%, #8f1d1d), color-stop(100%, #b33333))
-}
-.eventBGColor01_red_grad_lr {
-	background: -webkit-linear-gradient(left, #381313 0%, rgba(255, 255, 255, 0) 100%)
-}
-.statusArea2.event_red {
-	border: 2px solid #e67373
-}
-.statusArea2.event_red h3 {
-	background: #381313;
-	border-bottom: 0.12rem dashed #e67373
-}
-.statusArea2.event_red h3.line {
-	border-top: 0.12rem solid #e67373
-}
-.statusArea2.event_red h2 {
-	background: #381313;
-	margin-bottom: 0;
-	font-size: 0.8rem;
-	line-height: 1.0em;
-	-webkit-box-shadow: 2px 2px 2px #973434 inset, -2px 2px 2px #973434 inset, 0px 0px 0px #973434, -2px -2px 2px #973434;
-	border-top: 0.1rem solid #e67373;
-	position: relative;
-	margin-bottom: -5px;
-	padding-top: 15px;
-	padding-bottom: 10px
-}
-.statusArea2.event_red .title {
-	background: #381313;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	-webkit-box-shadow: 2px 2px 2px #973434 inset, -2px 2px 2px #973434 inset, 0px 0px 0px #973434, -2px -2px 2px #973434
-}
-.statusArea2.event_red .line_dashed_top {
-	border-top: 0.12rem dashed #e67373
-}
-.statusArea2.event_red .line_dashed_bottom {
-	border-bottom: 0.12rem dashed #e67373
-}
-.statusArea2.event_red._important {
-	border: 2px solid #e67373;
-	-webkit-box-shadow: 2px 2px 2px #973434 inset, -2px -2px 2px #973434 inset, 0px 0px 0px #973434, 0px 0px 0px #973434 !important
-}
-.statusArea2.event_red._important h3 {
-	background: #381313 !important;
-	border-bottom: 0.12rem dashed #e67373 !important;
-	-webkit-box-shadow: 2px 2px 2px #973434 inset, -2px 2px 2px #973434 inset, 0px 0px 0px #973434, -2px -2px 2px #973434 !important
-}
-.statusArea2.event_red._important h3.line {
-	border-top: 0.12rem solid #e67373 !important
-}
-.event_red_line_dashed_bottom {
-	border-bottom: 0.12rem dashed #922a2a
-}
-h2.title_img.event_orange {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Forange%2Fline_head_bg.jpg%3F1487720052)
-}
-h2.title_img.event_orange div {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Forange%2Fline_head_bottom.jpg%3F1487720052)
-}
-h2.title_img.event_orange:before {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Forange%2Fline_head_top.jpg%3F1487720052)
-}
-h3.title_img.event_orange {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Forange%2Fline_normal_bg.jpg%3F1487720052)
-}
-h3.title_img.event_orange div.frame {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Forange%2Fline_normal_bottom.jpg%3F1487720052)
-}
-h3.title_img.event_orange:before {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Forange%2Fline_normal_top.jpg%3F1487720052)
-}
-.eventH2Color_orange {
-	background: #ca5f11 !important
-}
-.eventPeriodColor_orange {
-	color: #ffc694
-}
-.title.inner_orange {
-	padding: 3px 0;
-	margin-bottom: 5px;
-	font-size: 16px;
-	background: -webkit-linear-gradient(left, #1d1d1d 3%, #c1611a 51%, #1d1d1d 98%);
-	text-shadow: 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d
-}
-.title.inner_orange.m-Btm10 {
-	margin-bottom: 10px
-}
-.medal_idol_event_orange {
-	width: 320px
-}
-.medal_idol_event_orange:before {
-	width: 320px;
-	height: 6px;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Forange%2Fline_normal_top.jpg%3F1487720052) center top no-repeat;
-	background-size: 320px 6px;
-	content: "";
-	display: block
-}
-.medal_idol_event_orange:after {
-	width: 320px;
-	height: 6px;
-	content: "";
-	display: block
-}
-.medal_idol_event_orange .status {
-	line-height: 120%;
-	margin-bottom: 5px
-}
-.medal_idol_event_orange .slideTitle {
-	text-align: center;
-	padding: 8px 0 14px;
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Forange%2Fline_normal_bg.jpg%3F1487720052);
-	background-size: 320px
-}
-.medal_idol_event_orange .img {
-	width: 320px;
-	height: 400px;
-	text-align: center;
-	margin-bottom: 5px
-}
-.underline_event_orange {
-	width: 320px;
-	height: 6px;
-	margin-top: 36px;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Forange%2Fline_normal_bottom.jpg%3F1487720052) center top no-repeat;
-	background-size: 320px;
-	z-index: 20;
-	position: absolute
-}
-.scheduleArea.event_orange {
-	border: 2px solid #ffc694;
+.area-frame_event._hd_orange .area-frame_header {
 	background-color: #552609;
-	color: #ffffff;
-	-webkit-box-shadow: 3px 3px 3px #ad6327 inset, -3px -3px 3px #ad6327 inset
+	text-shadow: -1px -1px 0px #ffc694, 1px -1px 0px #ffc694, 1px 1px 0px #ffc694, -1px 1px 0px #ffc694, 1px 2px 3px rgba(255, 198, 148, 0.6)
 }
-.scheduleArea.event_orange h3.titleMin {
-	background: #ca5f11
+.area-frame_event._bd_orange {
+	background-color: #552609
 }
-.tab_link.event_orange {
-	color: #33ff33
+.area-frame_event._hd_green:before {
+	background-color: #122715
 }
-.tab_link.event_orange .selected {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c4670c), color-stop(50%, #924703), color-stop(100%, #1d1d1d))
-}
-.tab_link.event_orange .selected:active {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f18012), color-stop(50%, #c45f04), color-stop(100%, #1d1d1d))
-}
-.eventFBColor_orange {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c1611a), color-stop(50%, #9d4909), color-stop(100%, #c1611a))
-}
-.eventFBColor_orange:active,
-.eventFBColor_orange:hover {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e3792b), color-stop(50%, #cd5f0c), color-stop(100%, #e3792b))
-}
-.eventBGColor01_orange_grad_lr {
-	background: -webkit-linear-gradient(left, #552609 0%, rgba(255, 255, 255, 0) 100%)
-}
-.statusArea2.event_orange {
-	border: 2px solid #ffc694
-}
-.statusArea2.event_orange h3 {
-	background: #552609;
-	border-bottom: 0.12rem dashed #ffc694
-}
-.statusArea2.event_orange h3.line {
-	border-top: 0.12rem solid #ffc694
-}
-.statusArea2.event_orange h2 {
-	background: #552609;
-	margin-bottom: 0;
-	font-size: 0.8rem;
-	line-height: 1.0em;
-	-webkit-box-shadow: 2px 2px 2px #ad6327 inset, -2px 2px 2px #ad6327 inset, 0px 0px 0px #ad6327, -2px -2px 2px #ad6327;
-	border-top: 0.1rem solid #ffc694;
-	position: relative;
-	margin-bottom: -5px;
-	padding-top: 15px;
-	padding-bottom: 10px
-}
-.statusArea2.event_orange .title {
-	background: #552609;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	-webkit-box-shadow: 2px 2px 2px #ad6327 inset, -2px 2px 2px #ad6327 inset, 0px 0px 0px #ad6327, -2px -2px 2px #ad6327
-}
-.statusArea2.event_orange .line_dashed_top {
-	border-top: 0.12rem dashed #ffc694
-}
-.statusArea2.event_orange .line_dashed_bottom {
-	border-bottom: 0.12rem dashed #ffc694
-}
-.statusArea2.event_orange._important {
-	border: 2px solid #ffc694;
-	-webkit-box-shadow: 2px 2px 2px #ad6327 inset, -2px -2px 2px #ad6327 inset, 0px 0px 0px #ad6327, 0px 0px 0px #ad6327 !important
-}
-.statusArea2.event_orange._important h3 {
-	background: #552609 !important;
-	border-bottom: 0.12rem dashed #ffc694 !important;
-	-webkit-box-shadow: 2px 2px 2px #ad6327 inset, -2px 2px 2px #ad6327 inset, 0px 0px 0px #ad6327, -2px -2px 2px #ad6327 !important
-}
-.statusArea2.event_orange._important h3.line {
-	border-top: 0.12rem solid #ffc694 !important
-}
-.event_orange_line_dashed_bottom {
-	border-bottom: 0.12rem dashed #ca5f11
-}
-h2.title_img.event_green {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fgreen%2Fline_head_bg.jpg%3F1487720052)
-}
-h2.title_img.event_green div {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fgreen%2Fline_head_bottom.jpg%3F1487720052)
-}
-h2.title_img.event_green:before {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fgreen%2Fline_head_top.jpg%3F1487720052)
-}
-h3.title_img.event_green {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fgreen%2Fline_normal_bg.jpg%3F1487720052)
-}
-h3.title_img.event_green div.frame {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fgreen%2Fline_normal_bottom.jpg%3F1487720052)
-}
-h3.title_img.event_green:before {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fgreen%2Fline_normal_top.jpg%3F1487720052)
-}
-.eventH2Color_green {
-	background: #255d25 !important
-}
-.eventPeriodColor_green {
-	color: #5d9e5c
-}
-.title.inner_green {
-	padding: 3px 0;
-	margin-bottom: 5px;
-	font-size: 16px;
-	background: -webkit-linear-gradient(left, #1d1d1d 3%, #1b461b 51%, #1d1d1d 98%);
-	text-shadow: 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d
-}
-.title.inner_green.m-Btm10 {
-	margin-bottom: 10px
-}
-.medal_idol_event_green {
-	width: 320px
-}
-.medal_idol_event_green:before {
-	width: 320px;
-	height: 6px;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fgreen%2Fline_normal_top.jpg%3F1487720052) center top no-repeat;
-	background-size: 320px 6px;
-	content: "";
-	display: block
-}
-.medal_idol_event_green:after {
-	width: 320px;
-	height: 6px;
-	content: "";
-	display: block
-}
-.medal_idol_event_green .status {
-	line-height: 120%;
-	margin-bottom: 5px
-}
-.medal_idol_event_green .slideTitle {
-	text-align: center;
-	padding: 8px 0 14px;
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fgreen%2Fline_normal_bg.jpg%3F1487720052);
-	background-size: 320px
-}
-.medal_idol_event_green .img {
-	width: 320px;
-	height: 400px;
-	text-align: center;
-	margin-bottom: 5px
-}
-.underline_event_green {
-	width: 320px;
-	height: 6px;
-	margin-top: 36px;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fgreen%2Fline_normal_bottom.jpg%3F1487720052) center top no-repeat;
-	background-size: 320px;
-	z-index: 20;
-	position: absolute
-}
-.scheduleArea.event_green {
-	border: 2px solid #5d9e5c;
+.area-frame_event._hd_green .area-frame_header {
 	background-color: #122715;
-	color: #ffffff;
-	-webkit-box-shadow: 3px 3px 3px #1f4722 inset, -3px -3px 3px #1f4722 inset
+	text-shadow: -1px -1px 0px #5d9e5c, 1px -1px 0px #5d9e5c, 1px 1px 0px #5d9e5c, -1px 1px 0px #5d9e5c, 1px 2px 3px rgba(93, 158, 92, 0.6)
 }
-.scheduleArea.event_green h3.titleMin {
-	background: #255d25
+.area-frame_event._bd_green {
+	background-color: #122715
 }
-.tab_link.event_green {
-	color: #33ff33
+.area-frame_event._hd_bluegreen:before {
+	background-color: #123e38
 }
-.tab_link.event_green .selected {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #215321), color-stop(50%, #1b401a), color-stop(100%, #1d1d1d))
-}
-.tab_link.event_green .selected:active {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #307730), color-stop(50%, #2a6429), color-stop(100%, #1d1d1d))
-}
-.eventFBColor_green {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #244b24), color-stop(50%, #143515), color-stop(100%, #244b24))
-}
-.eventFBColor_green:active,
-.eventFBColor_green:hover {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #356d35), color-stop(50%, #225a24), color-stop(100%, #356d35))
-}
-.eventBGColor01_green_grad_lr {
-	background: -webkit-linear-gradient(left, #122715 0%, rgba(255, 255, 255, 0) 100%)
-}
-.statusArea2.event_green {
-	border: 2px solid #5d9e5c
-}
-.statusArea2.event_green h3 {
-	background: #122715;
-	border-bottom: 0.12rem dashed #5d9e5c
-}
-.statusArea2.event_green h3.line {
-	border-top: 0.12rem solid #5d9e5c
-}
-.statusArea2.event_green h2 {
-	background: #122715;
-	margin-bottom: 0;
-	font-size: 0.8rem;
-	line-height: 1.0em;
-	-webkit-box-shadow: 2px 2px 2px #1f4722 inset, -2px 2px 2px #1f4722 inset, 0px 0px 0px #1f4722, -2px -2px 2px #1f4722;
-	border-top: 0.1rem solid #5d9e5c;
-	position: relative;
-	margin-bottom: -5px;
-	padding-top: 15px;
-	padding-bottom: 10px
-}
-.statusArea2.event_green .title {
-	background: #122715;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	-webkit-box-shadow: 2px 2px 2px #1f4722 inset, -2px 2px 2px #1f4722 inset, 0px 0px 0px #1f4722, -2px -2px 2px #1f4722
-}
-.statusArea2.event_green .line_dashed_top {
-	border-top: 0.12rem dashed #5d9e5c
-}
-.statusArea2.event_green .line_dashed_bottom {
-	border-bottom: 0.12rem dashed #5d9e5c
-}
-.statusArea2.event_green._important {
-	border: 2px solid #5d9e5c;
-	-webkit-box-shadow: 2px 2px 2px #1f4722 inset, -2px -2px 2px #1f4722 inset, 0px 0px 0px #1f4722, 0px 0px 0px #1f4722 !important
-}
-.statusArea2.event_green._important h3 {
-	background: #122715 !important;
-	border-bottom: 0.12rem dashed #5d9e5c !important;
-	-webkit-box-shadow: 2px 2px 2px #1f4722 inset, -2px 2px 2px #1f4722 inset, 0px 0px 0px #1f4722, -2px -2px 2px #1f4722 !important
-}
-.statusArea2.event_green._important h3.line {
-	border-top: 0.12rem solid #5d9e5c !important
-}
-.event_green_line_dashed_bottom {
-	border-bottom: 0.12rem dashed #255d25
-}
-h2.title_img.event_bluegreen {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fbluegreen%2Fline_head_bg.jpg%3F1487720052)
-}
-h2.title_img.event_bluegreen div {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fbluegreen%2Fline_head_bottom.jpg%3F1487720052)
-}
-h2.title_img.event_bluegreen:before {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fbluegreen%2Fline_head_top.jpg%3F1487720052)
-}
-h3.title_img.event_bluegreen {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fbluegreen%2Fline_normal_bg.jpg%3F1487720052)
-}
-h3.title_img.event_bluegreen div.frame {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fbluegreen%2Fline_normal_bottom.jpg%3F1487720052)
-}
-h3.title_img.event_bluegreen:before {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fbluegreen%2Fline_normal_top.jpg%3F1487720052)
-}
-.eventH2Color_bluegreen {
-	background: #0d5a50 !important
-}
-.eventPeriodColor_bluegreen {
-	color: #5dedd0
-}
-.title.inner_bluegreen {
-	padding: 3px 0;
-	margin-bottom: 5px;
-	font-size: 16px;
-	background: -webkit-linear-gradient(left, #1d1d1d 3%, #095544 51%, #1d1d1d 98%);
-	text-shadow: 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d
-}
-.title.inner_bluegreen.m-Btm10 {
-	margin-bottom: 10px
-}
-.medal_idol_event_bluegreen {
-	width: 320px
-}
-.medal_idol_event_bluegreen:before {
-	width: 320px;
-	height: 6px;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fbluegreen%2Fline_normal_top.jpg%3F1487720052) center top no-repeat;
-	background-size: 320px 6px;
-	content: "";
-	display: block
-}
-.medal_idol_event_bluegreen:after {
-	width: 320px;
-	height: 6px;
-	content: "";
-	display: block
-}
-.medal_idol_event_bluegreen .status {
-	line-height: 120%;
-	margin-bottom: 5px
-}
-.medal_idol_event_bluegreen .slideTitle {
-	text-align: center;
-	padding: 8px 0 14px;
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fbluegreen%2Fline_normal_bg.jpg%3F1487720052);
-	background-size: 320px
-}
-.medal_idol_event_bluegreen .img {
-	width: 320px;
-	height: 400px;
-	text-align: center;
-	margin-bottom: 5px
-}
-.underline_event_bluegreen {
-	width: 320px;
-	height: 6px;
-	margin-top: 36px;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fbluegreen%2Fline_normal_bottom.jpg%3F1487720052) center top no-repeat;
-	background-size: 320px;
-	z-index: 20;
-	position: absolute
-}
-.scheduleArea.event_bluegreen {
-	border: 2px solid #5dedd0;
+.area-frame_event._hd_bluegreen .area-frame_header {
 	background-color: #123e38;
-	color: #ffffff;
-	-webkit-box-shadow: 3px 3px 3px #227d72 inset, -3px -3px 3px #227d72 inset
+	text-shadow: -1px -1px 0px #5dedd0, 1px -1px 0px #5dedd0, 1px 1px 0px #5dedd0, -1px 1px 0px #5dedd0, 1px 2px 3px rgba(93, 237, 208, 0.6)
 }
-.scheduleArea.event_bluegreen h3.titleMin {
-	background: #0d5a50
+.area-frame_event._bd_bluegreen {
+	background-color: #123e38
 }
-.tab_link.event_bluegreen {
-	color: #33ff33
+.area-frame_event._hd_blue:before {
+	background-color: #041f29
 }
-.tab_link.event_bluegreen .selected {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00806f), color-stop(50%, #094739), color-stop(100%, #1d1d1d))
-}
-.tab_link.event_bluegreen .selected:active {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00b39b), color-stop(50%, #0f745d), color-stop(100%, #1d1d1d))
-}
-.eventFBColor_bluegreen {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #007558), color-stop(50%, #015341), color-stop(100%, #007558))
-}
-.eventFBColor_bluegreen:active,
-.eventFBColor_bluegreen:hover {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00a87e), color-stop(50%, #028568), color-stop(100%, #00a87e))
-}
-.eventBGColor01_bluegreen_grad_lr {
-	background: -webkit-linear-gradient(left, #123e38 0%, rgba(255, 255, 255, 0) 100%)
-}
-.statusArea2.event_bluegreen {
-	border: 2px solid #5dedd0
-}
-.statusArea2.event_bluegreen h3 {
-	background: #123e38;
-	border-bottom: 0.12rem dashed #5dedd0
-}
-.statusArea2.event_bluegreen h3.line {
-	border-top: 0.12rem solid #5dedd0
-}
-.statusArea2.event_bluegreen h2 {
-	background: #123e38;
-	margin-bottom: 0;
-	font-size: 0.8rem;
-	line-height: 1.0em;
-	-webkit-box-shadow: 2px 2px 2px #227d72 inset, -2px 2px 2px #227d72 inset, 0px 0px 0px #227d72, -2px -2px 2px #227d72;
-	border-top: 0.1rem solid #5dedd0;
-	position: relative;
-	margin-bottom: -5px;
-	padding-top: 15px;
-	padding-bottom: 10px
-}
-.statusArea2.event_bluegreen .title {
-	background: #123e38;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	-webkit-box-shadow: 2px 2px 2px #227d72 inset, -2px 2px 2px #227d72 inset, 0px 0px 0px #227d72, -2px -2px 2px #227d72
-}
-.statusArea2.event_bluegreen .line_dashed_top {
-	border-top: 0.12rem dashed #5dedd0
-}
-.statusArea2.event_bluegreen .line_dashed_bottom {
-	border-bottom: 0.12rem dashed #5dedd0
-}
-.statusArea2.event_bluegreen._important {
-	border: 2px solid #5dedd0;
-	-webkit-box-shadow: 2px 2px 2px #227d72 inset, -2px -2px 2px #227d72 inset, 0px 0px 0px #227d72, 0px 0px 0px #227d72 !important
-}
-.statusArea2.event_bluegreen._important h3 {
-	background: #123e38 !important;
-	border-bottom: 0.12rem dashed #5dedd0 !important;
-	-webkit-box-shadow: 2px 2px 2px #227d72 inset, -2px 2px 2px #227d72 inset, 0px 0px 0px #227d72, -2px -2px 2px #227d72 !important
-}
-.statusArea2.event_bluegreen._important h3.line {
-	border-top: 0.12rem solid #5dedd0 !important
-}
-.event_bluegreen_line_dashed_bottom {
-	border-bottom: 0.12rem dashed #0d5a50
-}
-h2.title_img.event_blue {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fblue%2Fline_head_bg.jpg%3F1487720052)
-}
-h2.title_img.event_blue div {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fblue%2Fline_head_bottom.jpg%3F1487720052)
-}
-h2.title_img.event_blue:before {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fblue%2Fline_head_top.jpg%3F1487720052)
-}
-h3.title_img.event_blue {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fblue%2Fline_normal_bg.jpg%3F1487720052)
-}
-h3.title_img.event_blue div.frame {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fblue%2Fline_normal_bottom.jpg%3F1487720052)
-}
-h3.title_img.event_blue:before {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fblue%2Fline_normal_top.jpg%3F1487720052)
-}
-.eventH2Color_blue {
-	background: #013c53 !important
-}
-.eventPeriodColor_blue {
-	color: #5be1fe
-}
-.title.inner_blue {
-	padding: 3px 0;
-	margin-bottom: 5px;
-	font-size: 16px;
-	background: -webkit-linear-gradient(left, #1d1d1d 3%, #014560 51%, #1d1d1d 98%);
-	text-shadow: 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d
-}
-.title.inner_blue.m-Btm10 {
-	margin-bottom: 10px
-}
-.medal_idol_event_blue {
-	width: 320px
-}
-.medal_idol_event_blue:before {
-	width: 320px;
-	height: 6px;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fblue%2Fline_normal_top.jpg%3F1487720052) center top no-repeat;
-	background-size: 320px 6px;
-	content: "";
-	display: block
-}
-.medal_idol_event_blue:after {
-	width: 320px;
-	height: 6px;
-	content: "";
-	display: block
-}
-.medal_idol_event_blue .status {
-	line-height: 120%;
-	margin-bottom: 5px
-}
-.medal_idol_event_blue .slideTitle {
-	text-align: center;
-	padding: 8px 0 14px;
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fblue%2Fline_normal_bg.jpg%3F1487720052);
-	background-size: 320px
-}
-.medal_idol_event_blue .img {
-	width: 320px;
-	height: 400px;
-	text-align: center;
-	margin-bottom: 5px
-}
-.underline_event_blue {
-	width: 320px;
-	height: 6px;
-	margin-top: 36px;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fblue%2Fline_normal_bottom.jpg%3F1487720052) center top no-repeat;
-	background-size: 320px;
-	z-index: 20;
-	position: absolute
-}
-.scheduleArea.event_blue {
-	border: 2px solid #5be1fe;
+.area-frame_event._hd_blue .area-frame_header {
 	background-color: #041f29;
-	color: #ffffff;
-	-webkit-box-shadow: 3px 3px 3px #013c53 inset, -3px -3px 3px #013c53 inset
+	text-shadow: -1px -1px 0px #5be1fe, 1px -1px 0px #5be1fe, 1px 1px 0px #5be1fe, -1px 1px 0px #5be1fe, 1px 2px 3px rgba(91, 225, 254, 0.6)
 }
-.scheduleArea.event_blue h3.titleMin {
-	background: #013c53
+.area-frame_event._bd_blue {
+	background-color: #041f29
 }
-.tab_link.event_blue {
-	color: #33ff33
+.area-frame_event._hd_pink:before {
+	background-color: #30252a
 }
-.tab_link.event_blue .selected {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #005c80), color-stop(50%, #092e47), color-stop(100%, #1d1d1d))
-}
-.tab_link.event_blue .selected:active {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0081b3), color-stop(50%, #0f4b74), color-stop(100%, #1d1d1d))
-}
-.eventFBColor_blue {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #006288), color-stop(50%, #013c53), color-stop(100%, #006288))
-}
-.eventFBColor_blue:active,
-.eventFBColor_blue:hover {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0087bb), color-stop(50%, #026085), color-stop(100%, #0087bb))
-}
-.eventBGColor01_blue_grad_lr {
-	background: -webkit-linear-gradient(left, #041f29 0%, rgba(255, 255, 255, 0) 100%)
-}
-.statusArea2.event_blue {
-	border: 2px solid #5be1fe
-}
-.statusArea2.event_blue h3 {
-	background: #041f29;
-	border-bottom: 0.12rem dashed #5be1fe
-}
-.statusArea2.event_blue h3.line {
-	border-top: 0.12rem solid #5be1fe
-}
-.statusArea2.event_blue h2 {
-	background: #041f29;
-	margin-bottom: 0;
-	font-size: 0.8rem;
-	line-height: 1.0em;
-	-webkit-box-shadow: 2px 2px 2px #013c53 inset, -2px 2px 2px #013c53 inset, 0px 0px 0px #013c53, -2px -2px 2px #013c53;
-	border-top: 0.1rem solid #5be1fe;
-	position: relative;
-	margin-bottom: -5px;
-	padding-top: 15px;
-	padding-bottom: 10px
-}
-.statusArea2.event_blue .title {
-	background: #041f29;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	-webkit-box-shadow: 2px 2px 2px #013c53 inset, -2px 2px 2px #013c53 inset, 0px 0px 0px #013c53, -2px -2px 2px #013c53
-}
-.statusArea2.event_blue .line_dashed_top {
-	border-top: 0.12rem dashed #5be1fe
-}
-.statusArea2.event_blue .line_dashed_bottom {
-	border-bottom: 0.12rem dashed #5be1fe
-}
-.statusArea2.event_blue._important {
-	border: 2px solid #5be1fe;
-	-webkit-box-shadow: 2px 2px 2px #013c53 inset, -2px -2px 2px #013c53 inset, 0px 0px 0px #013c53, 0px 0px 0px #013c53 !important
-}
-.statusArea2.event_blue._important h3 {
-	background: #041f29 !important;
-	border-bottom: 0.12rem dashed #5be1fe !important;
-	-webkit-box-shadow: 2px 2px 2px #013c53 inset, -2px 2px 2px #013c53 inset, 0px 0px 0px #013c53, -2px -2px 2px #013c53 !important
-}
-.statusArea2.event_blue._important h3.line {
-	border-top: 0.12rem solid #5be1fe !important
-}
-.event_blue_line_dashed_bottom {
-	border-bottom: 0.12rem dashed #013c53
-}
-h2.title_img.event_pink {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpink%2Fline_head_bg.jpg%3F1487720052)
-}
-h2.title_img.event_pink div {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpink%2Fline_head_bottom.jpg%3F1487720052)
-}
-h2.title_img.event_pink:before {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpink%2Fline_head_top.jpg%3F1487720052)
-}
-h3.title_img.event_pink {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpink%2Fline_normal_bg.jpg%3F1487720052)
-}
-h3.title_img.event_pink div.frame {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpink%2Fline_normal_bottom.jpg%3F1487720052)
-}
-h3.title_img.event_pink:before {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpink%2Fline_normal_top.jpg%3F1487720052)
-}
-.eventH2Color_pink {
-	background: #dc749f !important
-}
-.eventPeriodColor_pink {
-	color: #e78ab1
-}
-.title.inner_pink {
-	padding: 3px 0;
-	margin-bottom: 5px;
-	font-size: 16px;
-	background: -webkit-linear-gradient(left, #1d1d1d 3%, #c45785 51%, #1d1d1d 98%);
-	text-shadow: 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d
-}
-.title.inner_pink.m-Btm10 {
-	margin-bottom: 10px
-}
-.medal_idol_event_pink {
-	width: 320px
-}
-.medal_idol_event_pink:before {
-	width: 320px;
-	height: 6px;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpink%2Fline_normal_top.jpg%3F1487720052) center top no-repeat;
-	background-size: 320px 6px;
-	content: "";
-	display: block
-}
-.medal_idol_event_pink:after {
-	width: 320px;
-	height: 6px;
-	content: "";
-	display: block
-}
-.medal_idol_event_pink .status {
-	line-height: 120%;
-	margin-bottom: 5px
-}
-.medal_idol_event_pink .slideTitle {
-	text-align: center;
-	padding: 8px 0 14px;
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpink%2Fline_normal_bg.jpg%3F1487720052);
-	background-size: 320px
-}
-.medal_idol_event_pink .img {
-	width: 320px;
-	height: 400px;
-	text-align: center;
-	margin-bottom: 5px
-}
-.underline_event_pink {
-	width: 320px;
-	height: 6px;
-	margin-top: 36px;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpink%2Fline_normal_bottom.jpg%3F1487720052) center top no-repeat;
-	background-size: 320px;
-	z-index: 20;
-	position: absolute
-}
-.scheduleArea.event_pink {
-	border: 2px solid #e78ab1;
+.area-frame_event._hd_pink .area-frame_header {
 	background-color: #30252a;
-	color: #ffffff;
-	-webkit-box-shadow: 3px 3px 3px #96335d inset, -3px -3px 3px #96335d inset
+	text-shadow: -1px -1px 0px #e78ab1, 1px -1px 0px #e78ab1, 1px 1px 0px #e78ab1, -1px 1px 0px #e78ab1, 1px 2px 3px rgba(231, 138, 177, 0.6)
 }
-.scheduleArea.event_pink h3.titleMin {
-	background: #dc749f
+.area-frame_event._bd_pink {
+	background-color: #30252a
 }
-.tab_link.event_pink {
-	color: #33ff33
+.area-frame_event._hd_crimson:before {
+	background-color: #35111c
 }
-.tab_link.event_pink .selected {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fe93bf), color-stop(50%, #9c5070), color-stop(100%, #1d1d1d))
-}
-.tab_link.event_pink .selected:active {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fec6dd), color-stop(50%, #b36c8a), color-stop(100%, #1d1d1d))
-}
-.eventFBColor_pink {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ed5697), color-stop(50%, #c53170), color-stop(100%, #ed5697))
-}
-.eventFBColor_pink:active,
-.eventFBColor_pink:hover {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f284b3), color-stop(50%, #d5548b), color-stop(100%, #f284b3))
-}
-.eventBGColor01_pink_grad_lr {
-	background: -webkit-linear-gradient(left, #30252a 0%, rgba(255, 255, 255, 0) 100%)
-}
-.statusArea2.event_pink {
-	border: 2px solid #e78ab1
-}
-.statusArea2.event_pink h3 {
-	background: #30252a;
-	border-bottom: 0.12rem dashed #e78ab1
-}
-.statusArea2.event_pink h3.line {
-	border-top: 0.12rem solid #e78ab1
-}
-.statusArea2.event_pink h2 {
-	background: #30252a;
-	margin-bottom: 0;
-	font-size: 0.8rem;
-	line-height: 1.0em;
-	-webkit-box-shadow: 2px 2px 2px #96335d inset, -2px 2px 2px #96335d inset, 0px 0px 0px #96335d, -2px -2px 2px #96335d;
-	border-top: 0.1rem solid #e78ab1;
-	position: relative;
-	margin-bottom: -5px;
-	padding-top: 15px;
-	padding-bottom: 10px
-}
-.statusArea2.event_pink .title {
-	background: #30252a;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	-webkit-box-shadow: 2px 2px 2px #96335d inset, -2px 2px 2px #96335d inset, 0px 0px 0px #96335d, -2px -2px 2px #96335d
-}
-.statusArea2.event_pink .line_dashed_top {
-	border-top: 0.12rem dashed #e78ab1
-}
-.statusArea2.event_pink .line_dashed_bottom {
-	border-bottom: 0.12rem dashed #e78ab1
-}
-.statusArea2.event_pink._important {
-	border: 2px solid #e78ab1;
-	-webkit-box-shadow: 2px 2px 2px #96335d inset, -2px -2px 2px #96335d inset, 0px 0px 0px #96335d, 0px 0px 0px #96335d !important
-}
-.statusArea2.event_pink._important h3 {
-	background: #30252a !important;
-	border-bottom: 0.12rem dashed #e78ab1 !important;
-	-webkit-box-shadow: 2px 2px 2px #96335d inset, -2px 2px 2px #96335d inset, 0px 0px 0px #96335d, -2px -2px 2px #96335d !important
-}
-.statusArea2.event_pink._important h3.line {
-	border-top: 0.12rem solid #e78ab1 !important
-}
-.event_pink_line_dashed_bottom {
-	border-bottom: 0.12rem dashed #dc749f
-}
-h2.title_img.event_crimson {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fcrimson%2Fline_head_bg.jpg%3F1487720052)
-}
-h2.title_img.event_crimson div {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fcrimson%2Fline_head_bottom.jpg%3F1487720052)
-}
-h2.title_img.event_crimson:before {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fcrimson%2Fline_head_top.jpg%3F1487720052)
-}
-h3.title_img.event_crimson {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fcrimson%2Fline_normal_bg.jpg%3F1487720052)
-}
-h3.title_img.event_crimson div.frame {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fcrimson%2Fline_normal_bottom.jpg%3F1487720052)
-}
-h3.title_img.event_crimson:before {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fcrimson%2Fline_normal_top.jpg%3F1487720052)
-}
-.eventH2Color_crimson {
-	background: #972447 !important
-}
-.eventPeriodColor_crimson {
-	color: #f07198
-}
-.title.inner_crimson {
-	padding: 3px 0;
-	margin-bottom: 5px;
-	font-size: 16px;
-	background: -webkit-linear-gradient(left, #1d1d1d 3%, #9f1d43 51%, #1d1d1d 98%);
-	text-shadow: 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d
-}
-.title.inner_crimson.m-Btm10 {
-	margin-bottom: 10px
-}
-.medal_idol_event_crimson {
-	width: 320px
-}
-.medal_idol_event_crimson:before {
-	width: 320px;
-	height: 6px;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fcrimson%2Fline_normal_top.jpg%3F1487720052) center top no-repeat;
-	background-size: 320px 6px;
-	content: "";
-	display: block
-}
-.medal_idol_event_crimson:after {
-	width: 320px;
-	height: 6px;
-	content: "";
-	display: block
-}
-.medal_idol_event_crimson .status {
-	line-height: 120%;
-	margin-bottom: 5px
-}
-.medal_idol_event_crimson .slideTitle {
-	text-align: center;
-	padding: 8px 0 14px;
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fcrimson%2Fline_normal_bg.jpg%3F1487720052);
-	background-size: 320px
-}
-.medal_idol_event_crimson .img {
-	width: 320px;
-	height: 400px;
-	text-align: center;
-	margin-bottom: 5px
-}
-.underline_event_crimson {
-	width: 320px;
-	height: 6px;
-	margin-top: 36px;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fcrimson%2Fline_normal_bottom.jpg%3F1487720052) center top no-repeat;
-	background-size: 320px;
-	z-index: 20;
-	position: absolute
-}
-.scheduleArea.event_crimson {
-	border: 2px solid #f07198;
+.area-frame_event._hd_crimson .area-frame_header {
 	background-color: #35111c;
-	color: #ffffff;
-	-webkit-box-shadow: 3px 3px 3px #9f1d43 inset, -3px -3px 3px #9f1d43 inset
+	text-shadow: -1px -1px 0px #f07198, 1px -1px 0px #f07198, 1px 1px 0px #f07198, -1px 1px 0px #f07198, 1px 2px 3px rgba(240, 113, 152, 0.6)
 }
-.scheduleArea.event_crimson h3.titleMin {
-	background: #972447
+.area-frame_event._bd_crimson {
+	background-color: #35111c
 }
-.tab_link.event_crimson {
-	color: #33ff33
+.area-frame_event._hd_parple:before {
+	background-color: #1c185d
 }
-.tab_link.event_crimson .selected {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9f1d43), color-stop(50%, #661a31), color-stop(100%, #1d1d1d))
-}
-.tab_link.event_crimson .selected:active {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ca2555), color-stop(50%, #8f2445), color-stop(100%, #1d1d1d))
-}
-.eventFBColor_crimson {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #661a31), color-stop(50%, #42111f), color-stop(100%, #661a31))
-}
-.eventFBColor_crimson:active,
-.eventFBColor_crimson:hover {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #8f2445), color-stop(50%, #6b1b32), color-stop(100%, #8f2445))
-}
-.eventBGColor01_crimson_grad_lr {
-	background: -webkit-linear-gradient(left, #35111c 0%, rgba(255, 255, 255, 0) 100%)
-}
-.statusArea2.event_crimson {
-	border: 2px solid #f07198
-}
-.statusArea2.event_crimson h3 {
-	background: #35111c;
-	border-bottom: 0.12rem dashed #f07198
-}
-.statusArea2.event_crimson h3.line {
-	border-top: 0.12rem solid #f07198
-}
-.statusArea2.event_crimson h2 {
-	background: #35111c;
-	margin-bottom: 0;
-	font-size: 0.8rem;
-	line-height: 1.0em;
-	-webkit-box-shadow: 2px 2px 2px #9f1d43 inset, -2px 2px 2px #9f1d43 inset, 0px 0px 0px #9f1d43, -2px -2px 2px #9f1d43;
-	border-top: 0.1rem solid #f07198;
-	position: relative;
-	margin-bottom: -5px;
-	padding-top: 15px;
-	padding-bottom: 10px
-}
-.statusArea2.event_crimson .title {
-	background: #35111c;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	-webkit-box-shadow: 2px 2px 2px #9f1d43 inset, -2px 2px 2px #9f1d43 inset, 0px 0px 0px #9f1d43, -2px -2px 2px #9f1d43
-}
-.statusArea2.event_crimson .line_dashed_top {
-	border-top: 0.12rem dashed #f07198
-}
-.statusArea2.event_crimson .line_dashed_bottom {
-	border-bottom: 0.12rem dashed #f07198
-}
-.statusArea2.event_crimson._important {
-	border: 2px solid #f07198;
-	-webkit-box-shadow: 2px 2px 2px #9f1d43 inset, -2px -2px 2px #9f1d43 inset, 0px 0px 0px #9f1d43, 0px 0px 0px #9f1d43 !important
-}
-.statusArea2.event_crimson._important h3 {
-	background: #35111c !important;
-	border-bottom: 0.12rem dashed #f07198 !important;
-	-webkit-box-shadow: 2px 2px 2px #9f1d43 inset, -2px 2px 2px #9f1d43 inset, 0px 0px 0px #9f1d43, -2px -2px 2px #9f1d43 !important
-}
-.statusArea2.event_crimson._important h3.line {
-	border-top: 0.12rem solid #f07198 !important
-}
-.event_crimson_line_dashed_bottom {
-	border-bottom: 0.12rem dashed #972447
-}
-h2.title_img.event_parple {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fparple%2Fline_head_bg.jpg%3F1487720052)
-}
-h2.title_img.event_parple div {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fparple%2Fline_head_bottom.jpg%3F1487720052)
-}
-h2.title_img.event_parple:before {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fparple%2Fline_head_top.jpg%3F1487720052)
-}
-h3.title_img.event_parple {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fparple%2Fline_normal_bg.jpg%3F1487720052)
-}
-h3.title_img.event_parple div.frame {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fparple%2Fline_normal_bottom.jpg%3F1487720052)
-}
-h3.title_img.event_parple:before {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fparple%2Fline_normal_top.jpg%3F1487720052)
-}
-.eventH2Color_parple {
-	background: #312d82 !important
-}
-.eventPeriodColor_parple {
-	color: #899aff
-}
-.title.inner_parple {
-	padding: 3px 0;
-	margin-bottom: 5px;
-	font-size: 16px;
-	background: -webkit-linear-gradient(left, #1d1d1d 3%, #292573 51%, #1d1d1d 98%);
-	text-shadow: 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d
-}
-.title.inner_parple.m-Btm10 {
-	margin-bottom: 10px
-}
-.medal_idol_event_parple {
-	width: 320px
-}
-.medal_idol_event_parple:before {
-	width: 320px;
-	height: 6px;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fparple%2Fline_normal_top.jpg%3F1487720052) center top no-repeat;
-	background-size: 320px 6px;
-	content: "";
-	display: block
-}
-.medal_idol_event_parple:after {
-	width: 320px;
-	height: 6px;
-	content: "";
-	display: block
-}
-.medal_idol_event_parple .status {
-	line-height: 120%;
-	margin-bottom: 5px
-}
-.medal_idol_event_parple .slideTitle {
-	text-align: center;
-	padding: 8px 0 14px;
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fparple%2Fline_normal_bg.jpg%3F1487720052);
-	background-size: 320px
-}
-.medal_idol_event_parple .img {
-	width: 320px;
-	height: 400px;
-	text-align: center;
-	margin-bottom: 5px
-}
-.underline_event_parple {
-	width: 320px;
-	height: 6px;
-	margin-top: 36px;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fparple%2Fline_normal_bottom.jpg%3F1487720052) center top no-repeat;
-	background-size: 320px;
-	z-index: 20;
-	position: absolute
-}
-.scheduleArea.event_parple {
-	border: 2px solid #899aff;
+.area-frame_event._hd_parple .area-frame_header {
 	background-color: #1c185d;
-	color: #ffffff;
-	-webkit-box-shadow: 3px 3px 3px #382ca2 inset, -3px -3px 3px #382ca2 inset
+	text-shadow: -1px -1px 0px #899aff, 1px -1px 0px #899aff, 1px 1px 0px #899aff, -1px 1px 0px #899aff, 1px 2px 3px rgba(137, 154, 255, 0.6)
 }
-.scheduleArea.event_parple h3.titleMin {
-	background: #312d82
+.area-frame_event._bd_parple {
+	background-color: #1c185d
 }
-.tab_link.event_parple {
-	color: #33ff33
+.area-frame_event._hd_purplepink:before {
+	background-color: #36112a
 }
-.tab_link.event_parple .selected {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #373391), color-stop(50%, #28246d), color-stop(100%, #1d1d1d))
-}
-.tab_link.event_parple .selected:active {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4540b7), color-stop(50%, #363193), color-stop(100%, #1d1d1d))
-}
-.eventFBColor_parple {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2b2778), color-stop(50%, #1a1750), color-stop(100%, #2b2778))
-}
-.eventFBColor_parple:active,
-.eventFBColor_parple:hover {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #39349e), color-stop(50%, #272278), color-stop(100%, #39349e))
-}
-.eventBGColor01_parple_grad_lr {
-	background: -webkit-linear-gradient(left, #1c185d 0%, rgba(255, 255, 255, 0) 100%)
-}
-.statusArea2.event_parple {
-	border: 2px solid #899aff
-}
-.statusArea2.event_parple h3 {
-	background: #1c185d;
-	border-bottom: 0.12rem dashed #899aff
-}
-.statusArea2.event_parple h3.line {
-	border-top: 0.12rem solid #899aff
-}
-.statusArea2.event_parple h2 {
-	background: #1c185d;
-	margin-bottom: 0;
-	font-size: 0.8rem;
-	line-height: 1.0em;
-	-webkit-box-shadow: 2px 2px 2px #382ca2 inset, -2px 2px 2px #382ca2 inset, 0px 0px 0px #382ca2, -2px -2px 2px #382ca2;
-	border-top: 0.1rem solid #899aff;
-	position: relative;
-	margin-bottom: -5px;
-	padding-top: 15px;
-	padding-bottom: 10px
-}
-.statusArea2.event_parple .title {
-	background: #1c185d;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	-webkit-box-shadow: 2px 2px 2px #382ca2 inset, -2px 2px 2px #382ca2 inset, 0px 0px 0px #382ca2, -2px -2px 2px #382ca2
-}
-.statusArea2.event_parple .line_dashed_top {
-	border-top: 0.12rem dashed #899aff
-}
-.statusArea2.event_parple .line_dashed_bottom {
-	border-bottom: 0.12rem dashed #899aff
-}
-.statusArea2.event_parple._important {
-	border: 2px solid #899aff;
-	-webkit-box-shadow: 2px 2px 2px #382ca2 inset, -2px -2px 2px #382ca2 inset, 0px 0px 0px #382ca2, 0px 0px 0px #382ca2 !important
-}
-.statusArea2.event_parple._important h3 {
-	background: #1c185d !important;
-	border-bottom: 0.12rem dashed #899aff !important;
-	-webkit-box-shadow: 2px 2px 2px #382ca2 inset, -2px 2px 2px #382ca2 inset, 0px 0px 0px #382ca2, -2px -2px 2px #382ca2 !important
-}
-.statusArea2.event_parple._important h3.line {
-	border-top: 0.12rem solid #899aff !important
-}
-.event_parple_line_dashed_bottom {
-	border-bottom: 0.12rem dashed #312d82
-}
-h2.title_img.event_purplepink {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpurplepink%2Fline_head_bg.jpg%3F1487720052)
-}
-h2.title_img.event_purplepink div {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpurplepink%2Fline_head_bottom.jpg%3F1487720052)
-}
-h2.title_img.event_purplepink:before {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpurplepink%2Fline_head_top.jpg%3F1487720052)
-}
-h3.title_img.event_purplepink {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpurplepink%2Fline_normal_bg.jpg%3F1487720052)
-}
-h3.title_img.event_purplepink div.frame {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpurplepink%2Fline_normal_bottom.jpg%3F1487720052)
-}
-h3.title_img.event_purplepink:before {
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpurplepink%2Fline_normal_top.jpg%3F1487720052)
-}
-.eventH2Color_purplepink {
-	background: #cd59aa !important
-}
-.eventPeriodColor_purplepink {
-	color: #9c2a72
-}
-.title.inner_purplepink {
-	padding: 3px 0;
-	margin-bottom: 5px;
-	font-size: 16px;
-	background: -webkit-linear-gradient(left, #1d1d1d 3%, #a33a8a 51%, #1d1d1d 98%);
-	text-shadow: 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d, 0px 0px 3px #1d1d1d
-}
-.title.inner_purplepink.m-Btm10 {
-	margin-bottom: 10px
-}
-.medal_idol_event_purplepink {
-	width: 320px
-}
-.medal_idol_event_purplepink:before {
-	width: 320px;
-	height: 6px;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpurplepink%2Fline_normal_top.jpg%3F1487720052) center top no-repeat;
-	background-size: 320px 6px;
-	content: "";
-	display: block
-}
-.medal_idol_event_purplepink:after {
-	width: 320px;
-	height: 6px;
-	content: "";
-	display: block
-}
-.medal_idol_event_purplepink .status {
-	line-height: 120%;
-	margin-bottom: 5px
-}
-.medal_idol_event_purplepink .slideTitle {
-	text-align: center;
-	padding: 8px 0 14px;
-	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpurplepink%2Fline_normal_bg.jpg%3F1487720052);
-	background-size: 320px
-}
-.medal_idol_event_purplepink .img {
-	width: 320px;
-	height: 400px;
-	text-align: center;
-	margin-bottom: 5px
-}
-.underline_event_purplepink {
-	width: 320px;
-	height: 6px;
-	margin-top: 36px;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpurplepink%2Fline_normal_bottom.jpg%3F1487720052) center top no-repeat;
-	background-size: 320px;
-	z-index: 20;
-	position: absolute
-}
-.scheduleArea.event_purplepink {
-	border: 2px solid #9c2a72;
+.area-frame_event._hd_purplepink .area-frame_header {
 	background-color: #36112a;
-	color: #ffffff;
-	-webkit-box-shadow: 3px 3px 3px #a3328a inset, -3px -3px 3px #a3328a inset
+	text-shadow: -1px -1px 0px #9c2a72, 1px -1px 0px #9c2a72, 1px 1px 0px #9c2a72, -1px 1px 0px #9c2a72, 1px 2px 3px rgba(156, 42, 114, 0.6)
 }
-.scheduleArea.event_purplepink h3.titleMin {
-	background: #cd59aa
+.area-frame_event._bd_purplepink {
+	background-color: #36112a
 }
-.tab_link.event_purplepink {
-	color: #33ff33
-}
-.tab_link.event_purplepink .selected {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a3328a), color-stop(50%, #79215d), color-stop(100%, #1d1d1d))
-}
-.tab_link.event_purplepink .selected:active {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c543a8), color-stop(50%, #a12c7c), color-stop(100%, #1d1d1d))
-}
-.eventFBColor_purplepink {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #421132), color-stop(50%, #79215d), color-stop(100%, #421132))
-}
-.eventFBColor_purplepink:active,
-.eventFBColor_purplepink:hover {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6b1b51), color-stop(50%, #a12c7c), color-stop(100%, #6b1b51))
-}
-.eventBGColor01_purplepink_grad_lr {
-	background: -webkit-linear-gradient(left, #36112a 0%, rgba(255, 255, 255, 0) 100%)
-}
-.statusArea2.event_purplepink {
-	border: 2px solid #9c2a72
-}
-.statusArea2.event_purplepink h3 {
-	background: #36112a;
-	border-bottom: 0.12rem dashed #9c2a72
-}
-.statusArea2.event_purplepink h3.line {
-	border-top: 0.12rem solid #9c2a72
-}
-.statusArea2.event_purplepink h2 {
-	background: #36112a;
-	margin-bottom: 0;
-	font-size: 0.8rem;
-	line-height: 1.0em;
-	-webkit-box-shadow: 2px 2px 2px #a3328a inset, -2px 2px 2px #a3328a inset, 0px 0px 0px #a3328a, -2px -2px 2px #a3328a;
-	border-top: 0.1rem solid #9c2a72;
-	position: relative;
-	margin-bottom: -5px;
-	padding-top: 15px;
-	padding-bottom: 10px
-}
-.statusArea2.event_purplepink .title {
-	background: #36112a;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	-webkit-box-shadow: 2px 2px 2px #a3328a inset, -2px 2px 2px #a3328a inset, 0px 0px 0px #a3328a, -2px -2px 2px #a3328a
-}
-.statusArea2.event_purplepink .line_dashed_top {
-	border-top: 0.12rem dashed #9c2a72
-}
-.statusArea2.event_purplepink .line_dashed_bottom {
-	border-bottom: 0.12rem dashed #9c2a72
-}
-.statusArea2.event_purplepink._important {
-	border: 2px solid #9c2a72;
-	-webkit-box-shadow: 2px 2px 2px #a3328a inset, -2px -2px 2px #a3328a inset, 0px 0px 0px #a3328a, 0px 0px 0px #a3328a !important
-}
-.statusArea2.event_purplepink._important h3 {
-	background: #36112a !important;
-	border-bottom: 0.12rem dashed #9c2a72 !important;
-	-webkit-box-shadow: 2px 2px 2px #a3328a inset, -2px 2px 2px #a3328a inset, 0px 0px 0px #a3328a, -2px -2px 2px #a3328a !important
-}
-.statusArea2.event_purplepink._important h3.line {
-	border-top: 0.12rem solid #9c2a72 !important
-}
-.event_purplepink_line_dashed_bottom {
-	border-bottom: 0.12rem dashed #cd59aa
+.area-frame_event .information_light {
+	width: 264px;
+	background-color: #333333
 }
 h2.title_img.event_dream {
 	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fline_head_bg.jpg%3F)
@@ -4094,7 +4727,7 @@ h4.title01.event701 {
 	margin-left: 6px;
 	position: relative;
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1516600335) no-repeat 0 -122px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1558677417) no-repeat 0 -122px;
 	-webkit-background-size: 136px 1230px;
 	background-size: 136px 1230px;
 	width: 136px;
@@ -4102,7 +4735,7 @@ h4.title01.event701 {
 }
 .dreamArea .recoverList .container .recoveryBtn.disabled {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1516600335) no-repeat 0 -61px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1558677417) no-repeat 0 -61px;
 	-webkit-background-size: 136px 1230px;
 	background-size: 136px 1230px;
 	width: 136px;
@@ -4112,7 +4745,7 @@ h4.title01.event701 {
 }
 .dreamArea .recoverList .container .recoveryBtn.autoUse {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1516600335) no-repeat 0 -183px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1558677417) no-repeat 0 -183px;
 	-webkit-background-size: 136px 1230px;
 	background-size: 136px 1230px;
 	width: 136px;
@@ -4120,7 +4753,7 @@ h4.title01.event701 {
 }
 .dreamArea .recoverList .container .recoveryBtn.autoUse.disabled {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1516600335) no-repeat 0 0;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1558677417) no-repeat 0 0;
 	-webkit-background-size: 136px 1230px;
 	background-size: 136px 1230px;
 	width: 136px;
@@ -4190,7 +4823,7 @@ h4.title01.event701 {
 }
 .dream_inline .btn_on {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1516600335) no-repeat 0 -1195px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1558677417) no-repeat 0 -1195px;
 	-webkit-background-size: 136px 1230px;
 	background-size: 136px 1230px;
 	width: 79px;
@@ -4200,7 +4833,7 @@ h4.title01.event701 {
 }
 .dream_inline .btn_off {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1516600335) no-repeat 0 -1159px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1558677417) no-repeat 0 -1159px;
 	-webkit-background-size: 136px 1230px;
 	background-size: 136px 1230px;
 	width: 79px;
@@ -4586,7 +5219,7 @@ h4.title01.event701 {
 }
 #dreamBattleButton label.button_ap_f_1 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1516600335) no-repeat 0 -1037px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1558677417) no-repeat 0 -1037px;
 	-webkit-background-size: 136px 1230px;
 	background-size: 136px 1230px;
 	width: 90px;
@@ -4594,7 +5227,7 @@ h4.title01.event701 {
 }
 #dreamBattleButton label.button_ap_f_2 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1516600335) no-repeat 0 -854px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1558677417) no-repeat 0 -854px;
 	-webkit-background-size: 136px 1230px;
 	background-size: 136px 1230px;
 	width: 90px;
@@ -4602,7 +5235,7 @@ h4.title01.event701 {
 }
 #dreamBattleButton label.button_ap_f_3 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1516600335) no-repeat 0 -732px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1558677417) no-repeat 0 -732px;
 	-webkit-background-size: 136px 1230px;
 	background-size: 136px 1230px;
 	width: 90px;
@@ -4610,7 +5243,7 @@ h4.title01.event701 {
 }
 #dreamBattleButton label.button_ap_g_1 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1516600335) no-repeat 0 -366px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1558677417) no-repeat 0 -366px;
 	-webkit-background-size: 136px 1230px;
 	background-size: 136px 1230px;
 	width: 90px;
@@ -4619,7 +5252,7 @@ h4.title01.event701 {
 }
 #dreamBattleButton label.button_ap_g_2 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1516600335) no-repeat 0 -244px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1558677417) no-repeat 0 -244px;
 	-webkit-background-size: 136px 1230px;
 	background-size: 136px 1230px;
 	width: 90px;
@@ -4628,7 +5261,7 @@ h4.title01.event701 {
 }
 #dreamBattleButton label.button_ap_g_3 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1516600335) no-repeat 0 -610px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1558677417) no-repeat 0 -610px;
 	-webkit-background-size: 136px 1230px;
 	background-size: 136px 1230px;
 	width: 90px;
@@ -4637,7 +5270,7 @@ h4.title01.event701 {
 }
 #dreamBattleButton label.button_ap_m_1 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1516600335) no-repeat 0 -671px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1558677417) no-repeat 0 -671px;
 	-webkit-background-size: 136px 1230px;
 	background-size: 136px 1230px;
 	width: 90px;
@@ -4645,7 +5278,7 @@ h4.title01.event701 {
 }
 #dreamBattleButton label.button_ap_m_2 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1516600335) no-repeat 0 -793px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1558677417) no-repeat 0 -793px;
 	-webkit-background-size: 136px 1230px;
 	background-size: 136px 1230px;
 	width: 90px;
@@ -4653,7 +5286,7 @@ h4.title01.event701 {
 }
 #dreamBattleButton label.button_ap_m_3 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1516600335) no-repeat 0 -427px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1558677417) no-repeat 0 -427px;
 	-webkit-background-size: 136px 1230px;
 	background-size: 136px 1230px;
 	width: 90px;
@@ -4661,7 +5294,7 @@ h4.title01.event701 {
 }
 #dreamBattleButton label.button_ap_n_1 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1516600335) no-repeat 0 -488px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1558677417) no-repeat 0 -488px;
 	-webkit-background-size: 136px 1230px;
 	background-size: 136px 1230px;
 	width: 90px;
@@ -4669,7 +5302,7 @@ h4.title01.event701 {
 }
 #dreamBattleButton label.button_ap_n_2 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1516600335) no-repeat 0 -549px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1558677417) no-repeat 0 -549px;
 	-webkit-background-size: 136px 1230px;
 	background-size: 136px 1230px;
 	width: 90px;
@@ -4677,7 +5310,7 @@ h4.title01.event701 {
 }
 #dreamBattleButton label.button_ap_n_3 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1516600335) no-repeat 0 -305px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1558677417) no-repeat 0 -305px;
 	-webkit-background-size: 136px 1230px;
 	background-size: 136px 1230px;
 	width: 90px;
@@ -4685,7 +5318,7 @@ h4.title01.event701 {
 }
 #dreamBattleButton label.button_ap_r_1 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1516600335) no-repeat 0 -1098px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1558677417) no-repeat 0 -1098px;
 	-webkit-background-size: 136px 1230px;
 	background-size: 136px 1230px;
 	width: 90px;
@@ -4693,7 +5326,7 @@ h4.title01.event701 {
 }
 #dreamBattleButton label.button_ap_r_2 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1516600335) no-repeat 0 -976px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1558677417) no-repeat 0 -976px;
 	-webkit-background-size: 136px 1230px;
 	background-size: 136px 1230px;
 	width: 90px;
@@ -4701,7 +5334,7 @@ h4.title01.event701 {
 }
 #dreamBattleButton label.button_ap_r_3 {
 	display: block;
-	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1516600335) no-repeat 0 -915px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fbattle-sc402ab82e1.png%3F1558677417) no-repeat 0 -915px;
 	-webkit-background-size: 136px 1230px;
 	background-size: 136px 1230px;
 	width: 90px;
