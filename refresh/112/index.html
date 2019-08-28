@@ -1,0 +1,1387 @@
+<!doctype html>
+<html lang="ja" xml:lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="pragma" content="no-cache">
+        <meta http-equiv="cache-control" content="no-cache">
+        <meta http-equiv="expires" content="-1">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimal-ui">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="mobage: footer-color" content="none">
+        <link rel="stylesheet" href='../../12008305/css/Fgame/pex.css%3Fv%3D20170222081834' media="all">
+        <script src='../../12008305/js/jquery-2.2.2.min.js'></script>
+        <script src='../../12008305/js/ilibrary.js'></script>
+        <script src='../../12008305/js/pex-petit-1.2.0.js'></script>
+        <script src='../../12008305/js/pex_common.js'></script>
+        <script src='../../12008305/js/min/petit_manager.min.js'></script>
+        <script src='../../12008305/js/min/refresh_room.min.js'></script>
+        <title>아이돌마스터 신데렐라 걸즈</title>
+        <link rel="stylesheet" type="text/css" href="../../12008305/css/rich/refresh_room.css" media="all">
+        <script type='text/javascript'>
+            var se_flg = 0
+              , bgm_flg = 0
+              , chrome_app_flg = 0
+              , chrome_app_extension_id = 'dnacabmnfmejgfffmcehejcmiciinpej';
+        </script>
+        <script type='text/javascript' src='../../12008305/js/app_sound.js'></script>
+        <link rel="stylesheet" type="text/css" href="../../css/base.css"/>
+    </head>
+    <body>
+        <article>
+            <section id="pageContainer" class="m-Btm0">
+                <div id="bg_space"></div>
+                <div id="jsEyeCatch">
+                    <div style="margin-top:120px">
+                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fpetit_cg%2Fui%2Fsprite%2Floading%2Fworking_1.gif%3Fv%3D20170222083827' width="195" height="139">
+                    </div>
+                    <div style="margin-top:-80px">
+                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fpetit_cg%2Fui%2Fsprite%2Floading%2Floading.gif%3Fv%3D20170222083827' width="102" height="102">
+                    </div>
+                </div>
+                <div class="effect-container">
+                    <div id="animation-container"></div>
+                    <div id="dialogue" class="animation"></div>
+                    <div class="story" style="text-align:left;">
+                        <div class="comment-container">
+                            <span></span>
+                            <br>
+                            <span></span>
+                            <br>
+                            <span></span>
+                            <br>
+                        </div>
+                        <a href="#" class="story_btn" style="display:none;"></a>
+                    </div>
+                </div>
+                <div id="name-plate" rel="4">
+                    <div class="plate-area" rel="1">
+                        <img class="plate" src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frefresh_room%2Fname_plate%2F31.png%3Fv%3D20190524145751'>
+                    </div>
+                    <div class="plate-area" rel="2">
+                        <img class="plate" src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frefresh_room%2Fname_plate%2F164.png%3Fv%3D20190524145751'>
+                    </div>
+                    <div class="plate-area" rel="3">
+                        <img class="plate" src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frefresh_room%2Fname_plate%2F128.png%3Fv%3D20190524145751'>
+                    </div>
+                    <div class="plate-area" rel="4">
+                        <img class="plate" src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frefresh_room%2Fname_plate%2F92.png%3Fv%3D20190524145751'>
+                    </div>
+                </div>
+                <a id="next" class="next" href="#"></a>
+            </section>
+        </article>
+        <script type="text/javascript">
+            (function() {
+                var refreshRoom = window.refreshRoom || {};
+                var ua = navigator.userAgent;
+                var in_chome = false;
+                try {
+                    in_chrome = (chrome in window);
+                } catch (e) {
+                    in_chrome = false;
+                }
+                refreshRoom.is_pc = in_chrome || (window.chrome ? true : false) && (window.chrome.webstore) || ua.indexOf('ChromeApp') > -1 || ua.indexOf('AAWebview') > -1;
+                refreshRoom.old_os = ua.match(/(OS [3-7]|Android [2-4])/);
+                refreshRoom.is_multiply = false;
+                refreshRoom.returnUrl = 'http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Frefresh_room%2Findex%2F0%3Fname%3D%26l_frm%3DRefresh_room_detail_1%26rnd%3D881603932';
+                refreshRoom.dialogueSwf = '../refresh_room/petit_refresh_room_balloon.swf';
+                refreshRoom.data = {
+                    "id": "112",
+                    "refresh_room_id": "112",
+                    "start_time": "2019\/08\/28 15:00:00",
+                    "refresh_room_name": "\u57fa\u790e\u30d5\u30ec\u30c7\u30ea\u30ab\u8a9e\u8b1b\u5ea7<BR>\uff5eLesson\uff11\uff5e",
+                    "idol_set_id_1": "144",
+                    "idol_accessory_set_id_1": "86",
+                    "idol_set_id_2": "116",
+                    "idol_accessory_set_id_2": "87",
+                    "idol_set_id_3": "203",
+                    "idol_accessory_set_id_3": "88",
+                    "idol_set_id_4": "159",
+                    "idol_accessory_set_id_4": "89",
+                    "idol_set_id_5": "",
+                    "idol_accessory_set_id_5": "",
+                    "idol_name_1": "\u5bae\u672c\u30d5\u30ec\u30c7\u30ea\u30ab",
+                    "idol_kana_1": "\u307f\u3084\u3082\u3068\u3075\u308c\u3067\u308a\u304b",
+                    "name_plate_id_1": "31",
+                    "idol_name_2": "\u91ce\u3005\u6751\u305d\u3089",
+                    "idol_kana_2": "\u306e\u306e\u3080\u3089\u305d\u3089",
+                    "name_plate_id_2": "164",
+                    "idol_name_3": "\u5927\u548c\u4e9c\u5b63",
+                    "idol_kana_3": "\u3084\u307e\u3068\u3042\u304d",
+                    "name_plate_id_3": "128",
+                    "idol_name_4": "\u6d45\u5229\u4e03\u6d77",
+                    "idol_kana_4": "\u3042\u3055\u308a\u306a\u306a\u307f",
+                    "name_plate_id_4": "92",
+                    "idol_name_5": "",
+                    "idol_kana_5": "",
+                    "idol_avatar": {
+                        "1": {
+                            "attribute": "1",
+                            "body_type": "1",
+                            "breast_size": "2",
+                            "short_name": "\u30d5\u30ec\u30c7\u30ea\u30ab",
+                            "image_url_list": {
+                                "expression_1015": "../../12008305/js/petit_cg/expression/1015.js",
+                                "hair_10015": "../../12008305/js/petit_cg/hair/10015.js",
+                                "costume_1_23338": "../../12008305/js/petit_cg/costume/1/23338.js",
+                                "head_1_32032": "../../12008305/js/petit_cg/head/1/32032.js"
+                            },
+                            "sub_type_list": {
+                                "head": null,
+                                "hand": null,
+                                "leg": null
+                            },
+                            "take_sub_type": {
+                                "head": 0,
+                                "hand": 0,
+                                "leg": 0
+                            },
+                            "petit_csv_info_list": {
+                                "costume_1_23338": {
+                                    "image_path": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2F23338",
+                                    "accessory_name": "\u30a2\u30f3\u30d3\u30d0\u30ec\u30f3\u30c8\u5211\u4e8b\u306e\u30b9\u30fc\u30c4",
+                                    "explanation": "\u30d3\u30b7\u30c3\u3068\u80cc\u7b4b\u304c\u4f38\u3073\u308b\u3001\u9ed2\u306e\u30b9\u30fc\u30c4\u3067\u3059\u3002<br>\u3069\u3093\u306a\u4e8b\u4ef6\u3082\u3001\u83ef\u9e97\u306b\u4f59\u88d5\u3002\u305d\u308c\u304c\u7279\u9e97\u8ab2\u3060!",
+                                    "type_id": "2"
+                                },
+                                "head_1_32032": {
+                                    "image_path": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2F32032",
+                                    "accessory_name": "\u30a4\u30f3\u30c6\u30ea\u773c\u93e1",
+                                    "explanation": "\u30a2\u30f3\u30c0\u30fc\u30ea\u30e0\u304c\u30af\u30fc\u30eb\u306a\u5370\u8c61\u306e\u773c\u93e1\u3067\u3059\u3002<br>\u982d\u304c\u826f\u304f\u306a\u308b\u52b9\u679c\u304c\u3042\u308b\u3088\u3046\u306a\u2026?",
+                                    "type_id": "3"
+                                }
+                            },
+                            "petit_csv_sub_type_info_list": []
+                        },
+                        "2": {
+                            "attribute": "3",
+                            "body_type": "1",
+                            "breast_size": "2",
+                            "short_name": "\u305d\u3089",
+                            "image_url_list": {
+                                "expression_1121": "../../12008305/js/petit_cg/expression/1121.js",
+                                "hair_10121": "../../12008305/js/petit_cg/hair/10121.js",
+                                "costume_1_23396": "../../12008305/js/petit_cg/costume/1/23396.js"
+                            },
+                            "sub_type_list": {
+                                "head": null,
+                                "hand": null,
+                                "leg": null
+                            },
+                            "take_sub_type": {
+                                "head": 0,
+                                "hand": 0,
+                                "leg": 0
+                            },
+                            "petit_csv_info_list": {
+                                "costume_1_23396": {
+                                    "image_path": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2F23396",
+                                    "accessory_name": "\u76ee\u6307\u305b\u5408\u683c\u2606\u7d3a\u30bb\u30fc\u30e9\u30fc",
+                                    "explanation": "\u8d64\u3044\u30b9\u30ab\u30fc\u30d5\u304c\u3069\u3053\u304b\u53e4\u98a8\u306a\u7d3a\u8272\u30bb\u30fc\u30e9\u30fc\u670d\u3067\u3059\u3002<br>\u7b11\u9854\u306e\u672a\u6765\u3092\u8fce\u3048\u308b\u307e\u3067\u3088\u308d\u3057\u304f\u306d\u266a",
+                                    "type_id": "2"
+                                }
+                            },
+                            "petit_csv_sub_type_info_list": []
+                        },
+                        "3": {
+                            "attribute": "2",
+                            "body_type": "1",
+                            "breast_size": "1",
+                            "short_name": "\u4e9c\u5b63",
+                            "image_url_list": {
+                                "expression_1114": "../../12008305/js/petit_cg/expression/1114.js",
+                                "hair_19114": "../../12008305/js/petit_cg/hair/19114.js",
+                                "costume_1_23334": "../../12008305/js/petit_cg/costume/1/23334.js"
+                            },
+                            "sub_type_list": {
+                                "head": null,
+                                "hand": null,
+                                "leg": null
+                            },
+                            "take_sub_type": {
+                                "head": 0,
+                                "hand": 0,
+                                "leg": 0
+                            },
+                            "petit_csv_info_list": {
+                                "costume_1_23334": {
+                                    "image_path": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2F23334",
+                                    "accessory_name": "\u9752\u6625\u2606\u30c6\u30c3\u30da\u30f3\u30b3\u30fc\u30c7",
+                                    "explanation": "\u5b66\u6821\u30a4\u30c1\u306e\u6c17\u5408\u3044\u3092\u8fbc\u3081\u305f\u5236\u670d\u3067\u3059\u3002<br>\u30c6\u30c3\u30da\u30f3\u3092\u3068\u308b\u305f\u3081\u3001\u4eca\u65e5\u3082\u30bf\u30a4\u30de\u30f3\u3092\u53d7\u3051\u3066\u305f\u3064!",
+                                    "type_id": "2"
+                                }
+                            },
+                            "petit_csv_sub_type_info_list": []
+                        },
+                        "4": {
+                            "attribute": "2",
+                            "body_type": "2",
+                            "breast_size": "3",
+                            "short_name": "\u4e03\u6d77",
+                            "image_url_list": {
+                                "expression_1133": "../../12008305/js/petit_cg/expression/1133.js%3Fv%3D20170222083923",
+                                "hair_10133": "../../12008305/js/petit_cg/hair/10133.js%3Fv%3D20170222083924",
+                                "costume_2_23396": "../../12008305/js/petit_cg/costume/2/23396.js%3Fv%3D20190524145757"
+                            },
+                            "sub_type_list": {
+                                "head": null,
+                                "hand": null,
+                                "leg": null
+                            },
+                            "take_sub_type": {
+                                "head": 0,
+                                "hand": 0,
+                                "leg": 0
+                            },
+                            "petit_csv_info_list": {
+                                "costume_2_23396": {
+                                    "image_path": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2F23396",
+                                    "accessory_name": "\u76ee\u6307\u305b\u5408\u683c\u2606\u7d3a\u30bb\u30fc\u30e9\u30fc",
+                                    "explanation": "\u8d64\u3044\u30b9\u30ab\u30fc\u30d5\u304c\u3069\u3053\u304b\u53e4\u98a8\u306a\u7d3a\u8272\u30bb\u30fc\u30e9\u30fc\u670d\u3067\u3059\u3002<br>\u7b11\u9854\u306e\u672a\u6765\u3092\u8fce\u3048\u308b\u307e\u3067\u3088\u308d\u3057\u304f\u306d\u266a",
+                                    "type_id": "2"
+                                }
+                            },
+                            "petit_csv_sub_type_info_list": []
+                        }
+                    }
+                };
+                var default_swf = '../petit_refresh_room_character.swf';
+                for (var i in refreshRoom.data.idol_avatar) {
+                    refreshRoom.data.idol_avatar[i].swf = default_swf;
+                }
+                refreshRoom.detail = [{
+                    "id": "1",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "shout",
+                    "motion2": "",
+                    "motion3": "out",
+                    "motion4": "out",
+                    "motion5": "",
+                    "bg_image": "1",
+                    "message": "\u30cf\u30ed\u30fc\u30a8\u30d6\u30ea\u30ef\u30f3\u3001\u30dc\u30f3\u30b8\u30e5\u30fc\u30eb\u3002\n\u4eca\u9031\u3082\u300e\u57fa\u790e\u30d5\u30ec\u30c7\u30ea\u30ab\u8a9e\u8b1b\u5ea7\u300f\u306e\n\u304a\u6642\u9593\u304c\u3084\u3063\u3066\u307e\u3044\u308a\u307e\u3057\u305f\u3002",
+                    "message_window_type": "",
+                    "message_arrow_1": "1",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "2",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "smug",
+                    "motion2": "",
+                    "motion3": "",
+                    "motion4": "",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u3053\u306e\u756a\u7d44\u306f\u308f\u305f\u304f\u3057\u3001\n\u8b1b\u5e2b\u306e\u5bae\u672c\u3068\u2026\u2026",
+                    "message_window_type": "",
+                    "message_arrow_1": "1",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "3",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "",
+                    "motion2": "happy",
+                    "motion3": "",
+                    "motion4": "",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u751f\u5f92\u306e\u305d\u3089\u3061\u3093\u3067\u3001\n\u308c\u3063\u3064\u3059\u305f\u3067\u3043\u30fc\u2606",
+                    "message_window_type": "",
+                    "message_arrow_1": "",
+                    "message_arrow_2": "1",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "4",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "smile_right",
+                    "motion2": "",
+                    "motion3": "",
+                    "motion4": "",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u65e9\u901f\u307e\u3044\u308a\u307e\u3057\u3087\u3046\uff01\n\u30bd\u30e9\u3061\u3083\u3093\u3001\n\u5148\u9031\u51fa\u3057\u305f\u5bbf\u984c\u306f\u3084\u3063\u3066\u304d\u305f\u304b\u306a\uff1f",
+                    "message_window_type": "",
+                    "message_arrow_1": "1",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "5",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "",
+                    "motion2": "smug",
+                    "motion3": "",
+                    "motion4": "",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u3046\u3093\uff01\u3000\u305d\u3089\u3061\u3093\u81ea\u4fe1\u3042\u308a\uff01\n\u3071\u30fc\u3075\u3047\u304f\u3068\u306a\u51fa\u6765\u3060\u3088\uff01",
+                    "message_window_type": "",
+                    "message_arrow_1": "",
+                    "message_arrow_2": "1",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "6",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "nod_smile",
+                    "motion2": "",
+                    "motion3": "",
+                    "motion4": "",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u3058\u3083\u3042\u7b54\u3048\u5408\u308f\u305b\u3001\u3044\u3063\u3066\u307f\u3088\u30fc\uff01\n\u3067\u3067\u3093\u3063\u266a",
+                    "message_window_type": "",
+                    "message_arrow_1": "1",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "7",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "joy",
+                    "motion2": "",
+                    "motion3": "",
+                    "motion4": "",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u300a\u554f\u984c\u300b\n\u7d05\u8449\u72e9\u308a\u306b\u6765\u305f\u30d5\u30ec\u3061\u3083\u3093\u3002\n\u305d\u3053\u3067\u7e70\u308a\u51fa\u3055\u308c\u308b\u5bae\u672c\u8a9e\u306f\uff1f",
+                    "message_window_type": "",
+                    "message_arrow_1": "1",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "8",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "",
+                    "motion2": "shout",
+                    "motion3": "",
+                    "motion4": "",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u306f\u3044\u3063\uff01\n\u300e\u3042\u304d\u304b\u305c\u2606\u3075\u3043\u3086\u3069\u3068\u3093\u306c\u300f\uff01",
+                    "message_window_type": "",
+                    "message_arrow_1": "",
+                    "message_arrow_2": "1",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "9",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "smile_right",
+                    "motion2": "",
+                    "motion3": "",
+                    "motion4": "",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u304a\u898b\u4e8b\uff01\u3000\u5927\u6b63\u89e3\u3060\u3088\uff5e\u3002",
+                    "message_window_type": "",
+                    "message_arrow_1": "1",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "10",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "shy",
+                    "motion2": "",
+                    "motion3": "",
+                    "motion4": "",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u3042\u307e\u308a\u306b\u3059\u3054\u3059\u304e\u3066\u3001\u5bae\u672c\u8b1b\u5e2b\u304c\n\u6559\u3048\u308b\u3053\u3068\u306f\u3001\u3082\u3046\u4f55\u3082\u306a\u3044\u304b\u3082\uff01",
+                    "message_window_type": "",
+                    "message_arrow_1": "1",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "11",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "",
+                    "motion2": "smile_left",
+                    "motion3": "",
+                    "motion4": "",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u306e\u3093\u306e\u3093\uff01\u3000\u3075\u308c\u3067\u308a\u304b\u8a9e\u306f\u3001\n\u3079\u308a\u30fc\u3044\u3093\u305f\u308c\u3059\u3066\u3043\u3093\u3050\uff01\n\u305d\u3089\u3061\u3093\u3001\u3082\u3063\u3068\u3082\u3063\u3068\u77e5\u308a\u305f\u3044\u3088\u2606",
+                    "message_window_type": "",
+                    "message_arrow_1": "",
+                    "message_arrow_2": "1",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "12",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "light_joy",
+                    "motion2": "",
+                    "motion3": "",
+                    "motion4": "",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u305d\u3063\u304b\u305d\u3063\u304b\u30fc\uff01\n\u3058\u3083\u3042\u3001\u3053\u308c\u304b\u3089\u3055\u3089\u306b\u4e0a\u7d1a\u306e\n\u5bae\u672c\u8a9e\u8b1b\u5ea7\u3078\u3068\u30ec\u30d9\u30eb\u30a2\u30c3\u30d7\u3060\u30fc\u2606",
+                    "message_window_type": "",
+                    "message_arrow_1": "1",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "13",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "",
+                    "motion2": "",
+                    "motion3": "in_walk",
+                    "motion4": "in_walk",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u30d5\u30ec\u30c7\u30ea\u30ab\u6559\u5b98\u6bbf\uff01\n\u3054\u7121\u6c99\u6c70\u3057\u3066\u304a\u308a\u307e\u3059\uff01",
+                    "message_window_type": "",
+                    "message_arrow_1": "",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "1",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "14",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "light_joy",
+                    "motion2": "",
+                    "motion3": "",
+                    "motion4": "",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u3053\u308c\u306f\u3053\u308c\u306f\u5352\u696d\u751f\u306e\u4e9c\u5b63\u6bbf\uff01\n\u5143\u6c17\u305d\u3046\u3067\u4f55\u3088\u308a\u3067\u3042\u308a\u307e\u3059\u266a",
+                    "message_window_type": "",
+                    "message_arrow_1": "1",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "15",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "",
+                    "motion2": "",
+                    "motion3": "smug",
+                    "motion4": "",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u306f\u3044\uff01\u3000\u3055\u3089\u306a\u308b\u30ec\u30d9\u30eb\u30a2\u30c3\u30d7\u3092\n\u3059\u308b\u3079\u304f\u3001\u3053\u306e\u5927\u548c\u4e9c\u5b63\u3001\n\u518d\u3073\u8a13\u7df4\u5834\u3078\u3068\u5e30\u3063\u3066\u307e\u3044\u308a\u307e\u3057\u305f\uff01",
+                    "message_window_type": "",
+                    "message_arrow_1": "",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "1",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "16",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "",
+                    "motion2": "",
+                    "motion3": "",
+                    "motion4": "smile_left",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u4e03\u6d77\u3082\u8b1b\u7fa9\u3092\u53d7\u3051\u306b\u304d\u307e\u3057\u305f\u3088\uff5e\u3002\n\u9762\u767d\u305d\u3046\u308c\u3059\u304b\u3089\uff5e\u3002",
+                    "message_window_type": "",
+                    "message_arrow_1": "",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "1",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "17",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "notice",
+                    "motion2": "",
+                    "motion3": "",
+                    "motion4": "",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u3080\u3080\u3063\u3001\u65b0\u5165\u751f\u3068\u306f\u65b0\u3057\u3044\u5c55\u958b\uff01\n\u679c\u305f\u3057\u3066\u3001\u30ad\u30df\u306b\u30d5\u30ec\u30c7\u30ea\u30ab\u8a9e\u3092\n\u7a76\u3081\u3089\u308c\u308b\u306e\u304b\u306a\uff1f",
+                    "message_window_type": "",
+                    "message_arrow_1": "1",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "18",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "",
+                    "motion2": "",
+                    "motion3": "light_joy",
+                    "motion4": "",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u305d\u3053\u306f\u79c1\u304b\u3089\u3054\u8aac\u660e\u3092\uff01\n\u4f55\u3092\u96a0\u305d\u3046\u3001\u3053\u306e\u4e03\u6d77\u6bbf\u306f\n\u305f\u3044\u305d\u3046\u535a\u8b58\u3067\u3042\u308a\u307e\u3057\u3066\uff01",
+                    "message_window_type": "",
+                    "message_arrow_1": "",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "1",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "19",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "",
+                    "motion2": "",
+                    "motion3": "smile_left",
+                    "motion4": "",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u4eca\u5f8c\u306e\u30d5\u30ec\u30c7\u30ea\u30ab\u8a9e\u7814\u7a76\u306b\n\u8ca2\u732e\u3057\u3066\u304f\u308c\u308b\u3053\u3068\u3001\n\u9593\u9055\u3044\u3042\u308a\u307e\u305b\u3093\uff01",
+                    "message_window_type": "",
+                    "message_arrow_1": "",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "1",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "20",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "",
+                    "motion2": "",
+                    "motion3": "",
+                    "motion4": "shy",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u3048\u3078\u3078\uff5e\u266a\n\u305d\u3093\u306a\u306b\u8912\u3081\u3089\u308c\u308b\u3068\u7167\u308c\u307e\u3059\u306d\uff5e\u3002",
+                    "message_window_type": "",
+                    "message_arrow_1": "",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "1",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "21",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "",
+                    "motion2": "joy",
+                    "motion3": "",
+                    "motion4": "",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u306a\u306a\u307f\u3061\u3083\u3093\u306f\u3001\u304a\u9b5a\u4ee5\u5916\u3067\u3082\n\u3068\u3063\u3066\u3082\u3059\u307e\u30fc\u3068\uff1f\n\u3059\u3063\u3054\u30fc\u3044\u2606",
+                    "message_window_type": "",
+                    "message_arrow_1": "",
+                    "message_arrow_2": "1",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "22",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "",
+                    "motion2": "",
+                    "motion3": "",
+                    "motion4": "smile_left",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u3044\u3048\u3044\u3048\uff5e\u3002\n\u57fa\u672c\u306f\u304a\u9b5a\u4e2d\u5fc3\u3067\n\u3084\u3089\u305b\u3066\u3044\u305f\u3060\u3044\u3066\u307e\u3059\u306d\uff5e\u3002",
+                    "message_window_type": "",
+                    "message_arrow_1": "",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "1",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "23",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "",
+                    "motion2": "",
+                    "motion3": "smug",
+                    "motion4": "",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u3057\u304b\u3057\uff01\u3000\u77e5\u8b58\u306f\u5fdc\u7528\u3057\u3066\u3053\u305d\u3067\u3059\uff01\n\u79c1\u3082\u3001\u81ea\u5206\u306e\u5f97\u610f\u5206\u91ce\u3092\u6d3b\u304b\u3057\u3066\n\u30d5\u30ec\u30c7\u30ea\u30ab\u8a9e\u3092\u4fee\u3081\u305f\u306e\u3067\u3059\u304b\u3089\uff01",
+                    "message_window_type": "",
+                    "message_arrow_1": "",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "1",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "24",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "",
+                    "motion2": "",
+                    "motion3": "",
+                    "motion4": "joy",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u305d\u308c\u306f\u3001\u3054\u3082\u3063\u3068\u3082\u308c\u3059\uff5e\u3002\n\u4e00\u898b\u30df\u30b9\u30de\u30c3\u30c1\u3067\u3082\u3001\u304d\u3061\u3093\u3068\n\u9069\u5fdc\u3067\u304d\u308b\u3063\u3066\u3053\u3068\u3082\u3042\u308a\u307e\u3059\u3057\u3002",
+                    "message_window_type": "",
+                    "message_arrow_1": "",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "1",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "25",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "",
+                    "motion2": "",
+                    "motion3": "",
+                    "motion4": "smile_left",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u4f8b\u3048\u3070\u3001\u304a\u9b5a\u3055\u3093\u306f\u3001\n\u3069\u3053\u306b\u4f4f\u3093\u3067\u308b\u3068\u601d\u3044\u307e\u3059\u304b\uff5e\uff1f",
+                    "message_window_type": "",
+                    "message_arrow_1": "",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "1",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "26",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "",
+                    "motion2": "nod",
+                    "motion3": "",
+                    "motion4": "",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u3093\u30fc\u3001\u5ddd\u2026\u2026\u6d77\u2026\u2026\u3002",
+                    "message_window_type": "",
+                    "message_arrow_1": "",
+                    "message_arrow_2": "1",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "27",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "",
+                    "motion2": "shout",
+                    "motion3": "",
+                    "motion4": "",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u308f\u304b\u3063\u305f\uff01\n\u300e\u6c34\u306e\u4e2d\u300f\u3067\u3075\u3041\u3044\u306a\u308b\u3042\u3093\u3055\u30fc\u2606",
+                    "message_window_type": "",
+                    "message_arrow_1": "",
+                    "message_arrow_2": "1",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "28",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "",
+                    "motion2": "",
+                    "motion3": "",
+                    "motion4": "light_joy",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u6b63\u89e3\u308c\u3059\uff01\u3000\u3057\u304b\u3057\u3001\n\u30dd\u30ea\u30d7\u30c6\u30eb\u30b9\u3055\u3093\u306f\u3001\u5b9f\u9a13\u306e\u7d50\u679c\u3001\n\u9678\u3067\u751f\u6d3b\u3067\u304d\u308b\u3053\u3068\u304c\u308f\u304b\u308a\u307e\u3057\u305f\u3002",
+                    "message_window_type": "",
+                    "message_arrow_1": "",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "1",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "29",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "",
+                    "motion2": "",
+                    "motion3": "",
+                    "motion4": "nod_smile",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u9678\u3067\u66ae\u3089\u3057\u3066\u3082\u3089\u3063\u305f\u7d50\u679c\u3001\n\u9aa8\u683c\u3082\u5909\u308f\u3063\u305f\u305d\u3046\u308c\u3059\u3088\uff5e\u3002",
+                    "message_window_type": "",
+                    "message_arrow_1": "",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "1",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "30",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "",
+                    "motion2": "",
+                    "motion3": "smile_right",
+                    "motion4": "",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u3064\u307e\u308a\u3001\u305d\u306e\u30dd\u30ea\u30d7\u30c6\u30eb\u30b9\u6bbf\u306e\u3088\u3046\u306b\n\u30d5\u30ec\u30c7\u30ea\u30ab\u8a9e\u306b\u3082\u9069\u5fdc\u3057\u3066\u307f\u305b\u308b\uff01\n\u305d\u308c\u304c\u4e03\u6d77\u6bbf\u306e\u5fc3\u610f\u6c17\u306a\u306e\u3067\u3059\u306a\uff01",
+                    "message_window_type": "",
+                    "message_arrow_1": "",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "1",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "31",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "",
+                    "motion2": "",
+                    "motion3": "",
+                    "motion4": "smug",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u305d\u306e\u901a\u308a\u308c\u3059\uff01\n\u3069\u3093\u306a\u30d5\u30ec\u30c7\u30ea\u30ab\u8a9e\u3067\u3082\n\u30c9\u30f3\u3068\u6765\u3066\u307b\u3057\u3044\u308c\u3059\u306d\uff5e\u3002",
+                    "message_window_type": "",
+                    "message_arrow_1": "",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "1",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "32",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "smile_right",
+                    "motion2": "",
+                    "motion3": "",
+                    "motion4": "",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u3088\u30fc\u3057\u3001\u305d\u308c\u3058\u3083\u3042\u3055\u3063\u305d\u304f\u3001\n\u307f\u3093\u306a\u306b\u554f\u984c\u3092\u51fa\u3057\u3066\u307f\u3088\u30fc\uff01\n\u3067\u306f\u2026\u2026\u3067\u3067\u3093\u3063\u266a",
+                    "message_window_type": "",
+                    "message_arrow_1": "1",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "33",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "nod_smile",
+                    "motion2": "",
+                    "motion3": "",
+                    "motion4": "",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u300a\u554f\u984c\u300b\n\u3042\u308b\u65e5\u3001\u4e8b\u52d9\u6240\u306b\u6765\u305f\u30d5\u30ec\u3061\u3083\u3093\u3002\n\u305d\u3053\u3067\u306f\u307f\u3093\u306a\u304c\u30ef\u30a4\u30ef\u30a4\u304a\u558b\u308a\uff01",
+                    "message_window_type": "",
+                    "message_arrow_1": "1",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "34",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "joy",
+                    "motion2": "",
+                    "motion3": "",
+                    "motion4": "",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u3055\u3066\u3001\u30d5\u30ec\u30c7\u30ea\u30ab\u6c0f\u306f\n\u3069\u3093\u306a\u98a8\u306b\u58f0\u3092\u304b\u3051\u308b\u3067\u3057\u3087\u30fc\u304b\uff01",
+                    "message_window_type": "",
+                    "message_arrow_1": "1",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "35",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "",
+                    "motion2": "",
+                    "motion3": "nod",
+                    "motion4": "",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u3046\u30fc\u3093\u2026\u2026\u3002\n\u300e\u826f\u304d\u30c7\u30ea\u30ab\u65e5\u548c\u3067\u3042\u308a\u307e\u3059\u306d\uff01\u300f\n\u3067\u3057\u3087\u3046\u304b\uff1f",
+                    "message_window_type": "",
+                    "message_arrow_1": "",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "1",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "36",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "",
+                    "motion2": "happy",
+                    "motion3": "",
+                    "motion4": "",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u300e\u307c\u3093\u3058\u3085\u30fc\u308b\uff01\u3000\n\u3000\u3075\u308c\u3075\u308c\u3059\u307e\u3044\u308b\u3092\u3075\u3049\u30fc\u3086\u30fc\u2606\u300f\n\u3068\u304b\u3082\u3001\u3069\u30fc\u304b\u306a\u3063\uff1f",
+                    "message_window_type": "",
+                    "message_arrow_1": "",
+                    "message_arrow_2": "1",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "37",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "smile_right",
+                    "motion2": "",
+                    "motion3": "",
+                    "motion4": "",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u3055\u3059\u304c\u5352\u696d\u751f\u3068\u73fe\u5f79\u751f\u5f92\uff01\n\u308f\u304b\u3063\u3066\u308b\u3063\u3066\u30ab\u30f3\u30b8\u3042\u308b\u3042\u308b\u2606",
+                    "message_window_type": "",
+                    "message_arrow_1": "1",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "38",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "light_joy",
+                    "motion2": "",
+                    "motion3": "",
+                    "motion4": "",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u3058\u3083\u3042\u7d9a\u3044\u3066\u306f\u671f\u5f85\u306e\u30eb\u30fc\u30ad\u30fc\u3001\n\u30ca\u30ca\u30df\u3061\u3083\u3093\u306e\u30bf\u30fc\u30f3\u3060\u3088\uff01",
+                    "message_window_type": "",
+                    "message_arrow_1": "1",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "39",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "",
+                    "motion2": "",
+                    "motion3": "",
+                    "motion4": "smug",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u306f\u3044\uff01\u3000\u4e03\u6d77\u306e\u7b54\u3048\u306f\u3053\u3046\u308c\u3059\u3002",
+                    "message_window_type": "",
+                    "message_arrow_1": "",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "1",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "40",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "",
+                    "motion2": "",
+                    "motion3": "",
+                    "motion4": "joy",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u304a\u3082\u3080\u308d\u306b\u9285\u947c\u3092\u6253\u3061\u9cf4\u3089\u3057\u3001\n\u300e\u30c9\u30e9\u30c9\u30e9\u30d5\u30d5\uff5e\u30f3\u30d5\u30ec\u30c7\u30ea\u30ab\uff5e\u266a\u300f\n\u3067\u3001\u3044\u304b\u304c\u308c\u3057\u3087\u3046\uff01",
+                    "message_window_type": "",
+                    "message_arrow_1": "",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "1",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "41",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "",
+                    "motion2": "",
+                    "motion3": "smile_right",
+                    "motion4": "",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u304a\u304a\uff01\u3000\u3055\u3059\u304c\u4e03\u6d77\u6bbf\u3067\u3059\u306a\u3002\n\u79c1\u306e\u76ee\u306b\u72c2\u3044\u306f\u306a\u304b\u3063\u305f\uff01\n\u4eca\u3001\u8a87\u3089\u3057\u3044\u6c17\u6301\u3061\u3067\u3044\u3063\u3071\u3044\u3067\u3059\uff01",
+                    "message_window_type": "",
+                    "message_arrow_1": "",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "1",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "42",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "nod_smile",
+                    "motion2": "",
+                    "motion3": "",
+                    "motion4": "",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u30db\u30f3\u30c8\u3060\u3088\u30fc\u3002\n\u30d5\u30ec\u30c7\u30ea\u30ab\u8a9e\u306e\u30b3\u30c4\u304c\u3042\u3063\u305f\u3089\n\u6559\u3048\u3066\u3057\u308b\u3076\u3077\u308c\uff5e\u2606",
+                    "message_window_type": "",
+                    "message_arrow_1": "1",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "43",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "",
+                    "motion2": "",
+                    "motion3": "",
+                    "motion4": "smile_left",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u3075\u3075\u3075\u2026\u3061\u3087\u3063\u3068\u3057\u305f\u5fdc\u7528\u308c\u3059\u306d\u3002\n\u4e03\u6d77\u306f\u3001\u304a\u9b5a\u3055\u3093\u305f\u3061\u3068\u8a71\u3059\u6642\u3092\n\u601d\u3044\u51fa\u3057\u3066\u3044\u305f\u306e\u308c\u3059\uff01",
+                    "message_window_type": "",
+                    "message_arrow_1": "",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "1",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "44",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "",
+                    "motion2": "notice",
+                    "motion3": "",
+                    "motion4": "",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u3048\u3063\uff01\uff1f\n\u306a\u306a\u307f\u3061\u3083\u3093\u3063\u3066\u304a\u9b5a\u8a9e\u3082\n\u3071\u30fc\u3075\u3047\u304f\u3068\uff01\uff1f",
+                    "message_window_type": "",
+                    "message_arrow_1": "",
+                    "message_arrow_2": "1",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "45",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "",
+                    "motion2": "",
+                    "motion3": "",
+                    "motion4": "deny",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u3044\u3048\u3001\u3055\u3059\u304c\u306b\u305d\u308c\u306f\u3067\u304d\u306a\u3044\u308c\u3059\u3002\n\u4e03\u6d77\u3068\u304a\u9b5a\u3055\u3093\u306f\u3001\n\u898b\u3064\u3081\u5408\u3046\u3060\u3051\u308c\u3059\u304b\u3089\u3002",
+                    "message_window_type": "",
+                    "message_arrow_1": "",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "1",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "46",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "",
+                    "motion2": "",
+                    "motion3": "light_joy",
+                    "motion4": "",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u306a\u308b\u307b\u3069\u3001\u89b3\u5bdf\u773c\u306e\u8cdc\u7269\u3067\u3057\u305f\u304b\uff01\n\u611b\u3092\u3082\u3063\u3066\u76f8\u624b\u3092\u898b\u3064\u3081\u308c\u3070\u3001\u9b5a\u3068\n\u4f1a\u8a71\u3067\u304d\u308b\u3082\u540c\u7136\u3068\u3044\u3046\u3053\u3068\u3067\u3059\u306a\u3002",
+                    "message_window_type": "",
+                    "message_arrow_1": "",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "1",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "47",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "smile_right",
+                    "motion2": "",
+                    "motion3": "",
+                    "motion4": "",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u304a\u9b5a\u8a9e\u3082\u30d5\u30ec\u30c7\u30ea\u30ab\u8a9e\u3082\u3001\n\u30b3\u30c4\u306f\u611b\u60c5\uff01\u3000\u3068\u3044\u3046\u3053\u3068\u3067\u3059\u306d\uff5e\u3002\n\u3059\u3063\u3054\u304f\u52c9\u5f37\u306b\u306a\u308a\u307e\u3057\u305f\u266a",
+                    "message_window_type": "",
+                    "message_arrow_1": "1",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "48",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "smug",
+                    "motion2": "",
+                    "motion3": "",
+                    "motion4": "",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u3055\u3066\u3001\u672c\u65e5\u306e\u57fa\u790e\u30d5\u30ec\u30c7\u30ea\u30ab\u8a9e\u8b1b\u5ea7\u306f\n\u7279\u5225\u30b2\u30b9\u30c8\u3092\u304a\u8fce\u3048\u3057\u3001\n\u30d5\u30ec\u30c7\u30ea\u30ab\u8a9e\u306e\u30b3\u30c4\u3092\u5b66\u3073\u307e\u3057\u305f\u3002",
+                    "message_window_type": "",
+                    "message_arrow_1": "1",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "49",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "shout",
+                    "motion2": "",
+                    "motion3": "",
+                    "motion4": "",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u305d\u3057\u3066\u6765\u9031\u304b\u3089\u306f\u3001\u6d45\u5229\u65b0\u4efb\u8b1b\u5e2b\u3068\n\u3068\u3082\u306b\u300e\u57fa\u790e\u304a\u9b5a\u30c7\u30ea\u30ab\u8a9e\u8b1b\u5ea7\u300f\u3092\n\u304a\u9001\u308a\u3057\u307e\u3059\u3002",
+                    "message_window_type": "",
+                    "message_arrow_1": "1",
+                    "message_arrow_2": "",
+                    "message_arrow_3": "",
+                    "message_arrow_4": "",
+                    "message_arrow_5": ""
+                }, {
+                    "id": "50",
+                    "refresh_room_id": "29",
+                    "idol_disp_1": "",
+                    "idol_disp_2": "",
+                    "idol_disp_3": "",
+                    "idol_disp_4": "",
+                    "idol_disp_5": "",
+                    "motion1": "joy",
+                    "motion2": "joy",
+                    "motion3": "joy",
+                    "motion4": "joy",
+                    "motion5": "",
+                    "bg_image": "",
+                    "message": "\u304a\u697d\u3057\u307f\u306b\uff5e\u266a",
+                    "message_window_type": "",
+                    "message_arrow_1": "1",
+                    "message_arrow_2": "1",
+                    "message_arrow_3": "1",
+                    "message_arrow_4": "1",
+                    "message_arrow_5": ""
+                }];
+                petitManager.loaded_action = function() {
+                    if (refreshRoom.is_multiply)
+                        $('.animation').css({
+                            zoom: "50%"
+                        });
+                    var margin = window.innerHeight - parseInt($('#bg_space > img').css('height'));
+                    if (margin > 0)
+                        $('#pageContainer').css({
+                            "margin-top": margin * 0.5
+                        });
+                    var $effect_container = $('.effect-container');
+                    var $dialogue = $('#dialogue');
+                    var dialogue_top = parseInt($dialogue.css('top'));
+                    var dialogue_ratio = refreshRoom.dialogue.scaleSizeCheck() / 320;
+                    $dialogue.css('top', dialogue_top * dialogue_ratio);
+                    if (!$effect_container.hasClass('large-size')) {
+                        $dialogue.css('top', dialogue_top * dialogue_ratio);
+                        var $animation = $('.animation:not(#dialogue)');
+                        var anime_top = parseInt($animation.css('top'));
+                        $animation.css('top', anime_top * dialogue_ratio);
+                    }
+                    $('#jsEyeCatch').hide();
+                    refreshRoom.dialogue.startSwf();
+                }
+                ;
+                petitManager.setWidth(refreshRoom.dialogue.scaleSizeCheck(refreshRoom.is_pc));
+                refreshRoom.bg_list = {
+                    "1": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frefresh_room%2Fbg%2Fbg1.jpg%3Fv%3D20190524145751",
+                    "": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frefresh_room%2Fbg%2Fbg.jpg%3Fv%3D19700101090000"
+                };
+                var image = new Image;
+                var multiply = refreshRoom.is_pc || window.devicePixelRatio >= 1.5 && !refreshRoom.old_os ? 0.5 : 1;
+                var size = refreshRoom.dialogue.scaleSizeCheck() * multiply;
+                var ratio = size / 320;
+                image.width = size;
+                var effect_container = $('.effect-container');
+                effect_container.css({
+                    width: size,
+                    height: size,
+                    bottom: parseInt(effect_container.css('bottom')) * ratio
+                });
+                image.onload = function() {
+                    $('#bg_space').append(image);
+                    var height = $(this).css('height');
+                    $(this).parent().css('height', height);
+                    $(image).css('top', parseInt($(image).css('top')) * ratio);
+                    $('#name-plate').css({
+                        "-webkit-transform": "scale(" + ratio + ")"
+                    })
+                    petitManager.setCharacters(refreshRoom.data.idol_avatar);
+                    refreshRoom.dialogue.setMotion();
+                }
+                image.src = refreshRoom.bg_list[refreshRoom.detail[0].bg_image];
+                //console.log(refreshRoom);
+            }
+            )();
+            function playText() {
+                if (window.refreshRoom == void 0)
+                    return;
+                refreshRoom.dialogue.comment_deferred.resolve();
+            }
+            function motion_callback(index, motion) {
+                var motion_end = refreshRoom.dialogue.walking == 0;
+                if (motion.indexOf("in_walk") > -1) {
+                    if (refreshRoom.dialogue.walking) {
+                        if (--refreshRoom.dialogue.walking > 0) {
+                            motion_end = false;
+                        } else {
+                            motion_end = true;
+                        }
+                    }
+                }
+                var filtered_plate = $('.plate-area[rel=' + index + ']');
+                if (filtered_plate.css('display') == 'none')
+                    filtered_plate.show();
+                if (motion_end) {
+                    if (refreshRoom.dialogue.motion_wait) {
+                        $('#next').trigger('click');
+                    }
+                    refreshRoom.dialogue.motion_wait = false;
+                }
+            }
+        </script>
+        <style></style>
+    </body>
+</html>

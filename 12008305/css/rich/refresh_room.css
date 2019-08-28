@@ -1,0 +1,422 @@
+@charset "UTF-8";
+.large {
+	font-size: 22px
+}
+.small {
+	font-size: 10px
+}
+.red {
+	color: #ff0000
+}
+.red_mild {
+	color: #ff3333
+}
+.green {
+	color: #33ff33
+}
+.yellow {
+	color: #ff9900
+}
+.lemon_yellow {
+	color: #fff800
+}
+.blue {
+	color: #00ccff
+}
+.blue_st {
+	color: #0066ff
+}
+.gray {
+	color: #aaaaaa
+}
+.pink {
+	color: #f08080
+}
+.dark_gray {
+	color: #666666
+}
+.white {
+	color: #ffffff;
+	text-decoration: none
+}
+.defMargin {
+	width: 296px;
+	padding: 0 12px
+}
+.m-Btm0 {
+	margin-bottom: 0px
+}
+.m-Btm4 {
+	margin-bottom: 4px
+}
+.m-Btm5 {
+	margin-bottom: 5px
+}
+.m-Btm8 {
+	margin-bottom: 8px
+}
+.m-Btm10 {
+	margin-bottom: 10px
+}
+.m-Btm12 {
+	margin-bottom: 12px
+}
+.m-Btm15 {
+	margin-bottom: 15px
+}
+.m-Btm20 {
+	margin-bottom: 20px
+}
+.m-Top4 {
+	margin-top: 4px
+}
+.m-Top5 {
+	margin-top: 5px
+}
+.m-Top8 {
+	margin-top: 8px
+}
+.m-Top10 {
+	margin-top: 10px
+}
+.m-Top12 {
+	margin-top: 12px
+}
+.m-Head_img {
+	margin-top: -14px
+}
+.m-Cnt {
+	margin-left: auto;
+	margin-right: auto
+}
+.t-Lft {
+	text-align: left !important
+}
+.t-Rgt {
+	text-align: right !important
+}
+.t-Cnt {
+	text-align: center !important
+}
+.left_float {
+	float: left
+}
+.right_float {
+	float: right
+}
+.displayBox {
+	display: -webkit-box;
+	display: -moz-box;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto
+}
+.v-Top {
+	vertical-align: top
+}
+.v-Mdl {
+	vertical-align: middle
+}
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: block
+}
+.l-Hgt120 {
+	line-height: 120%
+}
+.l-Hgt140 {
+	line-height: 140%
+}
+body#refresh_room {
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fmypage_new%2Fbg%2Fbg_status_mypage_01.png%3F1487720324);
+	background-size: 7px 7px
+}
+#animation-container {
+	overflow: hidden
+}
+@-webkit-keyframes nextanime {
+	0% {
+		right: 5px;
+		bottom: 10px
+	}
+	50% {
+		right: 9px;
+		bottom: 14px
+	}
+	100% {
+		right: 5px;
+		bottom: 10px
+	}
+}
+@-webkit-keyframes nextanimez {
+	0% {
+		right: 5px;
+		bottom: 8px
+	}
+	50% {
+		right: 9px;
+		bottom: 12px
+	}
+	100% {
+		right: 5px;
+		bottom: 8px
+	}
+}
+@-webkit-keyframes nextanimel {
+	0% {
+		right: 5px;
+		bottom: 4px
+	}
+	50% {
+		right: 9px;
+		bottom: 8px
+	}
+	100% {
+		right: 5px;
+		bottom: 4px
+	}
+}
+#pageContainer {
+	margin: 0 auto;
+	position: relative
+}
+#pageContainer .next {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 100
+}
+#pageContainer .next::before {
+	position: absolute;
+	content: "";
+	width: 12px;
+	height: 12px;
+	background-size: 12px;
+	background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frefresh_room%2Farrow.png%3F1558677471);
+	bottom: 8px;
+	right: 5px;
+	display: none;
+	z-index: 100;
+	-webkit-animation-duration: 600ms;
+	-webkit-animation-name: nextanime;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-iteration-count: infinite
+}
+#pageContainer .next.zoom-size::before {
+	width: 26px;
+	height: 26px;
+	background-size: 26px;
+	bottom: 12px;
+	right: 10px;
+	-webkit-animation-name: nextanimez
+}
+#pageContainer .next.large-size::before {
+	-webkit-animation-name: nextanimel
+}
+#pageContainer .next.show-arrow::before {
+	display: block
+}
+#pageContainer .comment-container {
+	position: absolute;
+	top: 36px;
+	left: 30px;
+	font-size: 13px;
+	color: #1d1d1d;
+	font-weight: bold;
+	letter-spacing: 2px;
+	overflow: visible;
+	white-space: nowrap;
+	font-family: Helvetica, Arial, "ヒラギノ角ゴ ProN W3", "モリサワ 新ゴ R", Droid Sans, "メイリオ", sans-serif
+}
+#pageContainer a {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+#pageContainer .effect-container {
+	position: absolute;
+	bottom: 34px
+}
+#pageContainer .effect-container .animation {
+	position: absolute;
+	overflow: hidden;
+	top: -20px
+}
+#pageContainer .effect-container .animation#dialogue {
+	top: 6px
+}
+#pageContainer .effect-container.large-size {
+	bottom: 50px
+}
+#pageContainer .effect-container.large-size #dialogue {
+	top: 9px
+}
+#pageContainer .effect-container.large-size #animation-container .animation {
+	top: -8px;
+	bottom: inherit
+}
+#pageContainer .effect-container.large-size .comment-container {
+	top: 35px
+}
+#pageContainer #bg_space {
+	overflow: hidden
+}
+#pageContainer #bg_space.large-size img {
+	-webkit-transform: scale(1.323);
+	position: relative;
+	top: -22px
+}
+#pageContainer #name-plate {
+	position: absolute;
+	bottom: 0
+}
+#pageContainer #name-plate .plate-area {
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: 35px;
+	display: none
+}
+#pageContainer #name-plate .plate-area::after {
+	position: absolute;
+	content: "";
+	display: block;
+	background-color: rgba(0, 0, 0, 0.5);
+	-webkit-transform: skew(4deg, -4deg);
+	width: 60px;
+	height: 24px;
+	top: 2px;
+	left: 1px
+}
+#pageContainer #name-plate .plate-area.talking:after {
+	background-color: inherit
+}
+#pageContainer #name-plate .plate-area .plate {
+	width: 64px
+}
+#pageContainer #name-plate.large-size .plate-area {
+	bottom: 8px
+}
+#pageContainer #name-plate.large-size .plate-area .plate {
+	width: 98px
+}
+#pageContainer #name-plate.large-size .plate-area::after {
+	width: 92px;
+	height: 36px;
+	top: 3px
+}
+#pageContainer #name-plate[rel="1"] .plate-area[rel="1"] {
+	left: 112px
+}
+#pageContainer #name-plate[rel="2"] .plate-area[rel="1"] {
+	left: 44px
+}
+#pageContainer #name-plate[rel="2"] .plate-area[rel="2"] {
+	left: 173px
+}
+#pageContainer #name-plate[rel="3"] .plate-area[rel="1"] {
+	left: 8px
+}
+#pageContainer #name-plate[rel="3"] .plate-area[rel="2"] {
+	left: 109px
+}
+#pageContainer #name-plate[rel="3"] .plate-area[rel="3"] {
+	left: 209px
+}
+#pageContainer #name-plate[rel="4"] .plate-area[rel="1"] {
+	left: 16px
+}
+#pageContainer #name-plate[rel="4"] .plate-area[rel="2"] {
+	left: 91px
+}
+#pageContainer #name-plate[rel="4"] .plate-area[rel="3"] {
+	left: 166px
+}
+#pageContainer #name-plate[rel="4"] .plate-area[rel="4"] {
+	left: 240px
+}
+#pageContainer #name-plate[rel="5"] .plate-area[rel="1"] {
+	left: 0px
+}
+#pageContainer #name-plate[rel="5"] .plate-area[rel="2"] {
+	left: 64px
+}
+#pageContainer #name-plate[rel="5"] .plate-area[rel="3"] {
+	left: 128px
+}
+#pageContainer #name-plate[rel="5"] .plate-area[rel="4"] {
+	left: 192px
+}
+#pageContainer #name-plate[rel="5"] .plate-area[rel="5"] {
+	left: 256px
+}
+#refresh_link_list {
+	width: 280px;
+	margin-left: auto;
+	margin-right: auto
+}
+#refresh_link_list .refresh_link {
+	position: relative;
+	margin-bottom: 8px;
+	text-decoration: none;
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frefresh_room%2Fsprite-s1d4fa3c422.png%3F1558677471) no-repeat 0 0;
+	-webkit-background-size: 280px 89px;
+	background-size: 280px 89px;
+	width: 280px;
+	height: 44px
+}
+#refresh_link_list .refresh_link:before {
+	display: block;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frefresh_room%2Fsprite-s1d4fa3c422.png%3F1558677471) no-repeat 0 -45px;
+	-webkit-background-size: 280px 89px;
+	background-size: 280px 89px;
+	width: 280px;
+	height: 44px;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2
+}
+#refresh_link_list .refresh_link .refresh_link_value {
+	height: 44px;
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 11px;
+	line-height: 140%;
+	padding-left: 16px;
+	color: #ffffff;
+	text-shadow: 0px 0px 3px #341d03, 0px 0px 3px #341d03, 0px 0px 3px #341d03, 0px 0px 3px #341d03, 0px 0px 3px #341d03, 0px 0px 3px #341d03, 0px 0px 3px #341d03, 0px 0px 3px #341d03
+}
+#refresh_link_list .refresh_link .refresh_link_img {
+	width: 128px;
+	height: 36px;
+	position: absolute;
+	top: 3px;
+	right: 4px;
+	z-index: 1
+}
+#refresh_link_list .refresh_link .refresh_link_new {
+	width: 23px;
+	height: 23px;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fmypage_new%2Fsprite%2Fbtn%2Fnew_icon_img.png%3F1487720325) no-repeat;
+	background-size: 23px 23px;
+	position: absolute;
+	top: -6px;
+	left: -6px;
+	z-index: 3
+}
+#jsEyeCatch {
+	width: 100%;
+	height: 100%;
+	z-index: 10000;
+	position: absolute;
+	background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fpetit_cg%2Fui%2Fsprite%2Floading%2Floading_bg.png%3F1487720307);
+	background-size: 50%;
+	text-align: center;
+	overflow: hidden;
+	top: 0
+}
