@@ -672,10 +672,22 @@
                       </div>
                 </h3>
 
-                <div class="area-btn-common _base-width">
-                    <a href='https://furiousjhin.github.io/album/memory/1225/2019/1/' class="btn_normal_line_2 m-Top12 m-Btm12">크리스마스 약속</a>
-                    <a href='https://furiousjhin.github.io/album/memory/1225/2019/2/' class="btn_normal_line_2 m-Top12 m-Btm12">크리스마스 당일</a>
-                </div>
+                <form method="get">
+
+                  <input type="text" id="producer_name" placeholder="※사용할 프로듀서의 이름을 입력하세요" value='' name="pro" class="search_text_1 m-Cnt m-Btm8">
+
+                  <div class="area-btn-common _base-width m-Btm8">
+                    <label class="btn_normal_line_2">
+                      <input type="submit" value="크리스마스 약속" class="" onclick="javascript: form.action='https://furiousjhin.github.io/album/memory/1225/2019/1/';"/>
+                    </label>
+                    <label class="btn_normal_line_2">
+                      <input type="submit" value="크리스마스 당일" class="" onclick="javascript: form.action='https://furiousjhin.github.io/album/memory/1225/2019/2/';"/>
+                    </label>
+
+                  </div>
+
+                </form>
+
               </div>
 
               <div id="area_tab_6" class="t-Cnt" style="display:none">
