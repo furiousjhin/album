@@ -90,6 +90,7 @@
       var producer = getParameterByName('pro') + " ";
       var firstIndex = getParameterByName('index') + "";
       var firstSlide = getParameterByName('slide') + "";
+      var firstTab = getParameterByName('tab') + "";
 
       if(producer == " ")
       {
@@ -334,14 +335,15 @@
                               <option value="3">로얄 연출 모음</option>
                               <option value="4">신데렐라 걸즈 극장</option>
                               <option value="5">크리스마스 에피소드</option>
-                              <option value="6">발렌타인 에피소드</option>
-                              <option value="7">화이트데이 에피소드</option>
-                              <option value="8">유닛 연출 모음</option>
-                              <option value="9">생일 연출 모음</option>
-                              <option value="10">총선 투표 대사</option>
-                              <option value="11">획득 연출 모음</option>
-                              <option value="12">친애도 상승 연출 모음</option>
-                              <option value="13">프로듀서 이름 입력</option>
+                              <option value="6">새해 에피소드</option>
+                              <option value="7">발렌타인 에피소드</option>
+                              <option value="8">화이트데이 에피소드</option>
+                              <option value="9">유닛 연출 모음</option>
+                              <option value="10">생일 연출 모음</option>
+                              <option value="11">총선 투표 대사</option>
+                              <option value="12">획득 연출 모음</option>
+                              <option value="13">친애도 상승 연출 모음</option>
+                              <option value="14">프로듀서 이름 입력</option>
                           </select>
                           <a id="jsAreaSwitchBtn" class="btn_decision_sub_line_3">
                               선택
@@ -691,6 +693,444 @@
               </div>
 
               <div id="area_tab_6" class="t-Cnt" style="display:none">
+                <!--새해 페이지 스타일-->
+                <style>
+                    body {
+                        background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fmypage_new%2Fbg%2Fbg_status_mypage_01.png%3Fv%3D20101001000000);
+                        background-size: 7px 7px;
+                    }
+
+                    a {
+                        text-decoration: none;
+                    }
+
+                    .bg_img {
+                        background: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fnewyear%2F2020%2Fbg.jpg%3Fv%3D20191227144639);
+                        background-size: 14px 14px;
+                    }
+
+                    .year_header {
+                        width: 320px;
+                        height: 140px;
+                        background: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fnewyear%2F2020%2Ftop_1.jpg%3Fv%3D20191227144640) no-repeat;
+                        background-size: 320px 140px;
+                        position: relative;
+                        margin-top: -14px;
+                    }
+
+                    .year_header._result {
+                        background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fnewyear%2F2020%2Ftop_2.jpg%3Fv%3D20191227144640);
+                    }
+
+                    .wrap_idol_img {
+                        width: 320px;
+                        height: 140px;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        overflow: hidden;
+                    }
+
+                    .year_header .idol_img {
+                        width: 200px;
+                        position: absolute;
+                        top: -24px;
+                        left: -18px;
+                    }
+
+                    .year_header .top_link {
+                        position: absolute;
+                        top: 91px;
+                        right: 8px;
+                    }
+
+                    .year_header .idol_name {
+                        width: 140px;
+                        height: 56px;
+                        background: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fnewyear%2F2020%2Fframe_name.png%3Fv%3D20191227144640) no-repeat;
+                        background-size: 140px 56px;
+                        position: absolute;
+                        top: 32px;
+                        right: 20px;
+                    }
+
+                    .year_header .idol_name .idol_name_img {
+                        position: absolute;
+                        top: 18px;
+                        left: 0;
+                        right: 0;
+                        margin: auto;
+                    }
+
+                    .idol_area {
+                        width: 304px;
+                        border-image: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fnewyear%2F2020%2Fframe.png%3Fv%3D20191227144640) 20 fill stretch;
+                        -webkit-border-image: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fnewyear%2F2020%2Fframe.png%3Fv%3D20191227144640) 20 stretch;
+                        border-style: solid;
+                        border-width: 10px;
+                        box-sizing: border-box;
+                        position: relative;
+                    }
+
+                    .in_wrap {
+                        width: 288px;
+                        margin: -2px 0 0 -2px;
+                    }
+
+                    .idol_list {
+                        width: 280px;
+                        overflow: hidden;
+                        margin-bottom: 18px;
+                    }
+
+                    .idol_list_title {
+                        position: absolute;
+                        top: -18px;
+                        left: 0;
+                        right: 0;
+                        margin: auto;
+                    }
+
+                    .idol_list ul {
+                        width: 288px;
+                        margin-top: 10px;
+                    }
+
+                    .idol_list li {
+                        float: left;
+                        margin: 8px 8px 0 0;
+                        width: 88px;
+                        height: 100px;
+                        background: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fnewyear%2F2020%2Fidol_bg.png%3Fv%3D20191227144640) no-repeat;
+                        background-size: 88px 100px;
+                        position: relative;
+                        overflow: hidden;
+                    }
+
+                    .idol_list li:after {
+                        content: '';
+                        display: block;
+                        width: 88px;
+                        height: 100px;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        pointer-events: none;
+                        background: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fnewyear%2F2020%2Fidol_frame.png%3Fv%3D20191227144640) no-repeat;
+                        background-size: 88px 100px;
+                    }
+
+                    .idol_elem {
+                        display: block;
+                        width: 88px;
+                        height: 100px;
+                    }
+
+                    .idol_elem img {
+                        position: absolute;
+                        top: -10px;
+                        left: -11px;
+                        width: 110px;
+                    }
+
+                    .idol_name {
+                        position: absolute;
+                        top: 68px;
+                        width: 100%;
+                        height: 18px;
+                        line-height: 18px;
+                        color: #fff;
+                        text-align: center;
+                        z-index: 1;
+                        font-size: 11px;
+                    }
+
+                    .idol_name._cute {
+                        text-shadow: 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073;
+                    }
+
+                    .idol_name._cool {
+                        text-shadow: 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff;
+                    }
+
+                    .idol_name._passion {
+                        text-shadow: 0px 0px 3px #ff6500, 0px 0px 3px #ff6500, 0px 0px 3px #ff6500, 0px 0px 3px #ff6500, 0px 0px 3px #ff6500, 0px 0px 3px #ff6500, 0px 0px 3px #ff6500, 0px 0px 3px #ff6500;
+                    }
+
+                    .idol_name._trainer {
+                        text-shadow: 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421;
+                    }
+
+                    .year_pager {
+                        background-color: #ffeef4;
+                        color: #451901;
+                        width: 292px;
+                        margin-left: -4px;
+                        margin-bottom: -4px;
+                        padding-bottom: 4px;
+                        padding-top: 11px;
+                        border-radius: 0px 0px 8px 8px;
+                    }
+
+                    .result_idol_select {
+                        width: 282px;
+                        overflow: hidden;
+                        margin-bottom: 4px;
+                    }
+
+                    .result_idol_select ul {
+                        width: 290px;
+                        margin-top: 6px;
+                    }
+
+                    .result_idol_select li {
+                        float: left;
+                        margin: 0 6px 10px 0;
+                        width: 66px;
+                    }
+
+                    .result_idol_select li img {
+                        width: 64px;
+                        border: 1px solid #1d1d1d;
+                    }
+                </style>
+
+                <h3 class="title_hanyo m-Top8 m-Btm8">
+                      <div style="font-size:14px;">
+                        2020년 새해
+                      </div>
+                </h3>
+                <br>
+                <br>
+
+                <div class="bg_img">
+                    <div class="year_header _result">
+                        <div class="wrap_idol_img">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fnewyear%2F2020%2Fidol%2F31.png%3Fv%3D20191227144640' class="idol_img">
+                        </div>
+                        <div class="idol_name">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fidol_name%2Fs%2F31.png%3Fv%3D20190524145720' height="26" class="idol_name_img">
+                        </div>
+                        <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fselect_idol%3Fl_frm%3DNew_year_select_card_1%26rnd%3D985373092' class="top_link jsOnDesignBtn">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fnewyear%2F2020%2Fbutton.png%3Fv%3D20191227144639' width="56" height="32">
+                        </a>
+                    </div>
+                    <div class="idol_area m-Cnt t-Cnt">
+                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fnewyear%2F2020%2Ftext.png%3Fv%3D20191227144640' width="192" height="20" class="idol_list_title">
+                        <div class="result_idol_select m-Cnt">
+                            <ul>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2F1593bfefaa649ce28d0b586bbcee2c81%2F0%3Fl_frm%3DNew_year_select_card_1%26rnd%3D383959231' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fs%2F1593bfefaa649ce28d0b586bbcee2c81.jpg%3Fv%3D20101001000000'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2Ff80b6b94319b514fc4da98bd63edf140%2F0%3Fl_frm%3DNew_year_select_card_1%26rnd%3D802864926' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fs%2Ff80b6b94319b514fc4da98bd63edf140.jpg%3Fv%3D20101001000000'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2F653b56a1fafbb180fe1bc54e289e6168%2F0%3Fl_frm%3DNew_year_select_card_1%26rnd%3D498329783' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fs%2F653b56a1fafbb180fe1bc54e289e6168.jpg%3Fv%3D20101001000000'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2F8e14eb789abc0919c31084da84df7dfd%2F0%3Fl_frm%3DNew_year_select_card_1%26rnd%3D48680194' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fs%2F8e14eb789abc0919c31084da84df7dfd.jpg%3Fv%3D20101001000000'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2F8b2b95f91390863d0aefcce275216963%2F0%3Fl_frm%3DNew_year_select_card_1%26rnd%3D762370134' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fs%2F8b2b95f91390863d0aefcce275216963.jpg%3Fv%3D20190524145613'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2Ff34fc01bea3aa407c5ce2a6d3f9bd90d%2F0%3Fl_frm%3DNew_year_select_card_1%26rnd%3D323241665' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fs%2Ff34fc01bea3aa407c5ce2a6d3f9bd90d.jpg%3Fv%3D20190524145613'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2F34737f9a6191d680210d76b9d8ba9874%2F0%3Fl_frm%3DNew_year_select_card_1%26rnd%3D165292620' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fs%2F34737f9a6191d680210d76b9d8ba9874.jpg%3Fv%3D20190524145613'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2Fa60c0162b8daf326ed298d470ef883a2%2F0%3Fl_frm%3DNew_year_select_card_1%26rnd%3D915936570' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fs%2Fa60c0162b8daf326ed298d470ef883a2.jpg%3Fv%3D20190524145613'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2F04b1bbc35c958d5b9415e1421c6e3dd0%2F0%3Fl_frm%3DNew_year_select_card_1%26rnd%3D992982493' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fs%2F04b1bbc35c958d5b9415e1421c6e3dd0.jpg%3Fv%3D20190524145613'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2F2781e8dc46ae2017f26eb9c1fc92e53d%2F0%3Fl_frm%3DNew_year_select_card_1%26rnd%3D508894067' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fs%2F2781e8dc46ae2017f26eb9c1fc92e53d.jpg%3Fv%3D20190524145613'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2F98ba7be0650ef8626d67e2402aa665eb%2F0%3Fl_frm%3DNew_year_select_card_1%26rnd%3D985191456' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard_sign_b%2Fs%2F98ba7be0650ef8626d67e2402aa665eb.jpg%3Fv%3D20101001000000'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2F85c3f8d385513b9044698c7bd20056de%2F0%3Fl_frm%3DNew_year_select_card_1%26rnd%3D813057036' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard_sign_b%2Fs%2F85c3f8d385513b9044698c7bd20056de.jpg%3Fv%3D20101001000000'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2F731660756ad8c37fca4639324f94cd3e%2F0%3Fl_frm%3DNew_year_select_card_1%26rnd%3D93421081' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard_sign_b%2Fs%2F731660756ad8c37fca4639324f94cd3e.jpg%3Fv%3D20101001000000'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2Ff8a00b18927c827e005cb9e6f6dd68a4%2F0%3Fl_frm%3DNew_year_select_card_1%26rnd%3D340732388' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard_sign_b%2Fs%2Ff8a00b18927c827e005cb9e6f6dd68a4.jpg%3Fv%3D20101001000000'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2Fd05bfa40e5b0eea86f7dc67e65d3b5cd%2F0%3Fl_frm%3DNew_year_select_card_1%26rnd%3D682565885' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard_sign_b%2Fs%2Fd05bfa40e5b0eea86f7dc67e65d3b5cd.jpg%3Fv%3D20101001000000'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2Fc2e4546518d66324acc7e20c0296ea51%2F0%3Fl_frm%3DNew_year_select_card_1%26rnd%3D199423470' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard_sign_b%2Fs%2Fc2e4546518d66324acc7e20c0296ea51.jpg%3Fv%3D20101001000000'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2Fe137e975aa7d8f98998afd46715f9a04%2F0%3Fl_frm%3DNew_year_select_card_1%26rnd%3D423230863' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard_sign_b%2Fs%2Fe137e975aa7d8f98998afd46715f9a04.jpg%3Fv%3D20101001000000'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2F2302f78e3b6c45755ac806fcda036bf7%2F0%3Fl_frm%3DNew_year_select_card_1%26rnd%3D175844595' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard_sign_b%2Fs%2F2302f78e3b6c45755ac806fcda036bf7.jpg%3Fv%3D20101001000000'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2F3c65d08696e1a10087ad8c9f7c8460ce%2F0%3Fl_frm%3DNew_year_select_card_1%26rnd%3D142405705' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard_sign_b%2Fs%2F3c65d08696e1a10087ad8c9f7c8460ce.jpg%3Fv%3D20101001000000'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2F5196bf41a2d9d73524e78bd6164559e5%2F0%3Fl_frm%3DNew_year_select_card_1%26rnd%3D685451557' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard_sign_b%2Fs%2F5196bf41a2d9d73524e78bd6164559e5.jpg%3Fv%3D20101001000000'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2Fcf269d80bd21af84f56b57b48d21388d%2F20%3Fl_frm%3DNew_year_select_card_1%26rnd%3D10789422' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard_sign_b%2Fs%2Fcf269d80bd21af84f56b57b48d21388d.jpg%3Fv%3D20101001000000'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2F5c4c3e1c99e854f47febc5ef5ae40d74%2F20%3Fl_frm%3DNew_year_select_card_1%26rnd%3D519244630' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard_sign_b%2Fs%2F5c4c3e1c99e854f47febc5ef5ae40d74.jpg%3Fv%3D20101001000000'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2Fa86180b82411166bce9e0ee90f02b578%2F20%3Fl_frm%3DNew_year_select_card_1%26rnd%3D128980643' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard_sign_b%2Fs%2Fa86180b82411166bce9e0ee90f02b578.jpg%3Fv%3D20101001000000'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2F1570d7a1a0edd19717633e5df8c19842%2F20%3Fl_frm%3DNew_year_select_card_1%26rnd%3D425433168' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard_sign_b%2Fs%2F1570d7a1a0edd19717633e5df8c19842.jpg%3Fv%3D20101001000000'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2F1a58043805ce26870464007a4c92eb3d%2F20%3Fl_frm%3DNew_year_select_card_1%26rnd%3D41978120' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard_sign_b%2Fs%2F1a58043805ce26870464007a4c92eb3d.jpg%3Fv%3D20101001000000'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2F9115963613f19ebcacb3378f581f8246%2F20%3Fl_frm%3DNew_year_select_card_1%26rnd%3D592837843' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard_sign_b%2Fs%2F9115963613f19ebcacb3378f581f8246.jpg%3Fv%3D20101001000000'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2F3815832491e393399209a0b9ae0e56ef%2F20%3Fl_frm%3DNew_year_select_card_1%26rnd%3D717129979' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard_sign_b%2Fs%2F3815832491e393399209a0b9ae0e56ef.jpg%3Fv%3D20101001000000'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2F235d561428433ff56c4f2debd8316d7d%2F20%3Fl_frm%3DNew_year_select_card_1%26rnd%3D256160551' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard_sign_b%2Fs%2F235d561428433ff56c4f2debd8316d7d.jpg%3Fv%3D20101001000000'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2F1189876e0b701fb5f80f8f4a36a19c87%2F20%3Fl_frm%3DNew_year_select_card_1%26rnd%3D115625920' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard_sign_b%2Fs%2F1189876e0b701fb5f80f8f4a36a19c87.jpg%3Fv%3D20101001000000'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2Fab148b33c781fb0345cd41403adb0424%2F20%3Fl_frm%3DNew_year_select_card_1%26rnd%3D421318582' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard_sign_b%2Fs%2Fab148b33c781fb0345cd41403adb0424.jpg%3Fv%3D20101001000000'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2F610702181bdfb81ec803df4813886aee%2F20%3Fl_frm%3DNew_year_select_card_1%26rnd%3D117700404' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard_sign_b%2Fs%2F610702181bdfb81ec803df4813886aee.jpg%3Fv%3D20101001000000'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2F09346bd07794d16a01ebdf62ea8fd570%2F20%3Fl_frm%3DNew_year_select_card_1%26rnd%3D248257998' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard_sign_b%2Fs%2F09346bd07794d16a01ebdf62ea8fd570.jpg%3Fv%3D20101001000000'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2F6e8aaf2b95c25749c3b0e0cb30c387ec%2F20%3Fl_frm%3DNew_year_select_card_1%26rnd%3D444828754' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard_sign_b%2Fs%2F6e8aaf2b95c25749c3b0e0cb30c387ec.jpg%3Fv%3D20190524145622'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2F89e0c550a69afb655275039c74cb0b2b%2F20%3Fl_frm%3DNew_year_select_card_1%26rnd%3D879529113' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard_sign_b%2Fs%2F89e0c550a69afb655275039c74cb0b2b.jpg%3Fv%3D20190524145622'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2Fc1cf7bb9bba48f1c55c2a886b3ca07da%2F20%3Fl_frm%3DNew_year_select_card_1%26rnd%3D643381783' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard_sign_b%2Fs%2Fc1cf7bb9bba48f1c55c2a886b3ca07da.jpg%3Fv%3D20190524145622'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2F135c78249734a3b98154f662adb4b623%2F20%3Fl_frm%3DNew_year_select_card_1%26rnd%3D373575229' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard_sign_b%2Fs%2F135c78249734a3b98154f662adb4b623.jpg%3Fv%3D20190524145622'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2F6db8d87d4b49b2e24086ff0bf2131181%2F20%3Fl_frm%3DNew_year_select_card_1%26rnd%3D640162795' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard_sign_b%2Fs%2F6db8d87d4b49b2e24086ff0bf2131181.jpg%3Fv%3D20190524145622'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2Ff19dab62490f2077f55a56b69048d054%2F20%3Fl_frm%3DNew_year_select_card_1%26rnd%3D756678565' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard_sign_b%2Fs%2Ff19dab62490f2077f55a56b69048d054.jpg%3Fv%3D20190524145622'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2Fd543f740f1c4ea3826fb5fdd19f5923e%2F20%3Fl_frm%3DNew_year_select_card_1%26rnd%3D752148132' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard_sign_b%2Fs%2Fd543f740f1c4ea3826fb5fdd19f5923e.jpg%3Fv%3D20190630144640'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fnew_year%2Fmovie%2F1cbd5358e5b8d5a0f3c77f6f04acfe65%2F20%3Fl_frm%3DNew_year_select_card_1%26rnd%3D43611488' class="jsOnDesignBtn">
+                                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard_sign_b%2Fs%2F1cbd5358e5b8d5a0f3c77f6f04acfe65.jpg%3Fv%3D20190630144640'>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="information_light infortext m-Top12 m-Btm10">
+                        <p>・アルバム登録済みアイドルのみ選択が可能です。</p>
+                    </div>
+                    <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fnewyear%2F2020%2Ffooter.png%3Fv%3D20191227144639' width="320" height="32">
+                </div>
+
+              </div>
+
+              <div id="area_tab_7" class="t-Cnt" style="display:none">
                 <h3 class="title_hanyo m-Top8 m-Btm8">
                       <div style="font-size:14px;">
                         2019년 발렌타인
@@ -731,7 +1171,7 @@
 
               </div>
 
-              <div id="area_tab_7" class="t-Cnt" style="display:none">
+              <div id="area_tab_8" class="t-Cnt" style="display:none">
                 <h3 class="title_hanyo m-Top8 m-Btm8">
                       <div style="font-size:14px;">
                         2019년 화이트데이
@@ -750,7 +1190,7 @@
                 </form>
               </div>
 
-              <div id="area_tab_8" class="t-Cnt"> <!--유닛 연출 모음-->
+              <div id="area_tab_9" class="t-Cnt"> <!--유닛 연출 모음-->
 
                 <h3 class="title_hanyo m-Top8 m-Btm8">
                       <div style="font-size:14px;">
@@ -818,7 +1258,7 @@
 
               </div>
 
-              <div id="area_tab_9" class="t-Cnt"> <!--생일 연출 모음-->
+              <div id="area_tab_10" class="t-Cnt"> <!--생일 연출 모음-->
                 <h3 class="title_hanyo m-Top8 m-Btm8">
                       <div style="font-size:14px;">
                         2019년 생일 연출
@@ -876,7 +1316,7 @@
 
               </div>
 
-              <div id="area_tab_10" class="t-Cnt" style="display:none"> <!--총선 투표 대사-->
+              <div id="area_tab_11" class="t-Cnt" style="display:none"> <!--총선 투표 대사-->
                 <h3 class="title_hanyo m-Top8 m-Btm8">
                       <div style="font-size:14px;">
                         제8회 신데렐라 걸 총선 투표 대사
@@ -895,7 +1335,7 @@
                 </form>
               </div>
 
-              <div id="area_tab_11" class="t-Cnt" style="display:none"> <!--총선 투표 대사-->
+              <div id="area_tab_12" class="t-Cnt" style="display:none">
                 <h3 class="title_hanyo m-Top8 m-Btm8">
                       <div style="font-size:14px;">
                         [신데렐라 드림]미야모토 프레데리카 스카우트 연출
@@ -930,7 +1370,7 @@
                 </form>
               </div>
 
-              <div id="area_tab_12" class="t-Cnt"> <!--친애도 연출-->
+              <div id="area_tab_13" class="t-Cnt"> <!--친애도 연출-->
 
                 <h3 class="title_hanyo m-Top8 m-Btm8">
                       <div style="font-size:14px;">
@@ -978,7 +1418,7 @@
 
               </div>
 
-              <div id="area_tab_13" class="t-Cnt"> <!--프로듀서 이름 입력-->
+              <div id="area_tab_14" class="t-Cnt"> <!--프로듀서 이름 입력-->
                 <form action='https://furiousjhin.github.io/album/idol/cute/frederica/' method="get">
 
                   <input type="text" id="producer_name" placeholder="※사용할 프로듀서의 이름을 입력하세요" value='' name="pro" class="search_text_1 m-Cnt m-Btm8">
