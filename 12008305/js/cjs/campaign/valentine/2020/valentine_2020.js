@@ -3920,7 +3920,7 @@
     p.nominalBounds = new cjs.Rectangle(-57.7, -57.7, 115.5, 115.5);
 
 
-    (lib.g� 景tter_rise_inner = function(mode, startPosition, loop) {
+    (lib.glitter_rise_inner = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {
             r: 46,
             "-": 142
@@ -3939,7 +3939,7 @@
         this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(142).call(this.frame_142).wait(1));
 
         // 繝ｬ繧､繝､繝ｼ_1
-        this.instance = new lib.g� 景tter_rise_core();
+        this.instance = new lib.glitter_rise_core();
         this.instance.parent = this;
         this.instance.setTransform(0, -17.45);
 
@@ -3956,95 +3956,95 @@
         this.initialize(mode, startPosition, loop, {});
 
         // 繝ｬ繧､繝､繝ｼ_1
-        this.instance = new lib.g� 景tter_rise_inner();
+        this.instance = new lib.glitter_rise_inner();
         this.instance.parent = this;
         this.instance.setTransform(150.4, 8.8, 0.6479, 0.6442);
 
-        this.instance_1 = new lib.g� 景tter_rise_inner();
+        this.instance_1 = new lib.glitter_rise_inner();
         this.instance_1.parent = this;
         this.instance_1.setTransform(182.95, 13.55, 0.6479, 0.6442);
 
-        this.instance_2 = new lib.g� 景tter_rise_inner();
+        this.instance_2 = new lib.glitter_rise_inner();
         this.instance_2.parent = this;
         this.instance_2.setTransform(178.05, 1.4, 0.3695, 0.3674);
 
-        this.instance_3 = new lib.g� 景tter_rise_inner();
+        this.instance_3 = new lib.glitter_rise_inner();
         this.instance_3.parent = this;
         this.instance_3.setTransform(165.35, 4.1, 0.3695, 0.3674);
 
-        this.instance_4 = new lib.g� 景tter_rise_inner();
+        this.instance_4 = new lib.glitter_rise_inner();
         this.instance_4.parent = this;
         this.instance_4.setTransform(144.85, 12.05, 0.6947, 0.692);
 
-        this.instance_5 = new lib.g� 景tter_rise_inner();
+        this.instance_5 = new lib.glitter_rise_inner();
         this.instance_5.parent = this;
         this.instance_5.setTransform(97.8, 10, 0.6947, 0.692);
 
-        this.instance_6 = new lib.g� 景tter_rise_inner();
+        this.instance_6 = new lib.glitter_rise_inner();
         this.instance_6.parent = this;
         this.instance_6.setTransform(117.35, -2.25, 0.3962, 0.3946);
 
-        this.instance_7 = new lib.g� 景tter_rise_inner();
+        this.instance_7 = new lib.glitter_rise_inner();
         this.instance_7.parent = this;
         this.instance_7.setTransform(81.8, 8.2, 0.3962, 0.3946);
 
-        this.instance_8 = new lib.g� 景tter_rise_inner();
+        this.instance_8 = new lib.glitter_rise_inner();
         this.instance_8.parent = this;
         this.instance_8.setTransform(107.3, 15.65, 0.6947, 0.692);
 
-        this.instance_9 = new lib.g� 景tter_rise_inner();
+        this.instance_9 = new lib.glitter_rise_inner();
         this.instance_9.parent = this;
         this.instance_9.setTransform(129.05, 5.8, 0.6947, 0.692);
 
-        this.instance_10 = new lib.g� 景tter_rise_inner();
+        this.instance_10 = new lib.glitter_rise_inner();
         this.instance_10.parent = this;
         this.instance_10.setTransform(24.05, 7.05, 0.3962, 0.3946);
 
-        this.instance_11 = new lib.g� 景tter_rise_inner();
+        this.instance_11 = new lib.glitter_rise_inner();
         this.instance_11.parent = this;
         this.instance_11.setTransform(49.85, 11.35, 0.6947, 0.692);
 
-        this.instance_12 = new lib.g� 景tter_rise_inner();
+        this.instance_12 = new lib.glitter_rise_inner();
         this.instance_12.parent = this;
         this.instance_12.setTransform(-22.4, 9.85, 0.6947, 0.692);
 
-        this.instance_13 = new lib.g� 景tter_rise_inner();
+        this.instance_13 = new lib.glitter_rise_inner();
         this.instance_13.parent = this;
         this.instance_13.setTransform(62.8, 8.25, 0.6947, 0.692);
 
-        this.instance_14 = new lib.g� 景tter_rise_inner();
+        this.instance_14 = new lib.glitter_rise_inner();
         this.instance_14.parent = this;
         this.instance_14.setTransform(34.2, 5.1, 0.6947, 0.692);
 
-        this.instance_15 = new lib.g� 景tter_rise_inner();
+        this.instance_15 = new lib.glitter_rise_inner();
         this.instance_15.parent = this;
         this.instance_15.setTransform(7.25, 1.75, 0.3962, 0.3946);
 
-        this.instance_16 = new lib.g� 景tter_rise_inner();
+        this.instance_16 = new lib.glitter_rise_inner();
         this.instance_16.parent = this;
         this.instance_16.setTransform(-6.35, 4.7, 0.3962, 0.3946);
 
-        this.instance_17 = new lib.g� 景tter_rise_inner();
+        this.instance_17 = new lib.glitter_rise_inner();
         this.instance_17.parent = this;
         this.instance_17.setTransform(-47.95, 11.35, 0.6947, 0.692);
 
-        this.instance_18 = new lib.g� 景tter_rise_inner();
+        this.instance_18 = new lib.glitter_rise_inner();
         this.instance_18.parent = this;
         this.instance_18.setTransform(-119.75, 9.85, 0.6947, 0.692);
 
-        this.instance_19 = new lib.g� 景tter_rise_inner();
+        this.instance_19 = new lib.glitter_rise_inner();
         this.instance_19.parent = this;
         this.instance_19.setTransform(-94.85, 9.25, 0.6947, 0.692);
 
-        this.instance_20 = new lib.g� 景tter_rise_inner();
+        this.instance_20 = new lib.glitter_rise_inner();
         this.instance_20.parent = this;
         this.instance_20.setTransform(-75.25, -2.95, 0.3962, 0.3946);
 
-        this.instance_21 = new lib.g� 景tter_rise_inner();
+        this.instance_21 = new lib.glitter_rise_inner();
         this.instance_21.parent = this;
         this.instance_21.setTransform(-110.9, 7.45, 0.3962, 0.3946);
 
-        this.instance_22 = new lib.g� 景tter_rise_inner();
+        this.instance_22 = new lib.glitter_rise_inner();
         this.instance_22.parent = this;
         this.instance_22.setTransform(-63.5, 5.1, 0.6947, 0.692);
 
