@@ -1,0 +1,796 @@
+.large {
+    font-size: 22px
+}
+
+.small {
+    font-size: 10px
+}
+
+.red {
+    color: #ff0000
+}
+
+.red_mild {
+    color: #ff3333
+}
+
+.green {
+    color: #33ff33
+}
+
+.yellow {
+    color: #ff9900
+}
+
+.lemon_yellow {
+    color: #fff800
+}
+
+.blue {
+    color: #00ccff
+}
+
+.blue_st {
+    color: #0066ff
+}
+
+.gray {
+    color: #aaaaaa
+}
+
+.pink {
+    color: #f08080
+}
+
+.dark_gray {
+    color: #666666
+}
+
+.white {
+    color: #ffffff;
+    text-decoration: none
+}
+
+.defMargin {
+    width: 296px;
+    padding: 0 12px
+}
+
+.m-Btm0 {
+    margin-bottom: 0px
+}
+
+.m-Btm4 {
+    margin-bottom: 4px
+}
+
+.m-Btm5 {
+    margin-bottom: 5px
+}
+
+.m-Btm8 {
+    margin-bottom: 8px
+}
+
+.m-Btm10 {
+    margin-bottom: 10px
+}
+
+.m-Btm12 {
+    margin-bottom: 12px
+}
+
+.m-Btm15 {
+    margin-bottom: 15px
+}
+
+.m-Btm20 {
+    margin-bottom: 20px
+}
+
+.m-Top4 {
+    margin-top: 4px
+}
+
+.m-Top5 {
+    margin-top: 5px
+}
+
+.m-Top8 {
+    margin-top: 8px
+}
+
+.m-Top10 {
+    margin-top: 10px
+}
+
+.m-Top12 {
+    margin-top: 12px
+}
+
+.m-Head_img {
+    margin-top: -14px
+}
+
+.m-Cnt {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.t-Lft {
+    text-align: left !important
+}
+
+.t-Rgt {
+    text-align: right !important
+}
+
+.t-Cnt {
+    text-align: center !important
+}
+
+.left_float {
+    float: left
+}
+
+.right_float {
+    float: right
+}
+
+.displayBox {
+    display: -webkit-box;
+    display: -moz-box;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.v-Top {
+    vertical-align: top
+}
+
+.v-Mdl {
+    vertical-align: middle
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block
+}
+
+.l-Hgt120 {
+    line-height: 120%
+}
+
+.l-Hgt140 {
+    line-height: 140%
+}
+
+header.background {
+    position: relative;
+    background: url(../../../12008305/image_sp/campaign/valentine/2020/bg/background.png);
+    background-size: 320px 1px;
+    z-index: 3
+}
+
+body {
+    background-image: url(../../../12008305/image_sp/ui/mypage_new/bg/bg_status_mypage_01.png);
+    background-size: 7px 7px
+}
+
+.valentine_main_2020 {
+    position: relative;
+    top: -12px;
+    width: 320px;
+    background: url(../../../12008305/image_sp/campaign/valentine/2020/bg/background.png);
+    background-size: 320px 1px;
+    padding-bottom: 16px
+}
+
+.valentine_main_2020:after {
+    display: block;
+    position: absolute;
+    bottom: -8px;
+    width: 320px;
+    height: 24px;
+    background-image: url(../../../12008305/image_sp/campaign/valentine/2020/bg/footer.png);
+    background-size: 320px 24px;
+    content: ''
+}
+
+.valentine_main_2020._top {
+    min-height: 392px
+}
+
+.valentine_main_2020 ._line {
+    border-top: 1px solid #bbb
+}
+
+.valentine_main_2020 .vp-Top {
+    padding-top: 6px
+}
+
+.valentine_main_2020 .chihiro_img {
+    position: relative;
+    z-index: 4
+}
+
+.valentine_main_2020 .valentine_title {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    margin-top: -12px
+}
+
+.valentine_main_2020 .valentine_title img {
+    display: block;
+    position: relative
+}
+
+.valentine_main_2020 .valentine_wrapper {
+    position: relative;
+    width: 304px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #a1004c;
+    font-size: 12px;
+    -webkit-border-radius: 8px;
+    -ms-border-radius: 8px;
+    border-radius: 8px;
+    background-color: #F2FEFC;
+    padding: 12px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0px 2px 0px 0px #a1004c,0px 2px 0px 0px #a1004c;
+    box-shadow: 0px 2px 0px 0px #a1004c,0px 2px 0px 0px #a1004c
+}
+
+.valentine_main_2020 .valentine_wrapper>* {
+    position: relative;
+    z-index: 1
+}
+
+.valentine_main_2020 .valentine_wrapper:before {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border: 10px solid;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    pointer-events: none;
+    -webkit-border-image: url(../../../12008305/image_sp/campaign/valentine/2020/bg/bg_2.png) 29;
+    -webkit-border-image: url(../../../12008305/image_sp/campaign/valentine/2020/bg/bg_2.png) 29;
+    border-image: url(../../../12008305/image_sp/campaign/valentine/2020/bg/bg_2.png) 29 fill;
+    content: ''
+}
+
+.valentine_main_2020 .valentine_wrapper:after {
+    display: block;
+    position: absolute;
+    z-index: 0;
+    top: 4px;
+    left: 0;
+    width: 304px;
+    height: 12px;
+    background-image: url(../../../12008305/image_sp/campaign/valentine/2020/bg/frame_deco_4.png);
+    background-size: 304px;
+    content: ''
+}
+
+.valentine_main_2020 .valentine_wrapper._deco_1 {
+    background-image: url(../../../12008305/image_sp/campaign/valentine/2020/bg/frame_deco_1.png);
+    background-size: 304px;
+    background-repeat: no-repeat;
+    height: inherit;
+    background-color: #ffffff
+}
+
+.valentine_main_2020 .valentine_wrapper ._contents {
+    width: 280px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.valentine_main_2020 .valentine_wrapper ._title {
+    position: absolute;
+    z-index: 5;
+    top: -12px;
+    left: 0;
+    width: 304px;
+    text-align: center
+}
+
+.valentine_main_2020 .valentine_wrapper .selectArea.type_02._in_area {
+    padding-bottom: 0
+}
+
+.valentine_main_2020 .valentine_wrapper .selectArea.type_02 .selectArea_more_link {
+    top: inherit;
+    margin-top: 0
+}
+
+.valentine_main_2020 .remember_area {
+    position: relative;
+    z-index: 2;
+    display: box;
+    display: -webkit-box;
+    margin-top: -6px
+}
+
+.valentine_main_2020 .remember_area._num1 form {
+    width: 100%
+}
+
+.valentine_main_2020 .remember_area._num2 form {
+    width: 50%
+}
+
+.valentine_main_2020 .remember_area._num3 {
+    width: 100%
+}
+
+.valentine_main_2020 .remember_area._num3 form {
+    width: 33%
+}
+
+.valentine_main_2020 .idol_meet_list {
+    position: relative;
+    display: -webkit-box;
+    display: box;
+    width: 320px;
+    overflow: hidden
+}
+
+.valentine_main_2020 .idol_meet_list .idol_mainframe {
+    position: relative;
+    z-index: 1
+}
+
+.valentine_main_2020 .idol_meet_list .idol_mainframe .idol_wrap {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden
+}
+
+.valentine_main_2020 .idol_meet_list .idol_mainframe .idol_wrap img {
+    position: absolute
+}
+
+.valentine_main_2020 .idol_meet_list .idol_mainframe .idol_wrap_nomeet {
+    padding-top: 5px;
+    width: 100%;
+    height: 183px;
+    text-align: center;
+    margin: 0 auto
+}
+
+.valentine_main_2020 .idol_meet_list .idol_mainframe .idol_wrap_nomeet img {
+    position: relative;
+    top: -20px;
+    left: 0
+}
+
+.valentine_main_2020 .idol_meet_list._meet {
+    padding-top: 0
+}
+
+.valentine_main_2020 .idol_meet_list._meet .idol_wrap {
+    height: 218px
+}
+
+.valentine_main_2020 .valentine_present_idol:before {
+    position: absolute;
+    top: 0;
+    display: block;
+    background-image: url(../../../12008305/image_sp/campaign/valentine/2020/bg/bg_top.png);
+    background-size: 320px;
+    width: 320px;
+    height: 404px;
+    content: ''
+}
+
+.valentine_main_2020 .valentine_present_idol:after {
+    position: absolute;
+    top: 0;
+    display: block;
+    content: '';
+    z-index: 1
+}
+
+.valentine_main_2020 .valentine_present_idol._deco .bg_frame_deco {
+    padding-top: 104px
+}
+
+.valentine_main_2020 .valentine_present_idol._num1:after {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/valentine/2020/sprite-sb60f0c4a85.png) no-repeat 0 -810px;
+    -webkit-background-size: 320px 2171px;
+    background-size: 320px 2171px;
+    width: 320px;
+    height: 404px
+}
+
+.valentine_main_2020 .valentine_present_idol._num1 .idol_mainframe {
+    width: 100%
+}
+
+.valentine_main_2020 .valentine_present_idol._num1 img {
+    width: 400px;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -200px
+}
+
+.valentine_main_2020 .valentine_present_idol._num2:after {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/valentine/2020/sprite-sb60f0c4a85.png) no-repeat 0 -405px;
+    -webkit-background-size: 320px 2171px;
+    background-size: 320px 2171px;
+    width: 320px;
+    height: 404px
+}
+
+.valentine_main_2020 .valentine_present_idol._num2 .idol_mainframe {
+    width: 50%
+}
+
+.valentine_main_2020 .valentine_present_idol._num2 img {
+    width: 320px;
+    top: 50%;
+    left: 50%;
+    margin-left: -160px;
+    margin-top: -176px
+}
+
+.valentine_main_2020 .valentine_present_idol._num3:after {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/valentine/2020/sprite-sb60f0c4a85.png) no-repeat 0 0;
+    -webkit-background-size: 320px 2171px;
+    background-size: 320px 2171px;
+    width: 320px;
+    height: 404px
+}
+
+.valentine_main_2020 .valentine_present_idol._num3 .idol_mainframe {
+    width: 33.333333%
+}
+
+.valentine_main_2020 .valentine_present_idol._num3 img {
+    width: 320px;
+    top: 50%;
+    left: 50%;
+    margin-left: -160px;
+    margin-top: -176px
+}
+
+.valentine_main_2020 .pager_bg {
+    height: inherit;
+    color: #000
+}
+
+.valentine_main_2020 .pager_bg:before {
+    position: absolute;
+    content: "";
+    width: 304px;
+    height: 85px;
+    background-image: url(../../../12008305/image_sp/campaign/valentine/2020/bg/frame_deco_2.png);
+    background-size: 304px;
+    width: inherit;
+    left: -12px;
+    right: -12px;
+    z-index: 0
+}
+
+.valentine_main_2020 .new_page_layout {
+    background-color: transparent
+}
+
+.valentine_main_2020 .pager {
+    position: absolute;
+    bottom: 0;
+    left: -5px;
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    z-index: 10;
+    text-shadow: 0px 0px 3px #fff, 0px 0px 3px #fff, 0px 0px 3px #fff, 0px 0px 3px #fff, 0px 0px 3px #fff, 0px 0px 3px #fff, 0px 0px 3px #fff, 0px 0px 3px #fff
+}
+
+.valentine_main_2020 .valentine_select_option {
+    position: relative;
+    padding-top: 8px;
+    z-index: 5
+}
+
+.valentine_main_2020 .valentine_select_base {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    padding-top: 12px;
+    padding-bottom: 12px
+}
+
+.valentine_main_2020 .valentine_select_base._none {
+    padding-bottom: 0
+}
+
+.valentine_main_2020 .valentine_select_base .v_btn_idol {
+    position: relative;
+    display: inline-block;
+    width: 88px;
+    height: 100px;
+    overflow: hidden
+}
+
+.valentine_main_2020 .valentine_select_base .v_btn_idol:not(:nth-of-type(3n+1)) {
+    margin-left: 8px
+}
+
+.valentine_main_2020 .valentine_select_base .v_btn_idol:nth-of-type(n+4) {
+    margin-top: 6px
+}
+
+.valentine_main_2020 .valentine_select_base .v_btn_idol .v_btn_bg {
+    position: relative;
+    overflow: hidden;
+    -webkit-border-radius: 8px;
+    -ms-border-radius: 8px;
+    border-radius: 8px
+}
+
+.valentine_main_2020 .valentine_select_base .v_btn_idol .v_btn_bg.attr_1 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/valentine/2020/sprite-sb60f0c4a85.png) no-repeat 0 -1518px;
+    -webkit-background-size: 320px 2171px;
+    background-size: 320px 2171px;
+    width: 88px;
+    height: 100px
+}
+
+.valentine_main_2020 .valentine_select_base .v_btn_idol .v_btn_bg.attr_2 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/valentine/2020/sprite-sb60f0c4a85.png) no-repeat 0 -1417px;
+    -webkit-background-size: 320px 2171px;
+    background-size: 320px 2171px;
+    width: 88px;
+    height: 100px
+}
+
+.valentine_main_2020 .valentine_select_base .v_btn_idol .v_btn_bg.attr_3 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/valentine/2020/sprite-sb60f0c4a85.png) no-repeat 0 -1316px;
+    -webkit-background-size: 320px 2171px;
+    background-size: 320px 2171px;
+    width: 88px;
+    height: 100px
+}
+
+.valentine_main_2020 .valentine_select_base .v_btn_idol .v_btn_bg.attr_99 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/valentine/2020/sprite-sb60f0c4a85.png) no-repeat 0 -1215px;
+    -webkit-background-size: 320px 2171px;
+    background-size: 320px 2171px;
+    width: 88px;
+    height: 100px
+}
+
+.valentine_main_2020 .valentine_select_base .v_btn_idol .v_btn_bg .v_idol {
+    position: absolute;
+    width: 115px;
+    left: -13px;
+    top: -13px
+}
+
+.valentine_main_2020 .valentine_select_base .v_btn_idol .v_btn_bg::after {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/valentine/2020/sprite-sb60f0c4a85.png) no-repeat 0 -1775px;
+    -webkit-background-size: 320px 2171px;
+    background-size: 320px 2171px;
+    width: 88px;
+    height: 100px;
+    content: "";
+    position: relative;
+    z-index: 10
+}
+
+.valentine_main_2020 .valentine_select_base .v_btn_idol .v_idol_name {
+    position: absolute;
+    display: block;
+    color: #ffffff;
+    font-size: 12px;
+    text-decoration: none;
+    width: 88px;
+    bottom: 5px;
+    left: 0;
+    text-align: center;
+    z-index: 20
+}
+
+.valentine_main_2020 .valentine_select_base .v_btn_idol .v_idol_name.attr_1 {
+    text-shadow: 0px 0px 3px #ff318e , 0px 0px 3px #ff318e , 0px 0px 3px #ff318e , 0px 0px 3px #ff318e , 0px 0px 3px #ff318e , 0px 0px 3px #ff318e , 0px 0px 3px #ff318e , 0px 0px 3px #ff318e
+}
+
+.valentine_main_2020 .valentine_select_base .v_btn_idol .v_idol_name.attr_2 {
+    text-shadow: 0px 0px 3px #006aff , 0px 0px 3px #006aff , 0px 0px 3px #006aff , 0px 0px 3px #006aff , 0px 0px 3px #006aff , 0px 0px 3px #006aff , 0px 0px 3px #006aff , 0px 0px 3px #006aff
+}
+
+.valentine_main_2020 .valentine_select_base .v_btn_idol .v_idol_name.attr_3 {
+    text-shadow: 0px 0px 3px #ff7200 , 0px 0px 3px #ff7200 , 0px 0px 3px #ff7200 , 0px 0px 3px #ff7200 , 0px 0px 3px #ff7200 , 0px 0px 3px #ff7200 , 0px 0px 3px #ff7200 , 0px 0px 3px #ff7200
+}
+
+.valentine_main_2020 .valentine_select_base .v_btn_idol .v_idol_name.attr_99 {
+    text-shadow: 0px 0px 3px #117c0f , 0px 0px 3px #117c0f , 0px 0px 3px #117c0f , 0px 0px 3px #117c0f , 0px 0px 3px #117c0f , 0px 0px 3px #117c0f , 0px 0px 3px #117c0f , 0px 0px 3px #117c0f
+}
+
+.valentine_main_2020 .bg_img_under {
+    position: relative;
+    bottom: -8px
+}
+
+.idol_confirm-area {
+    background: url(../../../12008305/image_sp/campaign/valentine/2020/bg/popup_bg.png) no-repeat;
+    background-size: 304px 164px;
+    padding-bottom: 12px
+}
+
+.idol_confirm-area .idol-area {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    height: 164px
+}
+
+.idol_confirm-area .idol-area img {
+    width: 180px;
+    margin-top: -24px
+}
+
+.idol_confirm-area .idol-area:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    content: '';
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(29,29,29,0)), color-stop(100%, #1d1d1d));
+    background-image: -webkit-linear-gradient(top, rgba(29,29,29,0) 0%,#1d1d1d 100%);
+    background-image: linear-gradient(top, rgba(29,29,29,0) 0%,#1d1d1d 100%)
+}
+
+.idol_box {
+    position: relative;
+    overflow: hidden;
+    height: 164px;
+    z-index: 0
+}
+
+.idol_box .idol_image {
+    position: relative;
+    background-size: 100% !important;
+    width: 180px;
+    height: 300px;
+    margin: -24px auto 0;
+    z-index: 2
+}
+
+.idol_box:before {
+    content: "";
+    display: block;
+    position: absolute;
+    background: linear-gradient(to bottom, rgba(0,0,0,0),#1d1d1d);
+    bottom: -3px;
+    width: 304px;
+    height: 32px;
+    background-size: 100%;
+    z-index: 3
+}
+
+.idol_box:after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url(../../../12008305/image_sp/campaign/valentine/2020/popup_bg.png) no-repeat;
+    top: 0;
+    width: 304px;
+    height: 164px;
+    background-size: 100%
+}
+
+.popup_text {
+    text-align: center
+}
+
+.popup_text .attr_1 {
+    color: #ff0073
+}
+
+.popup_text .attr_2 {
+    color: #006aff
+}
+
+.popup_text .attr_3 {
+    color: #fa0
+}
+
+.popup_text .attr_99 {
+    color: #21c421
+}
+
+.valentine_btn {
+    position: relative;
+    transform: scale(1);
+    -webkit-transform: scale(1)
+}
+
+.valentine_btn._top {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/valentine/2020/sprite-sb60f0c4a85.png) no-repeat 0 -1658px;
+    -webkit-background-size: 320px 2171px;
+    background-size: 320px 2171px;
+    width: 184px;
+    height: 38px
+}
+
+.valentine_btn._top2 {
+    position: relative;
+    z-index: 2;
+    margin-top: 24px;
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/valentine/2020/sprite-sb60f0c4a85.png) no-repeat 0 -1619px;
+    -webkit-background-size: 320px 2171px;
+    background-size: 320px 2171px;
+    width: 184px;
+    height: 38px
+}
+
+.valentine_btn._campaign_top {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/valentine/2020/sprite-sb60f0c4a85.png) no-repeat 0 -1876px;
+    -webkit-background-size: 320px 2171px;
+    background-size: 320px 2171px;
+    width: 184px;
+    height: 38px
+}
+
+.valentine_btn._submit {
+    z-index: 10;
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/valentine/2020/sprite-sb60f0c4a85.png) no-repeat 0 -2016px;
+    -webkit-background-size: 320px 2171px;
+    background-size: 320px 2171px;
+    width: 136px;
+    height: 38px
+}
+
+.valentine_btn._submit._disabled {
+    transform: scale(1, 1) !important;
+    -webkit-transform: scale(1, 1) !important;
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/valentine/2020/sprite-sb60f0c4a85.png) no-repeat 0 -2133px;
+    -webkit-background-size: 320px 2171px;
+    background-size: 320px 2171px;
+    width: 136px;
+    height: 38px
+}
+
+.valentine_btn._submit._hover {
+    transform: scale(0.95, 0.95);
+    -webkit-transform: scale(0.95, 0.95)
+}
+
+.valentine_btn.remember {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/valentine/2020/sprite-sb60f0c4a85.png) no-repeat 0 -2094px;
+    -webkit-background-size: 320px 2171px;
+    background-size: 320px 2171px;
+    width: 88px;
+    height: 38px
+}
