@@ -1,77 +1,77 @@
 (function(cjs, an) {
 
-    var p; // shortcut to reference prototypes
+    var p;
+    // shortcut to reference prototypes
     var lib = {};
     var ss = {};
     var img = {};
     lib.ssMetadata = [];
 
-
     // symbols:
-
-
 
     (lib.cover_sar = function() {
         this.initialize(img.valentine_2020_cover_sar);
-    }).prototype = p = new cjs.Bitmap();
-    p.nominalBounds = new cjs.Rectangle(0, 0, 480, 508);
-
+    }
+    ).prototype = p = new cjs.Bitmap();
+    p.nominalBounds = new cjs.Rectangle(0,0,480,508);
 
     (lib.fp_hana3 = function() {
         this.initialize(img.valentine_2020_fp_hana3);
-    }).prototype = p = new cjs.Bitmap();
-    p.nominalBounds = new cjs.Rectangle(0, 0, 24, 22);
-
+    }
+    ).prototype = p = new cjs.Bitmap();
+    p.nominalBounds = new cjs.Rectangle(0,0,24,22);
 
     (lib.heart = function() {
         this.initialize(img.valentine_2020_heart);
-    }).prototype = p = new cjs.Bitmap();
-    p.nominalBounds = new cjs.Rectangle(0, 0, 53, 46);
-
+    }
+    ).prototype = p = new cjs.Bitmap();
+    p.nominalBounds = new cjs.Rectangle(0,0,53,46);
 
     (lib.img_kira = function() {
         this.initialize(img.valentine_2020_img_kira);
-    }).prototype = p = new cjs.Bitmap();
-    p.nominalBounds = new cjs.Rectangle(0, 0, 30, 30);
-
+    }
+    ).prototype = p = new cjs.Bitmap();
+    p.nominalBounds = new cjs.Rectangle(0,0,30,30);
 
     (lib.replace_target_240x310_bg = function() {
         this.initialize(img.valentine_2020_replace_target_240x310_bg);
-    }).prototype = p = new cjs.Bitmap();
-    p.nominalBounds = new cjs.Rectangle(0, 0, 240, 310);
-
+    }
+    ).prototype = p = new cjs.Bitmap();
+    p.nominalBounds = new cjs.Rectangle(0,0,240,310);
 
     (lib.replace_target_480x502_character = function() {
         this.initialize(img.valentine_2020_replace_target_480x502_character);
-    }).prototype = p = new cjs.Bitmap();
-    p.nominalBounds = new cjs.Rectangle(0, 0, 480, 502);
-
+    }
+    ).prototype = p = new cjs.Bitmap();
+    p.nominalBounds = new cjs.Rectangle(0,0,480,502);
 
     (lib.Valentine2020 = function() {
         this.initialize(img.valentine_2020_Valentine2020);
-    }).prototype = p = new cjs.Bitmap();
-    p.nominalBounds = new cjs.Rectangle(0, 0, 240, 240);
-
+    }
+    ).prototype = p = new cjs.Bitmap();
+    p.nominalBounds = new cjs.Rectangle(0,0,240,240);
 
     (lib.window = function() {
         this.initialize(img.valentine_2020_window);
-    }).prototype = p = new cjs.Bitmap();
-    p.nominalBounds = new cjs.Rectangle(0, 0, 480, 188);
-
+    }
+    ).prototype = p = new cjs.Bitmap();
+    p.nominalBounds = new cjs.Rectangle(0,0,480,188);
 
     (lib.window_3 = function() {
         this.initialize(img.valentine_2020_window_3);
-    }).prototype = p = new cjs.Bitmap();
-    p.nominalBounds = new cjs.Rectangle(0, 0, 480, 170);
-
+    }
+    ).prototype = p = new cjs.Bitmap();
+    p.nominalBounds = new cjs.Rectangle(0,0,480,170);
 
     (lib.window_4 = function() {
         this.initialize(img.valentine_2020_window_4);
-    }).prototype = p = new cjs.Bitmap();
-    p.nominalBounds = new cjs.Rectangle(0, 0, 460, 174); // helper functions:
+    }
+    ).prototype = p = new cjs.Bitmap();
+    p.nominalBounds = new cjs.Rectangle(0,0,460,174);
+    // helper functions:
 
     function mc_symbol_clone() {
-        var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
+        var clone = this._cloneProps(new this.constructor(this.mode,this.startPosition,this.loop));
         clone.gotoAndStop(this.currentFrame);
         clone.paused = this.paused;
         clone.framerate = this.framerate;
@@ -86,33 +86,32 @@
         return prototype;
     }
 
-
     (lib.window_4_1 = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
 
-        // 繝ｬ繧､繝､繝ｼ_1
+        // レイヤー_1
         this.instance = new lib.window_4();
         this.instance.parent = this;
         this.instance.setTransform(1, 0, 0.5019, 0.502);
 
         this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(1, 0, 230.9, 87.4);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(1,0,230.9,87.4);
 
     (lib.white_rect = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
 
-        // 繝ｬ繧､繝､繝ｼ_1
+        // レイヤー_1
         this.shape = new cjs.Shape();
         this.shape.graphics.f("rgba(255,255,255,0.898)").s().p("AyvYOMAAAgwbMAlfAAAMAAAAwbg");
         this.shape.setTransform(120, 155);
 
         this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
-    }).prototype = getMCSymbolPrototype(lib.white_rect, new cjs.Rectangle(0, 0, 240, 310), null);
-
+    }
+    ).prototype = getMCSymbolPrototype(lib.white_rect, new cjs.Rectangle(0,0,240,310), null);
 
     (lib.replace_target_260x250_unit = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
@@ -124,21 +123,21 @@
 
         this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-    }).prototype = getMCSymbolPrototype(lib.replace_target_260x250_unit, new cjs.Rectangle(10, 0, 240, 251), null);
-
+    }
+    ).prototype = getMCSymbolPrototype(lib.replace_target_260x250_unit, new cjs.Rectangle(10,0,240,251), null);
 
     (lib.btn = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
 
-        // 繝ｬ繧､繝､繝ｼ_1
+        // レイヤー_1
         this.shape = new cjs.Shape();
         this.shape.graphics.f("#FFFFFF").s().p("Az1ZjMAAAgzFMAnrAAAMAAAAzFg");
         this.shape.setTransform(127, 163.475);
 
         this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
-    }).prototype = getMCSymbolPrototype(lib.btn, new cjs.Rectangle(0, 0, 254, 327), null);
-
+    }
+    ).prototype = getMCSymbolPrototype(lib.btn, new cjs.Rectangle(0,0,254,327), null);
 
     (lib.text_field_white = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {
@@ -160,8 +159,8 @@
             this.stop();
 
             /*for(i=1;i<=3;i++){
-            	this['m' + i].text = exportRoot['m' + i];
-            }*/
+			this['m' + i].text = exportRoot['m' + i];
+		}*/
         }
         this.frame_2 = function() {
             this.stop();
@@ -181,29 +180,29 @@
         // actions tween:
         this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1).call(this.frame_3).wait(1));
 
-        // 繝ｬ繧､繝､繝ｼ_1
-        this.m4 = new cjs.Text("", "12px 'Arial'", "#FFFFFF");
+        // レイヤー_1
+        this.m4 = new cjs.Text("","12px 'Arial'","#FFFFFF");
         this.m4.name = "m4";
         this.m4.lineHeight = 15;
         this.m4.lineWidth = 260;
         this.m4.parent = this;
         this.m4.setTransform(2, 49);
 
-        this.m3 = new cjs.Text("", "12px 'Arial'", "#FFFFFF");
+        this.m3 = new cjs.Text("","12px 'Arial'","#FFFFFF");
         this.m3.name = "m3";
         this.m3.lineHeight = 15;
         this.m3.lineWidth = 260;
         this.m3.parent = this;
         this.m3.setTransform(2, 34);
 
-        this.m2 = new cjs.Text("", "12px 'Arial'", "#FFFFFF");
+        this.m2 = new cjs.Text("","12px 'Arial'","#FFFFFF");
         this.m2.name = "m2";
         this.m2.lineHeight = 15;
         this.m2.lineWidth = 260;
         this.m2.parent = this;
         this.m2.setTransform(2, 18);
 
-        this.m1 = new cjs.Text("", "12px 'Arial'", "#FFFFFF");
+        this.m1 = new cjs.Text("","12px 'Arial'","#FFFFFF");
         this.m1.name = "m1";
         this.m1.lineHeight = 15;
         this.m1.lineWidth = 260;
@@ -295,9 +294,9 @@
             }]
         }, 1).wait(1));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(0, 0, 263.6, 98.7);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(0,0,263.6,98.7);
 
     (lib.text_field_passion = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {
@@ -340,29 +339,29 @@
         // actions tween:
         this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1).call(this.frame_3).wait(1));
 
-        // 繝ｬ繧､繝､繝ｼ_3
-        this.m4 = new cjs.Text("", "12px 'Arial'", "#FF912D");
+        // レイヤー_3
+        this.m4 = new cjs.Text("","12px 'Arial'","#FF912D");
         this.m4.name = "m4";
         this.m4.lineHeight = 15;
         this.m4.lineWidth = 260;
         this.m4.parent = this;
         this.m4.setTransform(2, 49);
 
-        this.m3 = new cjs.Text("", "12px 'Arial'", "#FF912D");
+        this.m3 = new cjs.Text("","12px 'Arial'","#FF912D");
         this.m3.name = "m3";
         this.m3.lineHeight = 15;
         this.m3.lineWidth = 260;
         this.m3.parent = this;
         this.m3.setTransform(2, 34);
 
-        this.m2 = new cjs.Text("", "12px 'Arial'", "#FF912D");
+        this.m2 = new cjs.Text("","12px 'Arial'","#FF912D");
         this.m2.name = "m2";
         this.m2.lineHeight = 15;
         this.m2.lineWidth = 260;
         this.m2.parent = this;
         this.m2.setTransform(2, 18);
 
-        this.m1 = new cjs.Text("", "12px 'Arial'", "#FF912D");
+        this.m1 = new cjs.Text("","12px 'Arial'","#FF912D");
         this.m1.name = "m1";
         this.m1.lineHeight = 15;
         this.m1.lineWidth = 260;
@@ -454,9 +453,9 @@
             }]
         }, 1).wait(1));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(0, 0, 263.6, 98.7);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(0,0,263.6,98.7);
 
     (lib.text_field_cute = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {
@@ -499,29 +498,29 @@
         // actions tween:
         this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1).call(this.frame_3).wait(1));
 
-        // 繝ｬ繧､繝､繝ｼ_3
-        this.m4 = new cjs.Text("", "12px 'Arial'", "#FF60AF");
+        // レイヤー_3
+        this.m4 = new cjs.Text("","12px 'Arial'","#FF60AF");
         this.m4.name = "m4";
         this.m4.lineHeight = 15;
         this.m4.lineWidth = 260;
         this.m4.parent = this;
         this.m4.setTransform(2, 49);
 
-        this.m3 = new cjs.Text("", "12px 'Arial'", "#FF60AF");
+        this.m3 = new cjs.Text("","12px 'Arial'","#FF60AF");
         this.m3.name = "m3";
         this.m3.lineHeight = 15;
         this.m3.lineWidth = 260;
         this.m3.parent = this;
         this.m3.setTransform(2, 34);
 
-        this.m2 = new cjs.Text("", "12px 'Arial'", "#FF60AF");
+        this.m2 = new cjs.Text("","12px 'Arial'","#FF60AF");
         this.m2.name = "m2";
         this.m2.lineHeight = 15;
         this.m2.lineWidth = 260;
         this.m2.parent = this;
         this.m2.setTransform(2, 18);
 
-        this.m1 = new cjs.Text("", "12px 'Arial'", "#FF60AF");
+        this.m1 = new cjs.Text("","12px 'Arial'","#FF60AF");
         this.m1.name = "m1";
         this.m1.lineHeight = 15;
         this.m1.lineWidth = 260;
@@ -643,9 +642,9 @@
             }]
         }, 1).wait(1));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(0, 0, 263.6, 98.7);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(0,0,263.6,98.7);
 
     (lib.text_field_cool = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {
@@ -688,29 +687,29 @@
         // actions tween:
         this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1).call(this.frame_3).wait(1));
 
-        // 繝ｬ繧､繝､繝ｼ_3
-        this.m4 = new cjs.Text("", "12px 'Arial'", "#0085F2");
+        // レイヤー_3
+        this.m4 = new cjs.Text("","12px 'Arial'","#0085F2");
         this.m4.name = "m4";
         this.m4.lineHeight = 15;
         this.m4.lineWidth = 260;
         this.m4.parent = this;
         this.m4.setTransform(2, 49);
 
-        this.m3 = new cjs.Text("", "12px 'Arial'", "#0085F2");
+        this.m3 = new cjs.Text("","12px 'Arial'","#0085F2");
         this.m3.name = "m3";
         this.m3.lineHeight = 15;
         this.m3.lineWidth = 260;
         this.m3.parent = this;
         this.m3.setTransform(2, 34);
 
-        this.m2 = new cjs.Text("", "12px 'Arial'", "#0085F2");
+        this.m2 = new cjs.Text("","12px 'Arial'","#0085F2");
         this.m2.name = "m2";
         this.m2.lineHeight = 15;
         this.m2.lineWidth = 260;
         this.m2.parent = this;
         this.m2.setTransform(2, 18);
 
-        this.m1 = new cjs.Text("", "12px 'Arial'", "#0085F2");
+        this.m1 = new cjs.Text("","12px 'Arial'","#0085F2");
         this.m1.name = "m1";
         this.m1.lineHeight = 15;
         this.m1.lineWidth = 260;
@@ -802,9 +801,9 @@
             }]
         }, 1).wait(1));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(0, 0, 263.6, 98.7);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(0,0,263.6,98.7);
 
     (lib.text_field_black = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {
@@ -847,29 +846,29 @@
         // actions tween:
         this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1).call(this.frame_3).wait(1));
 
-        // 繝ｬ繧､繝､繝ｼ_3
-        this.m4 = new cjs.Text("", "12px 'Arial'", "#660033");
+        // レイヤー_3
+        this.m4 = new cjs.Text("","12px 'Arial'","#660033");
         this.m4.name = "m4";
         this.m4.lineHeight = 15;
         this.m4.lineWidth = 260;
         this.m4.parent = this;
         this.m4.setTransform(2, 49);
 
-        this.m3 = new cjs.Text("", "12px 'Arial'", "#660033");
+        this.m3 = new cjs.Text("","12px 'Arial'","#660033");
         this.m3.name = "m3";
         this.m3.lineHeight = 15;
         this.m3.lineWidth = 260;
         this.m3.parent = this;
         this.m3.setTransform(2, 34);
 
-        this.m2 = new cjs.Text("", "12px 'Arial'", "#660033");
+        this.m2 = new cjs.Text("","12px 'Arial'","#660033");
         this.m2.name = "m2";
         this.m2.lineHeight = 15;
         this.m2.lineWidth = 260;
         this.m2.parent = this;
         this.m2.setTransform(2, 18);
 
-        this.m1 = new cjs.Text("", "12px 'Arial'", "#660033");
+        this.m1 = new cjs.Text("","12px 'Arial'","#660033");
         this.m1.name = "m1";
         this.m1.lineHeight = 15;
         this.m1.lineWidth = 260;
@@ -961,9 +960,9 @@
             }]
         }, 1).wait(1));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(0, 0, 263.6, 98.7);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(0,0,263.6,98.7);
 
     (lib.text_base_unique1 = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {
@@ -990,7 +989,7 @@
         // actions tween:
         this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1).call(this.frame_3).wait(1));
 
-        // 繝ｬ繧､繝､繝ｼ_1
+        // レイヤー_1
         this.shape = new cjs.Shape();
         this.shape.graphics.lf(["#108EFF", "#00CDFF"], [0, 1], -116, -5, -116, -65).s().p("AxLFeQg8AAAAg8IAApDQAAg8A8AAMAiXAAAQA8AAAAA8IAAJDQAAA8g8AAg");
         this.shape.setTransform(116, 35);
@@ -1025,9 +1024,9 @@
             }]
         }, 1).wait(1));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(0, 0, 232, 70);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(0,0,232,70);
 
     (lib.text_base_black = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {
@@ -1054,7 +1053,7 @@
         // actions tween:
         this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1).call(this.frame_3).wait(1));
 
-        // 繝ｬ繧､繝､繝ｼ_1
+        // レイヤー_1
         this.shape = new cjs.Shape();
         this.shape.graphics.f("rgba(0,0,0,0.898)").s().p("AxLFeQg8AAAAg8IAApDQAAg8A8AAMAiXAAAQA8AAAAA8IAAJDQAAA8g8AAg");
         this.shape.setTransform(116, 35);
@@ -1089,9 +1088,9 @@
             }]
         }, 1).wait(1));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(0, 0, 232, 70);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(0,0,232,70);
 
     (lib.text_base = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {
@@ -1118,7 +1117,7 @@
         // actions tween:
         this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1).call(this.frame_3).wait(1));
 
-        // 繝ｬ繧､繝､繝ｼ_1
+        // レイヤー_1
         this.shape = new cjs.Shape();
         this.shape.graphics.f("rgba(255,255,255,0.898)").s().p("AxLFeQg8AAAAg8IAApDQAAg8A8AAMAiXAAAQA8AAAAA8IAAJDQAAA8g8AAg");
         this.shape.setTransform(116, 35);
@@ -1153,47 +1152,47 @@
             }]
         }, 1).wait(1));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(0, 0, 232, 70);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(0,0,232,70);
 
     (lib.spread_flower_circle_pink = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
 
-        // 繝ｬ繧､繝､繝ｼ_1
+        // レイヤー_1
         this.shape = new cjs.Shape();
         this.shape.graphics.rf(["rgba(255,79,156,0.2)", "#FF4194"], [0, 1], 0, 0, 0, 0, 0, 47.8).s().p("AlPFQQiLiLAAjFQAAjECLiLQCLiLDEAAQDFAACLCLQCLCLAADEQAADFiLCLQiLCLjFAAQjEAAiLiLg");
 
         this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
-    }).prototype = getMCSymbolPrototype(lib.spread_flower_circle_pink, new cjs.Rectangle(-47.5, -47.5, 95, 95), null);
-
+    }
+    ).prototype = getMCSymbolPrototype(lib.spread_flower_circle_pink, new cjs.Rectangle(-47.5,-47.5,95,95), null);
 
     (lib.shield = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
 
-        // 繝ｬ繧､繝､繝ｼ_1
+        // レイヤー_1
         this.shape = new cjs.Shape();
         this.shape.graphics.f("#000000").s().p("EhBnBH4MAAAiPvMCDPAAAMAAACPvgAyvXcMAlfAAAMAAAgwbMglfAAAg");
 
         this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
-    }).prototype = getMCSymbolPrototype(lib.shield, new cjs.Rectangle(-420, -460, 840, 920), null);
-
+    }
+    ).prototype = getMCSymbolPrototype(lib.shield, new cjs.Rectangle(-420,-460,840,920), null);
 
     (lib.shape65_star = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
 
-        // 繝ｬ繧､繝､繝ｼ_3
+        // レイヤー_3
         this.instance = new lib.heart();
         this.instance.parent = this;
         this.instance.setTransform(-10, -8.65, 0.3774, 0.3761);
 
         this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(-10, -8.6, 20, 17.299999999999997);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(-10,-8.6,20,17.299999999999997);
 
     (lib.shape65 = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
@@ -1205,9 +1204,9 @@
 
         this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(-8.2, -8.4, 16.7, 16.700000000000003);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(-8.2,-8.4,16.7,16.700000000000003);
 
     (lib.shape41 = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
@@ -1219,9 +1218,9 @@
 
         this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(-19.5, -19.5, 39, 39);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(-19.5,-19.5,39,39);
 
     (lib.shape38 = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
@@ -1233,14 +1232,14 @@
 
         this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(-82.7, -95.8, 185.5, 191.7);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(-82.7,-95.8,185.5,191.7);
 
     (lib.pusher_next_inner = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
 
-        // 繝ｬ繧､繝､繝ｼ_1
+        // レイヤー_1
         this.shape = new cjs.Shape();
         this.shape.graphics.f("rgba(255,255,255,0.851)").s().p("AAQA3IAHg1IgtAAIgGA1IgWAAIAPhsIAUAAIgGAxIAtAAIAGgxIAUAAIgLBsg");
         this.shape.setTransform(17.2, 1.3);
@@ -1269,40 +1268,40 @@
             }]
         }).wait(1));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(-24.2, -12.1, 48.4, 24.299999999999997);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(-24.2,-12.1,48.4,24.299999999999997);
 
     (lib.pointGlitter2 = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
 
-        // 繝ｬ繧､繝､繝ｼ_1
+        // レイヤー_1
         this.shape = new cjs.Shape();
         this.shape.graphics.f("rgba(255,255,255,0.988)").s().p("AlaAAIFalaIFaFaIlaFag");
 
         this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(-34.6, -34.6, 69.30000000000001, 69.30000000000001);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(-34.6,-34.6,69.30000000000001,69.30000000000001);
 
     (lib.patternFrame = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
 
-        // 繝ｬ繧､繝､繝ｼ_2
+        // レイヤー_2
         this.instance = new lib.window_3();
         this.instance.parent = this;
         this.instance.setTransform(-240, -14, 0.5, 0.5);
 
         this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-    }).prototype = getMCSymbolPrototype(lib.patternFrame, new cjs.Rectangle(-240, -14, 240, 85), null);
-
+    }
+    ).prototype = getMCSymbolPrototype(lib.patternFrame, new cjs.Rectangle(-240,-14,240,85), null);
 
     (lib.particle_p = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
 
-        // 繝ｬ繧､繝､繝ｼ_1
+        // レイヤー_1
         this.shape = new cjs.Shape();
         this.shape.graphics.f("#FFFFFF").s().p("Ag9gOIBLgvIAwBLIhMAwg");
         this.shape.setTransform(-0.25, 0.525);
@@ -1321,9 +1320,9 @@
             }]
         }, 1).wait(1));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(-6.4, -5.7, 12.4, 12.5);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(-6.4,-5.7,12.4,12.5);
 
     (lib.pa_pp = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
@@ -1338,89 +1337,89 @@
         // actions tween:
         this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
-        // 繝ｬ繧､繝､繝ｼ_3
+        // レイヤー_3
         this.shape = new cjs.Shape();
         this.shape.graphics.f("#000000").s().p("Ag5A6IAAhzIBzAAIAABzg");
         this.shape.setTransform(0.575, -0.225);
 
         this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
-        // 繝ｬ繧､繝､繝ｼ_1
+        // レイヤー_1
         this.shape_1 = new cjs.Shape();
         this.shape_1.graphics.f().s("#6600FF").ss(1, 1, 1).p("ArJN9QB4gDCIhCQEPiGBOk+QAgiAA8kbQA6j/BEibQBbjQCFhrQCbh+DhgC");
         this.shape_1.setTransform(71.375, -89.3);
 
         this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(1));
 
-    }).prototype = getMCSymbolPrototype(lib.pa_pp, new cjs.Rectangle(-5.2, -179.6, 149, 185.2), null);
-
+    }
+    ).prototype = getMCSymbolPrototype(lib.pa_pp, new cjs.Rectangle(-5.2,-179.6,149,185.2), null);
 
     (lib.hanen = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
 
-        // 繝ｬ繧､繝､繝ｼ_3
+        // レイヤー_3
         this.instance = new lib.cover_sar();
         this.instance.parent = this;
         this.instance.setTransform(-120, 94, 0.5, 0.5, 0, 180, 0);
 
         this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-    }).prototype = getMCSymbolPrototype(lib.hanen, new cjs.Rectangle(-120, -160, 240, 254), null);
-
+    }
+    ).prototype = getMCSymbolPrototype(lib.hanen, new cjs.Rectangle(-120,-160,240,254), null);
 
     (lib.flower_pink2 = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
 
-        // 繝ｬ繧､繝､繝ｼ_1
+        // レイヤー_1
         this.shape = new cjs.Shape();
         this.shape.graphics.f("#FF74BA").s().p("AgXA3QgOgGAIgTQAGgOANgMQgOABgRgGQgTgIAGgOQAGgOATAIQAQAIAKALQgBgOAGgRQAJgTANAGQAOAHgIASQgHAQgMAKQAOgBARAGQATAJgGANQgGAOgTgIQgQgHgKgMQABAOgGARQgHAOgJAAIgGgBg");
         this.shape.setTransform(0.0156, 0.025);
 
         this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(-5.6, -5.6, 11.3, 11.3);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(-5.6,-5.6,11.3,11.3);
 
     (lib.flower_pink1 = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
 
-        // 繝ｬ繧､繝､繝ｼ_1
+        // レイヤー_1
         this.shape = new cjs.Shape();
         this.shape.graphics.f("#FFA9E9").s().p("AgCBHQgJgcADgZQgTASgbAJQggAKgIgXQgIgYAhgKQAbgJAZADQgRgRgKgdQgKggAXgIQAYgIAKAhQAJAbgDAaQAQgRAegKQAggLAIAXQAIAYghAKQgbAJgagDQASARAJAdQAMAggYAIQgFABgFAAQgQAAgIgZg");
         this.shape.setTransform(0.017, -0.0159);
 
         this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(-9.6, -9.6, 19.299999999999997, 19.299999999999997);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(-9.6,-9.6,19.299999999999997,19.299999999999997);
 
     (lib.efc_hana = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
 
-        // 繝ｬ繧､繝､繝ｼ_1
+        // レイヤー_1
         this.instance = new lib.fp_hana3();
         this.instance.parent = this;
         this.instance.setTransform(-12, 0);
 
         this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-    }).prototype = getMCSymbolPrototype(lib.efc_hana, new cjs.Rectangle(-12, 0, 24, 22), null);
-
+    }
+    ).prototype = getMCSymbolPrototype(lib.efc_hana, new cjs.Rectangle(-12,0,24,22), null);
 
     (lib.dark = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
 
-        // 繝ｬ繧､繝､繝ｼ_1
+        // レイヤー_1
         this.shape = new cjs.Shape();
         this.shape.graphics.f("#000000").s().p("AyvYOMAAAgwbMAlfAAAMAAAAwbg");
         this.shape.setTransform(1, 0, 1.0083, 1);
 
         this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
-    }).prototype = getMCSymbolPrototype(lib.dark, new cjs.Rectangle(-120, -155, 242, 310), null);
-
+    }
+    ).prototype = getMCSymbolPrototype(lib.dark, new cjs.Rectangle(-120,-155,242,310), null);
 
     (lib.cursor_inner = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {
@@ -1494,22 +1493,22 @@
             }]
         }, 1).wait(1));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(-42.6, -36.9, 85.2, 73.8);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(-42.6,-36.9,85.2,73.8);
 
     (lib.a_symbol4 = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
 
-        // 繝ｬ繧､繝､繝ｼ_3
+        // レイヤー_3
         this.instance = new lib.Valentine2020();
         this.instance.parent = this;
         this.instance.setTransform(-70, -82, 0.5667, 0.5667);
 
         this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-    }).prototype = getMCSymbolPrototype(lib.a_symbol4, new cjs.Rectangle(-70, -82, 136, 136), null);
-
+    }
+    ).prototype = getMCSymbolPrototype(lib.a_symbol4, new cjs.Rectangle(-70,-82,136,136), null);
 
     (lib.replace_bg = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
@@ -1520,26 +1519,26 @@
 
         this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-    }).prototype = getMCSymbolPrototype(lib.replace_bg, new cjs.Rectangle(0, 0, 240, 310), null);
-
+    }
+    ).prototype = getMCSymbolPrototype(lib.replace_bg, new cjs.Rectangle(0,0,240,310), null);
 
     (lib.___window_base = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
 
-        // 繝ｬ繧､繝､繝ｼ_2
+        // レイヤー_2
         this.shape = new cjs.Shape();
         this.shape.graphics.lf(["#4F0000", "#B4003B"], [0, 1], -0.2, 35, 0.2, -34.9).s("#FF6699").ss(1, 1, 1).rr(-110, -35, 220, 70, 5);
 
         this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
-    }).prototype = getMCSymbolPrototype(lib.___window_base, new cjs.Rectangle(-111, -36, 222, 72), null);
-
+    }
+    ).prototype = getMCSymbolPrototype(lib.___window_base, new cjs.Rectangle(-111,-36,222,72), null);
 
     (lib.___place = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
 
-        // 繝ｬ繧､繝､繝ｼ_2
-        this.place_name = new cjs.Text("", "14px 'Arial'", "#FFFFFF");
+        // レイヤー_2
+        this.place_name = new cjs.Text("","14px 'Arial'","#FFFFFF");
         this.place_name.name = "place_name";
         this.place_name.textAlign = "center";
         this.place_name.lineHeight = 16;
@@ -1549,42 +1548,42 @@
 
         this.timeline.addTween(cjs.Tween.get(this.place_name).wait(1));
 
-        // 繝ｬ繧､繝､繝ｼ_4
+        // レイヤー_4
         this.shape = new cjs.Shape();
         this.shape.graphics.f("rgba(0,0,0,0.702)").s().p("A10B2IAAjrMArpAAAIAADrg");
         this.shape.setTransform(0.0251, 0, 1.0021, 1.0213);
 
         this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
-    }).prototype = getMCSymbolPrototype(lib.___place, new cjs.Rectangle(-139.9, -12, 279.9, 24), null);
-
+    }
+    ).prototype = getMCSymbolPrototype(lib.___place, new cjs.Rectangle(-139.9,-12,279.9,24), null);
 
     (lib.bg = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
 
-        // 繝ｬ繧､繝､繝ｼ_2
+        // レイヤー_2
         this.instance = new lib.replace_bg();
         this.instance.parent = this;
         this.instance.setTransform(120, 155, 1, 1, 0, 0, 0, 120, 155);
 
         this.timeline.addTween(cjs.Tween.get(this.instance).wait(40));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(0, 0, 240, 310);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(0,0,240,310);
 
     (lib.tie2 = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
 
-        // 繝ｬ繧､繝､繝ｼ_1
+        // レイヤー_1
         this.instance = new lib.patternFrame();
         this.instance.parent = this;
         this.instance.setTransform(240, -86);
 
         this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-    }).prototype = getMCSymbolPrototype(lib.tie2, new cjs.Rectangle(0, -100, 240, 85), null);
-
+    }
+    ).prototype = getMCSymbolPrototype(lib.tie2, new cjs.Rectangle(0,-100,240,85), null);
 
     (lib.text_fields = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {
@@ -1642,7 +1641,7 @@
         // actions tween:
         this.timeline.addTween(cjs.Tween.get(this).wait(9).call(this.frame_9).wait(10).call(this.frame_19).wait(9).call(this.frame_28).wait(9).call(this.frame_37).wait(9).call(this.frame_46).wait(1).call(this.frame_47).wait(8).call(this.frame_55).wait(1).call(this.frame_56).wait(8).call(this.frame_64).wait(1).call(this.frame_65).wait(8).call(this.frame_73).wait(1));
 
-        // 繝ｬ繧､繝､繝ｼ_1
+        // レイヤー_1
         this.tf = new lib.text_field_white();
         this.tf.name = "tf";
         this.tf.parent = this;
@@ -1668,35 +1667,35 @@
         this.tf_4.parent = this;
         this.tf_4.setTransform(131.8, 37.9, 1, 1, 0, 0, 0, 131.8, 37.9);
 
-        this.m5 = new cjs.Text("", "12px 'Arial'", "#FF60AF");
+        this.m5 = new cjs.Text("","12px 'Arial'","#FF60AF");
         this.m5.name = "m5";
         this.m5.lineHeight = 15;
         this.m5.lineWidth = 260;
         this.m5.parent = this;
         this.m5.setTransform(15, 35);
 
-        this.m4 = new cjs.Text("", "12px 'Arial'", "#FF60AF");
+        this.m4 = new cjs.Text("","12px 'Arial'","#FF60AF");
         this.m4.name = "m4";
         this.m4.lineHeight = 15;
         this.m4.lineWidth = 260;
         this.m4.parent = this;
         this.m4.setTransform(15, 19);
 
-        this.m3 = new cjs.Text("", "12px 'Arial'", "#FF60AF");
+        this.m3 = new cjs.Text("","12px 'Arial'","#FF60AF");
         this.m3.name = "m3";
         this.m3.lineHeight = 15;
         this.m3.lineWidth = 260;
         this.m3.parent = this;
         this.m3.setTransform(15, 3);
 
-        this.m2 = new cjs.Text("", "12px 'Arial'", "#FF60AF");
+        this.m2 = new cjs.Text("","12px 'Arial'","#FF60AF");
         this.m2.name = "m2";
         this.m2.lineHeight = 15;
         this.m2.lineWidth = 260;
         this.m2.parent = this;
         this.m2.setTransform(15, -13);
 
-        this.m1 = new cjs.Text("", "12px 'Arial'", "#FF60AF");
+        this.m1 = new cjs.Text("","12px 'Arial'","#FF60AF");
         this.m1.name = "m1";
         this.m1.lineHeight = 15;
         this.m1.lineWidth = 260;
@@ -1806,9 +1805,9 @@
             }]
         }, 9).wait(9));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(0, -31, 276.6, 106.7);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(0,-31,276.6,106.7);
 
     (lib.text_base_unique2 = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {
@@ -1824,12 +1823,12 @@
 
             this.stop();
             /*
-            createjs.Ticker.addEventListener("tick", handleTick);
+		createjs.Ticker.addEventListener("tick", handleTick);
 
-            function handleTick(){
-                self.gotoAndStop('line' + line_num);
-            }
-            */
+		function handleTick(){
+		    self.gotoAndStop('line' + line_num);
+		}
+		*/
         }
         this.frame_1 = function() {
             var self = this;
@@ -1838,10 +1837,10 @@
 
             /*createjs.Ticker.addEventListener("tick", handleTick);
 
-            function handleTick(){
-                self.gotoAndStop('line' + line_num);
-            }
-            */
+		function handleTick(){
+		    self.gotoAndStop('line' + line_num);
+		}
+		*/
         }
         this.frame_2 = function() {
             var self = this;
@@ -1850,26 +1849,26 @@
 
             /*createjs.Ticker.addEventListener("tick", handleTick);
 
-            function handleTick(){
-                self.gotoAndStop('line' + line_num);
-            }
-            */
+		function handleTick(){
+		    self.gotoAndStop('line' + line_num);
+		}
+		*/
         }
         this.frame_3 = function() {
             this.stop();
 
             /*createjs.Ticker.addEventListener("tick", handleTick);
 
-            function handleTick(){
-                this.gotoAndStop('line' + line_num);
-            }
-            */
+		function handleTick(){
+		    this.gotoAndStop('line' + line_num);
+		}
+		*/
         }
 
         // actions tween:
         this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1).call(this.frame_3).wait(1));
 
-        // 繝ｬ繧､繝､繝ｼ_2
+        // レイヤー_2
         this.instance = new lib.___window_base();
         this.instance.parent = this;
         this.instance.setTransform(116, 34.75, 1.05, 0.9863);
@@ -1883,9 +1882,9 @@
             scaleY: 0.3573
         }, 0).wait(1));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(0, -0.2, 232.1, 70.2);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(0,-0.2,232.1,70.2);
 
     (lib.sprite66b = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
@@ -1901,8 +1900,8 @@
         // actions tween:
         this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(10).call(this.frame_10).wait(1));
 
-        // 繝ｬ繧､繝､繝ｼ_2
-        this.instance = new lib.shape65_star("synched", 0);
+        // レイヤー_2
+        this.instance = new lib.shape65_star("synched",0);
         this.instance.parent = this;
         this.instance.setTransform(2.7, 0.95, 3.4133, 4.8676, 45);
 
@@ -1922,9 +1921,9 @@
             _off: true
         }, 1).wait(2));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(-51.2, -137.7, 166.9, 192.6);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(-51.2,-137.7,166.9,192.6);
 
     (lib.sprite66 = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
@@ -1940,8 +1939,8 @@
         // actions tween:
         this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(12).call(this.frame_12).wait(1));
 
-        // 繝ｬ繧､繝､繝ｼ_2
-        this.instance = new lib.shape65_star("synched", 0);
+        // レイヤー_2
+        this.instance = new lib.shape65_star("synched",0);
         this.instance.parent = this;
         this.instance.setTransform(2.7, 0.95, 3.4133, 4.8676, 45);
 
@@ -1995,21 +1994,21 @@
             _off: true
         }, 1).wait(2));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(-81.1, -125.1, 137.7, 180);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(-81.1,-125.1,137.7,180);
 
     (lib.sprite42 = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
 
         // Layer_1
-        this.instance = new lib.shape41("synched", 0);
+        this.instance = new lib.shape41("synched",0);
         this.instance.parent = this;
 
         this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-    }).prototype = getMCSymbolPrototype(lib.sprite42, new cjs.Rectangle(-19.5, -19.5, 39, 39), null);
-
+    }
+    ).prototype = getMCSymbolPrototype(lib.sprite42, new cjs.Rectangle(-19.5,-19.5,39,39), null);
 
     (lib.sprite39 = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
@@ -2017,7 +2016,7 @@
         // timeline functions:
         this.frame_0 = function() {
             /* setProperty("", _visible, 0);
-             */
+		*/
 
             this.visible = false;
         }
@@ -2026,13 +2025,13 @@
         this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
         // Layer_1
-        this.instance = new lib.shape38("synched", 0);
+        this.instance = new lib.shape38("synched",0);
         this.instance.parent = this;
 
         this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-    }).prototype = getMCSymbolPrototype(lib.sprite39, new cjs.Rectangle(-82.7, -95.8, 185.5, 191.7), null);
-
+    }
+    ).prototype = getMCSymbolPrototype(lib.sprite39, new cjs.Rectangle(-82.7,-95.8,185.5,191.7), null);
 
     (lib.spread_flower_pink = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
@@ -2046,10 +2045,10 @@
         this.timeline.addTween(cjs.Tween.get(this).wait(7).call(this.frame_7).wait(1));
 
         // flower3
-        this.instance = new lib.flower_pink2("synched", 0);
+        this.instance = new lib.flower_pink2("synched",0);
         this.instance.parent = this;
         this.instance.setTransform(21.35, 5.15, 0.7153, 0.7153);
-        this.instance.filters = [new cjs.ColorFilter(0.83, 0.83, 0.83, 1, 43.35, 43.35, 43.35, 0)];
+        this.instance.filters = [new cjs.ColorFilter(0.83,0.83,0.83,1,43.35,43.35,43.35,0)];
         this.instance.cache(-8, -8, 15, 15);
 
         this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({
@@ -2092,7 +2091,7 @@
         }, 1).wait(2));
 
         // flower2
-        this.instance_1 = new lib.flower_pink2("synched", 0);
+        this.instance_1 = new lib.flower_pink2("synched",0);
         this.instance_1.parent = this;
         this.instance_1.setTransform(-14, -10.15);
 
@@ -2136,7 +2135,7 @@
         }, 1).wait(2));
 
         // flower1
-        this.instance_2 = new lib.flower_pink1("synched", 0);
+        this.instance_2 = new lib.flower_pink1("synched",0);
         this.instance_2.parent = this;
         this.instance_2.setTransform(15.8, -6.5, 0.7927, 0.7927);
 
@@ -2180,10 +2179,10 @@
         }, 1).wait(2));
 
         // flower3
-        this.instance_3 = new lib.flower_pink2("synched", 0);
+        this.instance_3 = new lib.flower_pink2("synched",0);
         this.instance_3.parent = this;
         this.instance_3.setTransform(-14.45, 14.3, 0.7153, 0.7153);
-        this.instance_3.filters = [new cjs.ColorFilter(0.83, 0.83, 0.83, 1, 43.35, 43.35, 43.35, 0)];
+        this.instance_3.filters = [new cjs.ColorFilter(0.83,0.83,0.83,1,43.35,43.35,43.35,0)];
         this.instance_3.cache(-8, -8, 15, 15);
 
         this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(1).to({
@@ -2226,10 +2225,10 @@
         }, 1).wait(2));
 
         // flower3
-        this.instance_4 = new lib.flower_pink2("synched", 0);
+        this.instance_4 = new lib.flower_pink2("synched",0);
         this.instance_4.parent = this;
         this.instance_4.setTransform(5.6, 19);
-        this.instance_4.filters = [new cjs.ColorFilter(0, 0, 0, 1, 255, 153, 204, 0)];
+        this.instance_4.filters = [new cjs.ColorFilter(0,0,0,1,255,153,204,0)];
         this.instance_4.cache(-8, -8, 15, 15);
 
         this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(1).to({
@@ -2272,7 +2271,7 @@
         }, 1).wait(2));
 
         // flower2
-        this.instance_5 = new lib.flower_pink2("synched", 0);
+        this.instance_5 = new lib.flower_pink2("synched",0);
         this.instance_5.parent = this;
         this.instance_5.setTransform(-20.9, 2.15);
 
@@ -2316,7 +2315,7 @@
         }, 1).wait(2));
 
         // flower1
-        this.instance_6 = new lib.flower_pink1("synched", 0);
+        this.instance_6 = new lib.flower_pink1("synched",0);
         this.instance_6.parent = this;
         this.instance_6.setTransform(0.3, -12.15, 0.7812, 0.7812, -44.9992);
 
@@ -2359,7 +2358,7 @@
             _off: true
         }, 1).wait(2));
 
-        // 繝ｬ繧､繝､繝ｼ_1
+        // レイヤー_1
         this.instance_7 = new lib.spread_flower_circle_pink();
         this.instance_7.parent = this;
         this.instance_7.setTransform(0, 0, 0.5578, 0.5578);
@@ -2376,9 +2375,9 @@
             _off: true
         }, 1).wait(2));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(-84.4, -89.6, 168.4, 171.1);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(-84.4,-89.6,168.4,171.1);
 
     (lib.pusher_next = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {
@@ -2394,7 +2393,7 @@
         this.timeline.addTween(cjs.Tween.get(this).wait(24).call(this.frame_24).wait(1));
 
         // text
-        this.instance = new lib.pusher_next_inner("synched", 0);
+        this.instance = new lib.pusher_next_inner("synched",0);
         this.instance.parent = this;
         this.instance.alpha = 0.1016;
 
@@ -2456,16 +2455,16 @@
             alpha: 1
         }, 0).wait(1));
 
-        // 繝ｬ繧､繝､繝ｼ_2
+        // レイヤー_2
         this.shape = new cjs.Shape();
         this.shape.graphics.f("rgba(0,0,0,0.8)").s().p("A1pBgIAAjAMArTAAAIAADAg");
         this.shape.setTransform(7, 1.1);
 
         this.timeline.addTween(cjs.Tween.get(this.shape).wait(25));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(-131.6, -12.1, 277.2, 24.299999999999997);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(-131.6,-12.1,277.2,24.299999999999997);
 
     (lib.particle2 = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
@@ -2478,16 +2477,16 @@
         // actions tween:
         this.timeline.addTween(cjs.Tween.get(this).wait(15).call(this.frame_15).wait(15));
 
-        // 繝ｬ繧､繝､繝ｼ_3
+        // レイヤー_3
         this.instance = new lib.pa_pp();
         this.instance.parent = this;
         this.instance.setTransform(0, 0.4);
-        this.instance.filters = [new cjs.ColorFilter(0, 0, 0, 1, 153, 0, 0, 0)];
+        this.instance.filters = [new cjs.ColorFilter(0,0,0,1,153,0,0,0)];
         this.instance.cache(-7, -182, 153, 189);
 
         this.timeline.addTween(cjs.Tween.get(this.instance).wait(30));
 
-        // 繝ｬ繧､繝､繝ｼ_2
+        // レイヤー_2
         this.instance_1 = new lib.particle_p();
         this.instance_1.parent = this;
         this.instance_1.setTransform(19.95, -4.05, 0.7674, 0.7674);
@@ -2591,9 +2590,9 @@
             _off: true
         }, 1).wait(16));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(-5.2, -178.7, 148.5, 184.7);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(-5.2,-178.7,148.5,184.7);
 
     (lib.particle1 = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
@@ -2610,14 +2609,14 @@
         // actions tween:
         this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(21).call(this.frame_21).wait(15));
 
-        // 繝ｬ繧､繝､繝ｼ_3
+        // レイヤー_3
         this.instance = new lib.pa_pp();
         this.instance.parent = this;
         this.instance.setTransform(0, 0.4);
 
         this.timeline.addTween(cjs.Tween.get(this.instance).wait(36));
 
-        // 繝ｬ繧､繝､繝ｼ_2
+        // レイヤー_2
         this.instance_1 = new lib.particle_p();
         this.instance_1.parent = this;
         this.instance_1.setTransform(19.95, -4.05, 0.7347, 0.7347);
@@ -2763,34 +2762,34 @@
             _off: true
         }, 1).wait(16));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(-5.2, -178.7, 148.5, 184.7);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(-5.2,-178.7,148.5,184.7);
 
     (lib.hana1_1 = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
 
-        // 繝ｬ繧､繝､繝ｼ_1
+        // レイヤー_1
         this.instance = new lib.efc_hana();
         this.instance.parent = this;
         this.instance.setTransform(0, 0, 1, 1, 0, 0, 0, 0, 11);
-        this.instance.filters = [new cjs.ColorFilter(0, 0, 0, 1, 255, 255, 255, 0)];
+        this.instance.filters = [new cjs.ColorFilter(0,0,0,1,255,255,255,0)];
         this.instance.cache(-14, -2, 28, 26);
 
         this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-    }).prototype = getMCSymbolPrototype(lib.hana1_1, new cjs.Rectangle(-12, -11, 24, 22), null);
-
+    }
+    ).prototype = getMCSymbolPrototype(lib.hana1_1, new cjs.Rectangle(-12,-11,24,22), null);
 
     (lib.glitter_first_inner = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
 
-        // 繝ｬ繧､繝､繝ｼ_1
-        this.instance = new lib.pointGlitter2("synched", 0);
+        // レイヤー_1
+        this.instance = new lib.pointGlitter2("synched",0);
         this.instance.parent = this;
         this.instance.setTransform(0, 0, 0.0121, 0.6227, 59.2024);
 
-        this.instance_1 = new lib.pointGlitter2("synched", 0);
+        this.instance_1 = new lib.pointGlitter2("synched",0);
         this.instance_1.parent = this;
         this.instance_1.setTransform(0, 0, 0.0109, 0.7287, -30.7981);
 
@@ -2807,10 +2806,10 @@
             }]
         }).wait(1));
 
-    }).prototype = getMCSymbolPrototype(lib.glitter_first_inner, new cjs.Rectangle(-18.5, -21.7, 37.1, 43.4), null);
+    }
+    ).prototype = getMCSymbolPrototype(lib.glitter_first_inner, new cjs.Rectangle(-18.5,-21.7,37.1,43.4), null);
 
-
-    (lib.glitter_rise_core = function(mode, startPosition, loop) {
+    (lib.gｌitter_rise_core = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
 
         // timeline functions:
@@ -2881,9 +2880,9 @@
             _off: true
         }, 1).wait(1));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(-9.6, -11.2, 19.299999999999997, 22.5);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(-9.6,-11.2,19.299999999999997,22.5);
 
     (lib.effect_levelup = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
@@ -2901,8 +2900,8 @@
         // actions tween:
         this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(15).call(this.frame_15).wait(1));
 
-        // 螟ｧ縺阪＞邇�
-        this.instance = new lib.shape65("single", 0);
+        // 大きい玉
+        this.instance = new lib.shape65("single",0);
         this.instance.parent = this;
         this.instance.setTransform(8.1, 14.1, 9.5072, 9.5072, 90);
 
@@ -2910,7 +2909,7 @@
             _off: true
         }, 1).wait(15));
 
-        // 蠎�′繧狗脂1
+        // 広がる玉1
         this.instance_1 = new lib.sprite66();
         this.instance_1.parent = this;
         this.instance_1.setTransform(9, 17, 0.6564, 0.6564, -135.1055);
@@ -2943,7 +2942,7 @@
             state: []
         }, 14).wait(1));
 
-        // 蠎�′繧狗脂2
+        // 広がる玉2
         this.instance_5 = new lib.sprite66b();
         this.instance_5.parent = this;
         this.instance_5.setTransform(9.05, 14.25, 0.4201, 0.4201, 89.8939);
@@ -2976,14 +2975,14 @@
             state: []
         }, 13).wait(1));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(-70.3, -63.8, 158.8, 158.7);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(-70.3,-63.8,158.8,158.7);
 
     (lib.efa_particle = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
 
-        // 繝ｬ繧､繝､繝ｼ_1
+        // レイヤー_1
         this.instance = new lib.particle2();
         this.instance.parent = this;
         this.instance.setTransform(-3.7, 44.05, 0.8585, 0.8585, -173.2889);
@@ -3276,13 +3275,13 @@
             }]
         }).wait(1));
 
-    }).prototype = getMCSymbolPrototype(lib.efa_particle, new cjs.Rectangle(-320.5, -245.4, 564, 474.70000000000005), null);
-
+    }
+    ).prototype = getMCSymbolPrototype(lib.efa_particle, new cjs.Rectangle(-320.5,-245.4,564,474.70000000000005), null);
 
     (lib.efa_hana2 = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
 
-        // 繝ｬ繧､繝､繝ｼ_1
+        // レイヤー_1
         this.instance = new lib.hana1_1();
         this.instance.parent = this;
         this.instance.setTransform(5.6, -1.55, 0.7223, 0.7223, 0, -82.4591, 97.5409);
@@ -3297,9 +3296,9 @@
             alpha: 0
         }, 17, cjs.Ease.get(0.91)).wait(1));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(-7.4, -117.5, 71.7, 125.7);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(-7.4,-117.5,71.7,125.7);
 
     (lib.cursor = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
@@ -3307,7 +3306,7 @@
         // timeline functions:
         this.frame_8 = function() {
             /* gotoAndPlay( 1 );
-             */
+		*/
 
             this.gotoAndPlay(0);
         }
@@ -3315,7 +3314,7 @@
         // actions tween:
         this.timeline.addTween(cjs.Tween.get(this).wait(8).call(this.frame_8).wait(1));
 
-        // 繧ｫ繝ｼ繧ｽ繝ｫ
+        // カーソル
         this.inner = new lib.cursor_inner();
         this.inner.name = "inner";
         this.inner.parent = this;
@@ -3343,9 +3342,9 @@
             y: -1.6
         }, 0).wait(1));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(-7.8, -8.4, 15.7, 17);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(-7.8,-8.4,15.7,17);
 
     (lib.cursol_container = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {
@@ -3372,7 +3371,7 @@
         // actions tween:
         this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1).call(this.frame_3).wait(1));
 
-        // 繝ｬ繧､繝､繝ｼ_1
+        // レイヤー_1
         this.cu = new lib.cursor();
         this.cu.name = "cu";
         this.cu.parent = this;
@@ -3386,14 +3385,14 @@
             y: -15.3
         }, 0).wait(1));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(0.8, -21.1, 11, 31.6);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(0.8,-21.1,11,31.6);
 
     (lib.___card_in_heart = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
 
-        // 逶ｮ髫�縺�
+        // 目隠し
         this.instance = new lib.hanen();
         this.instance.parent = this;
         this.instance.setTransform(0, 54, 1, 1, 0, 180, 0);
@@ -3410,13 +3409,13 @@
             }]
         }).wait(1));
 
-    }).prototype = getMCSymbolPrototype(lib.___card_in_heart, new cjs.Rectangle(-120, -362.9, 240, 576.9), null);
-
+    }
+    ).prototype = getMCSymbolPrototype(lib.___card_in_heart, new cjs.Rectangle(-120,-362.9,240,576.9), null);
 
     (lib.window_unique2 = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
 
-        // 繝ｬ繧､繝､繝ｼ_2
+        // レイヤー_2
         this.ar1 = new lib.cursol_container();
         this.ar1.name = "ar1";
         this.ar1.parent = this;
@@ -3424,7 +3423,7 @@
 
         this.timeline.addTween(cjs.Tween.get(this.ar1).wait(1));
 
-        // 繝ｬ繧､繝､繝ｼ_3
+        // レイヤー_3
         this.tf = new lib.text_field_black();
         this.tf.name = "tf";
         this.tf.parent = this;
@@ -3432,20 +3431,20 @@
 
         this.timeline.addTween(cjs.Tween.get(this.tf).wait(1));
 
-        // 繝ｬ繧､繝､繝ｼ_4
-        this.instance = new lib.window_4_1("synched", 0);
+        // レイヤー_4
+        this.instance = new lib.window_4_1("synched",0);
         this.instance.parent = this;
         this.instance.setTransform(119.5, 49.6, 1, 1, 0, 0, 0, 115.5, 43.6);
 
         this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-    }).prototype = getMCSymbolPrototype(lib.window_unique2, new cjs.Rectangle(0, 0, 281.3, 102.8), null);
-
+    }
+    ).prototype = getMCSymbolPrototype(lib.window_unique2, new cjs.Rectangle(0,0,281.3,102.8), null);
 
     (lib.window_unique = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
 
-        // 繝ｬ繧､繝､繝ｼ_2
+        // レイヤー_2
         this.ar1 = new lib.cursol_container();
         this.ar1.name = "ar1";
         this.ar1.parent = this;
@@ -3453,7 +3452,7 @@
 
         this.timeline.addTween(cjs.Tween.get(this.ar1).wait(1));
 
-        // 繝ｬ繧､繝､繝ｼ_3
+        // レイヤー_3
         this.tf = new lib.text_field_black();
         this.tf.name = "tf";
         this.tf.parent = this;
@@ -3462,14 +3461,14 @@
         this.timeline.addTween(cjs.Tween.get(this.tf).wait(1));
 
         // window
-        this.instance = new lib.window_4_1("synched", 0);
+        this.instance = new lib.window_4_1("synched",0);
         this.instance.parent = this;
         this.instance.setTransform(119.5, 49.6, 1, 1, 0, 0, 0, 115.5, 43.6);
 
         this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-    }).prototype = getMCSymbolPrototype(lib.window_unique, new cjs.Rectangle(0, 0, 281.3, 94), null);
-
+    }
+    ).prototype = getMCSymbolPrototype(lib.window_unique, new cjs.Rectangle(0,0,281.3,94), null);
 
     (lib.unit = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {
@@ -3500,7 +3499,7 @@
         this.timeline.addTween(cjs.Tween.get(this).wait(8).call(this.frame_8).wait(9).call(this.frame_17).wait(18).call(this.frame_35).wait(12).call(this.frame_47).wait(15).call(this.frame_62).wait(1));
 
         // EF
-        this.instance = new lib.spread_flower_pink("synched", 0, false);
+        this.instance = new lib.spread_flower_pink("synched",0,false);
         this.instance.parent = this;
         this.instance.setTransform(126, 110.95, 1, 1, 0, 0, 180);
         this.instance._off = true;
@@ -3511,7 +3510,7 @@
             _off: true
         }, 11).wait(16));
 
-        // 繝ｬ繧､繝､繝ｼ_1
+        // レイヤー_1
         this.instance_1 = new lib.replace_target_260x250_unit();
         this.instance_1.parent = this;
         this.instance_1.setTransform(130, 125, 1, 1, 0, 0, 0, 130, 125);
@@ -3685,9 +3684,9 @@
             y: 251
         }, 0).wait(1));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(1.4, -14, 248.7, 271);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(1.4,-14,248.7,271);
 
     (lib.yajirusi = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {
@@ -3754,7 +3753,7 @@
         // actions tween:
         this.timeline.addTween(cjs.Tween.get(this).wait(9).call(this.frame_9).wait(2).call(this.frame_11).wait(6).call(this.frame_17).wait(2).call(this.frame_19).wait(3).call(this.frame_22).wait(2).call(this.frame_24).wait(4).call(this.frame_28).wait(2).call(this.frame_30).wait(6).call(this.frame_36).wait(1).call(this.frame_37).wait(1).call(this.frame_38).wait(3).call(this.frame_41).wait(2).call(this.frame_43).wait(4).call(this.frame_47).wait(2).call(this.frame_49).wait(6).call(this.frame_55).wait(1));
 
-        // 繝ｬ繧､繝､繝ｼ_3
+        // レイヤー_3
         this.ar1 = new lib.cursol_container();
         this.ar1.name = "ar1";
         this.ar1.parent = this;
@@ -3770,9 +3769,9 @@
             y: -13.5
         }, 0).wait(19));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(-25.2, -18.1, 24.099999999999998, 16.700000000000003);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(-25.2,-18.1,24.099999999999998,16.700000000000003);
 
     (lib.text_window = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {
@@ -3787,9 +3786,9 @@
         // timeline functions:
         this.frame_0 = function() {
             /*
-            繝ｩ繝吶Ν"base_white"窶ｦ繝�く繧ｹ繝医�繝ｼ繧ｹ縺檎區縺ｧ譁�ｭ励�證励＞繧ｰ繝ｬ繝ｼ
-            繝ｩ繝吶Ν"base_black"窶ｦ繝�く繧ｹ繝医�繝ｼ繧ｹ縺碁ｻ偵〒譁�ｭ励�逋ｽ
-            */
+		ラベル"base_white"…テキストベースが白で文字は暗いグレー
+		ラベル"base_black"…テキストベースが黒で文字は白
+		*/
 
             this.stop();
         }
@@ -3818,7 +3817,7 @@
         // actions tween:
         this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(9).call(this.frame_9).wait(10).call(this.frame_19).wait(10).call(this.frame_29).wait(10).call(this.frame_39).wait(12).call(this.frame_51).wait(1).call(this.frame_52).wait(11).call(this.frame_63).wait(1));
 
-        // 繝ｬ繧､繝､繝ｼ_6
+        // レイヤー_6
         this.instance = new lib.window();
         this.instance.parent = this;
         this.instance.setTransform(-120, -47, 0.5, 0.5);
@@ -3828,7 +3827,7 @@
             _off: false
         }, 0).wait(12));
 
-        // 繝ｬ繧､繝､繝ｼ_5
+        // レイヤー_5
         this.b1 = new lib.text_base_unique2();
         this.b1.name = "b1";
         this.b1.parent = this;
@@ -3841,7 +3840,7 @@
             _off: true
         }, 12).wait(12));
 
-        // 繝ｬ繧､繝､繝ｼ_4
+        // レイヤー_4
         this.b1_1 = new lib.text_base_unique1();
         this.b1_1.name = "b1_1";
         this.b1_1.parent = this;
@@ -3854,7 +3853,7 @@
             _off: true
         }, 10).wait(24));
 
-        // 繝ｬ繧､繝､繝ｼ_3
+        // レイヤー_3
         this.b1_2 = new lib.text_base_black();
         this.b1_2.name = "b1_2";
         this.b1_2.parent = this;
@@ -3868,7 +3867,7 @@
             _off: true
         }, 10).wait(34));
 
-        // 繝ｬ繧､繝､繝ｼ_2
+        // レイヤー_2
         this.b1_3 = new lib.text_base_black();
         this.b1_3.name = "b1_3";
         this.b1_3.parent = this;
@@ -3881,7 +3880,7 @@
             _off: true
         }, 10).wait(44));
 
-        // 繝ｬ繧､繝､繝ｼ_1
+        // レイヤー_1
         this.b1_4 = new lib.text_base();
         this.b1_4.name = "b1_4";
         this.b1_4.parent = this;
@@ -3891,9 +3890,9 @@
             _off: true
         }, 10).wait(54));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(-120, -47, 240, 170);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(-120,-47,240,170);
 
     (lib.sprite43 = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
@@ -3916,11 +3915,11 @@
             alpha: 0.5
         }, 4).wait(1));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(-57.7, -57.7, 115.5, 115.5);
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(-57.7,-57.7,115.5,115.5);
 
-
-    (lib.glitter_rise_inner = function(mode, startPosition, loop) {
+    (lib.gｌitter_rise_inner = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {
             r: 46,
             "-": 142
@@ -3938,8 +3937,8 @@
         // actions tween:
         this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(142).call(this.frame_142).wait(1));
 
-        // 繝ｬ繧､繝､繝ｼ_1
-        this.instance = new lib.glitter_rise_core();
+        // レイヤー_1
+        this.instance = new lib.gｌitter_rise_core();
         this.instance.parent = this;
         this.instance.setTransform(0, -17.45);
 
@@ -3948,103 +3947,103 @@
             y: 355.55
         }, 96).wait(1));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(-42.1, -28.7, 86.7, 395.5);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(-42.1,-28.7,86.7,395.5);
 
     (lib.glitter_rise = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
 
-        // 繝ｬ繧､繝､繝ｼ_1
-        this.instance = new lib.glitter_rise_inner();
+        // レイヤー_1
+        this.instance = new lib.gｌitter_rise_inner();
         this.instance.parent = this;
         this.instance.setTransform(150.4, 8.8, 0.6479, 0.6442);
 
-        this.instance_1 = new lib.glitter_rise_inner();
+        this.instance_1 = new lib.gｌitter_rise_inner();
         this.instance_1.parent = this;
         this.instance_1.setTransform(182.95, 13.55, 0.6479, 0.6442);
 
-        this.instance_2 = new lib.glitter_rise_inner();
+        this.instance_2 = new lib.gｌitter_rise_inner();
         this.instance_2.parent = this;
         this.instance_2.setTransform(178.05, 1.4, 0.3695, 0.3674);
 
-        this.instance_3 = new lib.glitter_rise_inner();
+        this.instance_3 = new lib.gｌitter_rise_inner();
         this.instance_3.parent = this;
         this.instance_3.setTransform(165.35, 4.1, 0.3695, 0.3674);
 
-        this.instance_4 = new lib.glitter_rise_inner();
+        this.instance_4 = new lib.gｌitter_rise_inner();
         this.instance_4.parent = this;
         this.instance_4.setTransform(144.85, 12.05, 0.6947, 0.692);
 
-        this.instance_5 = new lib.glitter_rise_inner();
+        this.instance_5 = new lib.gｌitter_rise_inner();
         this.instance_5.parent = this;
         this.instance_5.setTransform(97.8, 10, 0.6947, 0.692);
 
-        this.instance_6 = new lib.glitter_rise_inner();
+        this.instance_6 = new lib.gｌitter_rise_inner();
         this.instance_6.parent = this;
         this.instance_6.setTransform(117.35, -2.25, 0.3962, 0.3946);
 
-        this.instance_7 = new lib.glitter_rise_inner();
+        this.instance_7 = new lib.gｌitter_rise_inner();
         this.instance_7.parent = this;
         this.instance_7.setTransform(81.8, 8.2, 0.3962, 0.3946);
 
-        this.instance_8 = new lib.glitter_rise_inner();
+        this.instance_8 = new lib.gｌitter_rise_inner();
         this.instance_8.parent = this;
         this.instance_8.setTransform(107.3, 15.65, 0.6947, 0.692);
 
-        this.instance_9 = new lib.glitter_rise_inner();
+        this.instance_9 = new lib.gｌitter_rise_inner();
         this.instance_9.parent = this;
         this.instance_9.setTransform(129.05, 5.8, 0.6947, 0.692);
 
-        this.instance_10 = new lib.glitter_rise_inner();
+        this.instance_10 = new lib.gｌitter_rise_inner();
         this.instance_10.parent = this;
         this.instance_10.setTransform(24.05, 7.05, 0.3962, 0.3946);
 
-        this.instance_11 = new lib.glitter_rise_inner();
+        this.instance_11 = new lib.gｌitter_rise_inner();
         this.instance_11.parent = this;
         this.instance_11.setTransform(49.85, 11.35, 0.6947, 0.692);
 
-        this.instance_12 = new lib.glitter_rise_inner();
+        this.instance_12 = new lib.gｌitter_rise_inner();
         this.instance_12.parent = this;
         this.instance_12.setTransform(-22.4, 9.85, 0.6947, 0.692);
 
-        this.instance_13 = new lib.glitter_rise_inner();
+        this.instance_13 = new lib.gｌitter_rise_inner();
         this.instance_13.parent = this;
         this.instance_13.setTransform(62.8, 8.25, 0.6947, 0.692);
 
-        this.instance_14 = new lib.glitter_rise_inner();
+        this.instance_14 = new lib.gｌitter_rise_inner();
         this.instance_14.parent = this;
         this.instance_14.setTransform(34.2, 5.1, 0.6947, 0.692);
 
-        this.instance_15 = new lib.glitter_rise_inner();
+        this.instance_15 = new lib.gｌitter_rise_inner();
         this.instance_15.parent = this;
         this.instance_15.setTransform(7.25, 1.75, 0.3962, 0.3946);
 
-        this.instance_16 = new lib.glitter_rise_inner();
+        this.instance_16 = new lib.gｌitter_rise_inner();
         this.instance_16.parent = this;
         this.instance_16.setTransform(-6.35, 4.7, 0.3962, 0.3946);
 
-        this.instance_17 = new lib.glitter_rise_inner();
+        this.instance_17 = new lib.gｌitter_rise_inner();
         this.instance_17.parent = this;
         this.instance_17.setTransform(-47.95, 11.35, 0.6947, 0.692);
 
-        this.instance_18 = new lib.glitter_rise_inner();
+        this.instance_18 = new lib.gｌitter_rise_inner();
         this.instance_18.parent = this;
         this.instance_18.setTransform(-119.75, 9.85, 0.6947, 0.692);
 
-        this.instance_19 = new lib.glitter_rise_inner();
+        this.instance_19 = new lib.gｌitter_rise_inner();
         this.instance_19.parent = this;
         this.instance_19.setTransform(-94.85, 9.25, 0.6947, 0.692);
 
-        this.instance_20 = new lib.glitter_rise_inner();
+        this.instance_20 = new lib.gｌitter_rise_inner();
         this.instance_20.parent = this;
         this.instance_20.setTransform(-75.25, -2.95, 0.3962, 0.3946);
 
-        this.instance_21 = new lib.glitter_rise_inner();
+        this.instance_21 = new lib.gｌitter_rise_inner();
         this.instance_21.parent = this;
         this.instance_21.setTransform(-110.9, 7.45, 0.3962, 0.3946);
 
-        this.instance_22 = new lib.glitter_rise_inner();
+        this.instance_22 = new lib.gｌitter_rise_inner();
         this.instance_22.parent = this;
         this.instance_22.setTransform(-63.5, 5.1, 0.6947, 0.692);
 
@@ -4098,8 +4097,8 @@
             }]
         }).wait(1));
 
-    }).prototype = getMCSymbolPrototype(lib.glitter_rise, new cjs.Rectangle(-126.4, -14.7, 315.6, 26), null);
-
+    }
+    ).prototype = getMCSymbolPrototype(lib.glitter_rise, new cjs.Rectangle(-126.4,-14.7,315.6,26), null);
 
     (lib.common_message_window = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {
@@ -4419,9 +4418,9 @@
             _off: true
         }, 1).wait(56));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(0, -11, 269.6, 237.7);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(0,-11,269.6,237.7);
 
     (lib.window_container = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {
@@ -4464,7 +4463,7 @@
         // actions tween:
         this.timeline.addTween(cjs.Tween.get(this).wait(13).call(this.frame_13).wait(15).call(this.frame_28).wait(15).call(this.frame_43).wait(16).call(this.frame_59).wait(14).call(this.frame_73).wait(15).call(this.frame_88).wait(12).call(this.frame_100).wait(9).call(this.frame_109).wait(1));
 
-        // 繝ｬ繧､繝､繝ｼ_1
+        // レイヤー_1
         this.window = new lib.common_message_window();
         this.window.name = "window";
         this.window.parent = this;
@@ -4486,9 +4485,9 @@
             y: 72.9
         }, 0).wait(9));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(0, -26.5, 269.6, 205.7);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(0,-26.5,269.6,205.7);
 
     (lib.sprite442 = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
@@ -4624,9 +4623,9 @@
 
         this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(13));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(-68.5, -62.3, 153.7, 122.4);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(-68.5,-62.3,153.7,122.4);
 
     (lib.sprite44_2 = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
@@ -4695,15 +4694,15 @@
 
         this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(13));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(-104.3, -204.3, 258.2, 264.40000000000003);
-
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(-104.3,-204.3,258.2,264.40000000000003);
 
     // stage content:
     (lib.valentine_2020 = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {
-            "繝励Ξ繧ｼ繝ｳ繝医ｂ繧峨≧��ユ繧ｭ繧ｹ繝�": 27,
-            蜿ｰ隧� 2: 77,
+            "プレゼントもらう＆テキスト": 27,
+            台詞2: 77,
             scene1: 1,
             scene2_a: 9,
             scene3: 27,
@@ -4740,18 +4739,17 @@
                     self.window_1.window.ar.gotoAndPlay(arrow_color);
                 }
 
-
                 if (line_num != now_line_num) {
                     self.window_1.window.t.tf.gotoAndStop("line" + line_num);
                     self.window_1.window.b.b1.gotoAndStop("line" + line_num);
                     self.window_1.window.ar.ar1.gotoAndStop("line" + line_num);
                 }
                 /*
-                	exportRoot.m1 = exportRoot["t" + idx + "_1"];
-                	exportRoot.m2 = exportRoot["t" + idx + "_2"];
-                	exportRoot.m3 = exportRoot["t" + idx + "_3"];
-                	exportRoot.m4 = exportRoot["t" + idx + "_4"];
-                */
+			exportRoot.m1 = exportRoot["t" + idx + "_1"];
+			exportRoot.m2 = exportRoot["t" + idx + "_2"];
+			exportRoot.m3 = exportRoot["t" + idx + "_3"];
+			exportRoot.m4 = exportRoot["t" + idx + "_4"];
+		*/
                 now_base_color = base_color;
                 now_text_color = text_color;
                 now_arrow_color = arrow_color;
@@ -4775,15 +4773,16 @@
                 }
             }
             //-----------------------------------
-            // 繝代Λ繝｡繝ｼ繧ｿ
+            // パラメータ
             //-----------------------------------
 
-            exportRoot._url = window.im_cjs._url || "http://www.mbga.jp"; //驕ｷ遘ｻ蜈�
+            exportRoot._url = window.im_cjs._url || "http://www.mbga.jp";
+            //遷移先
 
-            //蝣ｴ謇蜷阪ょ虚逧�宛蠕｡縺吶ｋ縺玖ｦ∫｢ｺ隱�
-            exportRoot.place.place_name.text = window.im_cjs.place_name || "繧ｫ繝輔ぉ蠎怜�";
+            //場所名。動的制御するか要確認
+            exportRoot.place.place_name.text = window.im_cjs.place_name || "カフェ店内";
 
-            //繝ｫ繝ｼ繝亥�蟯舌��0�壻ｼ壹＞縺ｫ譚･繧九1�壻ｼ壹＞縺ｫ陦後￥��
+            //ルート分岐　（0：会いに来る　1：会いに行く）
 
             exportRoot.idol_root = window.im_cjs.idol_root || 1;
 
@@ -4807,9 +4806,8 @@
             exportRoot.txt4_3 = window.im_cjs.txt4_3 || "";
             exportRoot.txt4_4 = window.im_cjs.txt4_4 || "";
 
-
             //-----------------------------------
-            // 蛻晄悄蛹�
+            // 初期化
             //-----------------------------------
             idx = 0;
 
@@ -4825,18 +4823,18 @@
             now_window_align = '';
         }
         this.frame_1 = function() {
-            /* //繧ｦ繧､繝ｳ繝峨え謫堺ｽ�
-            window_align="blank";
-            base_color = "unique1";
-            text_color = "black";
-            arrow_color="black";
-            line_num = 4;
-            call("window_change");
+            /* //ウインドウ操作
+		window_align="blank";
+		base_color = "unique1";
+		text_color = "black";
+		arrow_color="black";
+		line_num = 4;
+		call("window_change");
 
-            gotoAndPlay("window_1/window/:hide");
-            */
+		gotoAndPlay("window_1/window/:hide");
+		*/
 
-            //繧ｦ繧､繝ｳ繝峨え謫堺ｽ�
+            //ウインドウ操作
             window_align = "blank";
             base_color = "unique1";
             text_color = "black";
@@ -4857,14 +4855,14 @@
 
             var self = this;
 
-            //PC逕ｨ縺ｫENTER縺ｧ繧るｲ繧√ｋ繧医≧縺ｫ縺吶ｋ縲�
+            //PC用にENTERでも進めるようにする。
             window.addEventListener("keydown", handleKeyDown);
 
             function handleKeyDown(event) {
                 var keyCode = event.keyCode;
                 if (keyCode == 13) {
-                    // 繧ｨ繝ｳ繧ｿ繝ｼ繧ｭ繝ｼ縺梧款縺輔ｌ縺滓凾縺ｮ蜃ｦ逅�
-                    // loading譎�
+                    // エンターキーが押された時の処理
+                    // loading時
                     if (exportRoot.idol_root == 1) {
                         self.gotoAndPlay("scene2_a");
                     } else {
@@ -4876,7 +4874,7 @@
                 }
             }
 
-            // 繝懊ち繝ｳ繧ｿ繝��蜃ｦ逅�
+            // ボタンタップ処理
             this.btn.addEventListener('click', onClick);
 
             function onClick(event) {
@@ -4903,20 +4901,20 @@
 
             var self = this;
 
-            //PC逕ｨ
+            //PC用
             window.addEventListener("keydown", handleKeyDown);
 
             function handleKeyDown(event) {
                 var keyCode = event.keyCode;
                 if (keyCode == 13) {
-                    // 繧ｨ繝ｳ繧ｿ繝ｼ繧ｭ繝ｼ縺梧款縺輔ｌ縺滓凾縺ｮ蜃ｦ逅�
+                    // エンターキーが押された時の処理
                     self.gotoAndPlay("scene3");
                     window.removeEventListener("keydown", handleKeyDown);
                     self.btn.removeEventListener('click', onClick);
                 }
             }
 
-            // 繝懊ち繝ｳ繧ｿ繝��蜃ｦ逅�
+            // ボタンタップ処理
             this.btn.addEventListener('click', onClick);
 
             function onClick(event) {
@@ -4928,8 +4926,7 @@
         this.frame_27 = function() {
             window.se_play('se_110');
         }
-        this.frame_39 = function() {
-            //gotoAndPlay("window_1/window/:out1");
+        this.frame_39 = function() {//gotoAndPlay("window_1/window/:out1");
         }
         this.frame_60 = function() {
             window.se_play('se_145');
@@ -4964,20 +4961,20 @@
 
             var self = this;
 
-            //PC逕ｨ
+            //PC用
             window.addEventListener("keydown", handleKeyDown);
 
             function handleKeyDown(event) {
                 var keyCode = event.keyCode;
                 if (keyCode == 13) {
-                    // 繧ｨ繝ｳ繧ｿ繝ｼ繧ｭ繝ｼ縺梧款縺輔ｌ縺滓凾縺ｮ蜃ｦ逅�
+                    // エンターキーが押された時の処理
                     self.gotoAndPlay("scene4");
                     window.removeEventListener("keydown", handleKeyDown);
                     self.btn.removeEventListener('click', onClick);
                 }
             }
 
-            // 繝懊ち繝ｳ繧ｿ繝��蜃ｦ逅�
+            // ボタンタップ処理
             this.btn.addEventListener('click', onClick);
 
             function onClick(event) {
@@ -5004,20 +5001,20 @@
 
             var self = this;
 
-            //PC逕ｨ
+            //PC用
             window.addEventListener("keydown", handleKeyDown);
 
             function handleKeyDown(event) {
                 var keyCode = event.keyCode;
                 if (keyCode == 13) {
-                    // 繧ｨ繝ｳ繧ｿ繝ｼ繧ｭ繝ｼ縺梧款縺輔ｌ縺滓凾縺ｮ蜃ｦ逅�
+                    // エンターキーが押された時の処理
                     self.gotoAndPlay("scene5");
                     window.removeEventListener("keydown", handleKeyDown);
                     self.btn.removeEventListener('click', onClick);
                 }
             }
 
-            // 繝懊ち繝ｳ繧ｿ繝��蜃ｦ逅�
+            // ボタンタップ処理
             this.btn.addEventListener('click', onClick);
 
             function onClick(event) {
@@ -5055,20 +5052,20 @@
 
             var self = this;
 
-            //PC逕ｨ
+            //PC用
             window.addEventListener("keydown", handleKeyDown);
 
             function handleKeyDown(event) {
                 var keyCode = event.keyCode;
                 if (keyCode == 13) {
-                    // 繧ｨ繝ｳ繧ｿ繝ｼ繧ｭ繝ｼ縺梧款縺輔ｌ縺滓凾縺ｮ蜃ｦ逅�
+                    // エンターキーが押された時の処理
                     jump();
                     window.removeEventListener("keydown", handleKeyDown);
                     self.btn.removeEventListener('click', onClick);
                 }
             }
 
-            // 繝懊ち繝ｳ繧ｿ繝��蜃ｦ逅�
+            // ボタンタップ処理
             this.btn.addEventListener('click', onClick);
 
             function onClick(event) {
@@ -5083,44 +5080,43 @@
             exportRoot.m3 = exportRoot.txt1_3;
             exportRoot.m4 = exportRoot.txt1_4;
         }
-        this.frame_136 = function() {
-            /*
-            //繧ｦ繧､繝ｳ繝峨え謫堺ｽ�
-            window_align="center";
-            base_color = "white";
-            text_color = "black";
-            arrow_color="black";
-            line_num = 4;
-            call("window_change");
+        this.frame_136 = function() {/*
+		//ウインドウ操作
+		window_align="center";
+		base_color = "white";
+		text_color = "black";
+		arrow_color="black";
+		line_num = 4;
+		call("window_change");
 
-            gotoAndPlay("window_1/window/:in1");
-            m1=txt1_1;
-            m2=txt1_2;
-            m3=txt1_3;
-            m4=txt1_4;
+		gotoAndPlay("window_1/window/:in1");
+		m1=txt1_1;
+		m2=txt1_2;
+		m3=txt1_3;
+		m4=txt1_4;
 
 
-            */
+		*/
         }
         this.frame_140 = function() {
             this.stop();
 
             var self = this;
 
-            //PC逕ｨ
+            //PC用
             window.addEventListener("keydown", handleKeyDown);
 
             function handleKeyDown(event) {
                 var keyCode = event.keyCode;
                 if (keyCode == 13) {
-                    // 繧ｨ繝ｳ繧ｿ繝ｼ繧ｭ繝ｼ縺梧款縺輔ｌ縺滓凾縺ｮ蜃ｦ逅�
+                    // エンターキーが押された時の処理
                     self.gotoAndPlay("scene3");
                     window.removeEventListener("keydown", handleKeyDown);
                     self.btn.removeEventListener('click', onClick);
                 }
             }
 
-            // 繝懊ち繝ｳ繧ｿ繝��蜃ｦ逅�
+            // ボタンタップ処理
             this.btn.addEventListener('click', onClick);
 
             function onClick(event) {
@@ -5645,15 +5641,15 @@
         }, 3).wait(13));
 
         // petal
-        this.instance_13 = new lib.efa_hana2("synched", 0, false);
+        this.instance_13 = new lib.efa_hana2("synched",0,false);
         this.instance_13.parent = this;
         this.instance_13.setTransform(162.9, 216.6, 0.465, 0.782, 16.4957);
 
-        this.instance_14 = new lib.efa_hana2("synched", 0, false);
+        this.instance_14 = new lib.efa_hana2("synched",0,false);
         this.instance_14.parent = this;
         this.instance_14.setTransform(123.25, 197.4, 0.5001, 0.5001, 0, 53.4182, -126.5818);
 
-        this.instance_15 = new lib.efa_hana2("synched", 0, false);
+        this.instance_15 = new lib.efa_hana2("synched",0,false);
         this.instance_15.parent = this;
         this.instance_15.setTransform(109.4, 214.15, 0.7851, 0.7851, 0, -32.2392, 147.7608);
 
@@ -5672,15 +5668,15 @@
         }, 8).wait(102));
 
         // petal
-        this.instance_16 = new lib.efa_hana2("synched", 0, false);
+        this.instance_16 = new lib.efa_hana2("synched",0,false);
         this.instance_16.parent = this;
         this.instance_16.setTransform(105.6, 218.85, 0.7264, 0.7264, 0, -6.5305, 173.4695);
 
-        this.instance_17 = new lib.efa_hana2("synched", 0, false);
+        this.instance_17 = new lib.efa_hana2("synched",0,false);
         this.instance_17.parent = this;
         this.instance_17.setTransform(167.75, 213.75, 0.6667, 0.6719, 0, 13.6446, 6.4671);
 
-        this.instance_18 = new lib.efa_hana2("synched", 0, false);
+        this.instance_18 = new lib.efa_hana2("synched",0,false);
         this.instance_18.parent = this;
         this.instance_18.setTransform(159.15, 204.05, 0.637, 0.637, -31.9278);
 
@@ -5699,15 +5695,15 @@
         }, 9).wait(102));
 
         // petal
-        this.instance_19 = new lib.efa_hana2("synched", 0, false);
+        this.instance_19 = new lib.efa_hana2("synched",0,false);
         this.instance_19.parent = this;
         this.instance_19.setTransform(110.2, 199.85, 0.7926, 0.9951, 0, 12.4499, -167.5504);
 
-        this.instance_20 = new lib.efa_hana2("synched", 0, false);
+        this.instance_20 = new lib.efa_hana2("synched",0,false);
         this.instance_20.parent = this;
         this.instance_20.setTransform(162.3, 190.2, 0.637, 0.637, -22.9396);
 
-        this.instance_21 = new lib.efa_hana2("synched", 0, false);
+        this.instance_21 = new lib.efa_hana2("synched",0,false);
         this.instance_21.parent = this;
         this.instance_21.setTransform(167.05, 202);
 
@@ -5898,8 +5894,9 @@
             _off: true
         }, 1).wait(140));
 
-    }).prototype = p = new cjs.MovieClip();
-    p.nominalBounds = new cjs.Rectangle(-180, -145, 808, 765);
+    }
+    ).prototype = p = new cjs.MovieClip();
+    p.nominalBounds = new cjs.Rectangle(-180,-145,808,765);
     // library properties:
     lib.properties = {
         id: 'valentine_2020',
@@ -5909,56 +5906,45 @@
         color: "#FFFFFF",
         opacity: 1.00,
         manifest: [{
-                src: "images/cover_sar.png?1581047941384",
-                id: "valentine_2020_cover_sar"
-            },
-            {
-                src: "images/fp_hana3.png?1581047941384",
-                id: "valentine_2020_fp_hana3"
-            },
-            {
-                src: "images/heart.png?1581047941384",
-                id: "valentine_2020_heart"
-            },
-            {
-                src: "images/img_kira.png?1581047941384",
-                id: "valentine_2020_img_kira"
-            },
-            {
-                src: "images/replace_target_240x310_bg.jpg?1581047941384",
-                id: "valentine_2020_replace_target_240x310_bg"
-            },
-            {
-                src: "images/replace_target_480x502_character.png?1581047941384",
-                id: "valentine_2020_replace_target_480x502_character"
-            },
-            {
-                src: "images/Valentine2020.png?1581047941384",
-                id: "valentine_2020_Valentine2020"
-            },
-            {
-                src: "images/window.png?1581047941384",
-                id: "valentine_2020_window"
-            },
-            {
-                src: "images/window_3.png?1581047941384",
-                id: "valentine_2020_window_3"
-            },
-            {
-                src: "images/window_4.png?1581047941384",
-                id: "valentine_2020_window_4"
-            }
-        ],
+            src: "images/cover_sar.png?1581047941384",
+            id: "valentine_2020_cover_sar"
+        }, {
+            src: "images/fp_hana3.png?1581047941384",
+            id: "valentine_2020_fp_hana3"
+        }, {
+            src: "images/heart.png?1581047941384",
+            id: "valentine_2020_heart"
+        }, {
+            src: "images/img_kira.png?1581047941384",
+            id: "valentine_2020_img_kira"
+        }, {
+            src: "images/replace_target_240x310_bg.jpg?1581047941384",
+            id: "valentine_2020_replace_target_240x310_bg"
+        }, {
+            src: "images/replace_target_480x502_character.png?1581047941384",
+            id: "valentine_2020_replace_target_480x502_character"
+        }, {
+            src: "images/Valentine2020.png?1581047941384",
+            id: "valentine_2020_Valentine2020"
+        }, {
+            src: "images/window.png?1581047941384",
+            id: "valentine_2020_window"
+        }, {
+            src: "images/window_3.png?1581047941384",
+            id: "valentine_2020_window_3"
+        }, {
+            src: "images/window_4.png?1581047941384",
+            id: "valentine_2020_window_4"
+        }],
         preloads: []
     };
-
-
 
     // bootstrap callback support:
 
     (lib.Stage = function(canvas) {
         createjs.Stage.call(this, canvas);
-    }).prototype = p = new createjs.Stage();
+    }
+    ).prototype = p = new createjs.Stage();
 
     p.setAutoPlay = function(autoPlay) {
         this.tickEnabled = autoPlay;
@@ -5968,7 +5954,8 @@
         this.getChildAt(0).gotoAndPlay(this.getTimelinePosition())
     }
     p.stop = function(ms) {
-        if (ms) this.seek(ms);
+        if (ms)
+            this.seek(ms);
         this.tickEnabled = false;
     }
     p.seek = function(ms) {
@@ -5995,7 +5982,8 @@
                 fnCallback(an.bootcompsLoaded[i]);
             }
         }
-    };
+    }
+    ;
 
     an.compositions = an.compositions || {};
     an.compositions['valentine_2020'] = {
@@ -6024,7 +6012,6 @@
         return an.compositions[id];
     }
 
-
-
-})(createjs = createjs || {}, AdobeAn = AdobeAn || {});
+}
+)(createjs = createjs || {}, AdobeAn = AdobeAn || {});
 var createjs, AdobeAn;
