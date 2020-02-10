@@ -2810,7 +2810,7 @@
     }).prototype = getMCSymbolPrototype(lib.glitter_first_inner, new cjs.Rectangle(-18.5, -21.7, 37.1, 43.4), null);
 
 
-    (lib.g� 景tter_rise_core = function(mode, startPosition, loop) {
+    (lib.glitter_rise_core = function(mode, startPosition, loop) {
         this.initialize(mode, startPosition, loop, {});
 
         // timeline functions:
