@@ -60,8 +60,8 @@
             <div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:240px; height:310px; position: absolute; left: 0px; top: 0px; display: block;"></div>
         </div>
         <script>
-            var image_server = "http://sp.pf-img-a.mbga.jp/12008305/";
-            var base_url = "http://125.6.169.35/idolmaster/";
+            var image_server = "";
+            var base_url = "";
             window.file_name = "valentine_2020";
             // createjs の本体ファイルを定義
             window.dir_name = "image_sp/cjs/campaign/valentine/2020/";
@@ -125,7 +125,7 @@
                         }
                         new_manifest[i] = {
                             'type': 'image',
-                            'src': window.image_server + '?url=' + encodeURIComponent(window.base_url + _img_path),
+                            'src': window.image_server + encodeURIComponent(window.base_url + _img_path),
                             'id': lib.properties.manifest[i].id
                         }
                     }
