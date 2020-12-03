@@ -263,17 +263,17 @@
                 case "2":
                     use_item = 3;
                     max_use_flag = 0;
-                    url = 'normal.json'
+                    my_json = "normal.json"
                     break;
                 case "3":
                     use_item = 3;
                     max_use_flag = 1;
-                    url = 'good.json'
+                    my_json = "good.json"
                     break;
                 case "4":
                     use_item = 1;
                     max_use_flag = 0;
-                    url = 'perfect.json'
+                    my_json = "perfect.json"
                     break;
                 default:
                     break;
@@ -297,7 +297,7 @@
                 $.ajax({
                     data: data,
                     type: "get",
-                    url: url,
+                    url: my_json,
                     success: function(data) {
                         if (data.type == "redirect")
                             location.href = data.url;
