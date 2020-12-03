@@ -254,7 +254,7 @@
             }
             function call_select_item(play_scene, select_num) {
                 var use_item, max_use_flag;
-                var my_json = select_num;
+                var my_json = '';
                 switch (select_num) {
                 case "1":
                     use_item = 0;
@@ -276,18 +276,16 @@
                     break;
                 }
                 // 플래시에서 누른 버튼에 따라 url(json파일)을 변경
-                /*
-                if(select_num == "2"){
+                if(select_num == "7"){
                   url = 'normal.json';
                 }
-                else if(select_num == "3"){
+                else if(select_num == 8){
                   url = 'good.json';
                 }
-                else if(select_num == "4"){
+                else if(select_num == "9"){
                   url = 'perfect.json';
                 }
                 // 여기까지
-                */
                 var data = {
                     result: select_num
                 };
