@@ -254,7 +254,7 @@
             }
             function call_select_item(play_scene, select_num) {
                 var use_item, max_use_flag;
-                var my_json = '';
+                var my_json = select_num;
                 switch (select_num) {
                 case "1":
                     use_item = 0;
@@ -263,17 +263,14 @@
                 case "2":
                     use_item = 3;
                     max_use_flag = 0;
-                    my_json = "normal.json"
                     break;
                 case "3":
                     use_item = 3;
                     max_use_flag = 1;
-                    my_json = "good.json"
                     break;
                 case "4":
                     use_item = 1;
                     max_use_flag = 0;
-                    my_json = "perfect.json"
                     break;
                 default:
                     break;
