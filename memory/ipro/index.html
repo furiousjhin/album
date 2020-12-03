@@ -293,7 +293,7 @@
                 $.ajax({
                     data: data,
                     type: "get",
-                    url: my_json,
+                    url: url,
                     success: function(data) {
                         if (data.type == "redirect")
                             location.href = data.url;
