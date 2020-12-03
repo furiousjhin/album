@@ -274,13 +274,26 @@
                 default:
                     break;
                 }
+                // 플래시에서 누른 버튼에 따라 url(json파일)을 변경
+                var url = ''
+
+                if(case == 7){
+                  url = 'normal.json'
+                }
+                else if(case == 8){
+                  url = 'good.json'
+                }
+                else if(case == 9){
+                  url = 'perfect.json'
+                }
+                // 여기까지
                 var data = {
                     result: select_num
                 };
                 $.ajax({
                     data: data,
                     type: "get",
-                    url: 'normal.json',
+                    url: my_json,
                     success: function(data) {
                         if (data.type == "redirect")
                             location.href = data.url;
