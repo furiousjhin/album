@@ -3,7 +3,7 @@
 "heart_f":0,
 "in_comm_result":2,
 "in_get_point":1000,
-"in_heart_add":3,
+"in_heart_add":use_item,
 "play_scene":2,
 "total_point":1000
 }
