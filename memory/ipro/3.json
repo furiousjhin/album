@@ -1,9 +1,9 @@
 {
 "heart_border":7,
 "heart_f":0,
-"in_comm_result":0,
+"in_comm_result":1,
 "in_get_point":1000,
-"in_heart_add":0,
+"in_heart_add":1,
 "play_scene":2,
 "total_point":1000
 }
