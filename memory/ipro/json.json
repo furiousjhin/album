@@ -1,0 +1,14 @@
+{
+  "item_pay_num":2,
+  "item_free_num":35,
+  "max_use_enable_check":true,
+  "total_point":4606,
+  "heart_border":"7",
+  "in_comm_result":1,
+  "heart_f":0,
+  "in_heart_add":1,
+  "in_get_point":4606,
+  "play_scene":2,
+  "area_id":14,
+  "csrf_token_name":"csrf_test_name","csrf_token_value":"f76b96aa76d8981c608f62e0e1819c9f"
+}
