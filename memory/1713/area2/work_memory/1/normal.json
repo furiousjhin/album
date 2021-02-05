@@ -1,0 +1,40 @@
+{
+"flash_id":544058,
+"swf_params":{
+"url":"",
+"heart_f":0,
+"heart_l":1,
+"lv_f":10,
+"lv_l":10,
+"lv_b":10,
+"lvup_flg":0,
+"comm_result":0,
+"point":10000,
+"emo":"1",
+"effect":"0",
+"card_comm1":"",
+"card_comm":"",
+"lv_inf_flg":1,
+"momorial_power":0,
+"training_room_flag":0,
+"puchi_power":0,
+"character_num":1,
+"ch":"1_1",
+"pair_produce_idol_id":false,
+"card_comm1_1":"헤~, 햇볕이 드는 방향을 계산했던 거야?",
+"card_comm1_2":"오늘은 볕이 쨍쨍 나니까,",
+"card_comm1_3":"나도 응원해줄게.",
+"com_mode":1
+},
+"swf_images":[
+"../../../../../image_sp/event_flash/1713/bg/1713/bg00_rich.png",
+"../../../../../image_sp/event_flash/common/name_plate/31.png",
+"../../../../../image_sp/event_flash/1713/idol/dummy.png",
+"../../../../../image_sp/event_flash/1713/idol/idol_5_0_2_1.png",
+"../../../../../image_sp/event_flash/1713/idol/idol_5_0_2_2.png",
+"../../../../../image_sp/event_flash/1713/idol/dummy.png",
+"../../../../../image_sp/event_flash/1713/idol/dummy.png"
+],
+"special_raid_point":0,
+"special_generate_flag":false
+}
