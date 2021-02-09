@@ -8,9 +8,9 @@
 "lv_l":10,
 "lv_b":10,
 "lvup_flg":0,
-"comm_result":0,
+"comm_result":2,
 "point":10000,
-"emo":"1",
+"emo":"2",
 "effect":"0",
 "card_comm1":"",
 "card_comm":"",
@@ -21,9 +21,9 @@
 "character_num":1,
 "ch":"1_1",
 "pair_produce_idol_id":false,
-"card_comm1_1":"헤~, 햇볕이 드는 방향을 계산했던 거야?",
-"card_comm1_2":"오늘은 볕이 쨍쨍 나니까,",
-"card_comm1_3":"나도 응원해줄게.",
+"card_comm1_1":"어디선가 맛있는 빵 냄새가 난다고…?",
+"card_comm1_2":"진짜네♪ ○○○ 프로듀서,",
+"card_comm1_3":"뛰어 갔다 와도 될까~?",
 "com_mode":1
 },
 "swf_images":[
@@ -31,7 +31,7 @@
 "../../../../../12008305/image_sp/event_flash/common/name_plate/31.png",
 "../../../../../12008305/image_sp/event_flash/1713/idol/dummy.png",
 "../../../../../12008305/image_sp/event_flash/1713/idol/idol_5_0_2_1.png",
-"../../../../../12008305/image_sp/event_flash/1713/idol/idol_5_0_2_1.png",
+"../../../../../12008305/image_sp/event_flash/1713/idol/idol_5_0_2_2.png",
 "../../../../../12008305/image_sp/event_flash/1713/idol/dummy.png",
 "../../../../../12008305/image_sp/event_flash/1713/idol/dummy.png"
 ],

@@ -1,5 +1,4 @@
 <!doctype html>
-<!--2/6 normal커뮤 적용시키는 거 까지 완료-->
 <html lang="ja" xml:lang="ja">
     <head>
         <meta charset="UTF-8">
@@ -69,11 +68,14 @@
                 <link rel="stylesheet" type="text/css" href='../../../../../12008305/css/rich/event_produce.css' media="all">
                 <div id="look_back_layout">
                     <div id="wrap" style="position:relative">
+                        <!--
                         <div class="jsOnBtn">
                             <a class="btn_new_work_menu" href="#" id="menu_switch">
                                 <div></div>
                             </a>
                         </div>
+                        -->
+                        <!--
                         <nav class="area_menu_header">
                             <div class="area_menu_header_6btn" style="display:none">
                                 <h1 id="menu_page_title">アイドルマスター シンデレラガールズ</h1>
@@ -237,7 +239,9 @@
                                 </div>
                             </div>
                         </nav>
+                        -->
                         <div id="musk" style="height:1px; display:none;"></div>
+                        <!--
                         <section style="width:1px; height:1px; margin:0;">
                             <div id="item_list" style="display:none;">
                                 <div id="item_title">
@@ -394,6 +398,7 @@
                                 </div>
                             </div>
                         </section>
+                        -->
                         <!--배경-->
                         <section id="direction_stage" style='background-image:url(../../../../../12008305/image_sp/event/1713/bg_area_xl_5380.jpg); background-repeat:no-repeat; background-size:100%; background-position:right bottom;'>
                             <div id="area_status" style="display:none;">
@@ -549,7 +554,7 @@
                             <input type="image" src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/image_sp/event/produce/sprite/lookback/btn_normal.png%3Fv%3D20190524145714' class="jsOnDesignBtn" width="88" value=""><br>
                           </div>
                         </form>
-                        <form action='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/memory_produce/produce_swf_memory/1727/4/1/1%3Farea_id%3D4%26l_frm%3DMemory_produce_work_memory_1%26rnd%3D681407214' method="post"<% if (raid_boss.boss_type !== 'extra') { %> style="width:88px;"<% } %>>
+                        <form action='good.json' method="get"<% if (raid_boss.boss_type !== 'extra') { %> style="width:88px;"<% } %>>
                           <input type="hidden" name="use_item" value="3">
                           <input type="hidden" name="area_id" value="4">
                           <input type='hidden' name="max_use_flag" id="max_use_flag" value="1">
@@ -557,7 +562,7 @@
                             <input type="image" src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/image_sp/event/produce/sprite/lookback/btn_good.png%3Fv%3D20190524145714' class="jsOnDesignBtn" width="88" value=""><br>
                           </div>
                         </form>
-                        <form action='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/memory_produce/produce_swf_memory/1727/4/1/2%3Farea_id%3D4%26l_frm%3DMemory_produce_work_memory_1%26rnd%3D191310974' method="post" style="width:88px;">
+                        <form action='perfect.json' method="get" style="width:88px;">
                           <div>
                             <input type="hidden" name="use_item" value="1">
                             <input type="hidden" name="area_id" value="4">
@@ -603,8 +608,8 @@
                                 "heart_f": 0,
                                 "emo": "1",
                                 "effect": "0",
-                                "card_comm1": "\u96e8\u3060\u3051\u3069\uff64\u571f\u7802\u964d\u308a\u3058\u3083\u306a\u304f\u3066\u3088\u304b\u3063\u305f\u306d\uff61\u8eca\u306e\u79fb\u52d5\u3082\u9577\u304b\u3063\u305f\u3051\u3069\u2026\u305d\u306e\u5206\uff64\u6c34\u5e73\u7dda\u898b\u308c\u305f\u3057",
-                                "card_comm": "\u96e8\u3060\u3051\u3069\uff64\u571f\u7802\u964d\u308a\u3058\u3083\u306a\u304f\u3066\u3088\u304b\u3063\u305f\u306d\uff61\u8eca\u306e\u79fb\u52d5\u3082\u9577\u304b\u3063\u305f\u3051\u3069\u2026\u305d\u306e\u5206\uff64\u6c34\u5e73\u7dda\u898b\u308c\u305f\u3057",
+                                "card_comm1": "○○○ 프로듀서, 갑자기 멈춰 서서 뭐 하는 거야? 너무 추워서 마네킹이 된 거야?",
+                                "card_comm": "",
                                 "lv_inf_flg": 1,
                                 "short_flg": 0,
                                 "momorial_power": 0,
@@ -615,7 +620,7 @@
                                 "ch": "4_1",
                                 "pair_produce_idol_id": false,
                                 "card_comm1_1": "○○○ 프로듀서, 갑자기 멈춰 서서",
-                                "card_comm1_2": "뭐하는 거야? 너무 추워서",
+                                "card_comm1_2": "뭐 하는 거야? 너무 추워서",
                                 "card_comm1_3": "마네킹이 된 거야?",
                                 "card_comm1_4": ""
                             },
