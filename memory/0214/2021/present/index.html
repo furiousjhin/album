@@ -37,10 +37,10 @@
             requirejs.config({
                 paths: {
                     easeljs: "../../../../12008305/js/easeljs-0.8.2.min.js",
-                    easeljs_0_7_1: "../../../../12008305/js/easeljs-0.7.1.min.js",
+                    easeljs_0_7_1: "../../../../12008305/js/easeljs-0.7.1.min",
                     //スプライトを読むためのバージョン
-                    tweenjs: "../../../../12008305/js/tweenjs-0.6.2.min.js",
-                    movieclipjs: "../../../../12008305/js/movieclip-0.7.1.min.js",
+                    tweenjs: "../../../../12008305/js/tweenjs-0.6.2.min",
+                    movieclipjs: "../../../../12008305/js/movieclip-0.7.1.min",
                     createjs: "../../../../12008305/js/createjs-2015.11.26.min.js",
                 }
             })
@@ -327,8 +327,8 @@
                         "margin-top": margin
                     });
             });
-            var cjs_file = ['../../../../12008305/js/petit_cjs/petit_base.js%3Fv%3D20210210144636', '../../../../12008305/js/petit_cjs/petit_balloon.js%3Fv%3D20210210144636', '../../../../12008305/js/petit_cjs/petit_effect.js'];
-            var url = 'http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/campaigns/valentine_present/ajax_petit_idol_avatar_data/1015%3Fl_frm%3DValentine_present_show_flash_present_chocolate_1%26rnd%3D115954729';
+            var cjs_file = ['../../../../12008305/js/petit_cjs/petit_base.js', '../../../../12008305/js/petit_cjs/petit_balloon.js', '../../../../12008305/js/petit_cjs/petit_effect.js'];
+            var url = '1015.json';
             var petitManager = window.petitManager || new PetitManager();
             var balloonManager = window.canvasManager || new Commonjs.CreateJsCanvas();
             var effectManager = window.canvasManager || new Commonjs.CreateJsCanvas();
@@ -351,7 +351,7 @@
                     "motion_1": "shout",
                     "motion_2": "",
                     "effect": "",
-                    "message": "\u30d7\u30ed\u30c7\u30e5\u30fc\u30b5\u30fc\uff01",
+                    "message": "프로듀서!",
                     "auto_next": "",
                     "message_window_type": "",
                     "position_1": "",
@@ -366,7 +366,7 @@
                     "motion_1": "gift",
                     "motion_2": "",
                     "effect": "heart",
-                    "message": "\u30d5\u30ec\u30c7\u30ea\u30ab\u304b\u3089\u30ae\u30d5\u30c8\u3092\u3082\u3089\u3063\u305f\uff01\n\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000",
+                    "message": "프레데리카에게 선물을 받았다!",
                     "auto_next": "",
                     "message_window_type": "",
                     "position_1": "",
@@ -381,7 +381,7 @@
                     "motion_1": "joy",
                     "motion_2": "",
                     "effect": "",
-                    "message": "\u4eca\u65e5\u3063\u3066\u4f55\u306e\u65e5\u3060\u3063\u3051\uff1f\u3000\u305d\u3046\u305d\u3046\u3001\n\u30d0\u30ec\u30f3\u30bf\u30a4\u30f3\uff01\u3000\u3067\u3001\u4f55\u3059\u308b\u65e5\n\u3060\u3063\u3051\u3002\u3068\u308a\u3042\u3048\u305a\u3001\u30b3\u30ec\u3042\uff5e\u3052\u308b\u266a",
+                    "message": "오늘이 무슨 날이더라? 맞아 맞아,\n 밸런타인! 근데, 뭐 하는 날이더라. \n일단은, 이거 줄~게♪",
                     "auto_next": "",
                     "message_window_type": "",
                     "position_1": "",
@@ -398,7 +398,7 @@
                 balloon: null,
                 effect: null,
                 cjsContainer: '#animation-container',
-                return_url: 'http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/campaigns/valentine_present/select_base_idol/0/0/24%3Fitem_ids%3D45015%26item_get_flag%3D1%26keyword%3D%26l_frm%3DValentine_present_show_flash_present_chocolate_1%26rnd%3D421802184',
+                return_url: '',
                 isFinishedName: 'isFinished'
             }
             //演出初期化
