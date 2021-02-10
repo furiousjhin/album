@@ -1,0 +1,804 @@
+<!doctype html>
+<html lang="ja" xml:lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="pragma" content="no-cache">
+        <meta http-equiv="cache-control" content="no-cache">
+        <meta http-equiv="expires" content="-1">
+        <meta name="format-detection" content="telephone=no">
+        <title>アイドルマスター シンデレラガールズ</title>
+        <link rel="stylesheet" type="text/css" href="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcss%2Frich%2Fnew_mypage_common.css%3Fv%3D20210129144719" media="all">
+        <link rel="apple-touch-icon-precomposed" href="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Ficon_bookmark.png%3Fv%3D20201209144616">
+        <script>
+            (function() {
+                window.console.log = function() {}
+                ;
+            }
+            )();
+        </script>
+        <script type="text/javascript">
+            if (window.localStorage) {
+                var displaySet = localStorage.getItem('DisplayPositionSet');
+                if (displaySet == 1) {
+                    if (navigator.userAgent.indexOf('Android') > 0) {
+                        document.write('<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">');
+                        document.getElementsByTagName('html')[0].style.zoom = document.documentElement.clientWidth / 320;
+                    } else {
+                        document.write('<meta name="viewport" content="width=320, user-scalable=no">');
+                    }
+                    window.addEventListener('resize', function() {
+                        if (navigator.userAgent.indexOf('Android') > 0)
+                            document.getElementsByTagName('html')[0].style.zoom = document.documentElement.clientWidth / 320;
+                    });
+                } else {
+                    document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
+                }
+            } else {
+                document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
+            }
+        </script>
+        <script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fjquery-2.2.2.min.js%3Fv%3D20101001000000"></script>
+        <script>
+            (function() {
+                window.viewer_id = 150014132;
+                var _url = "http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fgame_error%2Freport_js_error%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D528840920";
+                var _path = location.href;
+                var _spec_obj;
+                var _spec = 'none';
+                var version = 1;
+                // access方法検出
+                _spec_obj = {
+                    'isNative': false,
+                    'isAndApp': false,
+                    'isShellApp': false,
+                    'isIosApp': false,
+                    'isChromeApp': false
+                };
+                window._spec = _spec_obj;
+                if (_spec.isAndApp) {
+                    _spec = 'andapp'
+                } else if (_spec.isIosApp) {
+                    _spec = 'iosApp';
+                } else if (_spec.isShellApp) {
+                    _spec = 'shellapp';
+                } else {
+                    _spec = 'browser?';
+                }
+            }
+            )();
+        </script>
+        <script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Funderscore-min.js%3Fv%3D20101001000000"></script>
+        <script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Frequire.js%3Fv%3D20101001000000"></script>
+        <script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Frequire.js%3Fv%3D20101001000000"></script>
+        <script>
+            requirejs.config({
+                paths: {
+                    easeljs: "http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Feaseljs-0.8.2.min.js%3Fv%3D20101001000000",
+                    easeljs_0_7_1: "http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Feaseljs-0.7.1.min.js%3Fv%3D20101001000000",
+                    //スプライトを読むためのバージョン
+                    tweenjs: "http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Ftweenjs-0.6.2.min.js%3Fv%3D20101001000000",
+                    movieclipjs: "http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fmovieclip-0.7.1.min.js%3Fv%3D20190524145756",
+                    createjs: "http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fcreatejs-2015.11.26.min.js%3Fv%3D20190909144732",
+                }
+            })
+        </script>
+        <script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fcommon.js%3Fv%3D20201127144733"></script>
+        <script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fcommon_new.js%3Fv%3D20210210144635"></script>
+        <script>
+            $(function() {
+                window.$ibox = $('.ibox').ibox();
+            });
+        </script>
+        <script>
+            $(document).ready(function() {
+                if (typeof newrelic === 'object' && typeof newrelic.setPageViewName === 'function') {
+                    newrelic.setPageViewName('/idolmaster/index.php/campaigns/valentine_present/select_base_idol/0/0/24');
+                }
+            });
+        </script>
+        <script type='text/javascript'>
+            var se_flg = 0
+              , bgm_flg = 0
+              , chrome_app_flg = 0
+              , chrome_app_extension_id = 'dnacabmnfmejgfffmcehejcmiciinpej';
+        </script>
+        <script type='text/javascript' src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fapp_sound.js%3Fv%3D20200713144634'></script>
+        <link rel="stylesheet" type="text/css" href="http://sp.pf-img-a.mbga.jp/css/base.css?20171116"/>
+    </head>
+    <body id="valentine_present" class="select_base_idol">
+        <div id="top" class="page_container jsOnBtn">
+            <nav class="area_menu_header">
+                <div class="area_menu_header_6btn">
+                    <h1 id="JtextLimit">バレンタイン</h1>
+                    <ul>
+                        <li>
+                            <a class="head_menu_01" href="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmypage%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D395700935">
+                                <div></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="head_menu_02" href="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fpetit_cg%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D240371264">
+                                <div></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="head_menu_03" href="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fgacha%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D173136687">
+                                <div></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="head_menu_04" href="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcard_str%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D191010303">
+                                <div></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="head_menu_05" href="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fauction%2Fauction_top%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D355345864">
+                                <div></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="head_menu_06 se_000" href="#" id="headerAcd">
+                                <div></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="headerPopupMenu" class="headerPopupMenu">
+                    <div class="m-Top10 t-Cnt">
+                        <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_challenge%2Findex%3Fbanner_id%3D0001233%26img%3D0%26l_frm%3DValentine_present_select_base_idol_1%26rnd%3D50433669' class="jsOnDesignBtn">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2F1233%2Fbanner_event_01.png%3Fv%3D20210209144818' width="280" height="60">
+                        </a>
+                    </div>
+                    <div class="area_menu_header_main4">
+                        <ul>
+                            <li>
+                                <a class="btn_menu_header_lesson" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcard_str%3Fl_frm%3DValentine_present_select_base_idol_2%26rnd%3D37333857'>
+                                    <div></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="btn_menu_header_work" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fquests%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D177286993'>
+                                    <div></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="btn_menu_header_livebattle" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fbattles%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D582938594'>
+                                    <div></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="btn_menu_header_deck" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fdeck%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D269274037'>
+                                    <div></div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <h3 class="icon_menu_header_01"></h3>
+                    <div class="area_menu_header_4">
+                        <ul>
+                            <li>
+                                <a class="btn_menu_header_shop" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fshop%2Findex%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D610096352'>
+                                    <div></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="btn_menu_header_item" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fitem%2Findex%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D522706108'>
+                                    <div></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="btn_menu_header_present" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fpresent%2Frecieve%2F%3Fview_auth_type%3D1%26cache%3D1%26l_frm%3DValentine_present_select_base_idol_1%26rnd%3D8371079'>
+                                    <div></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="btn_menu_header_change" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fexchange%2Fmedal_list%2F999999%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D576224989'>
+                                    <div></div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <h3 class="icon_menu_header_02"></h3>
+                    <div class="area_menu_header_5">
+                        <ul>
+                            <li>
+                                <a class="btn_menu_header_idollist" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcard_list%2Findex%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D810155907'>
+                                    <div></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="btn_menu_header_trainer" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcard_storage%2Findex%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D219275098'>
+                                    <div></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="btn_menu_header_production" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fknights%2Fnot_join_knights_top%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D866288850'>
+                                    <div></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="btn_menu_header_pra" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fp_ranking_award%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D925488932'>
+                                    <div></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="btn_menu_header_profile" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fresults%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D473541092'>
+                                    <div></div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <h3 class="icon_menu_header_03"></h3>
+                    <div class="area_menu_header_4">
+                        <ul>
+                            <li>
+                                <a class="btn_menu_header_favorite" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Ffriend%2Findex%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D184145007'>
+                                    <div></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="btn_menu_header_memory" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemorial%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D936950339'>
+                                    <div></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="btn_menu_header_gamecenter" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fgame_center%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D778718226'>
+                                    <div></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="btn_menu_header_sound" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fs_booth%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D435007675'>
+                                    <div></div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <h3 class="icon_menu_header_04"></h3>
+                    <div class="area_menu_header_3">
+                        <ul>
+                            <li>
+                                <a class="btn_menu_header_setting" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fpersonal_option%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D592298426'>
+                                    <div></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="btn_menu_header_help" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fadvise%2Findex%2Ftop%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D86401639'>
+                                    <div></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="btn_menu_header_top" href='http://sp.pf.mbga.jp/12008305/?guid=ON'>
+                                    <div></div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <input id="delay" type="hidden" value="0">
+            <link rel="stylesheet" type="text/css" href='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcss%2Frich%2Fvalentine.css%3Fv%3D20210210144633' media="all">
+            <div class="valentine_main_2021">
+                <img class="" src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fvalentine%2F2021%2Fheader%2Ftop.png%3Fv%3D20210210144633' width="320px">
+                <div class="valentine_wrapper" style="padding-bottom:0; margin-top: 0; margin-bottom:16px;">
+                    <div class="_title">
+                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fvalentine%2F2021%2Ftext_1.png%3Fv%3D20210210144633' width="304px" class="m-Cnt">
+                    </div>
+                    <div class="recieved_idol_btn jsOnDesignBtn"></div>
+                    <div class="selectArea type_02 t-Cnt _in_area m-Top4" style="margin-left: -4px;">
+                        <div class="tab_attr_4">
+                            <form method="post" action='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcampaigns%2Fvalentine_present%2Fselect_base_idol%2F0%2F0%2F0%2F1%3Fchange_attr%3D1%26l_frm%3DValentine_present_select_base_idol_1%26rnd%3D344992619' style="margin:0">
+                                <label class="tab_attr_all label_reset_style" onClick="">
+                                    <input type="submit" value="" class="submit_reset_style">
+                                </label>
+                                <input type="hidden" name="history" value="1">
+                                <input type="hidden" name="keyword" value="">
+                            </form>
+                            <div class="tab_attr_cute _selected"></div>
+                            <form method="post" action='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcampaigns%2Fvalentine_present%2Fselect_base_idol%2F2%2F0%2F0%2F1%3Fchange_attr%3D1%26l_frm%3DValentine_present_select_base_idol_1%26rnd%3D55559542' style="margin:0">
+                                <label class="tab_attr_cool label_reset_style" onClick="">
+                                    <input type="submit" value="" class="submit_reset_style">
+                                </label>
+                                <input type="hidden" name="history" value="1">
+                                <input type="hidden" name="keyword" value="">
+                            </form>
+                            <form method="post" action='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcampaigns%2Fvalentine_present%2Fselect_base_idol%2F3%2F0%2F0%2F1%3Fchange_attr%3D1%26l_frm%3DValentine_present_select_base_idol_1%26rnd%3D506851552' style="margin:0">
+                                <label class="tab_attr_passion label_reset_style" onClick="">
+                                    <input type="submit" value="" class="submit_reset_style">
+                                </label>
+                                <input type="hidden" name="history" value="1">
+                                <input type="hidden" name="keyword" value="">
+                            </form>
+                        </div>
+                        <form name="sort_form" action='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcampaigns%2Fvalentine_present%2Fselect_base_idol%2F1%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D402279015' method="post" class="m-Top8 _line vp-Top">
+                            <div class="layout_area m-Btm8">
+                                <div class="layout_m2">
+                                    <select name="sort_type" class="search_pulldown_1_5" style="font-size:14px;width:100%;">
+                                        <option value="0">50音順</option>
+                                        <option value="1" selected>キャラクター順</option>
+                                    </select>
+                                </div>
+                                <div class="layout_s">
+                                    <label class='btn_decision_sub_line_3' onclick="">
+                                        <input type='submit' value="並び替え">
+                                    </label>
+                                </div>
+                            </div>
+                            <input type="hidden" name="history" value="1">
+                            <input type="hidden" name="keyword" value="">
+                            <div id="js_deck_search_more_contents" class="selectArea_more_contents" style="display:none;">
+                                <div class="m-Cnt m-Btm8" style="text-align:left;width:280px;">
+                                    <span class="blue">アイドル名</span>
+                                    <input type="text" id="search_idol_name" placeholder='※2文字以上､ひらがな､ｶﾀｶﾅ検索可' value='' name="keyword" class="search_text_1">
+                                </div>
+                                <div class="search_checkbox_1 chk_box m-Cnt m-Btm8">
+                                    <span>ギフトをもらっていないアイドル</span>
+                                    <input class="checkbox" type="checkbox" value="1" name="unreceive_flag">
+                                </div>
+                                <div class="area-btn-common _base-width m-Btm8 m-Cnt">
+                                    <a class="js_btn_clear btn_cancel_line_2 ">クリア</a>
+                                    <label class="btn_decision_sub_line_2" onclick="">
+                                        <input type="submit" value="検索する">
+                                    </label>
+                                </div>
+                            </div>
+                        </form>
+                        <a href="#" id="js_btn_deck_search_more" class="selectArea_more_link search_accordion_in_area" data-title="絞り込み▼">
+                            <div>絞り込み▼</div>
+                        </a>
+                    </div>
+                    <div class="valentine_select_base">
+                        <a href="#" class="v_btn_idol js_ibox_trigger jsOnDesignBtn" data-id="24" data-name_id="024" data-name="遊佐こずえ" data-attr="1" data-keyword="" data-bg="3" data-have_seen="0" data-offset="24" data-image="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2Fchara%2F1099.png%3Fv%3D20190524145724" data-petit="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcampaigns%2Fvalentine_present%2Fajax_petit_idol_avatar_data%2F1099%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D549350986">
+                            <div class="v_btn_bg attr_1">
+                                <img class="v_idol top_adjust2" src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2Fchara%2F1099.png%3Fv%3D20190524145724'>
+                            </div>
+                            <span class="v_idol_name attr_1">遊佐こずえ</span>
+                        </a>
+                        <a href="#" class="v_btn_idol js_ibox_trigger jsOnDesignBtn" data-id="25" data-name_id="025" data-name="大沼くるみ" data-attr="1" data-keyword="" data-bg="20" data-have_seen="0" data-offset="24" data-image="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2Fchara%2F1136.png%3Fv%3D20190524145724" data-petit="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcampaigns%2Fvalentine_present%2Fajax_petit_idol_avatar_data%2F1136%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D190897512">
+                            <div class="v_btn_bg attr_1">
+                                <img class="v_idol top_adjust1" src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2Fchara%2F1136.png%3Fv%3D20190524145724'>
+                            </div>
+                            <span class="v_idol_name attr_1">大沼くるみ</span>
+                        </a>
+                        <a href="#" class="v_btn_idol js_ibox_trigger jsOnDesignBtn" data-id="26" data-name_id="026" data-name="一ﾉ瀬志希" data-attr="1" data-keyword="" data-bg="17" data-have_seen="0" data-offset="24" data-image="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2Fchara%2F1043.png%3Fv%3D20190524145724" data-petit="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcampaigns%2Fvalentine_present%2Fajax_petit_idol_avatar_data%2F1043%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D291374466">
+                            <div class="v_btn_bg attr_1">
+                                <img class="v_idol top_adjust1" src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2Fchara%2F1043.png%3Fv%3D20190524145724'>
+                            </div>
+                            <span class="v_idol_name attr_1">一ﾉ瀬志希</span>
+                        </a>
+                        <a href="#" class="v_btn_idol js_ibox_trigger jsOnDesignBtn" data-id="27" data-name_id="027" data-name="前川みく" data-attr="1" data-keyword="" data-bg="18" data-have_seen="0" data-offset="24" data-image="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2Fchara%2F1013.png%3Fv%3D20190524145724" data-petit="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcampaigns%2Fvalentine_present%2Fajax_petit_idol_avatar_data%2F1013%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D134315026">
+                            <div class="v_btn_bg attr_1">
+                                <img class="v_idol top_adjust1" src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2Fchara%2F1013.png%3Fv%3D20190524145724'>
+                            </div>
+                            <span class="v_idol_name attr_1">前川みく</span>
+                        </a>
+                        <a href="#" class="v_btn_idol js_ibox_trigger jsOnDesignBtn" data-id="28" data-name_id="028" data-name="赤西瑛梨華" data-attr="1" data-keyword="" data-bg="5" data-have_seen="0" data-offset="24" data-image="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2Fchara%2F1122.png%3Fv%3D20190524145724" data-petit="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcampaigns%2Fvalentine_present%2Fajax_petit_idol_avatar_data%2F1122%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D797603177">
+                            <div class="v_btn_bg attr_1">
+                                <img class="v_idol top_adjust1" src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2Fchara%2F1122.png%3Fv%3D20190524145724'>
+                            </div>
+                            <span class="v_idol_name attr_1">赤西瑛梨華</span>
+                        </a>
+                        <a href="#" class="v_btn_idol js_ibox_trigger jsOnDesignBtn" data-id="29" data-name_id="029" data-name="松原早耶" data-attr="1" data-keyword="" data-bg="5" data-have_seen="0" data-offset="24" data-image="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2Fchara%2F1150.png%3Fv%3D20190524145724" data-petit="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcampaigns%2Fvalentine_present%2Fajax_petit_idol_avatar_data%2F1150%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D475152552">
+                            <div class="v_btn_bg attr_1">
+                                <img class="v_idol top_adjust1" src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2Fchara%2F1150.png%3Fv%3D20190524145724'>
+                            </div>
+                            <span class="v_idol_name attr_1">松原早耶</span>
+                        </a>
+                        <a href="#" class="v_btn_idol js_ibox_trigger jsOnDesignBtn" data-id="30" data-name_id="030" data-name="相原雪乃" data-attr="1" data-keyword="" data-bg="16" data-have_seen="0" data-offset="24" data-image="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2Fchara%2F1184.png%3Fv%3D20190524145724" data-petit="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcampaigns%2Fvalentine_present%2Fajax_petit_idol_avatar_data%2F1184%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D273619767">
+                            <div class="v_btn_bg attr_1">
+                                <img class="v_idol top_adjust1" src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2Fchara%2F1184.png%3Fv%3D20190524145724'>
+                            </div>
+                            <span class="v_idol_name attr_1">相原雪乃</span>
+                        </a>
+                        <a href="#" class="v_btn_idol js_ibox_trigger jsOnDesignBtn" data-id="31" data-name_id="031" data-name="宮本ﾌﾚﾃﾞﾘｶ" data-attr="1" data-keyword="" data-bg="10" data-have_seen="1" data-offset="24" data-image="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2Fchara%2F1015.png%3Fv%3D20190524145724" data-petit="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcampaigns%2Fvalentine_present%2Fajax_petit_idol_avatar_data%2F1015%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D425677441">
+                            <div class="v_btn_bg attr_1">
+                                <img class="v_idol top_adjust1" src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2Fchara%2F1015.png%3Fv%3D20190524145724'>
+                            </div>
+                            <span class="v_idol_name attr_1">宮本ﾌﾚﾃﾞﾘｶ</span>
+                        </a>
+                        <a href="#" class="v_btn_idol js_ibox_trigger jsOnDesignBtn" data-id="32" data-name_id="032" data-name="小早川紗枝" data-attr="1" data-keyword="" data-bg="4" data-have_seen="0" data-offset="24" data-image="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2Fchara%2F1044.png%3Fv%3D20190524145724" data-petit="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcampaigns%2Fvalentine_present%2Fajax_petit_idol_avatar_data%2F1044%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D974588719">
+                            <div class="v_btn_bg attr_1">
+                                <img class="v_idol top_adjust1" src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2Fchara%2F1044.png%3Fv%3D20190524145724'>
+                            </div>
+                            <span class="v_idol_name attr_1">小早川紗枝</span>
+                        </a>
+                        <a href="#" class="v_btn_idol js_ibox_trigger jsOnDesignBtn" data-id="33" data-name_id="033" data-name="西園寺琴歌" data-attr="1" data-keyword="" data-bg="16" data-have_seen="0" data-offset="24" data-image="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2Fchara%2F1003.png%3Fv%3D20190524145724" data-petit="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcampaigns%2Fvalentine_present%2Fajax_petit_idol_avatar_data%2F1003%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D209620360">
+                            <div class="v_btn_bg attr_1">
+                                <img class="v_idol top_adjust1" src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2Fchara%2F1003.png%3Fv%3D20190524145724'>
+                            </div>
+                            <span class="v_idol_name attr_1">西園寺琴歌</span>
+                        </a>
+                        <a href="#" class="v_btn_idol js_ibox_trigger jsOnDesignBtn" data-id="34" data-name_id="034" data-name="双葉杏" data-attr="1" data-keyword="" data-bg="16" data-have_seen="0" data-offset="24" data-image="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2Fchara%2F1092.png%3Fv%3D20190524145724" data-petit="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcampaigns%2Fvalentine_present%2Fajax_petit_idol_avatar_data%2F1092%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D321472704">
+                            <div class="v_btn_bg attr_1">
+                                <img class="v_idol top_adjust2" src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2Fchara%2F1092.png%3Fv%3D20190524145724'>
+                            </div>
+                            <span class="v_idol_name attr_1">双葉杏</span>
+                        </a>
+                        <a href="#" class="v_btn_idol js_ibox_trigger jsOnDesignBtn" data-id="35" data-name_id="035" data-name="楊菲菲" data-attr="1" data-keyword="" data-bg="6" data-have_seen="0" data-offset="24" data-image="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2Fchara%2F1183.png%3Fv%3D20190524145724" data-petit="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcampaigns%2Fvalentine_present%2Fajax_petit_idol_avatar_data%2F1183%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D873910718">
+                            <div class="v_btn_bg attr_1">
+                                <img class="v_idol top_adjust1" src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2Fchara%2F1183.png%3Fv%3D20190524145724'>
+                            </div>
+                            <span class="v_idol_name attr_1">楊菲菲</span>
+                        </a>
+                    </div>
+                    <div class="pager_bg">
+                        <form method="POST" action='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcampaigns%2Fvalentine_present%2Fselect_base_idol%2F1%2F0%2F24%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D418750861'>
+                            <input type="hidden" name="err1" value="">
+                            <input type="hidden" name="keyword" value="">
+                            <div class="new_page_layout">
+                                <div class="pager_area" style="height:74px;">
+                                    <div class="pager_submit_area">
+                                        <input type="number" name="target_page_num" id="jsPageNumber" pattern="\d*" value="">
+                                        ページに
+                                        <label class="btn_normal_line_4 _disabled m-Cnt m-Btm8" id="jsMovePagerLabel" for="jsMovePagerBtn" style="display:inline-block;vertical-align:middle;margin-left:5px;margin-bottom:3px;">
+                                            <input id="jsMovePagerBtn" type="submit" value="移動" style="width:inherit;height:inherit;line-height:inherit;margin:0;">
+                                        </label>
+                                    </div>
+                                    <div class="pager_panel_area">
+                                        <input type="submit" name="first" class="btn_pager_first jsNotDisabled jsOnDesignBtn" value="1">
+                                        <input type="submit" name="prev" class="btn_pager_back jsNotDisabled jsOnDesignBtn" value="1">
+                                        <input type="submit" name="next" class="btn_pager_next jsNotDisabled jsOnDesignBtn" value="1">
+                                        <input type="submit" name="last" class="btn_pager_last jsNotDisabled jsOnDesignBtn" value="1">3 / 6
+                                    </div>
+                                </div>
+                            </div>
+                            <input type="hidden" name="is_paging" value="1">
+                            <script>
+                                $('#jsPageNumber').focus(function() {
+                                    $('#jsMovePagerLabel').removeClass("_disabled");
+                                });
+                            </script>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="selectArea type_02 _information m-Top8">
+                <div class="selectArea_accordion_headline">注意事項
+</div>
+                <div class="selectArea_accordion">
+                    <div class="selectArea_accordion_title">
+                        <div>バレンタインプレゼントキャンペーンについて</div>
+                    </div>
+                    <div class="selectArea_accordion_body t-Lft">
+                        <div class="selectArea_accordion_body_inner">
+                            <p>・キャンペーン期間中はアイドルに会いに行くことができます。</p>
+                            <p>・会いに行ったアイドルからは、最大3人からバレンタインのギフトをもらうことができます。</p>
+                            <p class="gray">※受け取ったギフトは贈り物リストに送られます。</p>
+                            <p>・同じアイドルからギフトをもらえるのは1回までです。</p>
+                            <p>・本キャンペーンで会いに行くことのできるアイドルは、ぷちデレラが追加されているアイドルのみとなります。</p>
+                            <p>・キャンペーン期間中は何度でもアニメーション演出を見ることができます。</p>
+                            <p>・サーバーのレスポンス状況、通信状況によっては、アニメーション演出がご覧いただけない場合がございます。あらかじめご了承ください。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="m-Top12">
+                <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmypage%3Fl_frm%3DValentine_present_select_base_idol_2%26rnd%3D326187458'>
+                    <div class="backLink">マイスタジオ</div>
+                </a>
+            </div>
+            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2F__DUMMY__.png%3Fv%3D20190909144730' id="js_dummy_path" style="display:none">
+            <script type="text/template" id="template_idol_confirm">
+
+<div class="idol_confirm-area bg_<%- bg %> p-Btm2"><div class="idol-area"><div id="animation-container"></div><div class="name_plate"><img src="<%- name_plate_path %>"></div></div><div class="text-area p-Btm4"><p class="popup_text m-Btm12 t-Cnt"><span class="attr_<%- attr %>"><%- name %></span><% if(checkbox && !have_seen) { %>に会いにいきます。<% }else{ %>との思い出を振り返ります。<% } %></p><% if(checkbox && !have_seen) { %><p class="popup_text font-size-11 t-Cnt"><span class="red">一度選択すると変更することはできません。</span><br>あと<span class="yellow">2</span>人からもらえます。</p><% } %><form action='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcampaigns%2Fvalentine_present%2Fsee_idol_flash%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D397445058' method="post"><input type="hidden" name="keyword" value="<%- keyword %>"><input type="hidden" name="offset" value="<%- offset %>"><input type="hidden" name="idol_base_id" value="<%- id %>"><% if(checkbox && !have_seen) { %><div class="search_checkbox_2 popup_chk_box m-Cnt m-Top8"><span class="line_2">このアイドルから<br>ギフトをもらう</span><input class="checkbox" type="checkbox" value="1" name="confirm_flag"></div><% } %><% submit_class = (checkbox && !have_seen) ? '_disabled' : ''%><label class="<%- submit_class %>"><% if(checkbox && !have_seen) { %><input type="submit" class="submit-button m-Cnt m-Top8 jsOnDesignBtn"><div class="disabled-button m-Cnt m-Top8"></div><% } %><% if(!checkbox || have_seen) { %><input type="submit" class="submit-button2 m-Cnt m-Top8 jsOnDesignBtn"><% } %></label></form></div></div>
+
+            </script>
+            <script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Filibrary.js%3Fv%3D20190524145756"></script>
+            <script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fpetit_cg%2Fcheek%2Fcheek1.js%3Fv%3D20190524145756"></script>
+            <script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fpetit_cg%2Fcheek%2Fcheek2.js%3Fv%3D20190524145756"></script>
+            <script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fpetit_cg%2Fcheek%2Fcheek3.js%3Fv%3D20190524145756"></script>
+            <script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fmin%2Fpetit_manager_cjs_2.min.js%3Fv%3D20210210144635"></script>
+            <script type="text/template" id="template_recieved_idol">
+
+<div class="idol_recieved_area">
+<div id="animation-container"></div>
+<div class="name_plate num_1">
+<img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fcoming_tv%2Fname_tag_horizontal%2F031.png%3Fv%3D20190524145749'>
+</div>
+<div class="remember_btn_area num_1">
+<form action='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcampaigns%2Fvalentine_present%2Fsee_idol_flash%3Fl_frm%3DValentine_present_select_base_idol_2%26rnd%3D446377946' method="post">
+<input type="hidden" name="offset" value="24">
+<input type="hidden" name="keyword" value="">
+<input type="hidden" name="idol_base_id" value="31">
+<input type="submit" class="jsOnDesignBtn">
+</form>
+</div>
+</div>
+
+            </script>
+            <script type="text/template" id="template_item_get">
+
+<div class="item_recieved_area">
+<div class="recieved-item-img">
+<img src="<%- _imgPath %>">
+</div>
+<div class="popup_text t-Cnt">
+<p class="m-Top6 m-Btm12">
+<span class="attr_<%- attr %>"><%- name %></span>からギフトをもらいました。
+</p>
+<p class="font-size-11">
+ギフトは贈り物リストに送られました。
+</p>
+<div class="m-Cnt m-Top6">
+<a href="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fpresent%2Frecieve%2F%3Fview_auth_type%3D1%26cache%3D1%26l_frm%3DValentine_present_select_base_idol_2%26rnd%3D59412481">
+<img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fvalentine%2F2021%2Fsprite%2Fbutton_gift_list.png%3Fv%3D20210210144633' class="button_gift_list jsOnDesignBtn">
+</a>
+</div>
+</div>
+</div>
+
+            </script>
+            <script>
+                $(function() {
+                    window.dummy_path = $('#js_dummy_path').attr('src');
+                    var is_popup_open = false;
+                    var cjs_file = ['http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fpetit_cjs%2Fpetit_base.js%3Fv%3D20210210144636'];
+                    var petitManager = window.petitManager || new PetitManager();
+                    var petitCanvasWidth = 608;
+                    var petitCanvasHeight = 386;
+                    var charaManager = [];
+                    var characterList = [];
+                    var petie_list = [{
+                        "attribute": "1",
+                        "body_type": "1",
+                        "breast_size": "2",
+                        "short_name": "\u30d5\u30ec\u30c7\u30ea\u30ab",
+                        "image_url_list": {
+                            "expression_1015": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fpetit_cg%2Fexpression%2F1015.js%3Fv%3D20101001000000",
+                            "hair_10015": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fpetit_cg%2Fhair%2F10015.js%3Fv%3D20101001000000",
+                            "costume_1_20015": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fpetit_cg%2Fcostume%2F1%2F20015.js%3Fv%3D20101001000000"
+                        },
+                        "sub_type_list": {
+                            "head": null,
+                            "hand": null,
+                            "leg": null
+                        },
+                        "take_sub_type": {
+                            "head": 1,
+                            "hand": 1,
+                            "leg": 1
+                        },
+                        "petit_csv_info_list": {
+                            "costume_1_20015": {
+                                "image_path": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2F20015",
+                                "accessory_name": "\u30dc\u30fc\u30c0\u30fc\u30cb\u30c3\u30c8\u30b3\u30fc\u30c7\u30fb\u30d5\u30ec\u30c7\u30ea\u30ab",
+                                "explanation": "\u30d5\u30ec\u30c7\u30ea\u30ab\u306e\u30e9\u30d5\u3067\u30bb\u30af\u30b7\u30fc\u306a\u79c1\u670d\u3067\u3059\u3002<br>\u3082\u3053\u3082\u3053\u7d20\u6750\u3001\u89e6\u3063\u3066\u307f\u3061\u3083\u3046?",
+                                "type_id": "2"
+                            }
+                        },
+                        "petit_csv_sub_type_info_list": []
+                    }];
+                    if (window.popup == void 0)
+                        window.popup = popup = new Commonjs.Popup();
+                    var template = $('#template_idol_confirm').html();
+                    var recieved_template = $('#template_recieved_idol').html();
+                    var item_get_template = $('#template_item_get').html();
+                    var checkbox = 1;
+                    var _imgPath = dummy_path.replace('__DUMMY__.png', 'item/l/petit_cg/' + '45015' + '.png');
+                    var recieve_item_popup_data = {
+                        name: '宮本ﾌﾚﾃﾞﾘｶ',
+                        _imgPath: _imgPath,
+                        attr: '1'
+                    };
+                    popup.set({
+                        "title": "受け取り結果",
+                        "contents": _.template(item_get_template, recieve_item_popup_data),
+                        "full_display_flg": true,
+                        "new_layout": true
+                    });
+                    popup.open();
+                    $('.js_ibox_trigger').on('click', function(e) {
+                        e.preventDefault();
+                        if (is_popup_open) {
+                            return;
+                        } else {
+                            is_popup_open = true;
+                        }
+                        var param = $(this).data();
+                        param.checkbox = checkbox;
+                        $.ajax({
+                            url: param.petit,
+                            type: 'post',
+                            history: 0
+                        }).success(function(data) {
+                            if (typeof data.accessory_list === "undefined") {
+                                location.href = 'http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fgame_error%3Fl_frm%3DValentine_present_select_base_idol_1%26rnd%3D989648268';
+                                return;
+                            }
+                            characterList = [];
+                            characterList[0] = data.accessory_list;
+                            charaManager = [];
+                            petitManager.constructor();
+                            petitManager.canvas_width = petitCanvasWidth;
+                            petitManager.canvas_height = petitCanvasHeight;
+                            petitManager.canvas_recreate_flag = true;
+                            var deffered = petitManager.requireCJS(cjs_file);
+                            deffered.done(function() {
+                                petitManager.setCharacters(characterList);
+                                charaManager = petitManager.getAllChracter();
+                            });
+                            petitManager.loaded_action = function() {
+                                petitManager.stage.removeAllChildren();
+                                charaManager[0].cjs['visible'] = true;
+                                charaManager[0].cjs.scaleX = charaManager[0].cjs.scaleY = 2.2;
+                                charaManager[0].cjs['x'] = petitCanvasWidth / 2 + 16;
+                                charaManager[0].cjs['y'] = petitCanvasHeight - 30;
+                                petitManager.stage.addChild(charaManager[0].cjs);
+                                petitManager.stage.update();
+                            }
+                            param.name_plate_path = dummy_path.replace('__DUMMY__.png', 'ui/coming_tv/name_tag_horizontal/' + param.name_id + '.png');
+                            popup.set({
+                                "title": "アイドル確認",
+                                "contents": _.template(template, param),
+                                "full_display_flg": true,
+                                "new_layout": true
+                            });
+                            if (checkbox) {
+                                popup.on('open', function() {
+                                    setSearchCheckBox(".popup_chk_box");
+                                });
+                            }
+                            popup.on('close', function() {
+                                is_popup_open = false;
+                            });
+                            popup.open();
+                        });
+                    });
+                    $('.recieved_idol_btn').on('click', function(e) {
+                        e.preventDefault();
+                        if (is_popup_open) {
+                            return;
+                        } else {
+                            is_popup_open = true;
+                        }
+                        var deffered = petitManager.requireCJS(cjs_file);
+                        petitManager.constructor();
+                        petitManager.canvas_width = 608;
+                        petitManager.canvas_height = 436;
+                        petitManager.canvas_recreate_flag = true;
+                        charaManager = [];
+                        deffered.done(function() {
+                            petitManager.setCharacters(petie_list);
+                            charaManager = petitManager.getAllChracter();
+                        });
+                        var charaPositionX = [[petitCanvasWidth / 2 + 14], [petitCanvasWidth / 3 + 10, (petitCanvasWidth / 3) * 2 + 10], [petitCanvasWidth / 2 + 14, petitCanvasWidth / 4 - 28, (petitCanvasWidth / 4) * 3 + 50]];
+                        petitManager.loaded_action = function() {
+                            petitManager.stage.removeAllChildren();
+                            var charaCount = Object.keys(charaManager).length - 1;
+                            var count = 0;
+                            for (var i in charaManager) {
+                                charaManager[i].cjs['visible'] = true;
+                                charaManager[i].cjs.scaleX = charaManager[i].cjs.scaleY = 1.9;
+                                charaManager[i].cjs['x'] = charaPositionX[charaCount][count];
+                                charaManager[i].cjs['y'] = 314;
+                                petitManager.stage.addChild(charaManager[i].cjs);
+                                count++;
+                            }
+                            petitManager.stage.update();
+                        }
+                        popup.set({
+                            "title": "ギフトをもらったアイドル",
+                            "contents": _.template(recieved_template, $(this).data()),
+                            "full_display_flg": true,
+                            "new_layout": true
+                        });
+                        popup.on('close', function() {
+                            is_popup_open = false;
+                        });
+                        popup.open();
+                    });
+                    var setSearchCheckBox = function(checkbox) {
+                        $(checkbox).on('click', function(e) {
+                            var $t = $(e.currentTarget);
+                            if ($t.hasClass("_selected")) {
+                                $t.removeClass("_selected");
+                                $t.find("input").prop("checked", false).trigger('change');
+                                $t.next().addClass('_disabled');
+                                $t.next().find("input").prop('disabled', true);
+                            } else {
+                                $t.addClass("_selected");
+                                $t.find("input").prop("checked", true).trigger('change');
+                                $t.next().removeClass('_disabled');
+                                $t.next().find("input").prop('disabled', false);
+                            }
+                        })
+                    };
+                    Commonjs.setSearchClear({
+                        $trigger: $(".js_btn_clear"),
+                        targets: [$("#search_idol_name"), $('.checkbox')],
+                    });
+                    Commonjs.setSearchCheckBox($(".chk_box"));
+                    Commonjs.setSearchMore({
+                        $trigger: $("#js_btn_deck_search_more"),
+                        $contents: $("#js_deck_search_more_contents"),
+                    });
+                    Commonjs.setAccordion();
+                    Commonjs.setSearchCheckBox($(".search_checkbox_2, .search_checkbox_single"));
+                    Commonjs.setSearchMore({
+                        $trigger: $("#js_btn_search_more"),
+                        $contents: $("#js_search_more_contents"),
+                    });
+                });
+            </script>
+            <footer>
+                <div class="line_idolmaster"></div>
+                <a href="#top" id="toPageTop" class="mypage_under">
+                    <div></div>
+                </a>
+                <div class="t-Cnt">(C)窪岡俊之 (C)2011 BNEI</div>
+            </footer>
+        </div>
+        <script>
+            window._tarminal = {
+                'native_app_flg': false,
+                'android_app_flg': false,
+                'ios_app_flg': false,
+                'shell_app_flg': false
+            };
+        </script>
+        <script>
+            window._tarminal = {
+                'native_app_flg': false,
+                'android_app_flg': false,
+                'ios_app_flg': false,
+                'shell_app_flg': false
+            };
+        </script>
+        <div id="mbga-pf-footer">
+            <div class="mbga-pf-footer-container odd-lines mbga-pf-footer-white">
+                <ul>
+                    <li class="mbga-pf-footer-list">
+                        <div class="mbga-pf-fotter-content">
+                            <a class="mbga-pf-footer-arrow" href="http://sp.mbga.jp/_grp_view?g=32095227">
+                                <span class="mbga-pf-footer-caption">公式サークル</span>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="mbga-pf-footer-navbar">
+                <ul class="mbga-pf-box-h">
+                    <li id="mbga-pf-footer-navbar-icon-grid" class="mbga-pf-footer-li">
+                        <a class="mbga-pf-footer-a mbga-pf-footer-home-w" href="http://sp.mbga.jp/?_from=globalfooter">
+                            <span class="mbga-pf-footer-txt">ホーム</span>
+                        </a>
+                    </li>
+                    <li id="mbga-pf-footer-navbar-icon-mypage" class="mbga-pf-footer-li">
+                        <a class="mbga-pf-footer-a mbga-pf-footer-mypage-w" href="http://sp.mbga.jp/_my0?_from=globalfooter">
+                            <span class="mbga-pf-footer-txt">マイページ</span>
+                        </a>
+                    </li>
+                    <li id="mbga-pf-footer-navbar-icon-mygame" class="mbga-pf-footer-li">
+                        <a class="mbga-pf-footer-a mbga-pf-footer-mygame-w" href="http://sp.mbga.jp/_game_my_top?_from=globalfooter">
+                            <span class="mbga-pf-footer-txt">マイゲーム</span>
+                        </a>
+                    </li>
+                    <li id="mbga-pf-footer-navbar-icon-notification" class="mbga-pf-footer-li">
+                        <a class="mbga-pf-footer-a mbga-pf-footer-game-w" href="http://sp.mbga.jp/_game_top?_from=globalfooter">
+                            <span class="mbga-pf-footer-txt">ゲーム</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <script type="text/javascript" charset="UTF-8">
+                (function() {
+                    document.addEventListener('DOMContentLoaded', function() {
+                        var list = document.getElementsByClassName('mbga-pf-footer-li');
+                        var i = 0
+                          , l = list.length;
+                        for (; i < l; i++) {
+                            var elem = list[i];
+                            elem.addEventListener('touchstart', function(e) {
+                                e.currentTarget.className = e.currentTarget.className.replace(/$/, ' mbga-pf-tapped');
+                            });
+                            elem.addEventListener('touchend', function(e) {
+                                e.currentTarget.className = e.currentTarget.className.replace(/ mbga-pf-tapped/, '');
+                            });
+                            elem.addEventListener('touchmove', function(e) {});
+                        }
+                    });
+                }
+                )();
+            </script>
+        </div>
+    </body>
+</html>
