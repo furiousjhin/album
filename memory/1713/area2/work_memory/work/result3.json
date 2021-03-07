@@ -1,0 +1,53 @@
+{
+  "result_type":"get_nothing",
+  "use_hp":4,
+  "cur_hp":675,
+  "max_hp":699,
+  "exp_per":53,
+  "next_exp":46290,
+  "cur_exp":24854,
+  "get_exp":5,
+  "get_money":108,
+  "get_fan":4,
+  "hp_per":96,
+  "play_per":16,
+  "cur_card":"250",
+  "events":
+  {
+    "battle_point":
+    {
+      "battle_point":6,
+      "max_battle_point":6,
+      "cure_time":null
+    },
+    "fever_time_data":
+    {
+      "is_fever_time":true,
+      "start":1615122000,
+      "end":1615129199,
+      "next_start":1615154400,
+      "next_end":1615161599,
+      "now":1615127377
+    },
+      "raid":
+    {
+      "encount_raid_id":null,
+      "url":"",
+      "special_unit_flag":0
+    }
+  },
+"sub_title_data":
+  {
+  "card_id":
+  "b4b5b177a0146a13c8bd76eefa3e1257",
+  "trade_limit":false,
+  "card_comment":"정신 나갈 거 같아",
+  "voice_path":"http:\/\/idolmaster.edgesuite.net\/idolmaster\/sound\/1557802\/4e857540f962f1f48ac2d540fa033e67.mp4",
+  "help_ratio":"1",
+  "friend_id":"0",
+  "card_name":"[뤼미에르 에투왈]미야모토 프레데리카",
+  "attr":"cute",
+  "sr":true,
+  "ext":".jpg"
+  }
+}
