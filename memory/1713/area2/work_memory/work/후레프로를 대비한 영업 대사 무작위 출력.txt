@@ -1,0 +1,10 @@
+1. 영업 버튼을 누르면 어떤 함수가 실행되는지 찾아본다
+영업 버튼 -> 검사 -> 크롬 오른쪽 창 event_listeners -> click
+
+2. 도리페에 경우 event_dream_quest.min.js의 Imascg.QuestModel.play()였음
+여기서 $.ajax({ ... url: <- 뒤에 있는 값을 바꿔줘야 함
+
+3. 1부터 n까지의 정수 한개를 랜덤으로 뽑아 변수로 저장
+var result_num = Math.floor(Math.random() * n) + 1;
+
+url: 뒤를 this.quest_url + result_num + '.json'으로 변경

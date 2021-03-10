@@ -1,0 +1,34 @@
+{
+   "accessory_list":{
+      "attribute":"1",
+      "body_type":"1",
+      "breast_size":"2",
+      "short_name":"ﾌﾚﾃﾞﾘｶ",
+      "image_url_list":{
+         "expression_1015":"../../../../12008305/js/petit_cg/expression/1015.js",
+         "hair_10015":"../../../../12008305/js/petit_cg/hair/10015.js",
+         "costume_1_20015":"../../../../12008305/js/petit_cg/costume/1/20015.js"
+      },
+      "sub_type_list":{
+         "head":null,
+         "hand":null,
+         "leg":null
+      },
+      "take_sub_type":{
+         "head":1,
+         "hand":1,
+         "leg":1
+      },
+      "petit_csv_info_list":{
+         "costume_1_20015":{
+            "image_path":"../../../../12008305/image_sp/item/l/petit_cg/20015",
+            "accessory_name":"ﾎﾞｰﾀﾞｰﾆｯﾄｺｰﾃﾞ･ﾌﾚﾃﾞﾘｶ",
+            "explanation":"ﾌﾚﾃﾞﾘｶのﾗﾌでｾｸｼｰな私服です｡<br>もこもこ素材､触ってみちゃう?",
+            "type_id":"2"
+         }
+      },
+      "petit_csv_sub_type_info_list":[
+
+      ]
+   }
+}

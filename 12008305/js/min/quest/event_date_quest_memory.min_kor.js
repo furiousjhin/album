@@ -384,7 +384,7 @@ Imascg.QuestIdolImage = {
         play_per: null,
         quest_form: null,
         quest_url: "",
-        new_work_url: "",
+        new_work_url: "", // 커뮤 이벤 이후 다음 영업으로?
         next_work_url: "",
         error_report_url: "",
         log_messages_url: "",

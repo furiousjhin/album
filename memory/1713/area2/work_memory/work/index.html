@@ -391,7 +391,8 @@
                             </div>
                         </div>
                     </section>
-                    <section id="direction_stage" style='background-image:url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/image_sp/event/759/bg_area_xl_7070.jpg%3Fv%3D20210226144733); background-repeat:no-repeat; background-size:100%; background-position:right bottom;'>
+                    <section id="direction_stage" style='background-image:url(../../../../../12008305/image_sp/event/1713/bg_area_xl_5380.jpg); background-repeat:no-repeat; background-size:100%; background-position:right bottom;'>
+                        <!--
                         <div id="area_status">
                             <div id="stage_name">
                                 <div id="text_line">
@@ -407,6 +408,7 @@
                                 <span id="progress" class="box_right"></span>
                             </div>
                         </div>
+                        -->
                         <div id="loading" style="display:none;">
                             <div id="load1" style="display:none;">
                                 <img src="http://sp.pf-img-a.mbga.jp/12008305?url=http%3A//125.6.169.35/idolmaster/image_sp/ui/rich/quest/working_1.gif" class="working_img"/>
@@ -566,18 +568,6 @@
                       }
                     </script>
 
-                    <script>
-                      $(function(){
-                        var modifyBtn = $("#play_button");
-                        modifyBtn.click(function(){
-                          var formElement = $("#play");
-                          var result_num = Math.floor(Math.random() * 2) + 1;
-                          jsonName = 'result' + result_num + '.json?'
-                          formElement.attr("action", jsonName);
-                        })
-                      });
-                    </script>
-
                     <section id="play_area" style='background-image:url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/image_sp/ui/rich/quest/footer_bg.png%3Fv%3D20170222083847); background-repeat:no-repeat; background-size:100%; background-position:0px 2px;'>
                         <form action="result" "method="get" id="play">
                             <input type="button" value="" id="play_button" class="play_btn_df se_008"/>
@@ -712,7 +702,7 @@
                             shop_url: "http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/shop/index%3Fl_frm%3DEvent_dream_work_2%26rnd%3D904823300"
                         });
                         Imascg.QuestIdolImage.init([{
-                            "card_id": "b4b5b177a0146a13c8bd76eefa3e1257",
+                            "card_id": "",
                             "ext": ".jpg",
                             "card_image_url": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/image_sp/card/quest/b4b5b177a0146a13c8bd76eefa3e1257.jpg%3Fv%3D20201120144647"
                         }, {

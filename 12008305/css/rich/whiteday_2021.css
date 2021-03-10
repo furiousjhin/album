@@ -1,0 +1,1922 @@
+.large {
+    font-size: 22px
+}
+
+.small {
+    font-size: 10px
+}
+
+.red {
+    color: #ff0000
+}
+
+.red_mild {
+    color: #ff3333
+}
+
+.green {
+    color: #33ff33
+}
+
+.yellow {
+    color: #ff9900
+}
+
+.lemon_yellow {
+    color: #fff800
+}
+
+.blue {
+    color: #00ccff
+}
+
+.blue_st {
+    color: #0066ff
+}
+
+.gray {
+    color: #aaaaaa
+}
+
+.pink {
+    color: #f08080
+}
+
+.dark_gray {
+    color: #666666
+}
+
+.white {
+    color: #ffffff;
+    text-decoration: none
+}
+
+.defMargin {
+    width: 296px;
+    padding: 0 12px
+}
+
+.m-Btm0 {
+    margin-bottom: 0px
+}
+
+.m-Btm4 {
+    margin-bottom: 4px
+}
+
+.m-Btm5 {
+    margin-bottom: 5px
+}
+
+.m-Btm8 {
+    margin-bottom: 8px
+}
+
+.m-Btm10 {
+    margin-bottom: 10px
+}
+
+.m-Btm12 {
+    margin-bottom: 12px
+}
+
+.m-Btm15 {
+    margin-bottom: 15px
+}
+
+.m-Btm20 {
+    margin-bottom: 20px
+}
+
+.m-Top4 {
+    margin-top: 4px
+}
+
+.m-Top5 {
+    margin-top: 5px
+}
+
+.m-Top8 {
+    margin-top: 8px
+}
+
+.m-Top10 {
+    margin-top: 10px
+}
+
+.m-Top12 {
+    margin-top: 12px
+}
+
+.m-Head_img {
+    margin-top: -14px
+}
+
+.m-Cnt {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.t-Lft {
+    text-align: left !important
+}
+
+.t-Rgt {
+    text-align: right !important
+}
+
+.t-Cnt {
+    text-align: center !important
+}
+
+.left_float {
+    float: left
+}
+
+.right_float {
+    float: right
+}
+
+.displayBox {
+    display: -webkit-box;
+    display: -moz-box;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.v-Top {
+    vertical-align: top
+}
+
+.v-Mdl {
+    vertical-align: middle
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block
+}
+
+.l-Hgt120 {
+    line-height: 120%
+}
+
+.l-Hgt140 {
+    line-height: 140%
+}
+
+.position._relative {
+    position: relative !important
+}
+
+.position._absolute {
+    position: absolute !important
+}
+
+.display._block {
+    display: block !important
+}
+
+.display._inline {
+    display: inline !important
+}
+
+.display._inline_block {
+    display: inline-block !important
+}
+
+.display._inline_block+._clear_space {
+    margin-left: -4px
+}
+
+.display._none {
+    display: none !important
+}
+
+.vertical_align._top {
+    vertical-align: top !important
+}
+
+.vertical_align._middle {
+    vertical-align: middle !important
+}
+
+.vertical_align._bottom {
+    vertical-align: bottom !important
+}
+
+.box._border_box {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.box._bg_gray {
+    background: rgba(0,0,0,0.8)
+}
+
+.box._bg_white {
+    background: rgba(255,255,255,0.8)
+}
+
+.box._border_gray {
+    border: 1px solid #787878 !important
+}
+
+.box._border_white {
+    border: 1px solid #ffffff !important
+}
+
+.box._r_1 {
+    -webkit-border-radius: 1px;
+    -ms-border-radius: 1px;
+    border-radius: 1px
+}
+
+.box._r_2 {
+    -webkit-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px
+}
+
+.box._r_3 {
+    -webkit-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px
+}
+
+.box._r_4 {
+    -webkit-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px
+}
+
+.box._r_5 {
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px
+}
+
+.box._r_6 {
+    -webkit-border-radius: 6px;
+    -ms-border-radius: 6px;
+    border-radius: 6px
+}
+
+.box._r_7 {
+    -webkit-border-radius: 7px;
+    -ms-border-radius: 7px;
+    border-radius: 7px
+}
+
+.box._r_8 {
+    -webkit-border-radius: 8px;
+    -ms-border-radius: 8px;
+    border-radius: 8px
+}
+
+.box._r_9 {
+    -webkit-border-radius: 9px;
+    -ms-border-radius: 9px;
+    border-radius: 9px
+}
+
+.box._r_10 {
+    -webkit-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px
+}
+
+.box._r_11 {
+    -webkit-border-radius: 11px;
+    -ms-border-radius: 11px;
+    border-radius: 11px
+}
+
+.box._r_12 {
+    -webkit-border-radius: 12px;
+    -ms-border-radius: 12px;
+    border-radius: 12px
+}
+
+.box._r_13 {
+    -webkit-border-radius: 13px;
+    -ms-border-radius: 13px;
+    border-radius: 13px
+}
+
+.box._r_14 {
+    -webkit-border-radius: 14px;
+    -ms-border-radius: 14px;
+    border-radius: 14px
+}
+
+.box._r_15 {
+    -webkit-border-radius: 15px;
+    -ms-border-radius: 15px;
+    border-radius: 15px
+}
+
+.box._r_16 {
+    -webkit-border-radius: 16px;
+    -ms-border-radius: 16px;
+    border-radius: 16px
+}
+
+.box._r_17 {
+    -webkit-border-radius: 17px;
+    -ms-border-radius: 17px;
+    border-radius: 17px
+}
+
+.box._r_18 {
+    -webkit-border-radius: 18px;
+    -ms-border-radius: 18px;
+    border-radius: 18px
+}
+
+.box._r_19 {
+    -webkit-border-radius: 19px;
+    -ms-border-radius: 19px;
+    border-radius: 19px
+}
+
+.box._w_5 {
+    width: 5% !important
+}
+
+.box._w_10 {
+    width: 10% !important
+}
+
+.box._w_15 {
+    width: 15% !important
+}
+
+.box._w_20 {
+    width: 20% !important
+}
+
+.box._w_25 {
+    width: 25% !important
+}
+
+.box._w_30 {
+    width: 30% !important
+}
+
+.box._w_35 {
+    width: 35% !important
+}
+
+.box._w_40 {
+    width: 40% !important
+}
+
+.box._w_45 {
+    width: 45% !important
+}
+
+.box._w_50 {
+    width: 50% !important
+}
+
+.box._w_55 {
+    width: 55% !important
+}
+
+.box._w_60 {
+    width: 60% !important
+}
+
+.box._w_65 {
+    width: 65% !important
+}
+
+.box._w_70 {
+    width: 70% !important
+}
+
+.box._w_75 {
+    width: 75% !important
+}
+
+.box._w_80 {
+    width: 80% !important
+}
+
+.box._w_85 {
+    width: 85% !important
+}
+
+.box._w_90 {
+    width: 90% !important
+}
+
+.box._w_95 {
+    width: 95% !important
+}
+
+.box._w_304 {
+    width: 304px
+}
+
+.box._w_288 {
+    width: 288px
+}
+
+.box._w_280 {
+    width: 280px
+}
+
+.m0 {
+    margin: 0px !important
+}
+
+.m-Top0 {
+    margin-top: 0px !important
+}
+
+.m-Btm0 {
+    margin-bottom: 0px !important
+}
+
+.m-Lft0 {
+    margin-left: 0px !important
+}
+
+.m-Rgt0 {
+    margin-right: 0px !important
+}
+
+.p0 {
+    padding: 0px !important
+}
+
+.p-Top0 {
+    padding-top: 0px !important
+}
+
+.p-Btm0 {
+    padding-bottom: 0px !important
+}
+
+.p-Lft0 {
+    padding-left: 0px !important
+}
+
+.p-Rgt0 {
+    padding-right: 0px !important
+}
+
+.m2 {
+    margin: 2px !important
+}
+
+.m-Top2 {
+    margin-top: 2px !important
+}
+
+.m-Btm2 {
+    margin-bottom: 2px !important
+}
+
+.m-Lft2 {
+    margin-left: 2px !important
+}
+
+.m-Rgt2 {
+    margin-right: 2px !important
+}
+
+.p2 {
+    padding: 2px !important
+}
+
+.p-Top2 {
+    padding-top: 2px !important
+}
+
+.p-Btm2 {
+    padding-bottom: 2px !important
+}
+
+.p-Lft2 {
+    padding-left: 2px !important
+}
+
+.p-Rgt2 {
+    padding-right: 2px !important
+}
+
+.m4 {
+    margin: 4px !important
+}
+
+.m-Top4 {
+    margin-top: 4px !important
+}
+
+.m-Btm4 {
+    margin-bottom: 4px !important
+}
+
+.m-Lft4 {
+    margin-left: 4px !important
+}
+
+.m-Rgt4 {
+    margin-right: 4px !important
+}
+
+.p4 {
+    padding: 4px !important
+}
+
+.p-Top4 {
+    padding-top: 4px !important
+}
+
+.p-Btm4 {
+    padding-bottom: 4px !important
+}
+
+.p-Lft4 {
+    padding-left: 4px !important
+}
+
+.p-Rgt4 {
+    padding-right: 4px !important
+}
+
+.m6 {
+    margin: 6px !important
+}
+
+.m-Top6 {
+    margin-top: 6px !important
+}
+
+.m-Btm6 {
+    margin-bottom: 6px !important
+}
+
+.m-Lft6 {
+    margin-left: 6px !important
+}
+
+.m-Rgt6 {
+    margin-right: 6px !important
+}
+
+.p6 {
+    padding: 6px !important
+}
+
+.p-Top6 {
+    padding-top: 6px !important
+}
+
+.p-Btm6 {
+    padding-bottom: 6px !important
+}
+
+.p-Lft6 {
+    padding-left: 6px !important
+}
+
+.p-Rgt6 {
+    padding-right: 6px !important
+}
+
+.m8 {
+    margin: 8px !important
+}
+
+.m-Top8 {
+    margin-top: 8px !important
+}
+
+.m-Btm8 {
+    margin-bottom: 8px !important
+}
+
+.m-Lft8 {
+    margin-left: 8px !important
+}
+
+.m-Rgt8 {
+    margin-right: 8px !important
+}
+
+.p8 {
+    padding: 8px !important
+}
+
+.p-Top8 {
+    padding-top: 8px !important
+}
+
+.p-Btm8 {
+    padding-bottom: 8px !important
+}
+
+.p-Lft8 {
+    padding-left: 8px !important
+}
+
+.p-Rgt8 {
+    padding-right: 8px !important
+}
+
+.m10 {
+    margin: 10px !important
+}
+
+.m-Top10 {
+    margin-top: 10px !important
+}
+
+.m-Btm10 {
+    margin-bottom: 10px !important
+}
+
+.m-Lft10 {
+    margin-left: 10px !important
+}
+
+.m-Rgt10 {
+    margin-right: 10px !important
+}
+
+.p10 {
+    padding: 10px !important
+}
+
+.p-Top10 {
+    padding-top: 10px !important
+}
+
+.p-Btm10 {
+    padding-bottom: 10px !important
+}
+
+.p-Lft10 {
+    padding-left: 10px !important
+}
+
+.p-Rgt10 {
+    padding-right: 10px !important
+}
+
+.m12 {
+    margin: 12px !important
+}
+
+.m-Top12 {
+    margin-top: 12px !important
+}
+
+.m-Btm12 {
+    margin-bottom: 12px !important
+}
+
+.m-Lft12 {
+    margin-left: 12px !important
+}
+
+.m-Rgt12 {
+    margin-right: 12px !important
+}
+
+.p12 {
+    padding: 12px !important
+}
+
+.p-Top12 {
+    padding-top: 12px !important
+}
+
+.p-Btm12 {
+    padding-bottom: 12px !important
+}
+
+.p-Lft12 {
+    padding-left: 12px !important
+}
+
+.p-Rgt12 {
+    padding-right: 12px !important
+}
+
+.m14 {
+    margin: 14px !important
+}
+
+.m-Top14 {
+    margin-top: 14px !important
+}
+
+.m-Btm14 {
+    margin-bottom: 14px !important
+}
+
+.m-Lft14 {
+    margin-left: 14px !important
+}
+
+.m-Rgt14 {
+    margin-right: 14px !important
+}
+
+.p14 {
+    padding: 14px !important
+}
+
+.p-Top14 {
+    padding-top: 14px !important
+}
+
+.p-Btm14 {
+    padding-bottom: 14px !important
+}
+
+.p-Lft14 {
+    padding-left: 14px !important
+}
+
+.p-Rgt14 {
+    padding-right: 14px !important
+}
+
+.m16 {
+    margin: 16px !important
+}
+
+.m-Top16 {
+    margin-top: 16px !important
+}
+
+.m-Btm16 {
+    margin-bottom: 16px !important
+}
+
+.m-Lft16 {
+    margin-left: 16px !important
+}
+
+.m-Rgt16 {
+    margin-right: 16px !important
+}
+
+.p16 {
+    padding: 16px !important
+}
+
+.p-Top16 {
+    padding-top: 16px !important
+}
+
+.p-Btm16 {
+    padding-bottom: 16px !important
+}
+
+.p-Lft16 {
+    padding-left: 16px !important
+}
+
+.p-Rgt16 {
+    padding-right: 16px !important
+}
+
+.m18 {
+    margin: 18px !important
+}
+
+.m-Top18 {
+    margin-top: 18px !important
+}
+
+.m-Btm18 {
+    margin-bottom: 18px !important
+}
+
+.m-Lft18 {
+    margin-left: 18px !important
+}
+
+.m-Rgt18 {
+    margin-right: 18px !important
+}
+
+.p18 {
+    padding: 18px !important
+}
+
+.p-Top18 {
+    padding-top: 18px !important
+}
+
+.p-Btm18 {
+    padding-bottom: 18px !important
+}
+
+.p-Lft18 {
+    padding-left: 18px !important
+}
+
+.p-Rgt18 {
+    padding-right: 18px !important
+}
+
+.m20 {
+    margin: 20px !important
+}
+
+.m-Top20 {
+    margin-top: 20px !important
+}
+
+.m-Btm20 {
+    margin-bottom: 20px !important
+}
+
+.m-Lft20 {
+    margin-left: 20px !important
+}
+
+.m-Rgt20 {
+    margin-right: 20px !important
+}
+
+.p20 {
+    padding: 20px !important
+}
+
+.p-Top20 {
+    padding-top: 20px !important
+}
+
+.p-Btm20 {
+    padding-bottom: 20px !important
+}
+
+.p-Lft20 {
+    padding-left: 20px !important
+}
+
+.p-Rgt20 {
+    padding-right: 20px !important
+}
+
+.m-Cnt {
+    margin-left: auto !important;
+    margin-right: auto !important
+}
+
+.__DUMMY__ {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fsprite%2Fui-s5936d36b6a.png%3F1615355220) no-repeat 0 -936px;
+    -webkit-background-size: 320px 936px;
+    background-size: 320px 936px;
+    width: 1px;
+    height: 1px
+}
+
+.bg_list_attr_1 {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fsprite%2Fui-s5936d36b6a.png%3F1615355220) no-repeat 0 -141px;
+    -webkit-background-size: 320px 936px;
+    background-size: 320px 936px;
+    width: 88px;
+    height: 100px
+}
+
+.bg_list_attr_2 {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fsprite%2Fui-s5936d36b6a.png%3F1615355220) no-repeat 0 -343px;
+    -webkit-background-size: 320px 936px;
+    background-size: 320px 936px;
+    width: 88px;
+    height: 100px
+}
+
+.bg_list_attr_3 {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fsprite%2Fui-s5936d36b6a.png%3F1615355220) no-repeat 0 -242px;
+    -webkit-background-size: 320px 936px;
+    background-size: 320px 936px;
+    width: 88px;
+    height: 100px
+}
+
+.btn_gift {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fsprite%2Fui-s5936d36b6a.png%3F1615355220) no-repeat 0 -650px;
+    -webkit-background-size: 320px 936px;
+    background-size: 320px 936px;
+    width: 136px;
+    height: 38px
+}
+
+.btn_remember {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fsprite%2Fui-s5936d36b6a.png%3F1615355220) no-repeat 0 -855px;
+    -webkit-background-size: 320px 936px;
+    background-size: 320px 936px;
+    width: 88px;
+    height: 41px
+}
+
+.btn_remember2 {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fsprite%2Fui-s5936d36b6a.png%3F1615355220) no-repeat 0 -816px;
+    -webkit-background-size: 320px 936px;
+    background-size: 320px 936px;
+    width: 136px;
+    height: 38px
+}
+
+.btn_return {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fsprite%2Fui-s5936d36b6a.png%3F1615355220) no-repeat 0 -774px;
+    -webkit-background-size: 320px 936px;
+    background-size: 320px 936px;
+    width: 88px;
+    height: 41px
+}
+
+.btn_return2 {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fsprite%2Fui-s5936d36b6a.png%3F1615355220) no-repeat 0 -689px;
+    -webkit-background-size: 320px 936px;
+    background-size: 320px 936px;
+    width: 136px;
+    height: 38px
+}
+
+.btn_return2_disable {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fsprite%2Fui-s5936d36b6a.png%3F1615355220) no-repeat 0 -897px;
+    -webkit-background-size: 320px 936px;
+    background-size: 320px 936px;
+    width: 136px;
+    height: 38px
+}
+
+.button_gift {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fsprite%2Fui-s5936d36b6a.png%3F1615355220) no-repeat 0 -728px;
+    -webkit-background-size: 320px 936px;
+    background-size: 320px 936px;
+    width: 60px;
+    height: 45px
+}
+
+.chihiro {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fsprite%2Fui-s5936d36b6a.png%3F1615355220) no-repeat 0 -444px;
+    -webkit-background-size: 320px 936px;
+    background-size: 320px 936px;
+    width: 275px;
+    height: 62px
+}
+
+.header_top {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fsprite%2Fui-s5936d36b6a.png%3F1615355220) no-repeat 0 0;
+    -webkit-background-size: 320px 936px;
+    background-size: 320px 936px;
+    width: 320px;
+    height: 140px
+}
+
+.idol_frame_list {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fsprite%2Fui-s5936d36b6a.png%3F1615355220) no-repeat 0 -507px;
+    -webkit-background-size: 320px 936px;
+    background-size: 320px 936px;
+    width: 88px;
+    height: 100px
+}
+
+.text {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fsprite%2Fui-s5936d36b6a.png%3F1615355220) no-repeat 0 -629px;
+    -webkit-background-size: 320px 936px;
+    background-size: 320px 936px;
+    width: 304px;
+    height: 20px
+}
+
+.text_02 {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fsprite%2Fui-s5936d36b6a.png%3F1615355220) no-repeat 0 -608px;
+    -webkit-background-size: 320px 936px;
+    background-size: 320px 936px;
+    width: 304px;
+    height: 20px
+}
+
+body {
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fmypage_new%2Fbg%2Fbg_status_mypage_01.png%3F1487720324);
+    background-size: 7px 7px
+}
+
+.main_contents {
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fbg.png%3F1615355220);
+    background-size: 16px 20px;
+    padding-bottom: 12px;
+    background-position: 0 14px
+}
+
+.main_contents:after {
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fbg%2Ffooter.png%3F1615355220);
+    background-size: 320px 25px;
+    width: 320px;
+    height: 25px;
+    bottom: -6px
+}
+
+.main_contents._into_header {
+    margin-top: -14px;
+    padding-top: 14px
+}
+
+._campaign_top {
+    width: 320px;
+    height: 444px
+}
+
+._campaign_top .header_area {
+    position: relative
+}
+
+._campaign_top .header_area .btn_tutorial {
+    display: block;
+    position: absolute;
+    right: 4px;
+    bottom: 0
+}
+
+._campaign_top .area_whiteday {
+    position: relative;
+    width: 320px
+}
+
+._campaign_top .msg_chihiro {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fsprite%2Fui-s5936d36b6a.png%3F1615355220) no-repeat 0 -444px;
+    -webkit-background-size: 320px 936px;
+    background-size: 320px 936px;
+    width: 275px;
+    height: 62px;
+    position: absolute;
+    top: -23px;
+    left: 25px
+}
+
+._campaign_top .whiteday_top_frame {
+    position: absolute;
+    top: 40px;
+    width: 304px;
+    height: 268px;
+    margin: 0 8px;
+    -webkit-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+._campaign_top .whiteday_top_frame:after {
+    display: block;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border: 10px solid;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    pointer-events: none;
+    -webkit-border-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fbg%2Fframe.png%3F1615355220) 20;
+    -webkit-border-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fbg%2Fframe.png%3F1615355220) 20;
+    border-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fbg%2Fframe.png%3F1615355220) 20 fill;
+    content: ''
+}
+
+._campaign_top .whiteday_top_frame .headline {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fsprite%2Fui-s5936d36b6a.png%3F1615355220) no-repeat 0 -608px;
+    -webkit-background-size: 320px 936px;
+    background-size: 320px 936px;
+    width: 304px;
+    height: 20px;
+    position: absolute;
+    z-index: 6;
+    top: -7px
+}
+
+._campaign_top .whiteday_top_frame .idol_received_area {
+    position: relative;
+    height: 267px;
+    z-index: 4
+}
+
+._campaign_top .whiteday_top_frame .idol_received_area #animation-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fbg%2Fbg_popup.png%3F1615355220) no-repeat;
+    background-size: 304px;
+    overflow: hidden;
+    -webkit-border-radius: 10px 10px 0 0;
+    -ms-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+    height: 267px
+}
+
+._campaign_top .whiteday_top_frame .idol_received_area #animation-container:after {
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fbg%2Fbg_popup_line.png%3F1615355220) no-repeat;
+    background-size: 304px 15px;
+    content: "";
+    position: absolute;
+    width: 304px;
+    height: 24px;
+    top: 203px;
+    left: 0
+}
+
+._campaign_top .whiteday_top_frame .idol_received_area #animation-container:before {
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fbg%2Fbg_popup2.png%3F1615355220);
+    background-size: 304px 7px;
+    background-position: 0 11px;
+    content: "";
+    position: absolute;
+    width: 304px;
+    height: 54px;
+    top: 211px;
+    left: 0;
+    -webkit-border-radius: 0 0 10px 10px;
+    -ms-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px
+}
+
+._campaign_top .name_plate {
+    position: absolute;
+    top: 177px
+}
+
+._campaign_top .name_plate img {
+    position: absolute;
+    top: 0;
+    width: 46px
+}
+
+._campaign_top .name_plate.num_1 img {
+    left: 158px
+}
+
+._campaign_top .name_plate.num_2 img:nth-child(1) {
+    left: 106px
+}
+
+._campaign_top .name_plate.num_2 img:nth-child(2) {
+    left: 207px
+}
+
+._campaign_top .name_plate.num_3 img:nth-child(1) {
+    left: 156px
+}
+
+._campaign_top .name_plate.num_3 img:nth-child(2) {
+    left: 58px
+}
+
+._campaign_top .name_plate.num_3 img:nth-child(3) {
+    left: 250px
+}
+
+._campaign_top .btn_area {
+    position: absolute;
+    top: 219px
+}
+
+._campaign_top .btn_area a {
+    position: absolute;
+    top: 0
+}
+
+._campaign_top .btn_area.num_1 a:nth-child(1) {
+    left: 108px
+}
+
+._campaign_top .btn_area.num_2 a:nth-child(1) {
+    left: 57px
+}
+
+._campaign_top .btn_area.num_2 a:nth-child(2) {
+    left: 158px
+}
+
+._campaign_top .btn_area.num_3 a:nth-child(1) {
+    left: 108px
+}
+
+._campaign_top .btn_area.num_3 a:nth-child(2) {
+    left: 12px
+}
+
+._campaign_top .btn_area.num_3 a:nth-child(3) {
+    left: 204px
+}
+
+._select_idol .header_area {
+    position: relative
+}
+
+._select_idol .header_area .btn_present_to_chihiro {
+    position: absolute;
+    right: 8px;
+    bottom: 16px
+}
+
+._select_idol .whiteday_frame {
+    padding-bottom: 1px;
+    -webkit-box-shadow: inset 0 0 0 1px #fff;
+    box-shadow: inset 0 0 0 1px #fff
+}
+
+._select_idol .selectArea.type_02._in_area {
+    padding-bottom: 0
+}
+
+._select_idol .selectArea.type_02 .selectArea_more_link {
+    top: 0;
+    margin-top: 0
+}
+
+._select_idol .selectArea ._line {
+    border-top: 1px solid #bbb
+}
+
+._select_idol .selectArea .vp-Top {
+    margin-top: 8px
+}
+
+._select_idol .layout_area {
+    padding-top: 6px
+}
+
+._select_idol #js_deck_search_more_contents .area-btn-common {
+    margin-bottom: 12px
+}
+
+._select_idol .paging_area {
+    position: relative;
+    -webkit-border-bottom-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top: 8px solid transparent;
+    background-color: #a3fffe;
+    background-clip: padding-box;
+    color: #451901
+}
+
+._select_idol .paging_area .new_page_layout {
+    background-color: transparent;
+    padding-top: 8px
+}
+
+._select_idol .idol_list_empty {
+    color: #ff3300
+}
+
+._select_idol .idol_list {
+    overflow: hidden;
+    display: inline-block;
+    -webkit-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #ffffff
+}
+
+._select_idol .idol_list:not(:nth-of-type(3n-2)) {
+    margin-left: 8px
+}
+
+._select_idol .idol_list:nth-of-type(n+4) {
+    margin-top: 5px
+}
+
+._select_idol .idol_list._attr_1 {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fsprite%2Fui-s5936d36b6a.png%3F1615355220) no-repeat 0 -141px;
+    -webkit-background-size: 320px 936px;
+    background-size: 320px 936px;
+    width: 88px;
+    height: 100px;
+    display: inline-block;
+    background-color: #ffffff
+}
+
+._select_idol .idol_list._attr_2 {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fsprite%2Fui-s5936d36b6a.png%3F1615355220) no-repeat 0 -343px;
+    -webkit-background-size: 320px 936px;
+    background-size: 320px 936px;
+    width: 88px;
+    height: 100px;
+    display: inline-block;
+    background-color: #ffffff
+}
+
+._select_idol .idol_list._attr_3 {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fsprite%2Fui-s5936d36b6a.png%3F1615355220) no-repeat 0 -242px;
+    -webkit-background-size: 320px 936px;
+    background-size: 320px 936px;
+    width: 88px;
+    height: 100px;
+    display: inline-block;
+    background-color: #ffffff
+}
+
+._select_idol .idol_list a {
+    display: block;
+    width: 88px;
+    height: 100px;
+    position: relative;
+    color: #fff;
+    overflow: hidden;
+    text-decoration: none
+}
+
+._select_idol .idol_list a img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -36px;
+    margin-top: -46px
+}
+
+._select_idol .idol_list a:after {
+    content: '';
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fsprite%2Fui-s5936d36b6a.png%3F1615355220) no-repeat 0 -507px;
+    -webkit-background-size: 320px 936px;
+    background-size: 320px 936px;
+    width: 88px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1
+}
+
+._select_idol .idol_list .idol_name {
+    position: absolute;
+    width: 100%;
+    height: 18px;
+    line-height: 30px;
+    font-size: 11px;
+    color: #fff;
+    bottom: 13px;
+    left: 0;
+    z-index: 2;
+    text-align: center
+}
+
+.idol_name._attr_1 {
+    text-shadow: 0px 0px 3px #ff3ac5 , 0px 0px 3px #ff3ac5 , 0px 0px 3px #ff3ac5 , 0px 0px 3px #ff3ac5 , 0px 0px 3px #ff3ac5 , 0px 0px 3px #ff3ac5 , 0px 0px 3px #ff3ac5 , 0px 0px 3px #ff3ac5
+}
+
+.idol_name._attr_2 {
+    text-shadow: 0px 0px 3px #0c74f5 , 0px 0px 3px #0c74f5 , 0px 0px 3px #0c74f5 , 0px 0px 3px #0c74f5 , 0px 0px 3px #0c74f5 , 0px 0px 3px #0c74f5 , 0px 0px 3px #0c74f5 , 0px 0px 3px #0c74f5
+}
+
+.idol_name._attr_3 {
+    text-shadow: 0px 0px 3px #ea8400 , 0px 0px 3px #ea8400 , 0px 0px 3px #ea8400 , 0px 0px 3px #ea8400 , 0px 0px 3px #ea8400 , 0px 0px 3px #ea8400 , 0px 0px 3px #ea8400 , 0px 0px 3px #ea8400
+}
+
+.whiteday_frame {
+    position: relative;
+    width: 304px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 1px;
+    padding-right: 1px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 8px;
+    -ms-border-radius: 8px;
+    border-radius: 8px;
+    background-color: #f4fffe;
+    color: #001144
+}
+
+.whiteday_frame:after {
+    display: block;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border: 10px solid;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    pointer-events: none;
+    -webkit-border-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fbg%2Fframe.png%3F1615355220) 20;
+    -webkit-border-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fbg%2Fframe.png%3F1615355220) 20;
+    border-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fbg%2Fframe.png%3F1615355220) 20 fill;
+    content: ''
+}
+
+.whiteday_frame .headline {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: -6px;
+    z-index: 6
+}
+
+.whiteday_frame .headline .headline_select_idol {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fsprite%2Fui-s5936d36b6a.png%3F1615355220) no-repeat 0 -629px;
+    -webkit-background-size: 320px 936px;
+    background-size: 320px 936px;
+    width: 304px;
+    height: 20px
+}
+
+.whiteday_frame ._contents {
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.information_box {
+    position: relative;
+    width: 304px;
+    padding: 8px;
+    border: 1px solid;
+    border-color: #f3e00d;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 8px;
+    -ms-border-radius: 8px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #001144;
+    font-size: 10px;
+    line-height: 1.2em
+}
+
+._pointer_events-none {
+    pointer-events: none
+}
+
+#animation-container canvas {
+    zoom:0.5}
+
+.idol_confirm-area.bg_1 {
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fpopup_bg%2F1.jpg%3F1615355220) no-repeat;
+    background-size: 304px 212px
+}
+
+.idol_confirm-area.bg_2 {
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fpopup_bg%2F2.jpg%3F1615355220) no-repeat;
+    background-size: 304px 212px
+}
+
+.idol_confirm-area.bg_3 {
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fpopup_bg%2F3.jpg%3F1615355220) no-repeat;
+    background-size: 304px 212px
+}
+
+.idol_confirm-area.bg_4 {
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fpopup_bg%2F4.jpg%3F1615355220) no-repeat;
+    background-size: 304px 212px
+}
+
+.idol_confirm-area.bg_5 {
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fpopup_bg%2F5.jpg%3F1615355220) no-repeat;
+    background-size: 304px 212px
+}
+
+.idol_confirm-area.bg_6 {
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fpopup_bg%2F6.jpg%3F1615355220) no-repeat;
+    background-size: 304px 212px
+}
+
+.idol_confirm-area.bg_7 {
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fpopup_bg%2F7.jpg%3F1615355220) no-repeat;
+    background-size: 304px 212px
+}
+
+.idol_confirm-area.bg_8 {
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fpopup_bg%2F8.jpg%3F1615355220) no-repeat;
+    background-size: 304px 212px
+}
+
+.idol_confirm-area.bg_9 {
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fpopup_bg%2F9.jpg%3F1615355220) no-repeat;
+    background-size: 304px 212px
+}
+
+.idol_confirm-area.bg_10 {
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fpopup_bg%2F10.jpg%3F1615355220) no-repeat;
+    background-size: 304px 212px
+}
+
+.idol_confirm-area.bg_11 {
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fpopup_bg%2F11.jpg%3F1615355220) no-repeat;
+    background-size: 304px 212px
+}
+
+.idol_confirm-area.bg_12 {
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fpopup_bg%2F12.jpg%3F1615355220) no-repeat;
+    background-size: 304px 212px
+}
+
+.idol_confirm-area.bg_13 {
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fpopup_bg%2F13.jpg%3F1615355220) no-repeat;
+    background-size: 304px 212px
+}
+
+.idol_confirm-area.bg_14 {
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fpopup_bg%2F14.jpg%3F1615355220) no-repeat;
+    background-size: 304px 212px
+}
+
+.idol_confirm-area.bg_15 {
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fpopup_bg%2F15.jpg%3F1615355220) no-repeat;
+    background-size: 304px 212px
+}
+
+.idol_confirm-area.bg_16 {
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fpopup_bg%2F16.jpg%3F1615355220) no-repeat;
+    background-size: 304px 212px
+}
+
+.idol_confirm-area.bg_17 {
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fpopup_bg%2F17.jpg%3F1615355220) no-repeat;
+    background-size: 304px 212px
+}
+
+.idol_confirm-area.bg_18 {
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fpopup_bg%2F18.jpg%3F1615355220) no-repeat;
+    background-size: 304px 212px
+}
+
+.idol_confirm-area.bg_19 {
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fpopup_bg%2F19.jpg%3F1615355220) no-repeat;
+    background-size: 304px 212px
+}
+
+.idol_confirm-area.bg_20 {
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fpopup_bg%2F20.jpg%3F1615355220) no-repeat;
+    background-size: 304px 212px
+}
+
+.idol_confirm-area .idol-area {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    height: 202px
+}
+
+.idol_confirm-area .idol-area img {
+    position: absolute;
+    top: 163px;
+    left: 175px;
+    width: 46px
+}
+
+.idol_confirm-area .text-area {
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fbg%2Fbg_popup2.png%3F1615355220);
+    background-size: 304px;
+    padding-top: 2px;
+    margin-top: -2px;
+    -webkit-border-radius: 0 0 10px 10px;
+    -ms-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px
+}
+
+.idol_confirm-area .text-area:before {
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fbg%2Fbg_popup_line.png%3F1615355220) no-repeat;
+    background-size: 304px 15px;
+    content: "";
+    position: absolute;
+    width: 304px;
+    height: 15px;
+    top: 192px;
+    left: 0
+}
+
+.idol_confirm-area .text-area input[type='submit'] {
+    border: none;
+    outline: none;
+    text-indent: -99999px;
+    cursor: pointer;
+    margin-bottom: 12px
+}
+
+.idol_confirm-area .text-area input.submit-button {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fsprite%2Fui-s5936d36b6a.png%3F1615355220) no-repeat 0 -689px;
+    -webkit-background-size: 320px 936px;
+    background-size: 320px 936px;
+    width: 136px;
+    height: 38px;
+    width: 136px
+}
+
+.idol_confirm-area .text-area ._disabled {
+    pointer-events: none
+}
+
+.idol_confirm-area .text-area ._disabled input[type='submit'] {
+    display: none
+}
+
+.idol_confirm-area .text-area .disabled-button {
+    display: none
+}
+
+.idol_confirm-area .text-area ._disabled .disabled-button {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fsprite%2Fui-s5936d36b6a.png%3F1615355220) no-repeat 0 -897px;
+    -webkit-background-size: 320px 936px;
+    background-size: 320px 936px;
+    width: 136px;
+    height: 38px;
+    width: 136px;
+    margin-bottom: 12px
+}
+
+.idol_confirm-area .text-area input.submit-button2 {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fsprite%2Fui-s5936d36b6a.png%3F1615355220) no-repeat 0 -816px;
+    -webkit-background-size: 320px 936px;
+    background-size: 320px 936px;
+    width: 136px;
+    height: 38px;
+    width: 136px
+}
+
+.idol_confirm-area .text-area p:nth-child(1) {
+    margin-top: 12px
+}
+
+.popup_text {
+    font-size: 12px;
+    margin-top: 2px;
+    text-align: center;
+    text-shadow: -1px -1px 1px #000000, 1px -1px 1px #000000, 1px 1px 1px #000000, -1px 1px 1px #000000
+}
+
+.popup_text .attr_1 {
+    color: #ff0073
+}
+
+.popup_text .attr_2 {
+    color: #006aff
+}
+
+.popup_text .attr_3 {
+    color: #fa0
+}
+
+#popup-default .name_plate {
+    position: absolute;
+    top: 0
+}
+
+#popup-default .remember_btn_area {
+    position: absolute;
+    top: 215px
+}
+
+#popup-default .idol_received_area {
+    position: relative;
+    height: 263px
+}
+
+#popup-default .idol_received_area #animation-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fbg%2Fbg_popup.png%3F1615355220) no-repeat;
+    background-size: 304px;
+    background-position: 0 -9px;
+    overflow: hidden;
+    height: 263px
+}
+
+#popup-default .idol_received_area #animation-container:after {
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fbg%2Fbg_popup_line.png%3F1615355220) no-repeat;
+    background-size: 304px 15px;
+    content: "";
+    position: absolute;
+    width: 304px;
+    height: 24px;
+    top: 195px;
+    left: 0
+}
+
+#popup-default .idol_received_area #animation-container:before {
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fbg%2Fbg_popup2.png%3F1615355220);
+    background-size: 304px;
+    content: "";
+    position: absolute;
+    width: 304px;
+    height: 57px;
+    top: 203px;
+    left: 0;
+    -webkit-border-radius: 0 0 10px 10px;
+    -ms-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px
+}
+
+#popup-default .idol_received_area .name_plate {
+    top: 167px
+}
+
+#popup-default .idol_received_area .name_plate img {
+    position: absolute;
+    top: 0;
+    width: 46px
+}
+
+#popup-default .idol_received_area .name_plate.num_1 img {
+    left: 158px
+}
+
+#popup-default .idol_received_area .name_plate.num_2 img:nth-child(1) {
+    left: 106px
+}
+
+#popup-default .idol_received_area .name_plate.num_2 img:nth-child(2) {
+    left: 207px
+}
+
+#popup-default .idol_received_area .name_plate.num_3 img:nth-child(1) {
+    left: 156px
+}
+
+#popup-default .idol_received_area .name_plate.num_3 img:nth-child(2) {
+    left: 58px
+}
+
+#popup-default .idol_received_area .name_plate.num_3 img:nth-child(3) {
+    left: 250px
+}
+
+#popup-default .idol_received_area .remember_btn_area {
+    position: absolute;
+    top: 215px
+}
+
+#popup-default .idol_received_area .remember_btn_area form {
+    position: absolute;
+    top: 0
+}
+
+#popup-default .idol_received_area .remember_btn_area.num_1 form:nth-child(1) {
+    left: 108px
+}
+
+#popup-default .idol_received_area .remember_btn_area.num_2 form:nth-child(1) {
+    left: 57px
+}
+
+#popup-default .idol_received_area .remember_btn_area.num_2 form:nth-child(2) {
+    left: 158px
+}
+
+#popup-default .idol_received_area .remember_btn_area.num_3 form:nth-child(1) {
+    left: 108px
+}
+
+#popup-default .idol_received_area .remember_btn_area.num_3 form:nth-child(2) {
+    left: 12px
+}
+
+#popup-default .idol_received_area .remember_btn_area.num_3 form:nth-child(3) {
+    left: 204px
+}
+
+#popup-default .idol_received_area input[type='submit'] {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fsprite%2Fui-s5936d36b6a.png%3F1615355220) no-repeat 0 -855px;
+    -webkit-background-size: 320px 936px;
+    background-size: 320px 936px;
+    width: 88px;
+    height: 41px;
+    width: 88px;
+    border: none;
+    outline: none;
+    text-indent: -99999px;
+    cursor: pointer;
+    transform: scale(1, 1);
+    -webkit-transform: scale(1, 1)
+}
+
+#popup-default .idol_received_area input[type='submit']:active {
+    transform: scale(0.95, 0.95);
+    -webkit-transform: scale(0.95, 0.95)
+}
+
+.item_received_area {
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fbg%2Fbg_popup.png%3F1615355220) no-repeat;
+    background-size: 304px;
+    background-position: 0 -99px;
+    overflow: hidden;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+    height: 226px
+}
+
+.item_received_area:after {
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fbg%2Fbg_popup_line.png%3F1615355220) no-repeat;
+    background-size: 304px 15px;
+    content: "";
+    position: absolute;
+    width: 304px;
+    height: 15px;
+    top: 105px;
+    left: 0
+}
+
+.item_received_area .popup_text {
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fbg%2Fbg_popup2.png%3F1615355220);
+    background-size: 304px;
+    background-position: 0 10px;
+    content: "";
+    position: absolute;
+    width: 304px;
+    height: 104px;
+    top: 111px;
+    left: 0;
+    -webkit-border-radius: 0 0 10px 10px;
+    -ms-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+    padding-top: 7px
+}
+
+.received-item-img img {
+    width: 80px;
+    margin: 12px 0;
+    border: 2px solid #6d104d;
+    border-radius: 10px
+}
+
+.button_gift_list {
+    width: 136px
+}
+
+.font-size-11 {
+    font-size: 11px
+}
+
+.v_idol {
+    position: absolute;
+    width: 74px;
+    left: 6px;
+    top: 6px
+}
+
+.v_idol.top_adjust1 {
+    top: 6px
+}
+
+.v_idol.top_adjust2 {
+    top: 2px
+}
+
+.v_idol.top_adjust3 {
+    top: 6px
+}
+
+.v_idol.top_adjust4 {
+    top: 10px
+}
+
+.received_idol_btn {
+    position: absolute;
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2021%2Fsprite%2Fui-s5936d36b6a.png%3F1615355220) no-repeat 0 -728px;
+    -webkit-background-size: 320px 936px;
+    background-size: 320px 936px;
+    width: 60px;
+    height: 45px;
+    top: -49px;
+    left: 250px
+}

@@ -1,0 +1,564 @@
+<!doctype html>
+<html lang="ja" xml:lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="pragma" content="no-cache">
+        <meta http-equiv="cache-control" content="no-cache">
+        <meta http-equiv="expires" content="-1">
+        <script type="text/javascript">
+            if (window.localStorage) {
+                var displaySet = localStorage.getItem('DisplayPositionSet');
+                if (displaySet == 1) {
+                    if (navigator.userAgent.indexOf('Android') > 0) {
+                        document.write('<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">');
+                        document.getElementsByTagName('html')[0].style.zoom = document.documentElement.clientWidth / 320;
+                    } else {
+                        document.write('<meta name="viewport" content="width=320, user-scalable=no">');
+                    }
+                    window.addEventListener('resize', function() {
+                        if (navigator.userAgent.indexOf('Android') > 0)
+                            document.getElementsByTagName('html')[0].style.zoom = document.documentElement.clientWidth / 320;
+                    });
+                } else {
+                    document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
+                }
+            } else {
+                document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
+            }
+        </script>
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="mobage: footer-color" content="none">
+        <link rel="stylesheet" href='../../../../12008305/css/game/pex.css' media="all" -->
+        <script src='../../../../12008305/js/jquery-2.2.2.min.js'></script>
+        <script src="../../../../12008305/js/common_new_0310.js"></script>
+        <script src="../../../../12008305/js/require.js"></script>
+        <script src="../../../../12008305/js/require.js"></script>
+        <script>
+            requirejs.config({
+                paths: {
+                    easeljs: "../../../../12008305/js/easeljs-0.8.2.min.js",
+                    easeljs_0_7_1: "../../../../12008305/js/easeljs-0.7.1.min",
+                    //スプライトを読むためのバージョン
+                    tweenjs: "../../../../12008305/js/tweenjs-0.6.2.min",
+                    movieclipjs: "../../../../12008305/js/movieclip-0.7.1.min",
+                    createjs: "../../../../12008305/js/createjs-2015.11.26.min.js",
+                }
+            })
+        </script>
+        <script src='../../../../12008305/js/createjs.min.js'></script>
+        <script src='../../../../12008305/js/ilibrary.js'></script>
+        <script src="../../../../12008305/js/petit_cg/cheek/cheek1.js"></script>
+        <script src="../../../../12008305/js/petit_cg/cheek/cheek2.js"></script>
+        <script src="../../../../12008305/js/petit_cg/cheek/cheek3.js"></script>
+        <script src="../../../../12008305/js/min/petit_manager_cjs_2.min.js"></script>
+        <script src="../../../../12008305/js/underscore-min.js"></script>
+        <title>아이돌마스터 프레데리카 걸즈</title>
+        <script type='text/javascript'>
+            var se_flg = 0
+              , bgm_flg = 0
+              , chrome_app_flg = 0
+              , chrome_app_extension_id = 'dnacabmnfmejgfffmcehejcmiciinpej';
+        </script>
+        <script type='text/javascript' src='../../../../12008305/js/app_sound.js'></script>
+        <link rel="stylesheet" type="text/css" href="../../../../css/base.css"/>
+    </head>
+    <body>
+        <style>
+            a,.btn-nextscene {
+                -webkit-tap-highlight-color: rgba(0,0,0,0)
+            }
+
+            ;.csv_data_single {
+                width: 304px;
+                margin: 0 auto;
+            }
+
+            .button_list .btn_change_pose {
+                display: inline-block;
+                margin-left: 4px;
+                margin-right: 4px;
+                margin-top: 8px;
+            }
+
+            #animation-container {
+                position: relative;
+                background-size: 320px 335px;
+                width: 320px;
+                height: 335px;
+                margin: 0 auto;
+            }
+
+            #animation-container canvas {
+                zoom: 0.5;}
+
+            #animation-container.bg1 {
+                background-image: url(../../../../12008305/image_sp/campaign/whiteday/2021/whiteday_scene/bg/1.jpg);
+            }
+
+            #animation-container.bg2 {
+                background-image: url(../../../../12008305/image_sp/campaign/whiteday/2021/whiteday_scene/bg/2.jpg);
+            }
+
+            #animation-container.bg3 {
+                background-image: url(../../../../12008305/image_sp/campaign/whiteday/2021/whiteday_scene/bg/3.jpg);
+            }
+
+            #animation-container.bg4 {
+                background-image: url(../../../../12008305/image_sp/campaign/whiteday/2021/whiteday_scene/bg/4.jpg);
+            }
+
+            #animation-container.bg5 {
+                background-image: url(../../../../12008305/image_sp/campaign/whiteday/2021/whiteday_scene/bg/5.jpg);
+            }
+
+            #animation-container.bg6 {
+                background-image: url(../../../../12008305/image_sp/campaign/whiteday/2021/whiteday_scene/bg/6.jpg);
+            }
+
+            #animation-container.bg7 {
+                background-image: url(../../../../12008305/image_sp/campaign/whiteday/2021/whiteday_scene/bg/7.jpg);
+            }
+
+            #animation-container.bg8 {
+                background-image: url(../../../../12008305/image_sp/campaign/whiteday/2021/whiteday_scene/bg/8.jpg);
+            }
+
+            #animation-container.bg9 {
+                background-image: url(../../../../12008305/image_sp/campaign/whiteday/2021/whiteday_scene/bg/9.jpg);
+            }
+
+            #animation-container.bg10 {
+                background-image: url(../../../../12008305/image_sp/campaign/whiteday/2021/whiteday_scene/bg/10.jpg);
+            }
+
+            #animation-container.bg11 {
+                background-image: url(../../../../12008305/image_sp/campaign/whiteday/2021/whiteday_scene/bg/11.jpg);
+            }
+
+            #animation-container.bg12 {
+                background-image: url(../../../../12008305/image_sp/campaign/whiteday/2021/whiteday_scene/bg/12.jpg);
+            }
+
+            #animation-container.bg13 {
+                background-image: url(../../../../12008305/image_sp/campaign/whiteday/2021/whiteday_scene/bg/13.jpg);
+            }
+
+            #animation-container.bg14 {
+                background-image: url(../../../../12008305/image_sp/campaign/whiteday/2021/whiteday_scene/bg/14.jpg);
+            }
+
+            #animation-container.bg15 {
+                background-image: url(../../../../12008305/image_sp/campaign/whiteday/2021/whiteday_scene/bg/15.jpg);
+            }
+
+            #animation-container.bg16 {
+                background-image: url(../../../../12008305/image_sp/campaign/whiteday/2021/whiteday_scene/bg/16.jpg);
+            }
+
+            #animation-container.bg17 {
+                background-image: url(../../../../12008305/image_sp/campaign/whiteday/2021/whiteday_scene/bg/17.jpg);
+            }
+
+            #animation-container.bg18 {
+                background-image: url(../../../../12008305/image_sp/campaign/whiteday/2021/whiteday_scene/bg/18.jpg);
+            }
+
+            #animation-container.bg19 {
+                background-image: url(../../../../12008305/image_sp/campaign/whiteday/2021/whiteday_scene/bg/19.jpg);
+            }
+
+            #animation-container.bg20 {
+                background-image: url(../../../../12008305/image_sp/campaign/whiteday/2021/whiteday_scene/bg/20.jpg);
+            }
+
+            .comment-container {
+                overflow: visible;
+                position: absolute;
+                top: 24px;
+                left: 18px;
+                color: #1d1d1d;
+                font-size: 12px;
+                font-weight: bold;
+                font-family: Helvetica, Arial, "ヒラギノ角ゴ ProN W3", "モリサワ 新ゴ R", Droid Sans, "メイリオ", sans-serif;
+                line-height: 17px;
+                letter-spacing: 2px;
+                white-space: nowrap;
+            }
+
+            .btn-next {
+                position: absolute;
+                right: 0;
+                bottom: -16px;
+            }
+
+            .btn-nextscene {
+                display: none;
+                position: absolute;
+                z-index: 100;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                cursor: pointer;
+            }
+
+            .btn-nextscene::before {
+                position: absolute;
+                z-index: 100;
+                bottom: 8px;
+                right: 5px;
+                width: 12px;
+                height: 12px;
+                background-size: 12px;
+                background-image: url(../../../../12008305/image_sp/ui/coming_tv/icon_tap.png);
+                animation: bounceArrow 600ms ease infinite;
+                content: '';
+            }
+
+            .btn-nextscene.showArrow::before {
+                display: block;
+            }
+
+            .isFinished {
+                display: block;
+                position: absolute;
+                z-index: 300;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+            }
+
+            .name-plate {
+                position: absolute;
+                bottom: 19px;
+                left: 186px;
+            }
+
+            .name-plate .plate {
+                width: 52px;
+            }
+
+            @keyframes bounceArrow {
+                $b_pos: 8px;$r_pos: 5px;0% {
+                    bottom: 8px;
+                    right: 5px;
+                }
+
+                50% {
+                    bottom: 12px;
+                    right: 9px;
+                }
+
+                100% {
+                    bottom: 8px;
+                    right: 5px;
+                }
+            }
+
+            .loading-container {
+                overflow: hidden;
+                position: absolute;
+                z-index: 10000;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-image: url(../../../../12008305/image_sp/petit_cg/ui/sprite/loading/loading_bg.png);
+                background-size: 50%;
+                text-align: center;
+            }
+
+            .loading-container .img-loading {
+                position: absolute;
+                width: 195px;
+                height: 139px;
+                top: 50%;
+                left: 50%;
+                margin-top: -110px;
+                margin-left: -100.5px;
+            }
+
+            .loading-container .img-loadingpetit {
+                position: absolute;
+                width: 102px;
+                height: 102px;
+                top: 50%;
+                left: 50%;
+                margin-top: -51px;
+                margin-left: -51px;
+            }
+        </style>
+        <div id="animation-container" class="bg10">
+            <div class="story-container" style="text-align:left;">
+                <div class="comment-container">
+                    <span data-comment=""></span>
+                    <br>
+                    <span data-comment=""></span>
+                    <br>
+                    <span data-comment=""></span>
+                    <br>
+                    <span data-comment=""></span>
+                    <br>
+                </div>
+                <a href="#" class="btn-next jsBtnNextLine" style="visibility: hidden">Next Line</a>
+                <div class="btn-nextscene"></div>
+            </div>
+            <div class="name-plate">
+                <img class="plate" src='../../../../12008305/image_sp/ui/coming_tv/name_tag_horizontal/031.png'>
+            </div>
+            <div class="loading-container" id="jsEyeCatch">
+                <div class="img-loading">
+                    <img src="../../../../12008305/image_sp/petit_cg/ui/sprite/loading/working_1.gif">
+                </div>
+                <div class="img-loadingpetit">
+                    <img src="../../../../12008305/image_sp/petit_cg/ui/sprite/loading/loading_101367.gif" width="102" height="102">
+                </div>
+            </div>
+        </div>
+        <script>
+            $('document').ready(function() {
+                window.scrollTo(0, 0);
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 1);
+                var window_height = $(document.doctype) ? $(window).height() : window.innerHeight;
+                var htmlZoom = $("html").css("zoom");
+                var zoom = (htmlZoom >= 2) ? 1 : htmlZoom;
+                var margin = (window_height / zoom / 2) - (parseInt($('#animation-container').css('height')) * zoom / 2);
+                if (margin > 0)
+                    $('#animation-container').css({
+                        "margin-top": margin
+                    });
+            })
+            var cjs_file = ['../../../../12008305/js/petit_cjs/petit_base_0310.js', '../../../../12008305/js/petit_cjs/petit_balloon_0310.js', '../../../../12008305/js/petit_cjs/petit_effect_0310.js'];
+            var url = '1015.json';
+            var petitManager = window.petitManager || new PetitManager();
+            var balloonManager = window.canvasManager || new Commonjs.CreateJsCanvas();
+            var effectManager = window.canvasManager || new Commonjs.CreateJsCanvas();
+            var charaManager = [];
+            var balloon;
+            var effect;
+            var petitCanvasWidth = 640;
+            var petitCanvasHeight = 670;
+            petitManager.canvas_width = petitCanvasWidth;
+            petitManager.canvas_height = petitCanvasHeight;
+            /////////////////////////////////////////
+            // 演出制御
+            /////////////////////////////////////////
+            var dramaCtrl = {
+                sceneNo: 0,
+                dramaList: [{
+                    "id": "1",
+                    "whiteday_scene_id": "31",
+                    "bg_image": "10",
+                    "motion_1": "receive",
+                    "motion_2": "",
+                    "effect": "heart2",
+                    "message": "프레데리카에게 답례로\n「카페오레 푸딩」을 건넸다.", // フレデリカにお返しの「カフェオレプリン」を渡した。　　　　　　　　　　　　　　　　　　　　
+                    "auto_next": "",
+                    "message_window_type": "",
+                    "position_1": "",
+                    "position_2": "",
+                    "message_arrow_1": "",
+                    "message_arrow_2": "",
+                    "": ""
+                }, {
+                    "id": "2",
+                    "whiteday_scene_id": "31",
+                    "bg_image": "10",
+                    "motion_1": "joy",
+                    "motion_2": "",
+                    "effect": "",
+                    "message": "100배로 갚기, 고마워♪ 내용물을 보지는 \n않았지만, 후레쨩은 알 수 있어☆", //百倍返し、アリガトね♪中身見てないけど、フレちゃんにはわかる☆
+                    "auto_next": "",
+                    "message_window_type": "",
+                    "position_1": "",
+                    "position_2": "",
+                    "message_arrow_1": "1",
+                    "message_arrow_2": "",
+                    "": ""
+                }, {
+                    "id": "3",
+                    "whiteday_scene_id": "31",
+                    "bg_image": "10",
+                    "motion_1": "shout",
+                    "motion_2": "",
+                    "effect": "",
+                    "message": "이건 메르시한 선물이란 것을! 후레쨩의 \n핵심을 잘 찌르고 있네~♪ 푹푹푹~♪ \n오늘부터 ○○○프로듀서는, \n미야모토 프로데리카야!", //これはメルシーな贈り物！　フレちゃんのツボをつきまくりだね～♪ツンツンツン～♪今日からクレボンスプロデューサーは、宮本プロデリカだ！
+                    "auto_next": "",
+                    "message_window_type": "",
+                    "position_1": "",
+                    "position_2": "",
+                    "message_arrow_1": "1",
+                    "message_arrow_2": "",
+                    "": ""
+                }],
+                motionFinished: false,
+                commentLineNo: 0,
+                commentList: [],
+                $comment: $('.comment-container > span'),
+                finishedMotion: '',
+                balloon: null,
+                effect: null,
+                cjsContainer: '#animation-container',
+                return_url: '../result/',
+                isFinishedName: 'isFinished'
+            }
+            //演出初期化
+            dramaCtrl.init = function() {
+                var self = this;
+                var scene = this.getScene();
+                if (scene != undefined) {
+                    var motionKey = 'motion_1';
+                    var messageArrowKey = 'message_arrow_1';
+                    var speak_type = scene.message_window_type || 1;
+                    // ぷち表示
+                    charaManager[0].cjs['visible'] = true;
+                    charaManager[0].changeMotion(scene[motionKey]);
+                    // 吹き出しとせりふ表示
+                    this.setCommentList();
+                    // 吹き出しcjs読み込み完了したら、吹き出しを表示する
+                    balloonManager.cjs_deferred.done(function() {
+                        balloon.init({
+                            mode: 1,
+                            chara_num: 1
+                        })
+                        balloon.run_talk({
+                            position1_talk: parseInt(scene[messageArrowKey]),
+                            speak_type: speak_type,
+                            motion_finish_callback: function() {
+                                self.commentPlayCallback();
+                            }
+                        })
+                        _.delay(dramaCtrl.runEffect, 1, scene);
+                    })
+                }
+            }
+            dramaCtrl.readyNextScene = function() {
+                if (this.getScene(this.sceneNo + 1)) {
+                    this.sceneNo++;
+                    this.commentLineNo = 0;
+                    this.setCommentList();
+                    $('.btn-nextscene').show();
+                } else {
+                    var dom = $('<a />');
+                    dom.attr({
+                        'href': this.return_url,
+                        'class': this.isFinishedName
+                    }).appendTo(this.cjsContainer);
+                    $('.btn-nextscene').show();
+                }
+            }
+            dramaCtrl.getScene = function(no) {
+                var _no = no || this.sceneNo;
+                return this.dramaList[_no] ? this.dramaList[_no] : false;
+            }
+            dramaCtrl.play = function() {
+                var motionKey = 'motion_1';
+                var messageArrowKey = 'message_arrow_1';
+                this.$comment.removeClass('comment').removeAttr('data').empty();
+                var self = this;
+                var scene = this.getScene();
+                var motion = scene[motionKey];
+                charaManager[0].changeMotion(motion);
+                balloon.run_talk({
+                    position1_talk: scene[messageArrowKey],
+                    motion_finish_callback: function() {
+                        self.commentPlayCallback();
+                    }
+                })
+                this.runEffect(scene);
+            }
+            dramaCtrl.motion_finish_callback = function(chara_order, motion_act) {}
+            dramaCtrl.runEffect = function(scene) {
+                if (scene['effect']) {
+                    effect.effect_set({
+                        effect: scene['effect'],
+                        x: 120,
+                        y: 140,
+                        motion_finish_callback: function(effect) {}
+                    })
+                }
+            }
+            dramaCtrl.setCommentList = function() {
+                var scene = this.getScene();
+                this.commentList = [];
+                this.commentList = scene.message.split(/\n/);
+            }
+            dramaCtrl.commentPlayCallback = function() {
+                this.$comment.removeClass('comment').eq(this.commentLineNo).addClass('comment').data('comment', this.commentList[this.commentLineNo]);
+                if (this.commentLineNo < this.commentList.length) {
+                    $('.jsBtnNextLine').trigger('click');
+                    this.commentLineNo++;
+                    return false;
+                }
+                this.readyNextScene();
+            }
+            $('.btn-nextscene').on('click', function() {
+                $('.btn-nextscene').hide();
+                dramaCtrl.play();
+            })
+            window.dramaCtrl = dramaCtrl;
+            $.ajax({
+                type: 'get',
+                url: url,
+                dataType: 'json',
+                cache: false
+            }).done(function(data) {
+                var characterList = [];
+                characterList[0] = data.accessory_list;
+                characterList[0].pose_id = 1;
+                characterList[0].image_url_list["gift_item_" + 47001] = "../../../../12008305/js/petit_cg/etc/gift_item_47001.js";
+                var deffered = petitManager.requireCJS(cjs_file);
+                deffered.done(function() {
+                    petitManager.setCharacters(characterList);
+                    charaManager = petitManager.getAllChracter();
+                    // stage初期化
+                    petitManager.stage.removeAllChildren();
+                    // 吹き出しcjs描画準備
+                    balloonManager.init(petitManager.canvas, 'petit_balloon', [{
+                        "src": "../../../../12008305/image_sp/campaign/whiteday/2021/drama/petit_balloon_atlas_.png",
+                        "id": "petit_balloon_atlas_",
+                        "type": "image"
+                    }], petitManager.stage, false, function() {
+                        petitManager.stage.update();
+                        balloon = balloonManager.exportRoot.cjs005_balloon;
+                    });
+                    // 吹き出しcjs読み込み完了したら、エフェクトcjsを読み込む
+                    balloonManager.cjs_deferred.done(function() {
+                        effectManager.init(petitManager.canvas, 'petit_effect', [{
+                            "src": "../../../../12008305/image_sp/campaign/whiteday/2021/drama/petit_effect_atlas_.png",
+                            "id": "petit_effect_atlas_",
+                            "type": "image"
+                        }], petitManager.stage, false, function() {
+                            effect = effectManager.exportRoot.petit_effect;
+                            effect.scaleX = effect.scaleY = 2.8;
+                        });
+                    })
+                });
+                petitManager.loaded_action = function() {
+                    charaManager[0].cjs['visible'] = false;
+                    charaManager[0].cjs.scaleX = charaManager[0].cjs.scaleY = 2.6;
+                    charaManager[0].cjs['x'] = petitCanvasWidth / 2 + 20;
+                    charaManager[0].cjs['y'] = petitCanvasHeight - 64;
+                    charaManager[0].setVariables('callback', dramaCtrl.motion_finish_callback);
+                    petitManager.stage.addChild(charaManager[0].cjs);
+                    petitManager.stage.update();
+                    // ローディング消す
+                    $('#jsEyeCatch').hide();
+                    // 演出初期化
+                    dramaCtrl.init();
+                }
+            });
+            // せりふ一文字ずつ表示
+            $('.story-container').comment_timer({
+                click: 'jsBtnNextLine',
+                speed: 60,
+                call: function() {
+                    dramaCtrl.commentPlayCallback();
+                }
+            })
+        </script>
+    </body>
+</html>
+/
