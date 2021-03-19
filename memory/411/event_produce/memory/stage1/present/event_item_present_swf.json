@@ -1,0 +1,28 @@
+{
+   "flash_id":544039,
+   "swf_params":{
+      "_url":"raid_win.json",
+      "card_name":"宮本ﾌﾚﾃﾞﾘｶ",
+      "card_comm1":"ﾁｮｺづくりを応援してくれるﾌﾟﾛﾃﾞｭｰｻｰにﾌﾟﾚｾﾞﾝﾄだよー｡中身､いいものなんだ｡一緒に見よ｡なに入れたか忘れちゃったから☆",
+      "card_comm":"ﾁｮｺづくりを応援してくれるﾌﾟﾛﾃﾞｭｰｻｰにﾌﾟﾚｾﾞﾝﾄだよー｡中身､いいものなんだ｡一緒に見よ｡なに入れたか忘れちゃったから☆",
+      "emo":2,
+      "item_name":"ﾌﾚﾃﾞﾘｶの特製小悪魔ｶﾞﾄｰｼｮｺﾗ",
+      "char_name":"宮本ﾌﾚﾃﾞﾘｶ",
+      "card_comm1_1":"ﾁｮｺづくりを応援してくれるﾌﾟﾛﾃﾞｭ",
+      "card_comm1_2":"ｰｻｰにﾌﾟﾚｾﾞﾝﾄだよー｡中身､いいも",
+      "card_comm1_3":"のなんだ｡一緒に見よ｡なに入れた",
+      "card_comm1_4":"か忘れちゃったから☆"
+   },
+   "swf_images":[
+      "http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F1733%2Fbg%2F1733%2Fbg00_rich.png%3Fv%3D20210318144640",
+      "http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2Fbox%2Fl%2Fitem_41112.png%3Fv%3D20210318144641",
+      "http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2Fcommon%2Fname_plate%2F31.png%3Fv%3D20170228175300",
+      "http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F1733%2Fidol_cm%2F3_1_1.png%3Fv%3D20210318144641",
+      "http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F1733%2Fidol_cm%2F3_1_2.png%3Fv%3D20210318144641",
+      "http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F1733%2Fidol_cm%2F3_1_3.png%3Fv%3D20210318144641",
+      "http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F1733%2Fidol_cm%2F3_1_4.png%3Fv%3D20210318144641",
+      "http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F1733%2Fidol_cm%2F3_1_5.png%3Fv%3D20210318144641",
+      "http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F1733%2Fidol%2Fidol_3_0_1_1.png%3Fv%3D20210318144641",
+      "http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F1733%2Fidol%2Fidol_3_0_1_2.png%3Fv%3D20210318144641"
+   ]
+}
