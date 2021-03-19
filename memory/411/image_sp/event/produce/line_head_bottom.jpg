@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<link rel="stylesheet" type="text/css" href="http://sp.pf-img-a.mbga.jp/css/base.css?20171116" />
+<title>モバゲー</title>
+</head>
+<body id="mbga-pf-body-normal">
+<p>Not Found</p>
+<p>ｱｲﾄﾞﾙﾏｽﾀｰ ｼﾝﾃﾞﾚﾗｶﾞｰﾙｽﾞへのアクセスに失敗しました。時間をおいて再度アクセスしてください。</p>
+<p>
+ご利用の端末に対応しているかご確認ください。<a href="http://sp.mbga.jp/_cs_faq_content?no=339&id=400">対応機種はこちら</a><br />
+ゲーム運営会社へのお問い合わせは<a href="https://ssl.sp.mbga.jp/_pf_inquiry?page=init&game_id=12008305">こちら</a>
+</p>
+<div id="mbga-pf-footer">
+<div class="mbga-pf-footer-container odd-lines mbga-pf-footer-white">
+<ul>
+	<li class="mbga-pf-footer-list">
+		<div class="mbga-pf-fotter-content">
+			<a class="mbga-pf-footer-arrow" href="http://sp.mbga.jp/_pf_inquiry?page=init&game_id=12008305">
+				<span class="mbga-pf-footer-caption">お問い合わせ</span>
+			</a>
+		</div>
+	</li>
+	<li class="mbga-pf-footer-list">
+		<div class="mbga-pf-fotter-content">
+			<a class="mbga-pf-footer-arrow" href="http://sp.mbga.jp/_game_fav_add?g=12008305">
+				<span class="mbga-pf-footer-caption">マイゲーム追加</span>
+			</a>
+		</div>
+	</li>
+	<li class="mbga-pf-footer-list">
+		<div class="mbga-pf-fotter-content">
+			<a class="mbga-pf-footer-arrow" href="http://sp.mbga.jp/_grp_view?g=32095227">
+				<span class="mbga-pf-footer-caption">公式サークル</span>
+			</a>
+		</div>
+	</li>
+</ul>
+</div>
+<div id="mbga-pf-footer-navbar">
+	<ul class="mbga-pf-box-h">
+		<li id="mbga-pf-footer-navbar-icon-grid" class="mbga-pf-footer-li">
+			<a class="mbga-pf-footer-a mbga-pf-footer-home-w" href="http://sp.mbga.jp/?_from=globalfooter">
+				<span class="mbga-pf-footer-txt">ホーム</span>
+			</a>
+		</li>
+		<li id="mbga-pf-footer-navbar-icon-mypage" class="mbga-pf-footer-li">
+			<a class="mbga-pf-footer-a mbga-pf-footer-mypage-w" href="http://sp.mbga.jp/_my0?_from=globalfooter">
+				<span class="mbga-pf-footer-txt">マイページ</span>
+			</a>
+		</li>
+		<li id="mbga-pf-footer-navbar-icon-mygame" class="mbga-pf-footer-li">
+			<a class="mbga-pf-footer-a mbga-pf-footer-mygame-w" href="http://sp.mbga.jp/_game_my_top?_from=globalfooter">
+				<span class="mbga-pf-footer-txt">マイゲーム</span>
+			</a>
+		</li>
+		<li id="mbga-pf-footer-navbar-icon-notification" class="mbga-pf-footer-li">
+			<a class="mbga-pf-footer-a mbga-pf-footer-game-w" href="http://sp.mbga.jp/_game_top?_from=globalfooter">
+				<span class="mbga-pf-footer-txt">ゲーム</span>
+			</a>
+		</li>
+	</ul>
+</div>
+<script type="text/javascript" charset="UTF-8">
+(function() {
+document.addEventListener('DOMContentLoaded', function() {
+	var list = document.getElementsByClassName('mbga-pf-footer-li');
+	var i = 0, l = list.length;
+	for (; i < l; i++) {
+		var elem = list[i];
+		elem.addEventListener('touchstart', function(e) {
+			e.currentTarget.className = e.currentTarget.className.replace(/$/, ' mbga-pf-tapped');
+		});
+		elem.addEventListener('touchend', function(e) {
+			e.currentTarget.className = e.currentTarget.className.replace(/ mbga-pf-tapped/, '');
+		});
+		elem.addEventListener('touchmove', function(e) {});
+	}
+});
+})();
+</script>
+</div>
+</body>
+</html>

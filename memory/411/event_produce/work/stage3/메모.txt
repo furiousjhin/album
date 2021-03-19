@@ -1,0 +1,5 @@
+test.json : 영업대사 json 파일
+commu.json : (일반) 커뮤 이벤트 발생 json 파일
+item.json : 아이템 사용창 띄우는 json 파일
+result.json : 커뮤 결과 대사 출력 json 파일
+raid_win.json : 커뮤 결과 점수 출력? json 파일 -> 플래시 오류 생김
