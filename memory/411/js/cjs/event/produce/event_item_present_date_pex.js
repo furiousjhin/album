@@ -2086,7 +2086,7 @@
             }
             ;
             this.key_flag = 1;
-            this.m = this.char_name + "\u304b\u3089\n" + this.item_name + "\u3092\n\u3082\u3089\u3063\u305f!\n" + this.extra_mes
+            this.m = this.char_name + "에게\n" /*\u304b\u3089\n*/+ this.item_name + "를 받았다!\n" /*\u3092\n\u3082\u3089\u3063\u305f!\n*/ + this.extra_mes
         }
         ;
         this.frame_7 = function() {
@@ -2421,25 +2421,25 @@
         color: "#000000",
         opacity: 0,
         manifest: [{
-            src: "images/fp_hanabira.png?1615895578972",
+            src: "images/fp_hanabira.png",
             id: "event_item_present_date_pex_fp_hanabira"
         }, {
-            src: "images/heart_big.png?1615895578972",
+            src: "images/heart_big.png",
             id: "event_item_present_date_pex_heart_big"
         }, {
-            src: "images/replace_character1_1.png?1615895578972",
+            src: "images/replace_character1_1.png",
             id: "event_item_present_date_pex_replace_character1_1"
         }, {
-            src: "images/replace_character1_2.png?1615895578972",
+            src: "images/replace_character1_2.png",
             id: "event_item_present_date_pex_replace_character1_2"
         }, {
-            src: "images/replace_item.png?1615895578972",
+            src: "images/replace_item.png",
             id: "event_item_present_date_pex_replace_item"
         }, {
-            src: "images/replace_name.png?1615895578972",
+            src: "images/replace_name.png",
             id: "event_item_present_date_pex_replace_name"
         }, {
-            src: "images/sp_kirakira.png?1615895578972",
+            src: "images/sp_kirakira.png",
             id: "event_item_present_date_pex_sp_kirakira"
         }],
         preloads: []
