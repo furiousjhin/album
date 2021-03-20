@@ -6,7 +6,7 @@
         <meta http-equiv="cache-control" content="no-cache">
         <meta http-equiv="expires" content="-1">
         <meta name="format-detection" content="telephone=no">
-        <title>アイドルマスター シンデレラガールズ</title>
+        <title>아이돌마스터 프레데리카 걸즈</title>
         <link rel="stylesheet" type="text/css" href="../../../css/game/pex.css" media="all">
         <link rel="stylesheet" type="text/css" href="../../../css/rich/quest_new.css" media="all">
         <link rel="stylesheet" type="text/css" href="../../../css/rich/new_mypage_common.css" media="all">
@@ -60,6 +60,12 @@
               , chrome_app_extension_id = 'dnacabmnfmejgfffmcehejcmiciinpej';
         </script>
         <script type='text/javascript' src='../../../js/app_sound.js'></script>
+        <script>
+          // 영업 개수 입력
+            $(document).ready(function() {
+              work_num_setting = 11;
+            });
+        </script>
         <link rel="stylesheet" type="text/css" href="../../../base.css"/>
     </head>
     <body id="event_produce">
@@ -227,11 +233,14 @@
                 </style>
                 <link rel="stylesheet" type="text/css" href='../../../css/rich/event_produce.css' media="all">
                 <div id="wrap" style="position:relative">
+                  <!--
                     <div class="jsOnBtn">
                         <a class="btn_new_work_menu" href="#" id="menu_switch">
                             <div></div>
                         </a>
                     </div>
+                  -->
+                    <!--
                     <nav class="area_menu_header">
                         <div class="area_menu_header_6btn" style="display:none">
                             <h1 id="menu_page_title">アイドルプロデュース</h1>
@@ -395,6 +404,7 @@
                             </div>
                         </div>
                     </nav>
+                  -->
                     <div id="musk" style="height:1px; display:none;"></div>
                     <section style="width:1px; height:1px; margin:0;">
                         <div id="item_list" style="display:none;">
@@ -621,6 +631,7 @@
                             <img src="../../../image_sp/ui/rich/quest/event/produce/petit_power.png" id="petit_power" style="width:63px; height:21px; display:none; margin-top:5px;">
                             <br>
                         </div>
+                        <!--
                         <div id="idol_get">
                             <div id="idol_bg">
                                 <img id="cute_bg" src='../../../image_sp/ui/rich/quest/cute_bg.jpg' style="width:320px; display:none;">
@@ -666,6 +677,7 @@
                                 </div>
                             </div>
                         </div>
+                      -->
                         <div id="idol_view" style="bottom:-32px;"></div>
                         <div id="communication_result_idol" style="bottom:-32px;"></div>
                         <div id="idol_comment">

@@ -1,0 +1,37 @@
+{
+   "result_type":"get_nothing",
+   "use_hp":0,
+   "cur_hp":999,
+   "max_hp":999,
+   "exp_per":999,
+   "next_exp":99999,
+   "cur_exp":99999,
+   "get_exp":999,
+   "get_money":9999,
+   "get_fan":9999,
+   "hp_per":999,
+   "play_per":100,
+   "cur_card":"250",
+   "events":{
+      "fever":{
+         "fever_perfect_count":"0",
+         "encore_start_flag":"0"
+      },
+      "has_raid":false
+   },
+   "sub_title_data":{
+      "change_flg":false,
+      "extra_comment_flag":false,
+      "extra_card_name":null,
+      "card_path":"",
+      "image_file":"",
+      "card_id":"f8a00b18927c827e005cb9e6f6dd68a4",
+      "card_comment":"겸사겸사 CD도 사가줘~. 나는 안 가져왔지만 말이야",
+      "voice_path":"",
+      "idol_id":"3",
+      "card_name":"미야모토 프레데리카",
+      "attr":"cute",
+      "sr":true,
+      "ext":".jpg"
+   }
+}
