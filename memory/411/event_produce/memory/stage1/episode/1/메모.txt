@@ -1,0 +1,188 @@
+1. 선택지 뜨는 definesprite에서 frame 27 맨 위에
+Push "debug_mode" "1" 추가하면 json 안 받아오고 버튼 클릭만으로 선택 가능
+
+2. (한글도 한 글자씩 출력되게)
+이름쪽 발광하는 대사 박스 definesprite에서 frame 2 p-code에
+ConstantPool
+Push "linebreak" "count_linebreak"
+GetVariable
+StringAdd
+GetVariable
+Push "count_num"
+GetVariable
+StringEquals
+Not
+If loc00bd
+Push "txt" "txt"
+GetVariable
+Push "txt2"
+GetVariable
+Push "count_num"
+GetVariable
+Push "1"
+StringExtract
+StringAdd
+SetVariable
+Push "count_num" "count_num"
+GetVariable
+Push "1"
+Add
+SetVariable
+Push "count_linebreak" "count_linebreak"
+GetVariable
+Push "1"
+Add
+SetVariable
+loc00bd:Push "add_text" ""
+GetVariable
+Push "txt2"
+GetVariable
+Push "count_num"
+GetVariable
+Push "1"
+StringExtract
+StringAdd
+SetVariable
+Push "korean" "1"
+SetVariable
+Push "add_text"
+GetVariable
+Push " "
+StringEquals
+Not
+If loc017a
+Push "txt" "txt"
+GetVariable
+Push "txt2"
+GetVariable
+Push "count_num"
+GetVariable
+Push "1"
+StringExtract
+StringAdd
+SetVariable
+Push "count_num" "count_num"
+GetVariable
+Push "1"
+Add
+SetVariable
+Push "korean" "0"
+SetVariable
+loc017a:Push "add_text"
+GetVariable
+Push "!"
+StringEquals
+Not
+If loc01f6
+Push "txt" "txt"
+GetVariable
+Push "txt2"
+GetVariable
+Push "count_num"
+GetVariable
+Push "1"
+StringExtract
+StringAdd
+SetVariable
+Push "count_num" "count_num"
+GetVariable
+Push "1"
+Add
+SetVariable
+Push "korean" "0"
+SetVariable
+loc01f6:Push "add_text"
+GetVariable
+Push "."
+StringEquals
+Not
+If loc0272
+Push "txt" "txt"
+GetVariable
+Push "txt2"
+GetVariable
+Push "count_num"
+GetVariable
+Push "1"
+StringExtract
+StringAdd
+SetVariable
+Push "count_num" "count_num"
+GetVariable
+Push "1"
+Add
+SetVariable
+Push "korean" "0"
+SetVariable
+loc0272:Push "add_text"
+GetVariable
+Push "?"
+StringEquals
+Not
+If loc02ee
+Push "txt" "txt"
+GetVariable
+Push "txt2"
+GetVariable
+Push "count_num"
+GetVariable
+Push "1"
+StringExtract
+StringAdd
+SetVariable
+Push "count_num" "count_num"
+GetVariable
+Push "1"
+Add
+SetVariable
+Push "korean" "0"
+SetVariable
+loc02ee:Push "add_text"
+GetVariable
+Push "~"
+StringEquals
+Not
+If loc036a
+Push "txt" "txt"
+GetVariable
+Push "txt2"
+GetVariable
+Push "count_num"
+GetVariable
+Push "1"
+StringExtract
+StringAdd
+SetVariable
+Push "count_num" "count_num"
+GetVariable
+Push "1"
+Add
+SetVariable
+Push "korean" "0"
+SetVariable
+loc036a:Push "korean"
+GetVariable
+Push "1"
+StringEquals
+Not
+If loc03d5
+Push "txt" "txt"
+GetVariable
+Push "txt2"
+GetVariable
+Push "count_num"
+GetVariable
+Push "2"
+StringExtract
+StringAdd
+SetVariable
+Push "count_num" "count_num"
+GetVariable
+Push "2"
+Add
+SetVariable
+loc03d5:
+
+복붙
+
+3. 대사마다 맨 뒤에 공백 하나 추가(맨 마지막 글자 짤림 방지)
