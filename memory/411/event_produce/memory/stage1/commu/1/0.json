@@ -1,0 +1,41 @@
+{
+   "flash_id":544058,
+   "swf_params":{
+      "url":"",
+      "heart_f":0,
+      "heart_l":1,
+      "lv_f":10,
+      "lv_l":10,
+      "lv_b":10,
+      "lvup_flg":0,
+      "comm_result":0,
+      "point":10,
+      "emo":"3",
+      "effect":"0",
+      "card_comm1":"외국인! 아하하, 그렇긴 하지, 재밌네~♪ 그치만, 음~, 너무 광범위하니까 땡으로 할까나",
+      "card_comm":"외국인! 아하하, 그렇긴 하지, 재밌네~♪ 그치만, 음~, 너무 광범위하니까 땡으로 할까나",
+      "lv_inf_flg":1,
+      "momorial_power":0,
+      "training_room_flag":0,
+      "puchi_power":0,
+      "character_num":1,
+      "ch":"3_1",
+      "pair_produce_idol_id":false,
+      "communication_type":"normal",
+      "card_comm1_1":"외국인! 아하하, 그렇긴 하지,",
+      "card_comm1_2":"재밌네~♪ 그치만, 음~, 너무 ",
+      "card_comm1_3":"광범위하니까 땡으로 할까나",
+      "com_mode":1
+   },
+   "swf_images":[
+      "../../../../../image_sp/event_flash/1733/bg/1733/bg00_rich.png",
+      "../../../../../image_sp/event_flash/common/name_plate/31.png",
+      "../../../../../image_sp/event_flash/1733/idol/idol_3_0_1_1.png",
+      "../../../../../image_sp/event_flash/1733/idol/idol_3_0_1_3.png",
+      "../../../../../image_sp/event_flash/1733/idol/dummy.png",
+      "../../../../../image_sp/event_flash/1733/idol/dummy.png",
+      "../../../../../image_sp/event_flash/1733/idol/dummy.png"
+   ],
+   "special_raid_point":0,
+   "special_generate_flag":false
+}

@@ -1,0 +1,1130 @@
+<!doctype html>
+<html lang="ja" xml:lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="pragma" content="no-cache">
+        <meta http-equiv="cache-control" content="no-cache">
+        <meta http-equiv="expires" content="-1">
+        <meta name="format-detection" content="telephone=no">
+        <title>아이돌마스터 프레데리카 걸즈</title>
+        <link rel="stylesheet" type="text/css" href="../../../../../css/game/pex.css" media="all">
+        <link rel="stylesheet" type="text/css" href="../../../../../css/rich/quest_new.css" media="all">
+        <link rel="stylesheet" type="text/css" href="../../../../../css/rich/new_mypage_common.css" media="all">
+        <link rel="stylesheet" type="text/css" href='../../../../../css/rich/event_produce.css' media="all">
+        <link rel="apple-touch-icon-precomposed" href="../../../../../image_sp/ui/icon_bookmark.png">
+        <script>
+            (function() {
+                window.console.log = function() {}
+                ;
+            }
+            )();
+        </script>
+        <script type="text/javascript">
+            if (window.localStorage) {
+                var displaySet = localStorage.getItem('DisplayPositionSet');
+                if (displaySet == 1) {
+                    if (navigator.userAgent.indexOf('Android') > 0) {
+                        document.write('<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">');
+                        document.getElementsByTagName('html')[0].style.zoom = document.documentElement.clientWidth / 320;
+                    } else {
+                        document.write('<meta name="viewport" content="width=320, user-scalable=no">');
+                    }
+                    window.addEventListener('resize', function() {
+                        if (navigator.userAgent.indexOf('Android') > 0)
+                            document.getElementsByTagName('html')[0].style.zoom = document.documentElement.clientWidth / 320;
+                    });
+                } else {
+                    document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
+                }
+            } else {
+                document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
+            }
+        </script>
+        <script src="../../../../../js/jquery-1.9.1.min.js" type="text/javascript"></script>
+        <script src="../../../../../js/common.js" type="text/javascript"></script>
+        <script src="../../../../../js/common_new.js" type="text/javascript"></script>
+        <script src='../../../../../js/min/quest/event_date_quest_memory.min.js' type="text/javascript"></script>
+        <script type="text/javascript" src="../../../../../js/pex-1.2.0.js"></script>
+        <script src="../../../../../js/underscore-min.js" type="text/javascript"></script>
+        <script>
+            $(document).ready(function() {
+                if (typeof newrelic === 'object' && typeof newrelic.setPageViewName === 'function') {
+                    newrelic.setPageViewName('/idolmaster/index.php/event_produce/work_memory/3/1');
+                }
+            });
+        </script>
+        <script type='text/javascript'>
+            var se_flg = 0
+              , bgm_flg = 0
+              , chrome_app_flg = 0
+              , chrome_app_extension_id = 'dnacabmnfmejgfffmcehejcmiciinpej';
+        </script>
+        <script type='text/javascript' src='../../../../../js/app_sound.js'></script>
+        <link rel="stylesheet" type="text/css" href="../../../../../base.css"/>
+    </head>
+    <body id="event_produce">
+        <div id="pageArea" onUnload="unloadBye()">
+            <div id="top" class="page_container jsOnBtn">
+                <script src="../../../../../js/event/effect_produce.js" type="text/javascript"></script>
+                <script type='text/javascript' src='../../../../../js/createjs.min.js'></script>
+                <script src='../../../../../js/cjs/event/produce/event_idol_appearance_replace_pex_memory.js'></script>
+                <script src='../../../../../js/cjs/event/produce/event_communication_replace_pex_memory.js'></script>
+                <script>
+                    var base_url = ""; //http://125.6.169.35/idolmaster/
+                    var image_server = "../../../../../"; //http://sp.pf-img-a.mbga.jp/12008305/
+                    var dev_local = false;
+                </script>
+                <style>
+                    html,body {
+                        overflow-x: hidden;
+                    }
+
+                    /* cjsコンテナ背景色設定* イベントによってが背景色があり、なし設定が変わるので、個別で設定* デフォルト色は#000です*/
+                    #quest_animation_container, #quest_animation_container canvas {
+                        background-color: transparent;
+                    }
+                </style>
+                <link rel="stylesheet" type="text/css" href='../../../../../css/rich/event_produce.css' media="all">
+                <div id="look_back_layout">
+                    <div id="wrap" style="position:relative">
+                      <!--
+                        <div class="jsOnBtn">
+                            <a class="btn_new_work_menu" href="#" id="menu_switch">
+                                <div></div>
+                            </a>
+                        </div>
+                      -->
+                        <!--
+                        <nav class="area_menu_header">
+                            <div class="area_menu_header_6btn" style="display:none">
+                                <h1 id="menu_page_title">アイドルプロデュース</h1>
+                                <ul class="jsOnBtn">
+                                    <li>
+                                        <a class="head_menu_01" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/mypage%3Fl_frm%3DEvent_produce_work_memory_1%26rnd%3D504320170'>
+                                            <div></div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="head_menu_02" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/petit_cg%3Fl_frm%3DEvent_produce_work_memory_1%26rnd%3D90582205'>
+                                            <div></div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="head_menu_03" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/gacha%3Fl_frm%3DEvent_produce_work_memory_1%26rnd%3D624525414'>
+                                            <div></div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="head_menu_04" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/card_str%3Fl_frm%3DEvent_produce_work_memory_1%26rnd%3D360648029'>
+                                            <div></div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="head_menu_05" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/auction/auction_top%3Fl_frm%3DEvent_produce_work_memory_1%26rnd%3D149629775'>
+                                            <div></div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="headerPopupMenu" class="headerPopupMenu">
+                                <div class="m-Top10">
+                                    <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/event_produce/index%3Fl_frm%3DEvent_produce_work_memory_3%26rnd%3D736959174' class="jsOnDesignBtn">
+                                        <img src='../../../../../image_sp/event/1733/banner_event_01.png' width="280" height="60">
+                                    </a>
+                                </div>
+                                <div class="area_menu_header_main4">
+                                    <ul class="jsOnBtn">
+                                        <li>
+                                            <a class="btn_menu_header_lesson" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/card_str%3Fl_frm%3DEvent_produce_work_memory_2%26rnd%3D446479566'>
+                                                <div></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="btn_menu_header_work" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/quests%3Fl_frm%3DEvent_produce_work_memory_1%26rnd%3D561158155'>
+                                                <div></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="btn_menu_header_livebattle" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/battles%3Fl_frm%3DEvent_produce_work_memory_1%26rnd%3D587729019'>
+                                                <div></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="btn_menu_header_deck" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/deck%3Fl_frm%3DEvent_produce_work_memory_1%26rnd%3D221189470'>
+                                                <div></div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <h3 class="icon_menu_header_01"></h3>
+                                <div class="area_menu_header_4">
+                                    <ul class="jsOnBtn">
+                                        <li>
+                                            <a class="btn_menu_header_shop" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/shop/index%3Fl_frm%3DEvent_produce_work_memory_1%26rnd%3D720816584'>
+                                                <div></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="btn_menu_header_item" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/item/index%3Fl_frm%3DEvent_produce_work_memory_1%26rnd%3D150608689'>
+                                                <div></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="btn_menu_header_present" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/present/recieve/%26cache%3D1%26l_frm%3DEvent_produce_work_memory_1%26rnd%3D888443312'>
+                                                <div></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="btn_menu_header_change" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/exchange/medal_list/999999%3Fl_frm%3DEvent_produce_work_memory_1%26rnd%3D956196565'>
+                                                <div></div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <h3 class="icon_menu_header_02"></h3>
+                                <div class="area_menu_header_5">
+                                    <ul class="jsOnBtn">
+                                        <li>
+                                            <a class="btn_menu_header_idollist" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/card_list/index%3Fl_frm%3DEvent_produce_work_memory_1%26rnd%3D802335665'>
+                                                <div></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="btn_menu_header_trainer" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/card_storage/index%3Fl_frm%3DEvent_produce_work_memory_1%26rnd%3D698652071'>
+                                                <div></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="btn_menu_header_production" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/knights/not_join_knights_top%3Fl_frm%3DEvent_produce_work_memory_1%26rnd%3D453797946'>
+                                                <div></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="btn_menu_header_pra" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/p_ranking_award%3Fl_frm%3DEvent_produce_work_memory_1%26rnd%3D939684970'>
+                                                <div></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="btn_menu_header_profile" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/results%3Fl_frm%3DEvent_produce_work_memory_1%26rnd%3D321593310'>
+                                                <div></div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <h3 class="icon_menu_header_03"></h3>
+                                <div class="area_menu_header_4">
+                                    <ul class="jsOnBtn">
+                                        <li>
+                                            <a class="btn_menu_header_favorite" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/friend/index%3Fl_frm%3DEvent_produce_work_memory_1%26rnd%3D724496235'>
+                                                <div></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="btn_menu_header_memory" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/memorial%3Fl_frm%3DEvent_produce_work_memory_1%26rnd%3D780747230'>
+                                                <div></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="btn_menu_header_gamecenter" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/game_center%3Fl_frm%3DEvent_produce_work_memory_1%26rnd%3D465692469'>
+                                                <div></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="btn_menu_header_sound" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/s_booth%3Fl_frm%3DEvent_produce_work_memory_1%26rnd%3D200462228'>
+                                                <div></div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <h3 class="icon_menu_header_04"></h3>
+                                <div class="area_menu_header_3">
+                                    <ul class="jsOnBtn">
+                                        <li>
+                                            <a class="btn_menu_header_setting" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/personal_option%3Fl_frm%3DEvent_produce_work_memory_1%26rnd%3D83336519'>
+                                                <div></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="btn_menu_header_help" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/advise/index/top%3Fl_frm%3DEvent_produce_work_memory_1%26rnd%3D433365395'>
+                                                <div></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="btn_menu_header_top" href='http://sp.pf.mbga.jp/12008305/?guid=ON'>
+                                                <div></div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                      -->
+                        <div id="musk" style="height:1px; display:none;"></div>
+                        <section style="width:1px; height:1px; margin:0;">
+                            <div id="item_list" style="display:none;">
+                                <div id="item_title">
+                                    <span id="title_val"></span>
+                                </div>
+                                <img src="../../../../../image_sp/ui/rich/quest/line_item_01.png" width="271px">
+                                <div class="box_top" style="width:180px; margin:0 auto">
+                                    <img src="../../../../../image_sp/ui/rich/quest/caption_stamina.png" class="box_left" style="width:35px;height:15px">
+                                    <div class="box_center hp_bar_bg">
+                                        <div class="hp_bar" style="width:0px"></div>
+                                        <div class="progress_num box_right">
+                                            <span class="cur_hp"></span>
+                                            / <span class="max_hp"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="item_select" style="display:none;">
+                                    <span style="color:#a7cbe6;">スタミナは3分に1回復します</span>
+                                    <br>
+                                    <span style="color:#a7cbe6;">
+                                        全回復まで<span id="hour" style="color:#ffffff;"></span>
+                                        時間<span id="minute" style="color:#ffffff;"></span>
+                                        分<span id="sec" style="color:#ffffff;"></span>
+                                        秒
+                                    </span>
+                                    <br>
+                                    <img src="../../../../../image_sp/ui/rich/quest/line_item_01.png" width="271px">
+                                    <br>
+                                    以下のアイテムでスタミナを回復できます<br>
+                                    <div class="item_box">
+                                        <div id="item8" class="item_left">
+                                            1/2回復<br>
+                                            <img src='../../../../../image_sp/item/l/8.jpg' id="item_img8" width="60">
+                                            <img src='../../../../../image_sp/ui/rich/quest/icon_gray_item_03.jpg' id="gray_img8" width="60">
+                                            <br>
+                                            ×<span id="item_num8"></span>
+                                            個
+
+                                            <div style="margin-top: 5px; height:42px;">
+                                                <input type="image" id="use_item_button8" src="../../../../../image_sp/ui/rich/quest/button_item_use.png" width="56px">
+                                                <img src='../../../../../image_sp/ui/rich/quest/button_gray_item_use.png' id="use_item_empty8" width="56px">
+                                            </div>
+                                        </div>
+                                        <div id="item8_2" class="item_center">
+                                            全回復<br/>
+                                            <img src='../../../../../image_sp/ui/icon_item_8_2.jpg' id="item_img8_2" width="60"/>
+                                            <img src='../../../../../image_sp/ui/rich/quest/icon_gray_item_03_02.jpg' id="gray_img8_2" width="60"/>
+                                            <br/>
+                                            ×<span id="item_num8_2"></span>
+                                            個
+
+                                            <div style="margin-top: 5px; height:42px;">
+                                                <input type="image" id="use_item_button8_2" src='../../../../../image_sp/ui/rich/quest/button_item_use.png' width="56"/>
+                                                <img src='../../../../../image_sp/ui/rich/quest/button_gray_item_use.png' id="use_item_empty8_2" width="56px"/>
+                                            </div>
+                                        </div>
+                                        <div id="item14" class="item_center">
+                                            全回復<br>
+                                            <img src='../../../../../image_sp/item/l/14.jpg' id="item_img14" width="60">
+                                            <img src='../../../../../image_sp/ui/rich/quest/icon_gray_item_02.jpg' id="gray_img14" width="60">
+                                            <br>
+                                            ×<span id="item_num14"></span>
+                                            個
+
+                                            <div style="margin-top: 5px; height:42px;">
+                                                <input type="image" id="use_item_button14" src="../../../../../image_sp/ui/rich/quest/button_item_use.png" width="56px">
+                                                <img src='../../../../../image_sp/ui/rich/quest/button_gray_item_use.png' id="use_item_empty14" width="56px">
+                                            </div>
+                                        </div>
+                                        <div id="item1" class="item_right">
+                                            全回復<br>
+                                            <img src='../../../../../image_sp/item/l/1.jpg' id="item_img1" width="60">
+                                            <img src='../../../../../image_sp/ui/rich/quest/icon_gray_item_01.jpg' id="gray_img1" width="60">
+                                            <br>
+                                            ×<span id="item_num1"></span>
+                                            個
+
+                                            <div style="margin-top: 5px; height:42px;">
+                                                <input type="image" id="use_item_button1" src="../../../../../image_sp/ui/rich/quest/button_item_use.png" width="56">
+                                                <input type="image" id="buy_item_button1" src="../../../../../image_sp/ui/rich/quest/button_item_buy.png" width="56">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/item/index%3Fl_frm%3DEvent_produce_work_memory_2%26rnd%3D742719523">
+                                        <img src='../../../../../image_sp/ui/rich/quest/button_item_03.png' width="256" style="margin-top: 15px;">
+                                    </a>
+                                    <br>
+                                    <a href="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/event_produce/index%3Fl_frm%3DEvent_produce_work_memory_4%26rnd%3D610888386">
+                                        <img src='../../../../../image_sp/ui/rich/quest/event/assault/button_item_event.png' width="256" style="margin-top: 15px;" id="back_mypage">
+                                    </a>
+                                    <img src='../../../../../image_sp/ui/rich/quest/button_item_05.png' width="256" alt="お仕事を続ける" style="margin-top: 10px; display:none;" id="go_quest2">
+                                    <br>
+                                    <div class='checkAreaBlock'>
+                                        <div class='checkCell'>
+                                            <input id="checkLabel" class='checkSkipConfirm' type="checkbox" value="1">
+                                            <label for='checkLabel'>アイテムの使用確認をスキップする</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="item_result" style="display:none;">
+                                    <img src='../../../../../image_sp/item/l/1.jpg' id="item_img_result" width="80" style="margin: 5px 0px 5px 0px;">
+                                    <br>
+                                    <span id="result_text"></span>
+                                    <br>
+                                    <img src="../../../../../image_sp/ui/rich/quest/line_item_01.png" width="271px">
+                                    <br>
+                                    <span class="blue">所持数</span>
+                                    <span class="before_num"></span>
+                                    ⇒ <span class="after_num"></span>
+                                    個<br>
+                                    <span class="blue">スタミナ</span>
+                                    <span class="before_hp"></span>
+                                    ⇒ <span class="cur_hp"></span>
+                                    /<span class="max_hp"></span>
+                                    <br>
+                                    <img src="../../../../../image_sp/ui/rich/quest/line_item_01.png" width="271px">
+                                    <br>
+                                    <img src='../../../../../image_sp/ui/rich/quest/button_item_06.png' alt="もう1個使う" id="use_item_button_once" width="256" style="margin-top: 10px; margin-bottom: 5px;">
+                                    <img src='../../../../../image_sp/ui/rich/quest/button_item_05.png' alt="お仕事を続ける" id="go_quest" width="256" style="margin-top: 10px;">
+                                </div>
+                                <div id="item_confirm" style="display:none;">
+                                    <img src='../../../../../image_sp/item/l/1.jpg' id="item_img_confirm" width="80" style="margin: 5px 0px 5px 0px;">
+                                    <br>
+                                    <span id="item_confirm_text1">ｽﾀﾐﾅが全回復する｡</span>
+                                    <span id="item_confirm_text8">ｽﾀﾐﾅが最大値の半分回復する｡</span>
+                                    <span id="item_confirm_text8_2">ｽﾀﾐﾅが全回復する｡</span>
+                                    <span id="item_confirm_text14">ｽﾀﾐﾅが全回復する｡</span>
+                                    <br>
+                                    <img src="../../../../../image_sp/ui/rich/quest/line_item_01.png" width="271px">
+                                    <br>
+                                    <span class="blue">所持数</span>
+                                    <span class="before_num"></span>
+                                    ⇒ <span class="after_num"></span>
+                                    個<br>
+                                    <img src="../../../../../image_sp/ui/rich/quest/line_item_01.png" width="271px">
+                                    <br>
+                                    <div class="box_top" style="margin-top:5px;">
+                                        <div class="box_left" style="width:140px; text-align:right; padding-right:10px;">
+                                            <img src='../../../../../image_sp/ui/rich/quest/button_item_02.png' width="111" id="no_use">
+                                        </div>
+                                        <div class="box_right" style="width:140px; text-align:left; padding-left:10px;">
+                                            <form action="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/item/use_item%3Fl_frm%3DEvent_produce_work_memory_1%26rnd%3D674974356" method="post" id="item_form">
+                                                <input type="hidden" name="item_id" value="" id="item_id">
+                                                <input type="hidden" name="use_num" value="" id="use_num">
+                                                <input type="hidden" name="" value="" id="csrf_token">
+                                                <input type="hidden" name="res_type" value="json">
+                                                <input type="button" value="使用する" id="use_item_button" style="display:none;">
+                                                <input type="hidden" name="skip_confirm">
+                                                <input type="hidden" name="mode" value="quest">
+                                            </form>
+                                            <img src='../../../../../image_sp/ui/rich/quest/button_item_01.png' width="111" id="use_item">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section id="direction_stage" style='background-image:url(../../../../../image_sp/event/1733/bg_area_xl_5300.jpg); background-repeat:no-repeat; background-size:100%; background-position:right bottom;'>
+                            <div id="area_status" style="display:none;">
+                                <img src="../../../../../image_sp/ui/rich/quest/event/produce/communication_perfet.png" id="res_perfet" style="width:258px; position:absolute; top:0px: left:0px; display:none;">
+                                <img src="../../../../../image_sp/ui/rich/quest/event/produce/communication_good.png" id="res_good" style="width:258px; position:absolute; top:0px: left:0px; display:none;">
+                                <img src="../../../../../image_sp/ui/rich/quest/event/produce/communication_normal.png" id="res_normal" style="width:258px; position:absolute; top:0px: left:0px; display:none;">
+                            </div>
+                            <div id="loading" style="display:none;">
+                                <div id="load1" style="display:none;">
+                                    <img src='../../../../../image_sp/ui/rich/quest/working_1.gif' class="working_img">
+                                    <br>
+                                    <img src='../../../../../image_sp/ui/rich/quest/loading.gif' class="load_img">
+                                    <br>
+                                    <img src='../../../../../image_sp/ui/rich/quest/loading/101120.gif' class="load_img">
+                                    <br>
+                                    <img src='../../../../../image_sp/ui/rich/quest/loading/100702.gif' class="load_img">
+                                    <br>
+                                    <img src='../../../../../image_sp/ui/rich/quest/loading/101367.gif' class="load_img">
+                                    <br>
+                                    <img src='../../../../../image_sp/ui/rich/quest/loading/100357.gif' class="load_img">
+                                    <br>
+                                    <img src='../../../../../image_sp/ui/rich/quest/loading/101479.gif' class="load_img">
+                                    <br>
+                                    <img src='../../../../../image_sp/ui/rich/quest/loading/101033.gif' class="load_img">
+                                    <br>
+                                    <img src='../../../../../image_sp/ui/rich/quest/loading/100932.gif' class="load_img">
+                                    <br>
+                                    <img src='../../../../../image_sp/ui/rich/quest/loading/100550.gif' class="load_img">
+                                    <br>
+                                    <img src='../../../../../image_sp/ui/rich/quest/loading/100444.gif' class="load_img">
+                                    <br>
+                                    <img src='../../../../../image_sp/ui/rich/quest/loading/101571.gif' class="load_img">
+                                    <br>
+                                </div>
+                                <div id="load2" style="display:none;">
+                                    <img src='../../../../../image_sp/ui/rich/quest/working_2.gif' class="working_img">
+                                    <br>
+                                    <img src='../../../../../image_sp/ui/rich/quest/loading_ami.gif' class="load_img">
+                                    <br>
+                                </div>
+                            </div>
+                            <div id="animation" style="display:none;"></div>
+                            <canvas id="animation_effect_canvas" style="position:absolute;top:10px;left:0px;width:320px;height:280px;z-index:1;pointer-events:none;overflow:hidden"></canvas>
+                            <div id="quest_animation_container">
+                                <canvas id="canvas"></canvas>
+                                <div id="quest_dom_overlay_container"></div>
+                            </div>
+                            <div id="play_commu_result_view" class="result_commu" style="display:none;"></div>
+                            <a href="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/bonus_point%3Fl_frm%3DEvent_produce_work_memory_1%26rnd%3D258079555" id="bonus_point" style="display:none;">
+                                <div></div>
+                            </a>
+                            <a href="#" id="love_max_bonus" style="display:none;">
+                                <div></div>
+                            </a>
+                            <div id="flash_voice" class="voice_play" style="display:none;"></div>
+                            <div id="date_info">
+                                <img src="../../../../../image_sp/ui/rich/quest/event/produce/button_use_item.png" style="width:63px; opacity:0.5; display:none; margin-bottom:5px;" id="choose_item_open" class="jsOnDesignBtn">
+                                <br>
+                            </div>
+                            <div id="idol_get">
+                                <div id="idol_bg">
+                                    <img id="cute_bg" src='../../../../../image_sp/ui/rich/quest/cute_bg.jpg' style="width:320px; display:none;">
+                                    <img id="cool_bg" src='../../../../../image_sp/ui/rich/quest/cool_bg.jpg' style="width:320px; display:none;">
+                                    <img id="passion_bg" src='../../../../../image_sp/ui/rich/quest/passion_bg.jpg' style="width:320px; display:none;">
+                                </div>
+                                <div id="idol_num" class="num_off">
+                                    <img src='../../../../../image_sp/ui/rich/quest/idol.png' width="57px">
+                                    <span class="cur_idol" style="font-size:1.6rem;"></span>
+                                    /<span class="max_idol"></span>
+                                </div>
+                                <div id="transfer" class="transfer_off">
+                                    <img src='../../../../../image_sp/ui/rich/quest/button_transfer.png' width="120px" id="transfer_button">
+                                </div>
+                                <div id="new" style="display:none;">
+                                    <img src='../../../../../image_sp/ui/rich/quest/new.png' width="80px">
+                                </div>
+                                <div id="idol"></div>
+                                <div id="shilette">
+                                    <img src='../../../../../image_sp/ui/rich/quest/shilette.png' style="display:none;">
+                                </div>
+                                <div id="screen" style="display:none;"></div>
+                                <div id="get_txt" class="get_txt_standby">
+                                    <img src='../../../../../image_sp/ui/rich/quest/idolget.png' style="width:266px;">
+                                </div>
+                                <div id="detail_info" style="display:none;">
+                                    <div id="detail_text"></div>
+                                    <img src="../../../../../image_sp/ui/rich/quest/idol_get_star.png" style="width:59px;" id="star">
+                                    <div id="guid">
+                                        <img src="../../../../../image_sp/ui/rich/quest/arrow_tap_comment.gif" style="width:16px;">
+                                        <img src="../../../../../image_sp/ui/rich/quest/tap_comment.png" style="width:120px; margin-top:1px;">
+                                    </div>
+                                </div>
+                                <div id="get_comment" style="display:none;">
+                                    <div id="comment_bg" class="cute_bg cool_bg passion_bg">
+                                        <div id="words"></div>
+                                    </div>
+                                    <div id="get_voice" style="display:none;">
+                                        <img src="../../../../../image_sp/ui/rich/quest/button_voice_cute.png" style="width:27px;" class="voice_play cute_voice">
+                                        <img src="../../../../../image_sp/ui/rich/quest/button_voice_cool.png" style="width:27px;" class="voice_play cool_voice">
+                                        <img src="../../../../../image_sp/ui/rich/quest/button_voice_passion.png" style="width:27px;" class="voice_play passion_voice">
+                                        <img src="../../../../../image_sp/ui/rich/quest/button_voice_gray.png" style="width:27px;" class="voice_off">
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="idol_view" style="bottom:-32px;"></div>
+                            <div id="communication_result_idol" style="bottom:-32px;"></div>
+                            <div id="idol_comment">
+                                <div id="balloon" class="ac004">
+                                    <div id="voice_icon" style="display:none;">
+                                        <img src="../../../../../image_sp/ui/rich/quest/button_voice_cute.png" style="width:27px;" class="voice_play cute_voice">
+                                        <img src="../../../../../image_sp/ui/rich/quest/button_voice_cool.png" style="width:27px;" class="voice_play cool_voice">
+                                        <img src="../../../../../image_sp/ui/rich/quest/button_voice_passion.png" style="width:27px;" class="voice_play passion_voice">
+                                        <img src="../../../../../image_sp/ui/rich/quest/button_voice_gray.png" style="width:27px;" class="voice_off">
+                                    </div>
+                                    <div id="name"></div>
+                                    <div id="comment"></div>
+                                </div>
+                            </div>
+                            <div id="choose_item" class="jsOnDesignBtn-wrap" style="display:none;"></div>
+                            <div id="choose_energy_item" style="display:none;"></div>
+                            <div id="get_reward" style="display:none;"></div>
+                            <div id="wipe" style="display:none; top:0px;">
+                                <img src="../../../../../image_sp/ui/rich/quest/wipe.png" id="wipe_reverse" style="display:none;">
+                            </div>
+                            <a href="#" id="change_comment" style="display:none;" class="se_008" onclick="return false;"></a>
+                        </section>
+                        <section id="play_area" style='background-image:url(../../../../../image_sp/ui/rich/quest/footer_bg.png); background-repeat:no-repeat; background-size:100%; background-position:0px 2px;height:30px'>
+                            <form action='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/event_produce/ajax_play%3Fl_frm%3DEvent_produce_work_memory_1%26rnd%3D290533212' method="get" id="play">
+                                <input type="button" value="" id="play_button" class="play_btn_df se_008">
+                                <input type="hidden" name="area_id" value="3">
+                                <input type="hidden" name="quest_id" value="1">
+                                <input type="hidden" name="res_type" value="json">
+                            </form>
+                            <div id="open_commu_event_button" class="open_commu" style="display:none;"></div>
+                            <div id="play_commu_result_button" class="result_commu" style="display:none;"></div>
+                            <div class="area_play_guide">
+                                <div class="text_elem">
+                                    <span class="_attr_1">프레데리카</span>
+                                    커뮤 이벤트1
+
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/event_produce/get_raid_boss%3Fres_type%3Djson%26l_frm%3DEvent_produce_work_memory_1%26rnd%3D562184134' id="communication_event_json" style="display:none;"></a>
+                <script type="text/template" id="template_choose_item">
+
+<section class="t-Cnt m-Top10 m-Btm10 l-Hgt140" id="itemSelect">
+<div class="m-Cnt" style="width:280px;">
+<img src='../../../../../image_sp/gacha/chance/button_chance_item_exit01.png' id="choose_item_close">
+<div class="displayBox" style="-webkit-box-pack:justify;">
+<form action='0.json' method="get"<% if (raid_boss.boss_type !== 'extra') { %> style="width:88px;"<% } %>>
+<input type="hidden" name="use_item" value="3">
+<input type="hidden" name="area_id" value="3">
+<input type='hidden' name="max_use_flag" id="max_use_flag" value="0">
+<div>
+<input type="image" src='../../../../../image_sp/event/produce/sprite/lookback/btn_normal.png' class="jsOnDesignBtn" width="88" value="カード"><br>
+</div>
+</form>
+<form action='1.json' method="get"<% if (raid_boss.boss_type !== 'extra') { %> style="width:88px;"<% } %>>
+<input type="hidden" name="use_item" value="3">
+<input type="hidden" name="area_id" value="3">
+<input type='hidden' name="max_use_flag" id="max_use_flag" value="1">
+<div>
+<input type="image" src='../../../../../image_sp/event/produce/sprite/lookback/btn_good.png' class="jsOnDesignBtn" width="88" value="カード"><br>
+</div>
+</form>
+<form action='2.json' method="get" style="width:88px;">
+<div>
+<input type="hidden" name="use_item" value="1">
+<input type="hidden" name="area_id" value="3">
+<input type="image" src='../../../../../image_sp/event/produce/sprite/lookback/btn_perfect.png' class="jsOnDesignBtn" width="88" value="バレンタインカード"><br>
+</div>
+</form>
+</div>
+<div class="t-Cnt m-Top4" style="font-size:12px">
+※アイテムは使用されません
+</div>
+</div>
+</section>
+
+                </script>
+                <script type="text/template" id="template_energy_item">
+
+<div id="item_list_energy">
+<section style="margin:0; padding-bottom:10px;">
+<div id="item_title_energy">
+<span id="title_val_energy"></span>
+</div>
+<img src="../../../../../image_sp/ui/rich/quest/line_item_01.png" width="271">
+<div id="item_select_energy">
+以下のアイテムで攻コストを回復できます<br>
+<div class="item_box">
+<div id="item9" class="item_left" style="width:70px; padding:0px 5px 0px 5px;">
+1/2回復<br>
+<% if(user_item9.item_num > 0){ %>
+<img src="../../../../../image_sp/item/l/9.jpg" id="item_img8" width="60">
+<% } else { %>
+<img src="../../../../../image_sp/ui/rich/quest/icon_gray_item_06.jpg" id="gray_img9" width="60">
+<% } %>
+×<span id="user_item_num9"><%= user_item9.item_num %></span>個
+<div style="margin-top: 5px; height:42px;">
+<% if(user_item9.item_num > 0){ %>
+<input type="image" id="use_item_button9" src='../../../../../image_sp/ui/rich/quest/button_item_use.png' width="56">
+<% } else { %>
+<img src="../../../../../image_sp/ui/rich/quest/button_gray_item_use.png" id="use_item_empty15" width="56">
+<% } %>
+</div>
+</div>
+<div id="item15" class="item_center" style="width:70px; padding:0px 5px 0px 5px;">
+全回復<br>
+<% if(user_item15.item_num > 0){ %>
+<img src="../../../../../image_sp/item/l/15.jpg" id="item_img14" width="60">
+<% } else { %>
+<img src="../../../../../image_sp/ui/rich/quest/icon_gray_item_05.jpg" id="gray_img14" width="60">
+<% } %>
+×<span id="user_item_num15"><%= user_item15.item_num %></span>個
+<div style="margin-top: 5px; height:42px;">
+<% if(user_item15.item_num > 0){ %>
+<input type="image" id="use_item_button15" src='../../../../../image_sp/ui/rich/quest/button_item_use.png' width="56">
+<% } else { %>
+<img src="../../../../../image_sp/ui/rich/quest/button_gray_item_use.png" id="use_item_empty15" width="56">
+<% } %>
+</div>
+</div>
+<div id="item2" class="item_right" style="width:70px; padding:0px 5px 0px 5px;">
+全回復<br>
+<% if(user_item2.item_num > 0){ %>
+<img src="../../../../../image_sp/item/l/2.jpg" id="item_img2" width="60">
+<% } else { %>
+<img src="../../../../../image_sp/ui/rich/quest/icon_gray_item_04.jpg" id="gray_img1" width="60">
+<% } %>
+×<span id="user_item_num2"><%= user_item2.item_num %></span>個
+<div style="margin-top: 5px; height:42px;">
+<% if(user_item2.item_num > 0){ %>
+<input type="image" id="use_item_button2" src='../../../../../image_sp/ui/rich/quest/button_item_use.png' width="56">
+<% } else { %>
+<a href="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/shop%3Fl_frm%3DEvent_produce_work_memory_1%26rnd%3D112543503"><img id="buy_item_button2" src="../../../../../image_sp/ui/rich/quest/button_item_buy.png" width="56"></a>
+<% } %>
+</div>
+</div>
+</div>
+<a href="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/item/index%3Fl_frm%3DEvent_produce_work_memory_3%26rnd%3D598627830"><img src="../../../../../image_sp/ui/rich/quest/button_item_03.png" width="256" style="margin-top: 15px;" id="use_other_item"></a><br>
+<div id="close_recovery"><img src='../../../../../image_sp/ui/rich/quest/event/produce/button_return_event.png' style="width:256px; margin-top: 15px;"></div>
+</div>
+<div id="item_result_energy" style="display:none;">
+<img src="../../../../../image_sp/item/l/2.jpg" id="item_img_result2" width="80" style="margin: 5px 0px 5px 0px;">
+<img src="../../../../../image_sp/item/l/9.jpg" id="item_img_result9" width="80" style="margin: 5px 0px 5px 0px;">
+<img src="../../../../../image_sp/item/l/15.jpg" id="item_img_result15" width="80" style="margin: 5px 0px 5px 0px;"><br>
+<span id="result_text_energy"></span><br>
+<img src="../../../../../image_sp/ui/rich/quest/line_item_01.png" width="271"><br>
+<span class="blue">所持数</span> <span class="before_num"> </span> ⇒ <span class="after_num"> </span>個<br>
+<span class="blue">攻コスト</span> <span class="before_hp"></span> ⇒ <span class="cur_hp" ></span>/<span class="max_hp"></span><br>
+<img src="../../../../../image_sp/ui/rich/quest/line_item_01.png" width="271"><br>
+<img src="../../../../../image_sp/ui/rich/quest/button_item_06.png" alt="もう1個使う" id="use_energy_item_button_once" width="256" style="margin-top: 10px; margin-bottom: 5px;">
+<img src="../../../../../image_sp/ui/rich/quest/event/produce/button_return_event.png" alt="コミュイベントに戻る" id="go_commu" width="256" style="margin-top: 10px;">
+</div>
+<div id="item_confirm_energy" style="display:none;">
+<img src="../../../../../image_sp/item/l/2.jpg" id="item_img_confirm2" width="80" style="margin: 5px 0px 5px 0px;">
+<img src="../../../../../image_sp/item/l/9.jpg" id="item_img_confirm9" width="80" style="margin: 5px 0px 5px 0px;">
+<img src="../../../../../image_sp/item/l/15.jpg" id="item_img_confirm15" width="80" style="margin: 5px 0px 5px 0px;"><br>
+<span id="item_confirm_text2">攻ｺｽﾄと守ｺｽﾄが全回復する｡</span>
+<span id="item_confirm_text9">攻ｺｽﾄと守ｺｽﾄが最大値の半分回復する｡</span>
+<span id="item_confirm_text15">攻ｺｽﾄと守ｺｽﾄが全回復する｡</span><br>
+<img src="../../../../../image_sp/ui/rich/quest/line_item_01.png" width="271"><br>
+<span class="blue">所持数</span> <span class="before_num"> </span> ⇒ <span class="after_num"> </span>個<br>
+<img src="../../../../../image_sp/ui/rich/quest/line_item_01.png" width="271"><br>
+<div class="box_top" style="margin-top:5px;">
+<div class="box_left" style="width:140px; text-align:right; padding-right:10px;">
+<img src="../../../../../image_sp/ui/rich/quest/button_item_02.png" width="111" id="cancel_item">
+</div>
+<div class="box_right" style="width:140px; text-align:left; padding-left:10px;">
+<form action="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/item/use_item%3Fl_frm%3DEvent_produce_work_memory_2%26rnd%3D717622976" method="post">
+<input type="hidden" name="item_id" value="">
+<input type="hidden" name="res_type" value="json">
+<input type="image" value="使用する" src='../../../../../image_sp/ui/rich/quest/button_item_01.png' width="111">
+</form>
+</div>
+</div>
+</div>
+</section>
+</div>
+
+                </script>
+                <script type="text/template" id="template_communication_result_lose">
+
+<% $('#petit_ing').hide() %>
+<% $('#petit_end').show() %>
+<div class="titleH2 eventH2Color_crimson" style="width:280px;margin-top:10px;">
+コミュ結果<span class="yellow">ノーマル</span>!
+</div>
+<section style="text-align:center; -webkit-border-radius: 5px; background:#333333; padding:5px; width:280px; margin: 0 auto 8px;">
+ノーマルで<span class="yellow"><%= add_event_point %></span>思い出ptGET!<br>
+<span class="blue">ラウンド獲得思い出pt : </span><%= current_user_chapter_info.event_point %><br>
+<span class="blue">累計思い出pt : </span><%= total_event_point %><br>
+<% if (add_medal > 0) { %>
+<table border="0" cellspacing="1" cellpadding="3" style="width:280px;margin:0 auto 10px;">
+<tr>
+<td align="right">
+<% if (coin_kind == 3) { %>
+<img src='../../../../../image_sp/event/1733/icon_event_film_03.png' width="45" height="45">
+<% } else if (coin_kind == 2) { %>
+<img src='../../../../../image_sp/event/1733/icon_event_film_02.png' width="45" height="45">
+<% } else { %>
+<img src='../../../../../image_sp/event/1733/icon_event_film_01.png' width="45" height="45">
+<% } %>
+</td>
+<td align="left">
+<% if (coin_kind == 3) { %>
+<span class="yellow"><%= add_medal %></span>個GET!<br>
+<% } else if (coin_kind == 2) { %>
+ブルーギフト<span class="yellow"><%= add_medal %></span>個GET!<br>
+<% } else { %>
+レッドギフト<span class="yellow"><%= add_medal %></span>個GET!<br>
+<% } %>
+<span class="gray">※すでに加算されています</span>
+</td>
+</tr>
+</table>
+<% } %>
+<% if (add_present_box > 0) { %>
+<table border="0" cellspacing="1" cellpadding="3" style="width:280px;margin:0 auto 10px;">
+<tr>
+<td align="right">
+<img src='../../../../../image_sp/event_flash/1712/coin_5_1712_l.png' width="45" height="45">
+</td>
+<td align="left">
+プレゼントBOX：<span class="yellow"><%= add_present_box %></span>個GET!<br>
+<span class="gray">※すでに加算されています</span>
+</td>
+</tr>
+</table>
+<% } %>
+</section>
+<section id="reward_img_area" style="width:290px;">
+<div><%= rank_up_reward_html %></div>
+<div><%= event_point_reward_html %></div>
+</section>
+
+                </script>
+                <script type="text/template" id="template_communication_result_win">
+
+<% $('#petit_ing').hide() %>
+<% $('#petit_end').show() %>
+<div class="titleH2 eventH2Color_crimson" style="margin-top:10px;width:280px;">
+<% if (great_flag === 1) { %>
+コミュ結果<span class="yellow">パーフェクト</span>!
+<% } else { %>
+コミュ結果<span class="yellow">グッド</span>!
+<% } %>
+</div>
+<section style="text-align:center; -webkit-border-radius: 5px; background:#333333; padding:5px; width:280px; margin: 0 auto 8px;">
+<% if (great_flag === 1) { %>
+<span class="yellow">パーフェクト</span>で<span class="yellow"><%= Commonjs.formatComma(add_event_point) %></span>思い出ptGET!!<br>
+<% } else { %>
+<span class="yellow">グッド</span>で<span class="yellow"><%= Commonjs.formatComma(add_event_point) %></span>思い出ptGET!!<br>
+<% } %>
+<span class="blue">ラウンド獲得思い出pt : </span><%= Commonjs.formatComma(current_user_chapter_info.event_point) %><br>
+<span class="blue">累計思い出pt : </span><%= Commonjs.formatComma(total_event_point) %><br>
+<% if (add_medal > 0) { %>
+<table border="0" cellspacing="1" cellpadding="3" style="width:280px;margin:0 auto 10px;">
+<tr>
+<td align="right">
+<% if (coin_kind == 3) { %>
+<img src='../../../../../image_sp/event/1733/icon_event_film_03.png' width="45" height="45">
+<% } else if (coin_kind == 2) { %>
+<img src='../../../../../image_sp/event/1733/icon_event_film_02.png' width="45" height="45">
+<% } else { %>
+<img src='../../../../../image_sp/event/1733/icon_event_film_01.png' width="45" height="45">
+<% } %>
+</td>
+<td align="left">
+<% if (coin_kind == 3) { %>
+<span class="yellow"><%= add_medal %></span>個GET!<br>
+<% } else if (coin_kind == 2) { %>
+ブルーギフト<span class="yellow"><%= add_medal %></span>個GET!<br>
+<% } else { %>
+レッドギフト<span class="yellow"><%= add_medal %></span>個GET!<br>
+<% } %>
+<span class="gray">※すでに加算されています</span>
+</td>
+</tr>
+</table>
+<% } %>
+<% if (add_present_box > 0) { %>
+<table border="0" cellspacing="1" cellpadding="3" style="width:280px;margin:0 auto 10px;">
+<tr>
+<td align="right">
+<img src='../../../../../image_sp/event_flash/1712/coin_5_1712_l.png' width="45" height="45">
+</td>
+<td align="left">
+プレゼントBOX：<span class="yellow"><%= add_present_box %></span>個GET!<br>
+<span class="gray">※すでに加算されています</span>
+</td>
+</tr>
+</table>
+<% } %>
+</section>
+<% if (raid_type === 'extra') { %>
+<% } else { %>
+<section style="text-align:center; -webkit-border-radius: 5px; background:#333333; padding:5px; width:280px; margin: 0 auto 8px;">
+<div class="m-Btm5">
+<%= (great_flag)?'パーフェクト':'グッド' %>で<span class='yellow'><%= (great_flag && (raid_type =='special' || raid_type == 'dramatic'))?3:1 %></span>ハートpt獲得!<br>
+<span class="blue">ハートpt : </span><%= before_hearts_point %>→<span class="yellow"><%= after_hearts_point %></span>
+</div>
+<% if (after_hearts_point !== current_hearts_point) { %>
+<div class="m-Btm5">
+<% for (var ev=1; ev < 6; ev++ ) { %>
+<% if (ev > current_hearts_point) { %>
+<div class="icon_heart_gray"></div>
+<% } else { %>
+<div class="icon_heart"></div>
+<% } %>
+<% } %>
+</div>
+<div class="m-Btm10">
+絆Lvが<span class="yellow"><%= hearts_rank %></span>にアップ!(<span class="blue">ハートpt : </span><%= before_hearts_point %>→<%= current_hearts_point %>)
+</div>
+<% } else { %>
+<div class="m-Btm5">
+<% for (var ev=1; ev < 6; ev++ ) { %>
+<% if (ev > after_hearts_point) { %>
+<div class="icon_heart_gray"></div>
+<% } else { %>
+<div class="icon_heart"></div>
+<% } %>
+<% } %>
+</div>
+<% } %>
+<div class="m-Btm10">
+<% if (hearts_rank >= complete_rank && endless_flag === 0) { %>
+<% if (complete_flag === 1) { %>
+絆Lvが<span class="yellow"><%= hearts_rank %> / <%= complete_rank %></span>に達成!<br>
+<% } %>
+<% } else { %>
+あと<span class="yellow"><%= next_point %></span>ハートptで絆Lvアップ!<br>
+<% } %>
+</div>
+<div class="m-Btm5">
+<% if (endless_flag === 0) { %>
+<span class="blue">現在の絆Lv : </span><%= hearts_rank %> / <%= complete_rank %>
+<% } else { %>
+<span class="blue">現在の絆Lv : </span> ∞
+<% } %><br>
+</div>
+</section>
+<% } %>
+<section id="reward_img_area" style="width:290px;">
+<%= rank_up_reward_html %>
+<%= event_point_reward_html %>
+</section>
+<% if (collabo_clear) { %>
+<div class="titleH2 eventH2Color_crimson" style="margin-top:10px;width:280px;">
+4アプリ連動イベントコラボキャンペーン
+</div>
+<section style="text-align:center; padding:5px; width:280px; margin: 0 auto;">
+<a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/appli_point_event/index%3Fl_frm%3DAppli_point_event_1%26l_frm%3DEvent_produce_work_memory_1%26rnd%3D253593724' class="jsOnDesignBtn"><img src='../../../../../image_sp/campaign/collabo/banner_06.jpg' width="240" height="60" alt="4アプリ連動イベントコラボキャンペーン"></a><br>
+イベントコラボptを獲得しました!!<br>
+</section>
+<% } %>
+
+                </script>
+                <script type="text/template" id="template_win_reward">
+
+<div id="reward">
+<% if (great_flag === 1) { %>
+<span class="yellow">パーフェクト</span>で<span class="yellow"><%= Commonjs.formatComma(add_event_point) %></span>思い出ptGET!!<br>
+<% } else { %>
+<span class="yellow">グッド</span>で<span class="yellow"><%= Commonjs.formatComma(add_event_point) %></span>思い出ptGET!!<br>
+<% } %>
+<span class="blue">ラウンド獲得思い出pt : </span><%= Commonjs.formatComma(current_user_chapter_info.event_point) %><br>
+<span class="blue">累計思い出pt : </span><%= Commonjs.formatComma(total_event_point) %><br>
+<% if ((rank_up === 1 && complete_flag === 0) || event_point_reward || complete_flag == 1 || add_medal > 0) { %>
+さらに<span class="yellow">報酬</span>を獲得しました!<br>
+<div style="text-align:right;" class="next_info"><img src="../../../../../image_sp/ui/rich/quest/arrow_tap_comment.gif" style="width:16px;"><img src="../../../../../image_sp/ui/rich/quest/event/produce/tap_comment03.png" style="width:132px;"></div>
+<% } %>
+</div>
+<div id="reward_detail" style="display:none;">
+<% if (add_medal > 0) { %>
+<% if (coin_kind == 3) { %>
+:<span class="yellow"><%= add_medal %></span>個GET!<br>
+<% } else if (coin_kind == 2) { %>
+ブルーギフト:<span class="yellow"><%= add_medal %></span>個GET!<br>
+<% } else { %>
+レッドギフト:<span class="yellow"><%= add_medal %></span>個GET!<br>
+<% } %>
+<% } %>
+<% if (add_present_box > 0) { %>
+プレゼントBOX：<span class="yellow"><%= add_present_box %></span>個GET!<br>
+<% } %>
+<% if (event_point_reward_name !== "") { %>
+思い出pt報酬:<%= event_point_reward_name %><br>
+<% } %>
+<% if (rank_up_reward_name !== "") { %>
+絆Lv達成報酬:<%= rank_up_reward_name %><br>
+<% } %>
+</div>
+
+                </script>
+                <script type="text/template" id="template_lose_reward">
+
+<div id="reward">
+ノーマルで<span class="yellow"><%= Commonjs.formatComma(add_event_point) %></span>思い出ptGET!<br>
+<span class="blue">ラウンド獲得思い出pt : </span><%= Commonjs.formatComma(current_user_chapter_info.event_point) %><br>
+<span class="blue">累計思い出pt : </span><%= Commonjs.formatComma(total_event_point) %><br>
+<% if ((rank_up === 1 && complete_flag === 0) || event_point_reward || add_medal > 0) { %>
+さらに<span class="yellow">報酬</span>を獲得しました!<br>
+<div style="text-align:right;" class="next_info"><img src="../../../../../image_sp/ui/rich/quest/arrow_tap_comment.gif" style="width:16px;"><img src="../../../../../image_sp/ui/rich/quest/event/produce/tap_comment03.png" style="width:132px;"></div>
+<% } %>
+</div>
+<div id="reward_detail" style="display:none;">
+<% if (add_medal > 0) { %>
+<% if (coin_kind == 3) { %>
+:<span class="yellow"><%= add_medal %></span>個GET!<br>
+<% } else if (coin_kind == 2) { %>
+ブルーギフト:<span class="yellow"><%= add_medal %></span>個GET!<br>
+<% } else { %>
+レッドギフト:<span class="yellow"><%= add_medal %></span>個GET!<br>
+<% } %>
+<% } %>
+<% if (add_present_box > 0) { %>
+プレゼントBOX：<span class="yellow"><%= add_present_box %></span>個GET!<br>
+<% } %>
+<% if (event_point_reward_name !== "") { %>
+思い出pt報酬:<%= event_point_reward_name %><br>
+<% } %>
+</div>
+
+                </script>
+                <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/personal_option/work%3Fl_frm%3DEvent_produce_work_memory_1%26rnd%3D980088382' class="btn_sup_line_2 m-Cnt m-Btm8">お仕事演出設定</a>
+                <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/advise/index/card_9%3Fl_frm%3DEvent_produce_work_memory_1%26rnd%3D340367292' class="btn_important_line_1 m-Cnt m-Btm12">音声再生に関する免責事項(必読)</a>
+                <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/event_produce/memory%3Fl_frm%3DEvent_produce_work_memory_1%26rnd%3D37988826'>
+                    <div class="backLink">コミュイベントメモリーTOP</div>
+                </a>
+                <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/event_produce/index%3Fl_frm%3DEvent_produce_work_memory_5%26rnd%3D813379623'>
+                    <div class="backLink">アイドルプロデュースTOP</div>
+                </a>
+                <div id="loadImages"></div>
+                <img id="background_image" src='../../../../../image_sp/event_flash/1733/bg/1733/bg00_rich.png' style="display:none;">
+                <img id="dummy_image" src='../../../../../image_sp/event_flash/1733/idol/dummy.png' style="display:none;">
+                <script type="text/javascript">
+                    $(window).load(function() {
+                        Imascg.QuestImage.init({
+                            image_url: "", //http://125.6.169.35/idolmaster/image_sp/
+                            image_server: "", //http://sp.pf-img-a.mbga.jp/12008305/
+                            gadget_server: "" //http://sp.pf.mbga.jp/12008305/
+                        });
+                        Imascg.QuestModel.init({
+                            title: "コミュイベントメモリー",
+                            title_name_short_flag: true
+                        });
+                        /*
+Imascg.ScoutModel.init(null);
+Imascg.QuestModel.init({
+area_id: 3,
+quest_id: 1,
+title: "フレデリカをプロデュース",
+mission_name: "手作りチョコスイーツ!",
+play_per: ,
+new_work_url: "http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/event_produce/work/3/1%3Fl_frm%3DEvent_produce_work_memory_1%26rnd%3D231899435#do-work",
+next_work_url: "http://sp.pf.mbga.jp/12008305/?guid=ON",
+error_report_url: "http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/event_produce/report_ajax_error%3Fl_frm%3DEvent_produce_work_memory_1%26rnd%3D920890662",
+title_name_short_flag:true,
+});
+Imascg.QuestModel.special_raid_url = "http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/event_produce/redirect_appear_raid_boss_swf/3/1%3Fl_frm%3DEvent_produce_work_memory_1%26rnd%3D678622207";
+Imascg.StatusModel.init({
+max_hp: ,
+cur_hp: ,
+hp_per: ,
+max_exp: ,
+cur_exp: ,
+exp_per: ,
+money: ,
+cur_idol: ,
+max_idol:
+});
+Imascg.UserItemModel.init({
+item_url: "http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/event_produce/user_stamina_items%3Fl_frm%3DEvent_produce_work_memory_1%26rnd%3D570466432",
+shop_url: "http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/shop/index%3Fl_frm%3DEvent_produce_work_memory_2%26rnd%3D581880487"
+});
+*/
+                        //Imascg.QuestIdolImage.init(null);
+                        // イベントデータの初期化
+                        Imascg.IdolProduce.init(1733, false, "http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/event_produce/get_raid_boss%3Fres_type%3Djson%26l_frm%3DEvent_produce_work_memory_2%26rnd%3D965139386", 3, 1, 0, "normal");
+                        Imascg.IdolProduce.drawEventInfo({
+                            "fever": null,
+                            "has_raid": false,
+                            "idol_id": "3",
+                            "communication_id": "1",
+                            "swf_params": {
+                                "url": "", //http:\/\/sp.pf.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/event_produce/index%3Fl_frm%3DEvent_produce_work_memory_2%26rnd%3D137334479
+                                "com_mode": 1,
+                                "lv_f": 4,
+                                "lv_b": "5",
+                                "heart_f": 0,
+                                "emo": "1",
+                                "effect": "0",
+                                "card_comm1": "엄청나게 간단한 퀴즈♪ 우리 아빠는 일본인인데, 엄마는 어느 나라 사람일까요~?",
+                                "card_comm": "엄청나게 간단한 퀴즈♪ 우리 아빠는 일본인인데, 엄마는 어느 나라 사람일까요~?",
+                                "lv_inf_flg": 1,
+                                "short_flg": 0,
+                                "momorial_power": 0,
+                                "training_room_flag": 0,
+                                "puchi_power": 0,
+                                "item_type": null,
+                                "character_num": 1,
+                                "ch": "3_1",
+                                "pair_produce_idol_id": false,
+                                "card_comm1_1": "엄청나게 간단한 퀴즈♪ 우리 아빠는",
+                                "card_comm1_2": "일본인인데, 엄마는 어느 나라",
+                                "card_comm1_3": "사람일까요~?"
+                            },
+                            "flash_id": 544056,
+                            "swf_images": {
+                                "1": "../../../../../image_sp/event_flash/1733/bg/1733/bg00_rich.png",
+                                "4": "../../../../../image_sp/event_flash/common/name_plate/31.png",
+                                "7": "../../../../../image_sp/event_flash/1733/idol/idol_3_0_1_1.png",
+                                "12": "../../../../../idolmaster/image_sp/event_flash/1733/idol/dummy.png",
+                                "17": "../../../../../idolmaster/image_sp/event_flash/1733/idol/dummy.png"
+                            },
+                            "params": {
+                                "raid_type": "normal"
+                            }
+                        });
+                        Imascg.IdolProduce.EnergyItem.init({
+                            item_url: "http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/event_produce/user_energy_items%3Fl_frm%3DEvent_produce_work_memory_1%26rnd%3D540139574"
+                        });
+                        Commonjs.setSearchMore({
+                            $trigger: $("#js_btn_more"),
+                            $contents: $("#js_more_contents"),
+                        });
+                        $('#js_btn_more').on('click', function() {
+                            $(this).toggleClass('_alone');
+                        });
+                    });
+                </script>
+                <footer>
+                    <div class="line_idolmaster"></div>
+                    <a href="#top" id="toPageTop" class="mypage_under">
+                        <div></div>
+                    </a>
+                    <div class="t-Cnt">(C)窪岡俊之 (C)2011 BNEI</div>
+                </footer>
+            </div>
+        </div>
+        <script>
+            window._tarminal = {
+                'native_app_flg': false,
+                'android_app_flg': false,
+                'ios_app_flg': false,
+                'shell_app_flg': false
+            };
+        </script>
+        <div id="mbga-pf-footer">
+            <div class="mbga-pf-footer-container odd-lines mbga-pf-footer-white">
+                <ul>
+                    <li class="mbga-pf-footer-list">
+                        <div class="mbga-pf-fotter-content">
+                            <a class="mbga-pf-footer-arrow" href="http://sp.mbga.jp/_grp_view?g=32095227">
+                                <span class="mbga-pf-footer-caption">公式サークル</span>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="mbga-pf-footer-navbar">
+                <ul class="mbga-pf-box-h">
+                    <li id="mbga-pf-footer-navbar-icon-grid" class="mbga-pf-footer-li">
+                        <a class="mbga-pf-footer-a mbga-pf-footer-home-w" href="http://sp.mbga.jp/?_from=globalfooter">
+                            <span class="mbga-pf-footer-txt">ホーム</span>
+                        </a>
+                    </li>
+                    <li id="mbga-pf-footer-navbar-icon-mypage" class="mbga-pf-footer-li">
+                        <a class="mbga-pf-footer-a mbga-pf-footer-mypage-w" href="http://sp.mbga.jp/_my0?_from=globalfooter">
+                            <span class="mbga-pf-footer-txt">マイページ</span>
+                        </a>
+                    </li>
+                    <li id="mbga-pf-footer-navbar-icon-mygame" class="mbga-pf-footer-li">
+                        <a class="mbga-pf-footer-a mbga-pf-footer-mygame-w" href="http://sp.mbga.jp/_game_my_top?_from=globalfooter">
+                            <span class="mbga-pf-footer-txt">マイゲーム</span>
+                        </a>
+                    </li>
+                    <li id="mbga-pf-footer-navbar-icon-notification" class="mbga-pf-footer-li">
+                        <a class="mbga-pf-footer-a mbga-pf-footer-game-w" href="http://sp.mbga.jp/_game_top?_from=globalfooter">
+                            <span class="mbga-pf-footer-txt">ゲーム</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <script type="text/javascript" charset="UTF-8">
+                (function() {
+                    document.addEventListener('DOMContentLoaded', function() {
+                        var list = document.getElementsByClassName('mbga-pf-footer-li');
+                        var i = 0
+                          , l = list.length;
+                        for (; i < l; i++) {
+                            var elem = list[i];
+                            elem.addEventListener('touchstart', function(e) {
+                                e.currentTarget.className = e.currentTarget.className.replace(/$/, ' mbga-pf-tapped');
+                            });
+                            elem.addEventListener('touchend', function(e) {
+                                e.currentTarget.className = e.currentTarget.className.replace(/ mbga-pf-tapped/, '');
+                            });
+                            elem.addEventListener('touchmove', function(e) {});
+                        }
+                    });
+                }
+                )();
+            </script>
+        </div>
+    </body>
+</html>
