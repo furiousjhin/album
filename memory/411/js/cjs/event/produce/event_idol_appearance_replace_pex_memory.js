@@ -4316,34 +4316,34 @@
         color: "#000000",
         opacity: 0,
         manifest: [{
-            src: "images/_1_sp.png?1615772657694",
+            src: "images/_1_sp.png",
             id: "event_idol_appearance_replace_pex_memory__1_sp"
         }, {
-            src: "images/_1_sp_w.png?1615772657694",
+            src: "images/_1_sp_w.png",
             id: "event_idol_appearance_replace_pex_memory__1_sp_w"
         }, {
-            src: "images/_2_sp.png?1615772657694",
+            src: "images/_2_sp.png",
             id: "event_idol_appearance_replace_pex_memory__2_sp"
         }, {
-            src: "images/_2_sp_w.png?1615772657694",
+            src: "images/_2_sp_w.png",
             id: "event_idol_appearance_replace_pex_memory__2_sp_w"
         }, {
-            src: "images/_3_sp.png?1615772657694",
+            src: "images/_3_sp.png",
             id: "event_idol_appearance_replace_pex_memory__3_sp"
         }, {
-            src: "images/_3_sp_w.png?1615772657694",
+            src: "images/_3_sp_w.png",
             id: "event_idol_appearance_replace_pex_memory__3_sp_w"
         }, {
-            src: "images/change.png?1615772657694",
+            src: "images/change.png",
             id: "event_idol_appearance_replace_pex_memory_change"
         }, {
-            src: "images/replace_character1_1.png?1615772657694",
+            src: "images/replace_character1_1.png",
             id: "event_idol_appearance_replace_pex_memory_replace_character1_1"
         }, {
-            src: "images/replace_character1_2.png?1615772657694",
+            src: "images/replace_character1_2.png",
             id: "event_idol_appearance_replace_pex_memory_replace_character1_2"
         }, {
-            src: "images/replace_character1_3.png?1615772657694",
+            src: "images/replace_character1_3.png",
             id: "event_idol_appearance_replace_pex_memory_replace_character1_3"
         }, {
             src: "images/replace_character1_4.png",
