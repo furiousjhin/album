@@ -1,0 +1,28 @@
+{
+   "flash_id":544039,
+   "swf_params":{
+      "_url":"raid_win.json",
+      "card_name":"미야모토 프레데리카",
+      "card_comm1":"선물을 포장하면서, 프로듀서를 생각했었어. 그랬더니 포장, 미스가 나버렸어. 그래서, 다시 포장했어~. 딴짓하면서 공부하는 거, 좋지 않네",
+      "card_comm":"선물을 포장하면서, 프로듀서를 생각했었어. 그랬더니 포장, 미스가 나버렸어. 그래서, 다시 포장했어~. 딴짓하면서 공부하는 거, 좋지 않네",
+      "emo":2,
+      "item_name":"프레데리카의 특제 봉봉・쇼콜라",
+      "char_name":"미야모토 프레데리카",
+      "card_comm1_1":"선물을 포장하면서, 프로듀서를 생각",
+      "card_comm1_2":"했었어. 그랬더니 포장, 미스가 나버렸어. ",
+      "card_comm1_3":"그래서, 다시 포장했어~. 딴짓하면서",
+      "card_comm1_4":"공부하는 거, 좋지 않네"
+   },
+   "swf_images":[
+      "../../../../image_sp/event_flash/1733/bg/1733/bg00_rich.png",
+      "../../../../image_sp/event_flash/box/l/item_41110.png",
+      "../../../../image_sp/event_flash/common/name_plate/31.png",
+      "../../../../image_sp/event_flash/1733/idol_cm/3_3_1.png",
+      "../../../../image_sp/event_flash/1733/idol_cm/3_3_2.png",
+      "../../../../image_sp/event_flash/1733/idol_cm/3_3_3.png",
+      "../../../../image_sp/event_flash/1733/idol_cm/3_3_4.png",
+      "../../../../image_sp/event_flash/1733/idol_cm/3_3_5.png",
+      "../../../../image_sp/event_flash/1733/idol/idol_3_0_3_1.png",
+      "../../../../image_sp/event_flash/1733/idol/idol_3_0_3_2.png"
+   ]
+}
