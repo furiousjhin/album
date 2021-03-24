@@ -1,0 +1,28 @@
+{
+   "flash_id":544039,
+   "swf_params":{
+      "_url":"raid_win.json",
+      "card_name":"미야모토 프레데리카",
+      "card_comm1":"초콜렛 만드는 걸 응원해 주는 프로듀서에게 주는 선물이야~. 안에, 좋은 거 들어있어. 같이 보자. 뭘 넣었는지 잊어버렸거든☆",
+      "card_comm":"초콜렛 만드는 걸 응원해 주는 프로듀서에게 주는 선물이야~. 안에, 좋은 거 들어있어. 같이 보자. 뭘 넣었는지 잊어버렸거든☆",
+      "emo":2,
+      "item_name":"추억pt",
+      "char_name":"미야모토 프레데리카",
+      "card_comm1_1":"초콜렛 만드는 걸 응원해 주는",
+      "card_comm1_2":"프로듀서에게 주는 선물이야~.",
+      "card_comm1_3":"안에, 좋은 거 들어있어. 같이 보자.",
+      "card_comm1_4":"뭘 넣었는지 잊어버렸거든☆"
+   },
+   "swf_images":[
+      "../../../../image_sp/event_flash/1733/bg/1733/bg00_rich.png",
+      "../../../../image_sp/event_flash/1733/event_point.png",
+      "../../../../image_sp/event_flash/common/name_plate/31.png",
+      "../../../../image_sp/event_flash/1733/idol_cm/3_1_1.png",
+      "../../../../image_sp/event_flash/1733/idol_cm/3_1_2.png",
+      "../../../../image_sp/event_flash/1733/idol_cm/3_1_3.png",
+      "../../../../image_sp/event_flash/1733/idol_cm/3_1_4.png",
+      "../../../../image_sp/event_flash/1733/idol_cm/3_1_5.png",
+      "../../../../image_sp/event_flash/1733/idol/idol_3_0_1_1.png",
+      "../../../../image_sp/event_flash/1733/idol/idol_3_0_1_2.png"
+   ]
+}

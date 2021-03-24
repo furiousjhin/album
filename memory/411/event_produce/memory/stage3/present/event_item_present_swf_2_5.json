@@ -1,0 +1,28 @@
+{
+   "flash_id":544039,
+   "swf_params":{
+      "_url":"raid_win.json",
+      "card_name":"미야모토 프레데리카",
+      "card_comm1":"발렌타인 선물 포장을 뜯었는데, 꽝이라고 쓰여있으면 실망이지~. 이거, 열어봐. 괜찮아, 당첨이라고 적어놨으니까♪",
+      "card_comm":"발렌타인 선물 포장을 뜯었는데, 꽝이라고 쓰여있으면 실망이지~. 이거, 열어봐. 괜찮아, 당첨이라고 적어놨으니까♪",
+      "emo":2,
+      "item_name":"추억pt",
+      "char_name":"미야모토 프레데리카",
+      "card_comm1_1":"발렌타인 선물 포장을 뜯었는데, ",
+      "card_comm1_2":"꽝이라고 쓰여있으면 실망이지~. ",
+      "card_comm1_3":"이거, 열어봐. 괜찮아, 당첨이라고 ",
+      "card_comm1_4":"적어놨으니까♪"
+   },
+   "swf_images":[
+      "../../../../image_sp/event_flash/1733/bg/1733/bg00_rich.png",
+      "../../../../image_sp/event_flash/1733/event_point.png",
+      "../../../../image_sp/event_flash/common/name_plate/31.png",
+      "../../../../image_sp/event_flash/1733/idol_cm/3_3_1.png",
+      "../../../../image_sp/event_flash/1733/idol_cm/3_3_2.png",
+      "../../../../image_sp/event_flash/1733/idol_cm/3_3_3.png",
+      "../../../../image_sp/event_flash/1733/idol_cm/3_3_4.png",
+      "../../../../image_sp/event_flash/1733/idol_cm/3_3_5.png",
+      "../../../../image_sp/event_flash/1733/idol/idol_3_0_3_1.png",
+      "../../../../image_sp/event_flash/1733/idol/idol_3_0_3_2.png"
+   ]
+}

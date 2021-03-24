@@ -1,0 +1,28 @@
+{
+   "flash_id":544039,
+   "swf_params":{
+      "_url":"raid_win.json",
+      "card_name":"미야모토 프레데리카",
+      "card_comm1":"프랑스에서는, 발렌타인데이 때 남자한테 선물을 받는 경우가 많다고 하더라! 나, 그거 듣고 감동받았어. 자, 선물이야♪ 여기는 일본이니까☆",
+      "card_comm":"프랑스에서는, 발렌타인데이 때 남자한테 선물을 받는 경우가 많다고 하더라! 나, 그거 듣고 감동받았어. 자, 선물이야♪ 여기는 일본이니까☆",
+      "emo":2,
+      "item_name":"프레데리카의 특제 소악마 갸또 쇼콜라",
+      "char_name":"미야모토 프레데리카",
+      "card_comm1_1":"프랑스에서는, 발렌타인데이 때 ",
+      "card_comm1_2":"남자한테 선물을 받는 경우가 많다고 ",
+      "card_comm1_3":"하더라! 나, 그거 듣고 감동받았어. 자, ",
+      "card_comm1_4":"선물이야♪ 여기는 일본이니까☆"
+   },
+   "swf_images":[
+      "../../../../image_sp/event_flash/1733/bg/1733/bg00_rich.png",
+      "../../../../image_sp/event_flash/1733/box/l/item_41112.png",
+      "../../../../image_sp/event_flash/common/name_plate/31.png",
+      "../../../../image_sp/event_flash/1733/idol_cm/3_2_1.png",
+      "../../../../image_sp/event_flash/1733/idol_cm/3_2_2.png",
+      "../../../../image_sp/event_flash/1733/idol_cm/3_2_3.png",
+      "../../../../image_sp/event_flash/1733/idol_cm/3_2_4.png",
+      "../../../../image_sp/event_flash/1733/idol_cm/3_2_5.png",
+      "../../../../image_sp/event_flash/1733/idol/idol_3_0_2_1.png",
+      "../../../../image_sp/event_flash/1733/idol/idol_3_0_2_2.png"
+   ]
+}

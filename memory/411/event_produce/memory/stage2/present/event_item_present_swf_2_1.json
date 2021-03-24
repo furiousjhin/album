@@ -1,0 +1,28 @@
+{
+   "flash_id":544039,
+   "swf_params":{
+      "_url":"raid_win.json",
+      "card_name":"미야모토 프레데리카",
+      "card_comm1":"아이돌의 하트는 하나뿐. 소중한 추억은, 한 번 밖에 선물할 수 없으니까. 자, 이거, ○○○ 프로듀서 거야♪ 나중에 또 줄게☆",
+      "card_comm":"아이돌의 하트는 하나뿐. 소중한 추억은, 한 번 밖에 선물할 수 없으니까. 자, 이거, ○○○ 프로듀서 거야♪ 나중에 또 줄게☆",
+      "emo":2,
+      "item_name":"프레데리카가 준 봉봉・쇼콜라",
+      "char_name":"미야모토 프레데리카",
+      "card_comm1_1":"아이돌의 하트는 하나뿐. 소중한 추억은, ",
+      "card_comm1_2":"한 번 밖에 선물할 수 없으니까. ",
+      "card_comm1_3":"자, 이거, ○○○ 프로듀서 거야♪ ",
+      "card_comm1_4":"나중에 또 줄게☆"
+   },
+   "swf_images":[
+      "../../../../image_sp/event_flash/1733/bg/1733/bg00_rich.png",
+      "../../../../image_sp/event_flash/box/l/item_41109.png",
+      "../../../../image_sp/event_flash/common/name_plate/31.png",
+      "../../../../image_sp/event_flash/1733/idol_cm/3_2_1.png",
+      "../../../../image_sp/event_flash/1733/idol_cm/3_2_2.png",
+      "../../../../image_sp/event_flash/1733/idol_cm/3_2_3.png",
+      "../../../../image_sp/event_flash/1733/idol_cm/3_2_4.png",
+      "../../../../image_sp/event_flash/1733/idol_cm/3_2_5.png",
+      "../../../../image_sp/event_flash/1733/idol/idol_3_0_2_1.png",
+      "../../../../image_sp/event_flash/1733/idol/idol_3_0_2_2.png"
+   ]
+}

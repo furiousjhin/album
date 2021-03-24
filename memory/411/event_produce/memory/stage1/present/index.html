@@ -61,12 +61,18 @@
         </script>
         <script type='text/javascript' src='../../../../js/app_sound.js'></script>
         <script>
-          // 페이지를 열자마자 선물 받는 json 로드
-            $(document).ready(function() {
-              l = "event_item_present_swf.json";
-              Imascg.IdolProduce.communicationResultUrl = "event_item_present_swf.json";
-              Imascg.IdolProduce.drawCommunicationResult();
-            });
+        // 페이지를 열자마자 선물 받는 json 로드
+          $(document).ready(function() {
+            var serif_num_max = 1; //대사 개수
+            var present_num_max = 5; // 선물 개수
+
+            var serif_num = Math.floor(Math.random() * serif_num_max) + 1;
+            var present_num = Math.floor(Math.random() * present_num_max) + 1;
+
+            l = "event_item_present_swf_" + serif_num + "_" + present_num + ".json";
+            Imascg.IdolProduce.communicationResultUrl = l;
+            Imascg.IdolProduce.drawCommunicationResult();
+          });
         </script>
         <link rel="stylesheet" type="text/css" href="../../../../base.css"/>
     </head>
