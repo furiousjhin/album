@@ -1,0 +1,41 @@
+{
+   "flash_id":544058,
+   "swf_params":{
+      "url":"",
+      "heart_f":0,
+      "heart_l":3,
+      "lv_f":10,
+      "lv_l":10,
+      "lv_b":10,
+      "lvup_flg":0,
+      "comm_result":2,
+      "point":10000,
+      "emo":"2",
+      "effect":"0",
+      "card_comm1":"아 그래, 괜찮은 게 잔뜩 있었어! 그래도 내 수제 초콜렛이 최강이지? 그 말 대로야♪ 이거다!",
+      "card_comm":"아 그래, 괜찮은 게 잔뜩 있었어! 그래도 내 수제 초콜렛이 최강이지? 그 말 대로야♪ 이거다!",
+      "lv_inf_flg":1,
+      "momorial_power":0,
+      "training_room_flag":0,
+      "puchi_power":0,
+      "character_num":1,
+      "ch":"3_2",
+      "pair_produce_idol_id":false,
+      "communication_type":"special",
+      "card_comm1_1":"아 그래, 괜찮은 게 잔뜩 있었어! 그래도",
+      "card_comm1_2":"내 수제 초콜렛이 최강이지?",
+      "card_comm1_3":"그렇지!",
+      "com_mode":2
+   },
+   "swf_images":[
+     "../../../../../image_sp/event_flash/1733/bg/1733/bg00_rich.png",
+     "../../../../../image_sp/event_flash/common/name_plate/31.png",
+     "../../../../../image_sp/event_flash/1733/idol/idol_3_0_2_1.png",
+     "../../../../../image_sp/event_flash/1733/idol/idol_3_0_2_2.png",
+     "../../../../../image_sp/event_flash/1733/idol/dummy.png",
+     "../../../../../image_sp/event_flash/1733/idol/dummy.png",
+     "../../../../../image_sp/event_flash/1733/idol/dummy.png"
+   ],
+   "special_raid_point":0,
+   "special_generate_flag":false
+}

@@ -1,0 +1,41 @@
+{
+   "flash_id":544058,
+   "swf_params":{
+      "url":"",
+      "heart_f":0,
+      "heart_l":3,
+      "lv_f":10,
+      "lv_l":10,
+      "lv_b":10,
+      "lvup_flg":0,
+      "comm_result":2,
+      "point":10000,
+      "emo":"2",
+      "effect":"0",
+      "card_comm1":"아, 이건, 손수레!? 나이스, ○○○ 프로듀서♪ 돌아갈 때는 이대로 사무실로 GO☆ 나도 타고 가야지",
+      "card_comm":"아, 이건, 손수레!? 나이스, ○○○ 프로듀서♪ 돌아갈 때는 이대로 사무실로 GO☆ 나도 타고 가야지",
+      "lv_inf_flg":1,
+      "momorial_power":0,
+      "training_room_flag":0,
+      "puchi_power":0,
+      "character_num":1,
+      "ch":"3_2",
+      "pair_produce_idol_id":false,
+      "communication_type":"special",
+      "card_comm1_1":"아, 이건, 손수레!? 나이스, ○○○",
+      "card_comm1_2":"프로듀서♪ 돌아갈 때는 이대로 사무실로 ",
+      "card_comm1_3":"GO☆ 나도 타고 가야지",
+      "com_mode":2
+   },
+   "swf_images":[
+     "../../../../../image_sp/event_flash/1733/bg/1733/bg00_rich.png",
+     "../../../../../image_sp/event_flash/common/name_plate/31.png",
+     "../../../../../image_sp/event_flash/1733/idol/idol_3_0_2_1.png",
+     "../../../../../image_sp/event_flash/1733/idol/idol_3_0_2_2.png",
+     "../../../../../image_sp/event_flash/1733/idol/dummy.png",
+     "../../../../../image_sp/event_flash/1733/idol/dummy.png",
+     "../../../../../image_sp/event_flash/1733/idol/dummy.png"
+   ],
+   "special_raid_point":0,
+   "special_generate_flag":false
+}

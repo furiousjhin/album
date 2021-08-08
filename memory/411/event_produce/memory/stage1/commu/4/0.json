@@ -1,0 +1,41 @@
+{
+   "flash_id":544058,
+   "swf_params":{
+      "url":"",
+      "heart_f":0,
+      "heart_l":1,
+      "lv_f":10,
+      "lv_l":10,
+      "lv_b":10,
+      "lvup_flg":0,
+      "comm_result":0,
+      "point":10,
+      "emo":"2",
+      "effect":"0",
+      "card_comm1":"센 여자라서라니! 그거 괜찮네♪ 지금부터, 그래서 그런 걸로 할 테니까. 나한테 반하면, 다친다구~ 헤이 헤~이",
+      "card_comm":"센 여자라서라니! 그거 괜찮네♪ 지금부터, 그래서 그런 걸로 할 테니까. 나한테 반하면, 다친다구~ 헤이 헤~이",
+      "lv_inf_flg":1,
+      "momorial_power":0,
+      "training_room_flag":0,
+      "puchi_power":0,
+      "character_num":1,
+      "ch":"3_1",
+      "pair_produce_idol_id":false,
+      "communication_type":"normal",
+      "card_comm1_1":"센 여자라서라니! 그거 괜찮네♪ 지금부터,",
+      "card_comm1_2":"그래서 그런 걸로 할 테니까. 나한테 ",
+      "card_comm1_3":"반하면, 다친다구~ 헤이 헤~이",
+      "com_mode":1
+   },
+   "swf_images":[
+     "../../../../../image_sp/event_flash/1733/bg/1733/bg00_rich.png",
+     "../../../../../image_sp/event_flash/common/name_plate/31.png",
+     "../../../../../image_sp/event_flash/1733/idol/idol_3_0_1_1.png",
+     "../../../../../image_sp/event_flash/1733/idol/idol_3_0_1_2.png",
+     "../../../../../image_sp/event_flash/1733/idol/dummy.png",
+     "../../../../../image_sp/event_flash/1733/idol/dummy.png",
+     "../../../../../image_sp/event_flash/1733/idol/dummy.png"
+   ],
+   "special_raid_point":0,
+   "special_generate_flag":false
+}

@@ -1,0 +1,41 @@
+{
+   "flash_id":544058,
+   "swf_params":{
+      "url":"",
+      "heart_f":0,
+      "heart_l":1,
+      "lv_f":10,
+      "lv_l":10,
+      "lv_b":10,
+      "lvup_flg":0,
+      "comm_result":0,
+      "point":10,
+      "emo":"4",
+      "effect":"0",
+      "card_comm1":"이거 들어줘! 그리고, 이거도 이거도! 아아앗, 쓰러졌다! 누가 좀 꺼내줘~!",
+      "card_comm":"이거 들어줘! 그리고, 이거도 이거도! 아아앗, 쓰러졌다! 누가 좀 꺼내줘~!",
+      "lv_inf_flg":1,
+      "momorial_power":0,
+      "training_room_flag":0,
+      "puchi_power":0,
+      "character_num":1,
+      "ch":"3_2",
+      "pair_produce_idol_id":false,
+      "communication_type":"special",
+      "card_comm1_1":"이거 들어줘! 그리고, 이거도",
+      "card_comm1_2":"이거도! 아아앗, 쓰러졌다! 누가",
+      "card_comm1_3":"좀 꺼내줘~!",
+      "com_mode":2
+   },
+   "swf_images":[
+       "../../../../../image_sp/event_flash/1733/bg/1733/bg00_rich.png",
+       "../../../../../image_sp/event_flash/common/name_plate/31.png",
+       "../../../../../image_sp/event_flash/1733/idol/idol_3_0_2_1.png",
+       "../../../../../image_sp/event_flash/1733/idol/idol_3_0_2_4.png",
+       "../../../../../image_sp/event_flash/1733/idol/dummy.png",
+       "../../../../../image_sp/event_flash/1733/idol/dummy.png",
+       "../../../../../image_sp/event_flash/1733/idol/dummy.png"
+   ],
+   "special_raid_point":0,
+   "special_generate_flag":false
+}

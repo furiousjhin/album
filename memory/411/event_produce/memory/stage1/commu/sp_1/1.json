@@ -1,0 +1,41 @@
+{
+   "flash_id":544058,
+   "swf_params":{
+      "url":"",
+      "heart_f":0,
+      "heart_l":1,
+      "lv_f":10,
+      "lv_l":10,
+      "lv_b":10,
+      "lvup_flg":0,
+      "comm_result":1,
+      "point":1000,
+      "emo":"2",
+      "effect":"0",
+      "card_comm1":"LIVE에서 간주 중 일 때라든지, 계속 노래하고 있는 느낌이야♪ 아, 그래도, 그건 괜찮은가. 이상한 게 아니니까☆",
+      "card_comm":"LIVE에서 간주 중 일 때라든지, 계속 노래하고 있는 느낌이야♪ 아, 그래도, 그건 괜찮은가. 이상한 게 아니니까☆",
+      "lv_inf_flg":1,
+      "momorial_power":0,
+      "training_room_flag":0,
+      "puchi_power":0,
+      "character_num":1,
+      "ch":"3_1",
+      "pair_produce_idol_id":false,
+      "communication_type":"special",
+      "card_comm1_1":"LIVE에서 간주 중 일 때라든지, 계속",
+      "card_comm1_2":"노래하고 있는 느낌이야♪ 아, 그래도, 그건",
+      "card_comm1_3":"괜찮은가. 이상한 게 아니니까☆",
+      "com_mode":2
+   },
+   "swf_images":[
+     "../../../../../image_sp/event_flash/1733/bg/1733/bg00_rich.png",
+     "../../../../../image_sp/event_flash/common/name_plate/31.png",
+     "../../../../../image_sp/event_flash/1733/idol/idol_3_0_1_1.png",
+     "../../../../../image_sp/event_flash/1733/idol/idol_3_0_1_2.png",
+     "../../../../../image_sp/event_flash/1733/idol/dummy.png",
+     "../../../../../image_sp/event_flash/1733/idol/dummy.png",
+     "../../../../../image_sp/event_flash/1733/idol/dummy.png"
+   ],
+   "special_raid_point":0,
+   "special_generate_flag":false
+}
