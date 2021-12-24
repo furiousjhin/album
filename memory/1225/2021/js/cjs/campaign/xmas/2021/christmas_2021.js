@@ -6522,7 +6522,7 @@
         color: "#000000",
         opacity: 1,
         manifest: [{
-            src: "images/_0000000_154_chihiro_base.png",
+            src: "images/0000000_154_chihiro_base.png",
             id: "christmas_2021__0000000_154_chihiro_base"
         }, {
             src: "images/_0000000_154_chihiro_f10.png",
