@@ -6522,85 +6522,85 @@
         color: "#000000",
         opacity: 1,
         manifest: [{
-            src: "images/_0000000_154_chihiro_base.png?1640138825845",
+            src: "images/_0000000_154_chihiro_base.png",
             id: "christmas_2021__0000000_154_chihiro_base"
         }, {
-            src: "images/_0000000_154_chihiro_f10.png?1640138825845",
+            src: "images/_0000000_154_chihiro_f10.png",
             id: "christmas_2021__0000000_154_chihiro_f10"
         }, {
-            src: "images/_0000000_154_chihiro_f11.png?1640138825845",
+            src: "images/_0000000_154_chihiro_f11.png",
             id: "christmas_2021__0000000_154_chihiro_f11"
         }, {
-            src: "images/_0000000_154_chihiro_f2.png?1640138825845",
+            src: "images/_0000000_154_chihiro_f2.png",
             id: "christmas_2021__0000000_154_chihiro_f2"
         }, {
-            src: "images/_0000000_154_chihiro_f3.png?1640138825845",
+            src: "images/_0000000_154_chihiro_f3.png",
             id: "christmas_2021__0000000_154_chihiro_f3"
         }, {
-            src: "images/_0000000_154_chihiro_f4.png?1640138825845",
+            src: "images/_0000000_154_chihiro_f4.png",
             id: "christmas_2021__0000000_154_chihiro_f4"
         }, {
-            src: "images/_0000000_154_chihiro_f6.png?1640138825845",
+            src: "images/_0000000_154_chihiro_f6.png",
             id: "christmas_2021__0000000_154_chihiro_f6"
         }, {
-            src: "images/_0000000_154_chihiro_f7.png?1640138825845",
+            src: "images/_0000000_154_chihiro_f7.png",
             id: "christmas_2021__0000000_154_chihiro_f7"
         }, {
-            src: "images/_0000000_154_chihiro_f8.png?1640138825845",
+            src: "images/_0000000_154_chihiro_f8.png",
             id: "christmas_2021__0000000_154_chihiro_f8"
         }, {
-            src: "images/_0000000_154_chihiro_f9.png?1640138825845",
+            src: "images/_0000000_154_chihiro_f9.png",
             id: "christmas_2021__0000000_154_chihiro_f9"
         }, {
-            src: "images/_2021_box1.png?1640138825845",
+            src: "images/_2021_box1.png",
             id: "christmas_2021__2021_box1"
         }, {
-            src: "images/_2021_box2.png?1640138825845",
+            src: "images/_2021_box2.png",
             id: "christmas_2021__2021_box2"
         }, {
-            src: "images/_2021_box_b.png?1640138825845",
+            src: "images/_2021_box_b.png",
             id: "christmas_2021__2021_box_b"
         }, {
-            src: "images/_2021_box_w.png?1640138825845",
+            src: "images/_2021_box_w.png",
             id: "christmas_2021__2021_box_w"
         }, {
-            src: "images/_3202201.png?1640138825845",
+            src: "images/_3202201.png",
             id: "christmas_2021__3202201"
         }, {
-            src: "images/bg_office.jpg?1640138825845",
+            src: "images/bg_office.jpg",
             id: "christmas_2021_bg_office"
         }, {
-            src: "images/bg_office_boke.jpg?1640138825845",
+            src: "images/bg_office_boke.jpg",
             id: "christmas_2021_bg_office_boke"
         }, {
-            src: "images/box.png?1640138825845",
+            src: "images/box.png",
             id: "christmas_2021_box"
         }, {
-            src: "images/box_w.png?1640138825845",
+            src: "images/box_w.png",
             id: "christmas_2021_box_w"
         }, {
-            src: "images/fp_hana_white.png?1640138825845",
+            src: "images/fp_hana_white.png",
             id: "christmas_2021_fp_hana_white"
         }, {
-            src: "images/heart_s_64.png?1640138825845",
+            src: "images/heart_s_64.png",
             id: "christmas_2021_heart_s_64"
         }, {
-            src: "images/img_kirakira.png?1640138825845",
+            src: "images/img_kirakira.png",
             id: "christmas_2021_img_kirakira"
         }, {
-            src: "images/item_120102.png?1640138825845",
+            src: "images/item_120102.png",
             id: "christmas_2021_item_120102"
         }, {
-            src: "images/item_14.png?1640138825845",
+            src: "images/item_14.png",
             id: "christmas_2021_item_14"
         }, {
-            src: "images/item_15.png?1640138825845",
+            src: "images/item_15.png",
             id: "christmas_2021_item_15"
         }, {
-            src: "images/sp_glitter_title.png?1640138825845",
+            src: "images/sp_glitter_title.png",
             id: "christmas_2021_sp_glitter_title"
         }, {
-            src: "images/tie_sp.png?1640138825845",
+            src: "images/tie_sp.png",
             id: "christmas_2021_tie_sp"
         }],
         preloads: []
