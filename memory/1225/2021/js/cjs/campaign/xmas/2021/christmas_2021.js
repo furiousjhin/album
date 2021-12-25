@@ -4500,7 +4500,7 @@
             exportRoot.txt8_2 = "이제 미야모토 프레데리카 역으로";
             exportRoot.txt8_3 = "돌아가 볼까?";
             exportRoot.txt8_4 = "";
-            exportRoot.txt9_1 = "우리의 크리스마스는 오늘부터야♪";
+            exportRoot.txt9_1 = "우리의 크리스마스는 지금부터야♪";
             exportRoot.txt9_2 = "";
             exportRoot.txt9_3 = "";
             exportRoot.txt9_4 = ""
