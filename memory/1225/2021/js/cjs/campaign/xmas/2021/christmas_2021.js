@@ -6525,46 +6525,46 @@
             src: "images/0000000_154_chihiro_base.png",
             id: "christmas_2021__0000000_154_chihiro_base"
         }, {
-            src: "images/_0000000_154_chihiro_f10.png",
+            src: "images/0000000_154_chihiro_f10.png",
             id: "christmas_2021__0000000_154_chihiro_f10"
         }, {
-            src: "images/_0000000_154_chihiro_f11.png",
+            src: "images/0000000_154_chihiro_f11.png",
             id: "christmas_2021__0000000_154_chihiro_f11"
         }, {
-            src: "images/_0000000_154_chihiro_f2.png",
+            src: "images/0000000_154_chihiro_f2.png",
             id: "christmas_2021__0000000_154_chihiro_f2"
         }, {
-            src: "images/_0000000_154_chihiro_f3.png",
+            src: "images/0000000_154_chihiro_f3.png",
             id: "christmas_2021__0000000_154_chihiro_f3"
         }, {
-            src: "images/_0000000_154_chihiro_f4.png",
+            src: "images/0000000_154_chihiro_f4.png",
             id: "christmas_2021__0000000_154_chihiro_f4"
         }, {
-            src: "images/_0000000_154_chihiro_f6.png",
+            src: "images/0000000_154_chihiro_f6.png",
             id: "christmas_2021__0000000_154_chihiro_f6"
         }, {
-            src: "images/_0000000_154_chihiro_f7.png",
+            src: "images/0000000_154_chihiro_f7.png",
             id: "christmas_2021__0000000_154_chihiro_f7"
         }, {
-            src: "images/_0000000_154_chihiro_f8.png",
+            src: "images/0000000_154_chihiro_f8.png",
             id: "christmas_2021__0000000_154_chihiro_f8"
         }, {
-            src: "images/_0000000_154_chihiro_f9.png",
+            src: "images/0000000_154_chihiro_f9.png",
             id: "christmas_2021__0000000_154_chihiro_f9"
         }, {
-            src: "images/_2021_box1.png",
+            src: "images/2021_box1.png",
             id: "christmas_2021__2021_box1"
         }, {
-            src: "images/_2021_box2.png",
+            src: "images/2021_box2.png",
             id: "christmas_2021__2021_box2"
         }, {
-            src: "images/_2021_box_b.png",
+            src: "images/2021_box_b.png",
             id: "christmas_2021__2021_box_b"
         }, {
-            src: "images/_2021_box_w.png",
+            src: "images/2021_box_w.png",
             id: "christmas_2021__2021_box_w"
         }, {
-            src: "images/_3202201.png",
+            src: "images/3202201.png",
             id: "christmas_2021__3202201"
         }, {
             src: "images/bg_office.jpg",
