@@ -343,42 +343,45 @@
                 <img src='../../../12008305/image_sp/event/1731/extramemory/extra_banner.png' width="280" height="44">
               </a>
             </div>
-            <!--TEST-->
+            <!--팝업 TEST-->
             <div class="area-btn-common _base-width m-Btm8">
-                <a href="#intro_box_10th" class="jsOnDesignBtn ibox">
+                <a class="intro_box_10th jsOnDesignBtn">
                     <img src='../../../12008305/image_sp/event/1731/extramemory/extra_banner.png' width="280" height="44">
                 </a>
             </div>
-            <style>
-                .outline_area {
-                    background-size: 360px;
-                    font-size: 11px;
-                    text-shadow: 0.05rem 0.05rem 1px #000;
-                    margin: auto;
-                    padding: 8px 0;
-                    line-height: 140%;
-                    background-position: center
-                }
-            </style>
-            <div class="area-popup_common _hd_blue _bd_black ibox_content" id="intro_box_10th">
-                <a href="#" class="popup-common_btn_close js_popup_close jsOnDesignBtn">
-                    <div></div>
-                </a>
-                <div class="area-popup_wrap">
-                    <h3 class="area-popup_header">
-                        <div class="area-popup_title">
-                            <span style="line-height:150%;font-size:13px">あらすじ</span>
-                        </div>
-                    </h3>
-                    <div class="t-Cnt m-Top12 m-Btm12">
-                        <a href='https://naver.com' class="jsOnDesignBtn">
-                            <img src='../../../12008305/image_sp/event/1716/extramemory/extra_banner.png' width="280" height="44">
-                        </a>
-                    </div>
-                    <div class="area-popup_bg_image"></div>
-                </div>
-            </div>
-            <!--TEST-->
+
+            <script>
+                $(function() {
+                    var template = $("#popup-custom").html();
+                    Commonjs.createPopupByTemplate({
+                        "id": "popup_box_10th",
+                        $trigger: $(".intro_box_10th"),
+                        "custom_flg": true,
+                    });
+                })
+            </script>
+
+            <script type="text/template" id="popup_box_10th">
+            <section id="newInfo" class="area-popup_common _hd_blue _bd_black ibox_content">
+              <a href="#;" class="popup-common_btn_close js_popup_close jsOnDesignBtn">
+                <div></div>
+              </a>
+              <div class="area-popup_wrap">
+                  <h3 class="area-popup_header">
+                      <div class="area-popup_title">
+                          <span style="line-height:150%;font-size:13px">あらすじ</span>
+                      </div>
+                  </h3>
+                  <div class="t-Cnt m-Top12 m-Btm12">
+                      <a href='https://naver.com' class="jsOnDesignBtn">
+                          <img src='../../../12008305/image_sp/event/1716/extramemory/extra_banner.png' width="280" height="44">
+                      </a>
+                  </div>
+                  <div class="area-popup_bg_image"></div>
+              </div>
+            </section>
+            </script>
+            
         </div>
         <div class="area_tab_2">
             <div id="comment-content">
