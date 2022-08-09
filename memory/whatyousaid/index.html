@@ -135,6 +135,7 @@
                 container.style.marginTop = (marginTop) + "px";
                 container.style.zoom = "50%";
                 container.style.height = (window.outerHeight * 2 - marginTop) + "px";
+                // 대사 수정 위한 frameCallback 옵션 설정
                 option['frameCallback'] = {
                     '/': {
                         '2': function(){
@@ -301,6 +302,7 @@
             function nextJump(url) {
                 location.href = url;
             }
+            // 대사 수정용 함수
             function setSerif() {
                 pexApi.setVariable("", "name1", "유메미 리아무");
                 pexApi.setVariable("", "msg1", mySerif);
