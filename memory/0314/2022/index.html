@@ -1,0 +1,637 @@
+<!doctype html>
+<html lang="ja" xml:lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="pragma" content="no-cache">
+        <meta http-equiv="cache-control" content="no-cache">
+        <meta http-equiv="expires" content="-1">
+        <script type="text/javascript">
+            if (window.localStorage) {
+                var displaySet = localStorage.getItem('DisplayPositionSet');
+                if (displaySet == 1) {
+                    if (navigator.userAgent.indexOf('Android') > 0) {
+                        document.write('<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">');
+                        document.getElementsByTagName('html')[0].style.zoom = document.documentElement.clientWidth / 320;
+                    } else {
+                        document.write('<meta name="viewport" content="width=320, user-scalable=no">');
+                    }
+                    window.addEventListener('resize', function() {
+                        if (navigator.userAgent.indexOf('Android') > 0)
+                            document.getElementsByTagName('html')[0].style.zoom = document.documentElement.clientWidth / 320;
+                    });
+                } else {
+                    document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
+                }
+            } else {
+                document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
+            }
+        </script>
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="mobage: footer-color" content="none">
+        <link rel="stylesheet" href='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fcss%2Fgame%2Fpex.css%3Fv%3D20210909201058' media="all" -->
+        <script src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fjs%2Fjquery-2.2.2.min.js%3Fversion%3D2_2_2%26v%3D20210904134922'></script>
+        <script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fjs%2Fcommon_new.js%3Fv%3D20210904134921"></script>
+        <script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fjs%2Frequire.js%3Fv%3D20210904134938"></script>
+        <script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fjs%2Frequire.js%3Fv%3D20210904134938"></script>
+        <script>
+            requirejs.config({
+                paths: {
+                    easeljs: "http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fjs%2Feaseljs-0.8.2.min.js%3Fv%3D20210904134922",
+                    easeljs_0_7_1: "http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fjs%2Feaseljs-0.7.1.min.js%3Fv%3D20210904134922",
+                    //スプライトを読むためのバージョン
+                    tweenjs: "http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fjs%2Ftweenjs-0.6.2.min.js%3Fv%3D20210904134938",
+                    movieclipjs: "http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fjs%2Fmovieclip-0.7.1.min.js%3Fv%3D20210904134922",
+                    createjs: "http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fjs%2Fcreatejs-2015.11.26.min.js%3Fv%3D20210904134921",
+                }
+            })
+        </script>
+        <script src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fjs%2Fcreatejs.min.js%3Fv%3D20210904134921'></script>
+        <script src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fjs%2Filibrary.js%3Fv%3D20210904134922'></script>
+        <script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fjs%2Fpetit_cg%2Fcheek%2Fcheek1.js%3Fv%3D20210904134922"></script>
+        <script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fjs%2Fpetit_cg%2Fcheek%2Fcheek2.js%3Fv%3D20210904134922"></script>
+        <script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fjs%2Fpetit_cg%2Fcheek%2Fcheek3.js%3Fv%3D20210904134922"></script>
+        <script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fjs%2Fmin%2Fpetit_manager_cjs_2.min.js%3Fv%3D20210904134922"></script>
+        <script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fjs%2Funderscore-min.js%3Fv%3D20210904134938"></script>
+        <title>ｱｲﾄﾞﾙﾏｽﾀｰ ｼﾝﾃﾞﾚﾗｶﾞｰﾙｽﾞ </title>
+        <script type='text/javascript'>
+            var se_flg = 0
+              , bgm_flg = 0
+              , chrome_app_flg = 0
+              , chrome_app_extension_id = 'dnacabmnfmejgfffmcehejcmiciinpej';
+        </script>
+        <script type='text/javascript' src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fjs%2Fapp_sound.js%3Fv%3D20210904134916'></script>
+        <link rel="stylesheet" type="text/css" href="http://sp.pf-img-a.mbga.jp/css/base.css?20171116"/>
+    </head>
+    <body>
+        <style>
+            a,.btn-nextscene {
+                -webkit-tap-highlight-color: rgba(0,0,0,0)
+            }
+
+            ;.csv_data_single {
+                width: 304px;
+                margin: 0 auto;
+            }
+
+            .button_list .btn_change_pose {
+                display: inline-block;
+                margin-left: 4px;
+                margin-right: 4px;
+                margin-top: 8px;
+            }
+
+            #animation-container {
+                position: relative;
+                background-size: 320px 335px;
+                width: 320px;
+                height: 335px;
+                margin: 0 auto;
+            }
+
+            #animation-container canvas {
+                zoom: 0.5;}
+
+            #animation-container.bg1 {
+                background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2022%2Fwhiteday_scene%2Fbg%2F1.jpg%3Fv%3D20220310144727);
+            }
+
+            #animation-container.bg2 {
+                background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2022%2Fwhiteday_scene%2Fbg%2F2.jpg%3Fv%3D20220310144727);
+            }
+
+            #animation-container.bg3 {
+                background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2022%2Fwhiteday_scene%2Fbg%2F3.jpg%3Fv%3D20220310144727);
+            }
+
+            #animation-container.bg4 {
+                background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2022%2Fwhiteday_scene%2Fbg%2F4.jpg%3Fv%3D20220310144727);
+            }
+
+            #animation-container.bg5 {
+                background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2022%2Fwhiteday_scene%2Fbg%2F5.jpg%3Fv%3D20220310144727);
+            }
+
+            #animation-container.bg6 {
+                background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2022%2Fwhiteday_scene%2Fbg%2F6.jpg%3Fv%3D20220310144727);
+            }
+
+            #animation-container.bg7 {
+                background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2022%2Fwhiteday_scene%2Fbg%2F7.jpg%3Fv%3D20220310144727);
+            }
+
+            #animation-container.bg8 {
+                background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2022%2Fwhiteday_scene%2Fbg%2F8.jpg%3Fv%3D20220310144727);
+            }
+
+            #animation-container.bg9 {
+                background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2022%2Fwhiteday_scene%2Fbg%2F9.jpg%3Fv%3D20220310144727);
+            }
+
+            #animation-container.bg10 {
+                background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2022%2Fwhiteday_scene%2Fbg%2F10.jpg%3Fv%3D20220310144727);
+            }
+
+            #animation-container.bg11 {
+                background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2022%2Fwhiteday_scene%2Fbg%2F11.jpg%3Fv%3D20220310144727);
+            }
+
+            #animation-container.bg12 {
+                background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2022%2Fwhiteday_scene%2Fbg%2F12.jpg%3Fv%3D20220310144727);
+            }
+
+            #animation-container.bg13 {
+                background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2022%2Fwhiteday_scene%2Fbg%2F13.jpg%3Fv%3D20220310144727);
+            }
+
+            #animation-container.bg14 {
+                background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2022%2Fwhiteday_scene%2Fbg%2F14.jpg%3Fv%3D20220310144727);
+            }
+
+            #animation-container.bg15 {
+                background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2022%2Fwhiteday_scene%2Fbg%2F15.jpg%3Fv%3D20220310144727);
+            }
+
+            #animation-container.bg16 {
+                background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2022%2Fwhiteday_scene%2Fbg%2F16.jpg%3Fv%3D20220310144727);
+            }
+
+            #animation-container.bg17 {
+                background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2022%2Fwhiteday_scene%2Fbg%2F17.jpg%3Fv%3D20220310144727);
+            }
+
+            #animation-container.bg18 {
+                background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2022%2Fwhiteday_scene%2Fbg%2F18.jpg%3Fv%3D20220310144727);
+            }
+
+            #animation-container.bg19 {
+                background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2022%2Fwhiteday_scene%2Fbg%2F19.jpg%3Fv%3D20220310144727);
+            }
+
+            #animation-container.bg20 {
+                background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2022%2Fwhiteday_scene%2Fbg%2F20.jpg%3Fv%3D20220310144727);
+            }
+
+            #animation-container.bg21 {
+                background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2022%2Fwhiteday_scene%2Fbg%2F21.jpg%3Fv%3D20220310144727);
+            }
+
+            #animation-container.bg22 {
+                background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2022%2Fwhiteday_scene%2Fbg%2F22.jpg%3Fv%3D20220310144727);
+            }
+
+            #animation-container.bg23 {
+                background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2022%2Fwhiteday_scene%2Fbg%2F23.jpg%3Fv%3D20220310144727);
+            }
+
+            #animation-container.bg24 {
+                background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2022%2Fwhiteday_scene%2Fbg%2F24.jpg%3Fv%3D20220310144727);
+            }
+
+            #animation-container.bg25 {
+                background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2022%2Fwhiteday_scene%2Fbg%2F25.jpg%3Fv%3D20220310144727);
+            }
+
+            .comment-container {
+                overflow: visible;
+                position: absolute;
+                top: 27px;
+                left: 27px;
+                color: #1d1d1d;
+                font-size: 12px;
+                font-weight: bold;
+                font-family: Helvetica, Arial, "ヒラギノ角ゴ ProN W3", "モリサワ 新ゴ R", Droid Sans, "メイリオ", sans-serif;
+                line-height: 16px;
+                letter-spacing: 2px;
+                white-space: nowrap;
+            }
+
+            .btn-next {
+                position: absolute;
+                right: 0;
+                bottom: -16px;
+            }
+
+            .btn-nextscene {
+                display: none;
+                position: absolute;
+                z-index: 100;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                cursor: pointer;
+            }
+
+            .overlay {
+                display: none;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                background: rgba(0,0,0,0.5);
+                z-index: 99;
+            }
+
+            .btn-nextscene-letter {
+                display: none;
+                position: absolute;
+                z-index: 100;
+                width: 150px;
+                height: 50px;
+                top: 66%;
+                left: 26%;
+                cursor: pointer;
+                background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2022%2Fbtn_letter.png%3Fv%3D20220310144726);
+                background-size: 150px 50px;
+                background-repeat: no-repeat;
+            }
+
+            .btn-nextscene::before {
+                position: absolute;
+                z-index: 100;
+                bottom: 8px;
+                right: 5px;
+                width: 12px;
+                height: 12px;
+                background-size: 12px;
+                background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fcoming_tv%2Ficon_tap.png%3Fv%3D20210904134853);
+                animation: bounceArrow 600ms ease infinite;
+                content: '';
+            }
+
+            .btn-nextscene.showArrow::before {
+                display: block;
+            }
+
+            .isFinished {
+                display: block;
+                position: absolute;
+                z-index: 300;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+            }
+
+            .name-plate {
+                position: absolute;
+                bottom: 19px;
+                left: 186px;
+            }
+
+            .name-plate .plate {
+                width: 52px;
+            }
+
+            @keyframes bounceArrow {
+                $b_pos: 8px;$r_pos: 5px;0% {
+                    bottom: 8px;
+                    right: 5px;
+                }
+
+                50% {
+                    bottom: 12px;
+                    right: 9px;
+                }
+
+                100% {
+                    bottom: 8px;
+                    right: 5px;
+                }
+            }
+
+            .loading-container {
+                overflow: hidden;
+                position: absolute;
+                z-index: 10000;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fpetit_cg%2Fui%2Fsprite%2Floading%2Floading_bg.png%3Fv%3D20210904134849);
+                background-size: 50%;
+                text-align: center;
+            }
+
+            .loading-container .img-loading {
+                position: absolute;
+                width: 195px;
+                height: 139px;
+                top: 50%;
+                left: 50%;
+                margin-top: -110px;
+                margin-left: -100.5px;
+            }
+
+            .loading-container .img-loadingpetit {
+                position: absolute;
+                width: 102px;
+                height: 102px;
+                top: 50%;
+                left: 50%;
+                margin-top: -51px;
+                margin-left: -51px;
+            }
+        </style>
+        <div id="animation-container" class="bg10">
+            <div class="btn-nextscene-letter"></div>
+            <div class="story-container" style="text-align:left;">
+                <div class="comment-container">
+                    <span data-comment=""></span>
+                    <br>
+                    <span data-comment=""></span>
+                    <br>
+                    <span data-comment=""></span>
+                    <br>
+                    <span data-comment=""></span>
+                    <br>
+                </div>
+                <a href="#" class="btn-next jsBtnNextLine" style="visibility: hidden">Next Line</a>
+                <div class="btn-nextscene"></div>
+            </div>
+            <div class="name-plate">
+                <img class="plate" src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fcoming_tv%2Fname_tag_horizontal%2F031.png%3Fv%3D20210904134853'>
+            </div>
+            <div class="loading-container" id="jsEyeCatch">
+                <div class="img-loading">
+                    <img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fpetit_cg%2Fui%2Fsprite%2Floading%2Fworking_1.gif%3Fv%3D20210904134849">
+                </div>
+                <div class="img-loadingpetit">
+                    <img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fpetit_cg%2Fui%2Fsprite%2Floading%2Floading.gif%3Fv%3D20210904134849" width="102" height="102">
+                </div>
+            </div>
+            <div class="overlay"></div>
+        </div>
+        <script>
+            $('document').ready(function() {
+                window.scrollTo(0, 0);
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 1);
+                var window_height = $(document.doctype) ? $(window).height() : window.innerHeight;
+                var htmlZoom = $("html").css("zoom");
+                var zoom = (htmlZoom >= 2) ? 1 : htmlZoom;
+                var margin = (window_height / zoom / 2) - (parseInt($('#animation-container').css('height')) * zoom / 2);
+                if (margin > 0)
+                    $('#animation-container').css({
+                        "margin-top": margin
+                    });
+            })
+            var cjs_file = ['http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fjs%2Fpetit_cjs%2Fpetit_base.js%3Fv%3D20210904134938', 'http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fjs%2Fpetit_cjs%2Fpetit_balloon.js%3Fv%3D20220210144702', 'http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fjs%2Fpetit_cjs%2Fpetit_effect.js%3Fv%3D20210904134938'];
+            var url = 'http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fcampaigns%2Fwhiteday_present%2Fajax_petit_idol_avatar_data%2F1015%3Fl_frm%3DWhiteday_present_base_idol_comment_present_swf_petit_1%26rnd%3D27879864';
+            var petitManager = window.petitManager || new PetitManager();
+            var balloonManager = window.canvasManager || new Commonjs.CreateJsCanvas();
+            var effectManager = window.canvasManager || new Commonjs.CreateJsCanvas();
+            var charaManager = [];
+            var balloon;
+            var effect;
+            var petitCanvasWidth = 640;
+            var petitCanvasHeight = 670;
+            petitManager.canvas_width = petitCanvasWidth;
+            petitManager.canvas_height = petitCanvasHeight;
+            /////////////////////////////////////////
+            // 演出制御
+            /////////////////////////////////////////
+            var dramaCtrl = {
+                sceneNo: 0,
+                dramaList: [{
+                    "id": "1",
+                    "whiteday_scene_id": "31",
+                    "bg_image": "10",
+                    "motion_1": "in_walk",
+                    "motion_2": "",
+                    "effect": "",
+                    "message": "\u30af\u30ec\u30dc\u30f3\u30b9\u30d7\u30ed\u30c7\u30e5\u30fc\u30b5\u30fc\u3001\u30b3\u30de\u30f3\u30bf\n\u30ec\u30f4\u30fc? \u3042\u3063\u3001\u8fd4\u4e8b\u306f\u65e5\u672c\u8a9e\u3067\uff5e",
+                    "auto_next": "",
+                    "message_window_type": "",
+                    "position_1": "",
+                    "position_2": "",
+                    "message_arrow_1": "1",
+                    "message_arrow_2": "",
+                    "": ""
+                }, {
+                    "id": "2",
+                    "whiteday_scene_id": "31",
+                    "bg_image": "10",
+                    "motion_1": "receive",
+                    "motion_2": "",
+                    "effect": "heart2",
+                    "message": "\u624b\u7d19\u3092\u8aad\u3093\u3067\u304f\u308c\u305f\u3002",
+                    "auto_next": "",
+                    "message_window_type": "",
+                    "position_1": "",
+                    "position_2": "",
+                    "message_arrow_1": "",
+                    "message_arrow_2": "",
+                    "": ""
+                }, {
+                    "id": "3",
+                    "whiteday_scene_id": "31",
+                    "bg_image": "10",
+                    "motion_1": "shout",
+                    "motion_2": "",
+                    "effect": "",
+                    "message": "\u308f\u304a! \u5bae\u672c\u30b5\u30f3\u30f4\u30a1\u30e9\u30f3\u30bf\u30f3\u306f\u3001\u30dc\u30fc\n\u30ca\u30b9\u30c1\u30e3\u30f3\u30b9\u3067\u30db\u30ef\u30a4\u30c8\u30c7\u30fc\u306b\u7a81\u5165\u3060\u30fc\n\u266a\u3084\u3063\u305f\u306d\u3001\u30af\u30ec\u30dc\u30f3\u30b9\u30d7\u30ed\u30c7\u30e5\u30fc\u30b5\u30fc\n\u2606\u30d5\u30ec\u3061\u3083\u3093\u3001\u5927\u6e80\u8db3\uff5e\u266a",
+                    "auto_next": "",
+                    "message_window_type": "",
+                    "position_1": "",
+                    "position_2": "",
+                    "message_arrow_1": "1",
+                    "message_arrow_2": "",
+                    "": ""
+                }, {
+                    "id": "4",
+                    "whiteday_scene_id": "31",
+                    "bg_image": "10",
+                    "motion_1": "light_joy",
+                    "motion_2": "",
+                    "effect": "",
+                    "message": "\u624b\u7d19\u3092\u304f\u308c\u308b\u306a\u3093\u3066\u3001\u4eca\u65e5\u306f\u30de\u30ab\u30ed\u30f3\n\u304c\u964d\u3063\u3066\u304f\u308b\u304b\u3082! \u3044\u3064\u3082\u306e\u767e\u500d\u3068\u304d\n\u3081\u304f\u30d7\u30e9\u30a4\u30b9\u30ec\u30b9\u266a\u30b3\u30ec\u306f\u3001\u30d5\u30ec\u30c7\u30ea\n\u30ab\u738b\u56fd\u306e\u56fd\u5b9d\u306b\u3057\u3088\uff5e\u2606",
+                    "auto_next": "",
+                    "message_window_type": "",
+                    "position_1": "",
+                    "position_2": "",
+                    "message_arrow_1": "1",
+                    "message_arrow_2": "",
+                    "": ""
+                }],
+                motionFinished: false,
+                commentLineNo: 0,
+                commentList: [],
+                $comment: $('.comment-container > span'),
+                finishedMotion: '',
+                balloon: null,
+                effect: null,
+                cjsContainer: '#animation-container',
+                return_url: 'http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fachieve_sns%2Ftweet%2F48%3Fidol_base_id%3D31%26item_get_flag%3D1%26l_frm%3DWhiteday_present_base_idol_comment_present_swf_petit_1%26rnd%3D664267162',
+                isFinishedName: 'isFinished'
+            }
+            //演出初期化
+            dramaCtrl.init = function() {
+                var self = this;
+                var scene = this.getScene();
+                if (scene != undefined) {
+                    var motionKey = 'motion_1';
+                    var messageArrowKey = 'message_arrow_1';
+                    var speak_type = scene.message_window_type || 1;
+                    // ぷち表示
+                    charaManager[0].cjs['visible'] = true;
+                    charaManager[0].changeMotion(scene[motionKey]);
+                    // 吹き出しとせりふ表示
+                    this.setCommentList();
+                    // 吹き出しcjs読み込み完了したら、吹き出しを表示する
+                    balloonManager.cjs_deferred.done(function() {
+                        balloon.init({
+                            mode: 1,
+                            chara_num: 1
+                        })
+                        balloon.run_talk({
+                            position1_talk: parseInt(scene[messageArrowKey]),
+                            speak_type: speak_type,
+                            motion_finish_callback: function() {
+                                self.commentPlayCallback();
+                            }
+                        })
+                        _.delay(dramaCtrl.runEffect, 1, scene);
+                    })
+                }
+            }
+            dramaCtrl.readyNextScene = function() {
+                if (this.getScene(this.sceneNo + 1)) {
+                    this.sceneNo++;
+                    this.commentLineNo = 0;
+                    this.setCommentList();
+                    if (this.sceneNo === 1) {
+                        setTimeout(function() {
+                            $('.btn-nextscene-letter').show();
+                            $('.overlay').show();
+                        }, 1000);
+                    } else {
+                        $('.btn-nextscene').show();
+                    }
+                } else {
+                    var dom = $('<a />');
+                    dom.attr({
+                        'href': this.return_url,
+                        'class': this.isFinishedName
+                    }).appendTo(this.cjsContainer);
+                    $('.btn-nextscene').show();
+                }
+            }
+            dramaCtrl.getScene = function(no) {
+                var _no = no || this.sceneNo;
+                return this.dramaList[_no] ? this.dramaList[_no] : false;
+            }
+            dramaCtrl.play = function() {
+                var motionKey = 'motion_1';
+                var messageArrowKey = 'message_arrow_1';
+                this.$comment.removeClass('comment').removeAttr('data').empty();
+                var self = this;
+                var scene = this.getScene();
+                var motion = scene[motionKey];
+                charaManager[0].changeMotion(motion);
+                balloon.run_talk({
+                    position1_talk: scene[messageArrowKey],
+                    motion_finish_callback: function() {
+                        self.commentPlayCallback();
+                    }
+                })
+                this.runEffect(scene);
+            }
+            dramaCtrl.motion_finish_callback = function(chara_order, motion_act) {}
+            dramaCtrl.runEffect = function(scene) {
+                if (scene['effect']) {
+                    effect.effect_set({
+                        effect: scene['effect'],
+                        x: 120,
+                        y: 140,
+                        motion_finish_callback: function(effect) {}
+                    })
+                }
+            }
+            dramaCtrl.setCommentList = function() {
+                var scene = this.getScene();
+                this.commentList = [];
+                this.commentList = scene.message.split(/\n/);
+            }
+            dramaCtrl.commentPlayCallback = function() {
+                this.$comment.removeClass('comment').eq(this.commentLineNo).addClass('comment').data('comment', this.commentList[this.commentLineNo]);
+                if (this.commentLineNo < this.commentList.length) {
+                    $('.jsBtnNextLine').trigger('click');
+                    this.commentLineNo++;
+                    return false;
+                }
+                this.readyNextScene();
+            }
+            $('.btn-nextscene').on('click', function() {
+                $('.btn-nextscene').hide();
+                dramaCtrl.play();
+            })
+            $('.btn-nextscene-letter').on('click', function() {
+                $('.btn-nextscene-letter').hide();
+                $('.overlay').hide();
+                dramaCtrl.play();
+            })
+            window.dramaCtrl = dramaCtrl;
+            $.ajax({
+                type: 'POST',
+                url: url,
+                dataType: 'json',
+                cache: false
+            }).done(function(data) {
+                var characterList = [];
+                characterList[0] = data.accessory_list;
+                characterList[0].pose_id = 1;
+                characterList[0].image_url_list["gift_item_" + 1] = "http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fjs%2Fpetit_cg%2Fetc%2Fgift_item_1.js%3Fv%3D20220310144728";
+                var deffered = petitManager.requireCJS(cjs_file);
+                deffered.done(function() {
+                    petitManager.setCharacters(characterList);
+                    charaManager = petitManager.getAllChracter();
+                    // stage初期化
+                    petitManager.stage.removeAllChildren();
+                    // 吹き出しcjs描画準備
+                    balloonManager.init(petitManager.canvas, 'petit_balloon', [{
+                        "src": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2022%2Fdrama%2Fpetit_balloon_atlas_.png%3Fv%3D20220310144726",
+                        "id": "petit_balloon_atlas_",
+                        "type": "image"
+                    }], petitManager.stage, 'false', function() {
+                        petitManager.stage.update();
+                        balloon = balloonManager.exportRoot.cjs005_balloon;
+                    });
+                    // 吹き出しcjs読み込み完了したら、エフェクトcjsを読み込む
+                    balloonManager.cjs_deferred.done(function() {
+                        effectManager.init(petitManager.canvas, 'petit_effect', [{
+                            "src": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fwhiteday%2F2022%2Fdrama%2Fpetit_effect_atlas_.png%3Fv%3D20220310144726",
+                            "id": "petit_effect_atlas_",
+                            "type": "image"
+                        }], petitManager.stage, 'false', function() {
+                            effect = effectManager.exportRoot.petit_effect;
+                            effect.scaleX = effect.scaleY = 2.8;
+                        });
+                    })
+                });
+                petitManager.loaded_action = function() {
+                    charaManager[0].cjs['visible'] = false;
+                    charaManager[0].cjs.scaleX = charaManager[0].cjs.scaleY = 2.6;
+                    charaManager[0].cjs['x'] = petitCanvasWidth / 2 + 20;
+                    charaManager[0].cjs['y'] = petitCanvasHeight - 64;
+                    charaManager[0].setVariables('callback', dramaCtrl.motion_finish_callback);
+                    petitManager.stage.addChild(charaManager[0].cjs);
+                    petitManager.stage.update();
+                    // ローディング消す
+                    $('#jsEyeCatch').hide();
+                    // 演出初期化
+                    dramaCtrl.init();
+                }
+            });
+            // せりふ一文字ずつ表示
+            $('.story-container').comment_timer({
+                click: 'jsBtnNextLine',
+                speed: 60,
+                call: function() {
+                    dramaCtrl.commentPlayCallback();
+                }
+            })
+        </script>
+    </body>
+</html>
